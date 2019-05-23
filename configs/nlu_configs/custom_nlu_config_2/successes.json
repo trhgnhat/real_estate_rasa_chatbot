@@ -1,0 +1,234 @@
+[
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9380905032157898
+    }
+  },
+  {
+    "text": "hi there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9415125250816345
+    }
+  },
+  {
+    "text": "hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9473369717597961
+    }
+  },
+  {
+    "text": "see ya",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.946347713470459
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9472359418869019
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9496088027954102
+    }
+  },
+  {
+    "text": "i am looking for houses in danang",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9808066487312317
+    }
+  },
+  {
+    "text": "is there any houses less than 1 billion dollars?",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9555874466896057
+    }
+  },
+  {
+    "text": "give me the list of houses in hcm",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9830228686332703
+    }
+  },
+  {
+    "text": "i want houses",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9556093215942383
+    }
+  },
+  {
+    "text": "give me some houses",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9763087630271912
+    }
+  },
+  {
+    "text": "i need some information about houses in hanoi city",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.983238935470581
+    }
+  },
+  {
+    "text": "search me some houses in nhatrang city",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9825948476791382
+    }
+  },
+  {
+    "text": "search me some houses no more than 1 millions dollars",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9755356311798096
+    }
+  },
+  {
+    "text": "would you mind give me some information about house for sell?",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.977708637714386
+    }
+  },
+  {
+    "text": "need house for sell",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9650722742080688
+    }
+  },
+  {
+    "text": "give me some houses for 4 persons",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9729624390602112
+    }
+  },
+  {
+    "text": "no more than $1M",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8862385749816895
+    }
+  },
+  {
+    "text": "no more than $100000",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8862385749816895
+    }
+  },
+  {
+    "text": "no more than 100000 dollars",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.900667130947113
+    }
+  },
+  {
+    "text": "hey i think i will change the price to more than 200000 dollar",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9680982828140259
+    }
+  },
+  {
+    "text": "i need the neighborhood to be secured and there is must be at least one free parking",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9618907570838928
+    }
+  },
+  {
+    "text": "it will be perfect if there is two bedrooms with king-size beds",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9679410457611084
+    }
+  },
+  {
+    "text": "there is must be a free parking",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9482288360595703
+    }
+  },
+  {
+    "text": "i need two guess room",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8882964849472046
+    }
+  },
+  {
+    "text": "it is better if i can go to the bus in 25 minutes",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9660850763320923
+    }
+  },
+  {
+    "text": "i need a bathroom for each room",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9652135968208313
+    }
+  },
+  {
+    "text": "in Ho Chi Minh city",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9688383340835571
+    }
+  },
+  {
+    "text": "somewhere in Hanoi city",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9368370175361633
+    }
+  }
+]

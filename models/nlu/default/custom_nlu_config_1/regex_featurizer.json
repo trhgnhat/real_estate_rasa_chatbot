@@ -1,0 +1,18 @@
+[
+  {
+    "name": "price",
+    "pattern": "[0-9]{}"
+  },
+  {
+    "name": "zipcode",
+    "pattern": "[0-9]{5}"
+  },
+  {
+    "name": "location",
+    "pattern": "(?i)(\\bhanoi\\b|\\bsaigon\\b|\\bho\\ chi\\ minh\\ city\\b|\\bdanang\\b|\\bnha\\ trang\\b)"
+  },
+  {
+    "name": "city",
+    "pattern": "(?i)(\\bHanoi\\b|\\bHo\\ Chi\\ Minh\\b|\\bDanang\\b|\\bcheese\\b)"
+  }
+]

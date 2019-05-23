@@ -1,0 +1,2 @@
+rasa-nlu-trainer --source ./data.json --port 1002
+npm i -g rasa-nlu-trainer

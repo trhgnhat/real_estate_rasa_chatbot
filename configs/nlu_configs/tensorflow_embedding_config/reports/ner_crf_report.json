@@ -1,0 +1,86 @@
+{
+  "bath_room": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "bed_room": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "guess_room": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+  },
+  "house_feature": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4
+  },
+  "local_feature": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6
+  },
+  "location": {
+    "precision": 1.0,
+    "recall": 0.4166666666666667,
+    "f1-score": 0.5882352941176471,
+    "support": 12
+  },
+  "no_entity": {
+    "precision": 0.8341968911917098,
+    "recall": 1.0,
+    "f1-score": 0.9096045197740114,
+    "support": 161
+  },
+  "num_persons": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "price": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 12
+  },
+  "time_spent": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "transportation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5
+  },
+  "micro avg": {
+    "precision": 0.8436018957345972,
+    "recall": 0.8436018957345972,
+    "f1-score": 0.8436018957345972,
+    "support": 211
+  },
+  "macro avg": {
+    "precision": 0.5303815355628827,
+    "recall": 0.4090909090909091,
+    "f1-score": 0.4369937020893243,
+    "support": 211
+  },
+  "weighted avg": {
+    "precision": 0.7976573435159492,
+    "recall": 0.8436018957345972,
+    "f1-score": 0.7950696524529528,
+    "support": 211
+  }
+}

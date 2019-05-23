@@ -1,0 +1,37 @@
+2019-05-15 22:57:11 INFO     __main__  - CV evaluation (n=10)
+2019-05-15 22:57:11 INFO     __main__  - Intent evaluation results
+2019-05-15 22:57:11 INFO     __main__  - train Accuracy: 1.000 (0.000)
+2019-05-15 22:57:11 INFO     __main__  - train F1-score: 1.000 (0.000)
+2019-05-15 22:57:11 INFO     __main__  - train Precision: 1.000 (0.000)
+2019-05-15 22:57:11 INFO     __main__  - test Accuracy: 0.868 (0.093)
+2019-05-15 22:57:11 INFO     __main__  - test F1-score: 0.873 (0.099)
+2019-05-15 22:57:11 INFO     __main__  - test Precision: 0.899 (0.110)
+2019-05-15 22:57:11 INFO     __main__  - Entity evaluation results
+2019-05-15 22:57:11 INFO     __main__  - Entity extractor: ner_crf
+2019-05-15 22:57:11 INFO     __main__  - train Accuracy: 0.946 (0.004)
+2019-05-15 22:57:11 INFO     __main__  - train F1-score: 0.957 (0.004)
+2019-05-15 22:57:11 INFO     __main__  - train Precision: 0.977 (0.004)
+2019-05-15 22:57:11 INFO     __main__  - Entity extractor: ner_crf
+2019-05-15 22:57:11 INFO     __main__  - test Accuracy: 0.789 (0.077)
+2019-05-15 22:57:11 INFO     __main__  - test F1-score: 0.713 (0.108)
+2019-05-15 22:57:11 INFO     __main__  - test Precision: 0.666 (0.125)
+2019-05-15 22:57:11 INFO     __main__  - Finished evaluation
+
+2019-05-19 17:00:08 INFO     __main__  - CV evaluation (n=10)
+2019-05-19 17:00:08 INFO     __main__  - Intent evaluation results
+2019-05-19 17:00:08 INFO     __main__  - train Accuracy: 1.000 (0.000)
+2019-05-19 17:00:08 INFO     __main__  - train F1-score: 1.000 (0.000)
+2019-05-19 17:00:08 INFO     __main__  - train Precision: 1.000 (0.000)
+2019-05-19 17:00:08 INFO     __main__  - test Accuracy: 0.922 (0.070)
+2019-05-19 17:00:08 INFO     __main__  - test F1-score: 0.923 (0.070)
+2019-05-19 17:00:08 INFO     __main__  - test Precision: 0.937 (0.063)
+2019-05-19 17:00:08 INFO     __main__  - Entity evaluation results
+2019-05-19 17:00:08 INFO     __main__  - Entity extractor: ner_crf
+2019-05-19 17:00:08 INFO     __main__  - train Accuracy: 0.915 (0.004)
+2019-05-19 17:00:08 INFO     __main__  - train F1-score: 0.904 (0.004)
+2019-05-19 17:00:08 INFO     __main__  - train Precision: 0.909 (0.004)
+2019-05-19 17:00:08 INFO     __main__  - Entity extractor: ner_crf
+2019-05-19 17:00:08 INFO     __main__  - test Accuracy: 0.857 (0.035)
+2019-05-19 17:00:08 INFO     __main__  - test F1-score: 0.827 (0.043)
+2019-05-19 17:00:08 INFO     __main__  - test Precision: 0.828 (0.045)
+2019-05-19 17:00:08 INFO     __main__  - Finished evaluation

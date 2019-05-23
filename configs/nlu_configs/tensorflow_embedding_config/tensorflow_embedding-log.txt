@@ -1,0 +1,18 @@
+2019-05-14 16:02:22 INFO     __main__  - CV evaluation (n=10)
+2019-05-14 16:02:22 INFO     __main__  - Intent evaluation results
+2019-05-14 16:02:22 INFO     __main__  - train Accuracy: 1.000 (0.000)
+2019-05-14 16:02:22 INFO     __main__  - train F1-score: 1.000 (0.000)
+2019-05-14 16:02:22 INFO     __main__  - train Precision: 1.000 (0.000)
+2019-05-14 16:02:22 INFO     __main__  - test Accuracy: 0.861 (0.100)
+2019-05-14 16:02:22 INFO     __main__  - test F1-score: 0.874 (0.098)
+2019-05-14 16:02:22 INFO     __main__  - test Precision: 0.913 (0.100)
+2019-05-14 16:02:22 INFO     __main__  - Entity evaluation results
+2019-05-14 16:02:22 INFO     __main__  - Entity extractor: ner_crf
+2019-05-14 16:02:22 INFO     __main__  - train Accuracy: 0.963 (0.003)
+2019-05-14 16:02:22 INFO     __main__  - train F1-score: 0.961 (0.004)
+2019-05-14 16:02:22 INFO     __main__  - train Precision: 0.965 (0.003)
+2019-05-14 16:02:22 INFO     __main__  - Entity extractor: ner_crf
+2019-05-14 16:02:22 INFO     __main__  - test Accuracy: 0.781 (0.080)
+2019-05-14 16:02:22 INFO     __main__  - test F1-score: 0.691 (0.107)
+2019-05-14 16:02:22 INFO     __main__  - test Precision: 0.630 (0.121)
+2019-05-14 16:02:22 INFO     __main__  - Finished evaluation

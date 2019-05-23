@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\workspace\\Pet Project\\Rasa NLP NLU\\House\\./models/nlu\\default\\real_estate_nlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "D:\\workspace\\Pet Project\\Rasa NLP NLU\\House\\./models/nlu\\default\\real_estate_nlu\\intent_classifier_tensorflow_embedding.ckpt"

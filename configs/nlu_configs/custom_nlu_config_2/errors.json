@@ -1,0 +1,74 @@
+[
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "nice to meet you",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8540487289428711
+    }
+  },
+  {
+    "text": "yolo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "farewell",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "byebye!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "it is pretty stupid for now",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.8437256217002869
+    }
+  },
+  {
+    "text": "i need security",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9312071204185486
+    }
+  },
+  {
+    "text": "i need a bus stop nearby",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9312071204185486
+    }
+  },
+  {
+    "text": "i need some modern coach",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9203801155090332
+    }
+  }
+]
