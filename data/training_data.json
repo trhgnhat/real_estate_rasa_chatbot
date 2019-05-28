@@ -1,0 +1,3086 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "si"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "okay hi how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how r u>"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Are you ok?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how you doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how r u ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you alright"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life been treating you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how r u"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Hi Sara! How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things with you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything all right"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's new?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Do you feel good?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's up"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "h r u ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you today"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hello, how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing today my sweet friend"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are u"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are things?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you men?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "nah, I'm good - how are you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it hanging?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are yuo"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi how u doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi how u doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "¿Qué pasa?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "come stai?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are xou"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's going on?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing today?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Ahoy matey how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hw r u?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How've you been?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's it going?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are You?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how have you been"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's good"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you'"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up man"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "wassup>"
+      },
+      {
+        "intent": "deny",
+        "text": "do you have something else"
+      },
+      {
+        "intent": "deny",
+        "text": "no thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "uh no"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "not today"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byebye!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "yolo"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Hawaii",
+            "entity": "city"
+          }
+        ],
+        "text": "I am thinking of moving  to Hawaii"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 15,
+            "end": 33,
+            "value": "own shower kitchen",
+            "entity": "house_feature"
+          },
+          {
+            "start": 38,
+            "end": 54,
+            "value": "2 sleeping rooms",
+            "entity": "bed_room"
+          }
+        ],
+        "text": "Apartment with own shower kitchen and 2 sleeping rooms"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "the bus",
+            "entity": "transportation"
+          },
+          {
+            "start": 39,
+            "end": 49,
+            "value": "25 minutes",
+            "entity": "time_spent"
+          }
+        ],
+        "text": "it is better if i can go to the bus in 25 minutes"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "metro",
+            "entity": "transportation"
+          }
+        ],
+        "text": "i need metro nearby to travel around"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "500",
+            "entity": "price"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "1000",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "euro",
+            "entity": "currency"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "500 to 1000 euro for a home"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 34,
+            "value": "residential neighborhood",
+            "entity": "local_feature"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "coffee shops",
+            "entity": "local_feature"
+          },
+          {
+            "start": 56,
+            "end": 60,
+            "value": "bars",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "This is a residential neighborhood, coffee shops and no bars"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 47,
+            "end": 58,
+            "value": "restaurants",
+            "entity": "local_feature"
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "value": "bakery",
+            "entity": "local_feature"
+          },
+          {
+            "start": 73,
+            "end": 91,
+            "value": "leisure facilities",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "The local area also features several delicious restaurants, a bakery and leisure facilities"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "Hanoi city",
+            "entity": "location"
+          }
+        ],
+        "text": "somewhere in Hanoi city"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 72,
+            "end": 84,
+            "value": "free parking",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need the neighborhood to be secured and there is must be at least one free parking"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 44,
+            "value": "nice spacious living room",
+            "entity": "guess_room"
+          },
+          {
+            "start": 46,
+            "end": 60,
+            "value": "three bedrooms",
+            "entity": "bed_room"
+          },
+          {
+            "start": 64,
+            "end": 78,
+            "value": "small bathroom",
+            "entity": "bath_room"
+          },
+          {
+            "start": 83,
+            "end": 91,
+            "value": "a garden",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "there is must be a nice spacious living room, three bedrooms, a small bathroom and a garden"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "Pasadena",
+            "entity": "city"
+          }
+        ],
+        "text": "I am most interested in Pasadena"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "100000",
+            "entity": "price"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "euro",
+            "entity": "currency"
+          }
+        ],
+        "text": "no more than 100000 euro"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 59,
+            "end": 62,
+            "value": "25k",
+            "entity": "price"
+          },
+          {
+            "start": 63,
+            "end": 66,
+            "value": "usd",
+            "entity": "currency"
+          }
+        ],
+        "text": "The asking price has recently gone down to two hundred and 25k usd"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 8,
+            "value": "$",
+            "entity": "currency"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "335000",
+            "entity": "price"
+          }
+        ],
+        "text": "i want $335000, and i'll throw in the appliances"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "parking",
+            "entity": "local_feature"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "5 minutes",
+            "entity": "time_spent"
+          },
+          {
+            "start": 47,
+            "end": 58,
+            "value": "bus station",
+            "entity": "local_feature"
+          },
+          {
+            "start": 63,
+            "end": 73,
+            "value": "10 minutes",
+            "entity": "time_spent"
+          },
+          {
+            "start": 77,
+            "end": 86,
+            "value": "the metro",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "We have one parking available, 5 minutes to thebus station and 10 minutes to the metro"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "queen size bed",
+            "entity": "house_feature"
+          },
+          {
+            "start": 47,
+            "end": 56,
+            "value": "2 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "The room i want has a queen size bed ideal for 2 persons"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "metro station",
+            "entity": "local_feature"
+          },
+          {
+            "start": 46,
+            "end": 54,
+            "value": "5 minute",
+            "entity": "time_spent"
+          }
+        ],
+        "text": "i need to go to metro station in no more than 5 minute"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Pasadena",
+            "entity": "city"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "Arcadia",
+            "entity": "city"
+          }
+        ],
+        "text": "I am interested in Pasadenaor Arcadia."
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 72,
+            "end": 84,
+            "value": "free parking",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need the neighborhood to be secured and there is must be at least one free parking"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 47,
+            "value": "ABC School District",
+            "entity": "city"
+          }
+        ],
+        "text": "Yes, we want to stay in the ABC School District"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "Ho Chi Minh city",
+            "entity": "location"
+          }
+        ],
+        "text": "in Ho Chi Minh city"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 37,
+            "value": "side of the beach",
+            "entity": "local_feature"
+          },
+          {
+            "start": 57,
+            "end": 67,
+            "value": "2 millions",
+            "entity": "price"
+          },
+          {
+            "start": 68,
+            "end": 71,
+            "value": "usd",
+            "entity": "currency"
+          },
+          {
+            "start": 75,
+            "end": 89,
+            "value": "Hochiminh city",
+            "entity": "city"
+          }
+        ],
+        "text": "i want a house with side of the beach which is less than 2 millions usd in Hochiminh city"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 14,
+            "value": "$",
+            "entity": "currency"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "100000",
+            "entity": "price"
+          }
+        ],
+        "text": "no more than $100000"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Comfortable",
+            "entity": "house_feature"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "bright",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "Comfortable and bright"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "two guess room",
+            "entity": "guess_room"
+          }
+        ],
+        "text": "i need two guess room"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "a free parking",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "there is must be a free parking"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 33,
+            "end": 39,
+            "value": "a view",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "I would love to have a home with a view"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 76,
+            "end": 91,
+            "value": "very large home",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "We have several generations of family living in our household and so need a very large home"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "4mil",
+            "entity": "price"
+          }
+        ],
+        "text": "under 4mil"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "Hanoi city",
+            "entity": "city"
+          }
+        ],
+        "text": "somewhere in Hanoi city"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "city center",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "25 min",
+            "entity": "time_spent"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "metro",
+            "entity": "transportation"
+          }
+        ],
+        "text": "You can get to the city center in 25 min by metro"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "medium-sized",
+            "entity": "house_feature"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "3 bedrooms",
+            "entity": "bed_room"
+          },
+          {
+            "start": 58,
+            "end": 69,
+            "value": "2 bathrooms",
+            "entity": "bath_room"
+          }
+        ],
+        "text": "We need a medium-sized house with at least 3 bedrooms and 2 bathrooms"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "lakeside",
+            "entity": "local_feature"
+          },
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "dock",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "We really want to live in a lakeside home with a dock for our boat"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "a bathroom",
+            "entity": "bath_room"
+          }
+        ],
+        "text": "i need a bathroom for each room"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "the bus",
+            "entity": "transportation"
+          },
+          {
+            "start": 39,
+            "end": 49,
+            "value": "25 minutes",
+            "entity": "time_spent"
+          }
+        ],
+        "text": "it is better if i can go to the bus in 25 minutes"
+      },
+      {
+        "intent": "house_inform",
+        "text": "it is pretty stupid for now"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "free parking",
+            "entity": "local_feature"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "5 minute",
+            "entity": "time_spent"
+          }
+        ],
+        "text": "i need to go to free parking in no more than 5 minute"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "a bathroom",
+            "entity": "bath_room"
+          }
+        ],
+        "text": "i need a bathroom for each room"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "5 minutes",
+            "entity": "time_spent"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": "metro station",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "About 5 minutes to the closest metro station"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "Ho Chi Minh city",
+            "entity": "city"
+          }
+        ],
+        "text": "in Ho Chi Minh city"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "big guess room",
+            "entity": "guess_room"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "value": "2 millions",
+            "entity": "price"
+          },
+          {
+            "start": 60,
+            "end": 63,
+            "value": "vnd",
+            "entity": "currency"
+          },
+          {
+            "start": 67,
+            "end": 72,
+            "value": "Hanoi",
+            "entity": "city"
+          }
+        ],
+        "text": "i need a house with big guess room which is only 2 millions vnd in Hanoi"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "quiet area",
+            "entity": "local_feature"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "security",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need local is a quiet area and security"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "double room",
+            "entity": "bed_room"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "modern",
+            "entity": "house_feature"
+          },
+          {
+            "start": 37,
+            "end": 46,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 50,
+            "end": 70,
+            "value": "Amsterdam South East",
+            "entity": "city"
+          }
+        ],
+        "text": "i need double room in our modern new apartment in Amsterdam South East"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 14,
+            "value": "$",
+            "entity": "currency"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "1M",
+            "entity": "price"
+          }
+        ],
+        "text": "no more than $1M"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 31,
+            "end": 43,
+            "value": "two bedrooms",
+            "entity": "bed_room"
+          },
+          {
+            "start": 49,
+            "end": 63,
+            "value": "king-size beds",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "it will be perfect if there is two bedrooms with king-size beds"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "modern coach",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "i need some modern coach"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "two guess room",
+            "entity": "guess_room"
+          }
+        ],
+        "text": "i need two guess room"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "modern coach",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "i need some modern coach"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "a bus stop",
+            "entity": "transportation"
+          }
+        ],
+        "text": "i need a bus stop nearby"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "security",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need security"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "free parking",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need a free parking available nearby"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 39,
+            "value": "central of the city",
+            "entity": "location"
+          },
+          {
+            "start": 53,
+            "end": 62,
+            "value": "10 minute",
+            "entity": "time_spent"
+          }
+        ],
+        "text": "i need to travel to central of the city in less than 10 minute"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 36,
+            "value": "smaller cozy cottage",
+            "entity": "house_feature"
+          },
+          {
+            "start": 42,
+            "end": 52,
+            "value": "2 bedrooms",
+            "entity": "bed_room"
+          },
+          {
+            "start": 57,
+            "end": 67,
+            "value": "1 bathroom",
+            "entity": "bath_room"
+          }
+        ],
+        "text": "We would like a smaller cozy cottage with 2 bedrooms and 1 bathroom"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 31,
+            "end": 43,
+            "value": "two bedrooms",
+            "entity": "bed_room"
+          },
+          {
+            "start": 49,
+            "end": 63,
+            "value": "king-size beds",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "it will be perfect if there is two bedrooms with king-size beds"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "a free parking",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "there is must be a free parking"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "security",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need security"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i am looking for flat"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "give me some apartment"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 40,
+            "end": 50,
+            "value": "hanoi city",
+            "entity": "city"
+          }
+        ],
+        "text": "i need some information about houses in hanoi city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i want home"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a house and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Hanoi",
+            "entity": "city"
+          }
+        ],
+        "text": "i want to find a house in Hanoi"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 23,
+            "end": 36,
+            "value": "nhatrang city",
+            "entity": "location"
+          }
+        ],
+        "text": "search me some flat in nhatrang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a house and would like to speak with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a flat and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "4 millions",
+            "entity": "price"
+          },
+          {
+            "start": 37,
+            "end": 40,
+            "value": "vnd",
+            "entity": "currency"
+          }
+        ],
+        "text": "Is there a house in range 4 millions vnd?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "give me some houses"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "give me some home for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "give me some houses for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i want houses"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 32,
+            "end": 44,
+            "value": "Marine Drive",
+            "entity": "city"
+          }
+        ],
+        "text": "I'm interested in the houses in Marine Drive. What can you tell me about it?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "danang",
+            "entity": "location"
+          }
+        ],
+        "text": "i am looking for houses in danang"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "is there any flat less than 1 billion dollars?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "hcm",
+            "entity": "location"
+          }
+        ],
+        "text": "give me the list of home in hcm"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 46,
+            "end": 52,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "would you mind give me some information about houses for sell?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 46,
+            "end": 55,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "would you mind give me some information about apartment for sell?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i want apartment"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "hanoi city",
+            "entity": "location"
+          }
+        ],
+        "text": "i need some information about apartment in hanoi city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Hanoi",
+            "entity": "city"
+          }
+        ],
+        "text": "i want to find a house in Hanoi"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a house and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a home and would like to speak with you"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "give me some flat"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a house and would like to speak with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "need flat for sell"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "need apartment for sell"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Hanoi",
+            "entity": "city"
+          }
+        ],
+        "text": "i want to find a house in Hanoi"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 46,
+            "end": 50,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "would you mind give me some information about flat for sell?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a houses and would like to speak with you"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "homes",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I'd like to view some homes now"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "DaNang",
+            "entity": "city"
+          },
+          {
+            "start": 47,
+            "end": 56,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 57,
+            "end": 60,
+            "value": "vnd",
+            "entity": "currency"
+          }
+        ],
+        "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 38,
+            "end": 48,
+            "value": "hanoi city",
+            "entity": "location"
+          }
+        ],
+        "text": "i need some information about home in hanoi city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i am looking for houses"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "homes",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I'd like to view some homes now"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 46,
+            "end": 52,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "would you mind give me some information about houses for sell?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a house and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Hanoi",
+            "entity": "city"
+          }
+        ],
+        "text": "i want to find a house in Hanoi"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "give me some flat for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "need houses for sell"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I want to go apartment shopping"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I want to go houses shopping"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a house and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i want houses"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "hcm",
+            "entity": "location"
+          }
+        ],
+        "text": "give me the list of flat in hcm"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 25,
+            "end": 38,
+            "value": "nhatrang city",
+            "entity": "location"
+          }
+        ],
+        "text": "search me some houses in nhatrang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 33,
+            "end": 42,
+            "value": "1 million",
+            "entity": "price"
+          },
+          {
+            "start": 46,
+            "end": 60,
+            "value": "nha trang city",
+            "entity": "location"
+          }
+        ],
+        "text": "search me some home no more than 1 million in nha trang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I want to go home shopping"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "give me some houses for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "danang",
+            "entity": "location"
+          }
+        ],
+        "text": "i am looking for home in danang"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 33,
+            "value": "hcm",
+            "entity": "city"
+          }
+        ],
+        "text": "give me the list of houses in hcm"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "need home for sell"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 25,
+            "end": 38,
+            "value": "nhatrang city",
+            "entity": "city"
+          }
+        ],
+        "text": "search me some houses in nhatrang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "DaNang",
+            "entity": "city"
+          },
+          {
+            "start": 47,
+            "end": 56,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 57,
+            "end": 60,
+            "value": "vnd",
+            "entity": "currency"
+          }
+        ],
+        "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "i want to buy a home for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "is there any home less than 1 billion dollars?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I want to go flat shopping"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 39,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "i want to buy a apartment for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am looking to buy a house for myself and my son"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a flat and would like to speak with you"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "need houses for sell"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 28,
+            "end": 41,
+            "value": "nhatrang city",
+            "entity": "location"
+          }
+        ],
+        "text": "search me some apartment in nhatrang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 38,
+            "end": 48,
+            "value": "hanoi city",
+            "entity": "location"
+          }
+        ],
+        "text": "i need some information about flat in hanoi city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "4 millions",
+            "entity": "price"
+          },
+          {
+            "start": 37,
+            "end": 44,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "Is there a house in range 4 millions dollars?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "DaNang",
+            "entity": "city"
+          },
+          {
+            "start": 47,
+            "end": 56,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 57,
+            "end": 60,
+            "value": "vnd",
+            "entity": "currency"
+          }
+        ],
+        "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a house and would like to speak with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 42,
+            "value": "Marine Drive",
+            "entity": "city"
+          }
+        ],
+        "text": "I'm interested in the flat in Marine Drive. What can you tell me about it?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 35,
+            "end": 44,
+            "value": "1 million",
+            "entity": "price"
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "search me some houses no more than 1 million dollars"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "homes",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I'd like to view some homes now"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "danang",
+            "entity": "location"
+          }
+        ],
+        "text": "i am looking for flat in danang"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "danang",
+            "entity": "location"
+          }
+        ],
+        "text": "i am looking for apartment in danang"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a home and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 33,
+            "end": 42,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 43,
+            "end": 50,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "is there any apartment less than 1 billion dollars?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "4 millions",
+            "entity": "price"
+          },
+          {
+            "start": 37,
+            "end": 44,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "Is there a house in range 4 millions dollars?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am looking to buy a house for myself and my son"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 23,
+            "end": 36,
+            "value": "nhatrang city",
+            "entity": "location"
+          }
+        ],
+        "text": "search me some home in nhatrang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 42,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a apartment and would like to speak with you"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 35,
+            "end": 47,
+            "value": "Marine Drive",
+            "entity": "city"
+          }
+        ],
+        "text": "I'm interested in the apartment in Marine Drive. What can you tell me about it?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "danang",
+            "entity": "city"
+          }
+        ],
+        "text": "i am looking for houses in danang"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "give me some apartment for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 38,
+            "end": 47,
+            "value": "1 million",
+            "entity": "price"
+          },
+          {
+            "start": 51,
+            "end": 65,
+            "value": "nha trang city",
+            "entity": "location"
+          }
+        ],
+        "text": "search me some apartment no more than 1 million in nha trang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 42,
+            "value": "Marine Drive",
+            "entity": "city"
+          }
+        ],
+        "text": "I'm interested in the home in Marine Drive. What can you tell me about it?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 33,
+            "end": 36,
+            "value": "hcm",
+            "entity": "location"
+          }
+        ],
+        "text": "give me the list of apartment in hcm"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 39,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 40,
+            "end": 47,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "is there any houses less than 1 billion dollars?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thankyou",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thankyou",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "city",
+        "pattern": "[aA-zZ]+ [cC][iI][tT][yY]"
+      },
+      {
+        "name": "price",
+        "pattern": "(\\d+\\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
+      },
+      {
+        "name": "price",
+        "pattern": "(\\d+\\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
+      },
+      {
+        "name": "price",
+        "pattern": "(\\d+\\s*(?:[mM]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
+      },
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [
+      {
+        "name": "real_estate_type",
+        "elements": [
+          "apartment",
+          "flat",
+          "house",
+          "home"
+        ]
+      },
+      {
+        "name": "city",
+        "elements": "data/location/city.txt"
+      },
+      {
+        "name": "currency",
+        "elements": "data/currency/currency.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "HCM city",
+        "synonyms": [
+          "Ho Chi Minh City",
+          "HoChiMinh City",
+          "hochiminh city",
+          "ho chi minh",
+          "hcmc",
+          "Sai Gon",
+          "Saigon",
+          "saigon",
+          "hcm"
+        ]
+      },
+      {
+        "value": "apartment",
+        "synonyms": [
+          "flat"
+        ]
+      },
+      {
+        "value": "house",
+        "synonyms": [
+          "houses",
+          "home"
+        ]
+      },
+      {
+        "value": "usd",
+        "synonyms": [
+          "dollars",
+          "$",
+          "dollar"
+        ]
+      }
+    ]
+  }
+}

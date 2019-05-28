@@ -1,0 +1,58 @@
+[
+  {
+    "text": "ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7905784845352173
+    }
+  },
+  {
+    "text": "noope",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "goodnight",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "farewell",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "we'll speak soon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7724294662475586
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "I would like to live in Pasadena",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.7904584407806396
+    }
+  }
+]

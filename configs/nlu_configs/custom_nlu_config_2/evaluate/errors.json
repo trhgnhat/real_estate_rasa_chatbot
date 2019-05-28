@@ -1,0 +1,74 @@
+[
+  {
+    "text": "ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.974109411239624
+    }
+  },
+  {
+    "text": "what about your day",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.856245219707489
+    }
+  },
+  {
+    "text": "Do you have a great day?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9622273445129395
+    }
+  },
+  {
+    "text": "are you having a good day",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.875441312789917
+    }
+  },
+  {
+    "text": "noope",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "goodnight",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "farewell",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Ho Chi Minh city",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.8510507941246033
+    }
+  }
+]

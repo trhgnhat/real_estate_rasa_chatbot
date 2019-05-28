@@ -1,0 +1,176 @@
+{
+  "examples": [
+    {
+      "text": "i want a spacous and comfortable",
+      "true": [
+        {
+          "start": 9,
+          "end": 16,
+          "value": "spacous",
+          "entity": "house_feature"
+        },
+        {
+          "start": 21,
+          "end": 32,
+          "value": "comfortable",
+          "entity": "house_feature"
+        }
+      ],
+      "predict": [
+        {
+          "start": 21,
+          "end": 32,
+          "value": "comfortable",
+          "entity": "house_feature",
+          "confidence": 0.7967667591571804,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau city",
+      "true": [
+        {
+          "start": 23,
+          "end": 35,
+          "value": "two bedrooms",
+          "entity": "bed_room"
+        },
+        {
+          "start": 58,
+          "end": 68,
+          "value": "2 millions",
+          "entity": "price"
+        },
+        {
+          "start": 69,
+          "end": 73,
+          "value": "euro",
+          "entity": "currency"
+        },
+        {
+          "start": 77,
+          "end": 88,
+          "value": "Ca Mau city",
+          "entity": "city"
+        }
+      ],
+      "predict": [
+        {
+          "start": 12,
+          "end": 17,
+          "value": "house",
+          "entity": "real_estate_type",
+          "confidence": 0.5669395864207815,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 23,
+          "end": 35,
+          "value": "two bedrooms",
+          "entity": "bed_room",
+          "confidence": 0.9292359285695856,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 58,
+          "end": 68,
+          "value": "2 millions",
+          "entity": "price",
+          "confidence": 0.9346372041213635,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 69,
+          "end": 73,
+          "value": "euro",
+          "entity": "currency",
+          "confidence": 0.9689479933266993,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i need to travel to restaurant in no more than 10 minute",
+      "true": [
+        {
+          "start": 20,
+          "end": 30,
+          "value": "restaurant",
+          "entity": "local_feature"
+        },
+        {
+          "start": 47,
+          "end": 56,
+          "value": "10 minute",
+          "entity": "time_spent"
+        }
+      ],
+      "predict": [
+        {
+          "start": 47,
+          "end": 56,
+          "value": "10 minute",
+          "entity": "time_spent",
+          "confidence": 0.9045403502889036,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i would like to buy a house in DaNangcity with 1 billion vnd",
+      "true": [
+        {
+          "start": 22,
+          "end": 27,
+          "value": "house",
+          "entity": "real_estate_type"
+        },
+        {
+          "start": 31,
+          "end": 37,
+          "value": "DaNang",
+          "entity": "city"
+        },
+        {
+          "start": 47,
+          "end": 56,
+          "value": "1 billion",
+          "entity": "price"
+        },
+        {
+          "start": 57,
+          "end": 60,
+          "value": "vnd",
+          "entity": "currency"
+        }
+      ],
+      "predict": [
+        {
+          "start": 22,
+          "end": 27,
+          "value": "house",
+          "entity": "real_estate_type",
+          "confidence": 0.9361920490968962,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 47,
+          "end": 56,
+          "value": "1 billion",
+          "entity": "price",
+          "confidence": 0.9807063499282688,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 57,
+          "end": 60,
+          "value": "vnd",
+          "entity": "currency",
+          "confidence": 0.959994876772147,
+          "extractor": "ner_crf"
+        }
+      ]
+    }
+  ]
+}

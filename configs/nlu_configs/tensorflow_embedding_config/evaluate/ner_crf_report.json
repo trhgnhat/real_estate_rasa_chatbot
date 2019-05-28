@@ -1,0 +1,92 @@
+{
+  "bed_room": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "city": {
+    "precision": 1.0,
+    "recall": 0.4444444444444444,
+    "f1-score": 0.6153846153846153,
+    "support": 9
+  },
+  "currency": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "house_feature": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 6
+  },
+  "local_feature": {
+    "precision": 0.5,
+    "recall": 0.2,
+    "f1-score": 0.28571428571428575,
+    "support": 5
+  },
+  "location": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9
+  },
+  "no_entity": {
+    "precision": 0.9544235924932976,
+    "recall": 0.994413407821229,
+    "f1-score": 0.9740082079343365,
+    "support": 358
+  },
+  "num_persons": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
+  },
+  "price": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 18
+  },
+  "real_estate_type": {
+    "precision": 0.96,
+    "recall": 1.0,
+    "f1-score": 0.9795918367346939,
+    "support": 24
+  },
+  "time_spent": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "transportation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "micro avg": {
+    "precision": 0.9576837416481069,
+    "recall": 0.9576837416481069,
+    "f1-score": 0.9576837416481069,
+    "support": 449
+  },
+  "macro avg": {
+    "precision": 0.9512019660411081,
+    "recall": 0.8032381543554727,
+    "f1-score": 0.8374586783810939,
+    "support": 449
+  },
+  "weighted avg": {
+    "precision": 0.9559546684022283,
+    "recall": 0.9576837416481069,
+    "f1-score": 0.9493320658509582,
+    "support": 449
+  }
+}
