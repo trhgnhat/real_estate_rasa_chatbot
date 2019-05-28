@@ -14,14 +14,12 @@ class RestaurantForm(FormAction):
     def name(self):
         # type: () -> Text
         """Unique identifier of the form"""
-
         return "house_form"
 
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
         """A list of required slots that the form has to fill"""
-
-        return ["location", "price", "feedback"]
+        return ["city", "price", "feedback", "real_estate_type"]
 
     def slot_mappings(self):
         # type: () -> Dict[Text: Union[Dict, List[Dict]]]
@@ -31,26 +29,41 @@ class RestaurantForm(FormAction):
             - a whole message
             or a list of them, where a first match will be picked"""
 
-        return {"location": self.from_entity(entity="location",
-                                             intent=["inform",
+        return {"city": self.from_entity(entity="city",
+                                         intent=["house_inform",
+                                                 "house_request"]),
+                "real_estate_type": self.from_entity(entity="real_estate_type",
+                                                     intent=["house_inform",
+                                                             "house_request"]),
+                "time_spent": self.from_entity(entity="time_spent",
+                                               intent=["house_inform",
+                                                       "house_request"]),
+                "guess_room": self.from_entity(entity="guess_room",
+                                               intent=["house_inform",
+                                                       "house_request"]),
+                "transportation": self.from_entity(entity="transportation",
+                                                   intent=["house_inform",
+                                                           "house_request"]),
+                "bath_room": self.from_entity(entity="bath_room",
+                                              intent=["house_inform",
+                                                      "house_request"]),
+                "bed_room": self.from_entity(entity="bed_room",
+                                             intent=["house_inform",
                                                      "house_request"]),
-                "price": self.from_entity(entity="price",
-                                          intent=["inform",
+                "location": self.from_entity(entity="location",
+                                             intent=["house_inform",
+                                                     "house_request"]),
+                "local_feature": self.from_entity(entity="local_feature",
+                                                  intent=["house_inform",
                                                   "house_request"]),
-                # "outdoor_seating": [self.from_entity(entity="seating"),
-                #                     self.from_intent(intent='affirm',
-                #                                      value=True),
-                #                     self.from_intent(intent='deny',
-                #                                      value=False)],
-                # "preferences": [self.from_intent(intent='deny',
-                #                                  value="no additional "
-                #                                        "preferences"),
-                #                 self.from_text(not_intent="affirm")],
+                "house_feature": self.from_entity(entity="house_feature",
+                                                  intent=["house_inform",
+                                                          "house_request"]),
                 "feedback": [self.from_entity(entity="feedback"),
                              self.from_text()]}
 
     @staticmethod
-    def location_db():
+    def city_db():
         # type: () -> List[Text]
         """Database of supported cuisines"""
         return ["hanoi",
@@ -69,18 +82,18 @@ class RestaurantForm(FormAction):
         except ValueError:
             return False
 
-    def validate_location(self,
-                          value: Text,
-                          dispatcher: CollectingDispatcher,
-                          tracker: Tracker,
-                          domain: Dict[Text, Any]) -> Optional[Text]:
-        """Validate cuisine value."""
+    def validate_city(self,
+                      value: Text,
+                      dispatcher: CollectingDispatcher,
+                      tracker: Tracker,
+                      domain: Dict[Text, Any]) -> Optional[Text]:
+        """Validate city value."""
 
-        if value.lower() in self.location_db():
+        if value.lower() in self.city_db():
             # validation succeeded
             return value
         else:
-            dispatcher.utter_template('utter_wrong_location', tracker)
+            dispatcher.utter_template('utter_wrong_city', tracker)
             # validation failed, set this slot to None, meaning the
             # user will be asked for the slot again
             return None

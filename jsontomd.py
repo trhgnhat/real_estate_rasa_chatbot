@@ -1,4 +1,4 @@
-from rasa_nlu.training_data import load_data
+from rasa.nlu.training_data import load_data
 
 # This re-uses the Rasa NLU converters code to turn a JSON Rasa NLU training
 # file into MD format and save it

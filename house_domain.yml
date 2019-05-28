@@ -14,37 +14,71 @@ actions:
 - utter_welcome
 - utter_goodbye
 - utter_wrong_price
+forms:
+- house_form
+intents:
+- house_request
+- house_inform
+- greet
+- thankyou
+- ask_howdoing
+- affirm
+- deny
+- goodbye
 entities:
 - price
 - location
 - feedback
 - local_feature
-forms:
-- house_form
-intents:
-- house_request
-- inform
-- greet
-- thanking
-- thanks
-- goodbye
+- city
+- bed_room
+- bath_room
+- house_feature
+- transportation
+- real_estate_type
+- guess_room
+- time_spent
 slots:
+  real_estate_type:
+    type: categorical
+      values:
+      - house
+      - apartment
+    initial_value: "house"
   feedback:
     auto_fill: false
-    type: unfeaturized
-  location:
+    type: text
+  city:
     auto_fill: false
-    type: unfeaturized
+    type: text
   price:
     auto_fill: false
-    type: unfeaturized
+    type: text
   requested_slot:
+    type: unfeaturized
+  time_spent:
+    type: unfeaturized
+  guess_room:
+    type: unfeaturized
+  transportation:
+    type: unfeaturized
+  bath_room:
+    type: unfeaturized
+  bed_room:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+  local_feature:
+    type: unfeaturized
+  house_feature:
     type: unfeaturized
 templates:
   utter_ask_feedback:
   - text: please give your feedback on your experience so far
-  utter_ask_location:
-  - text: In what location?
+  utter_ask_other_features:
+  - text: Is there any more requirements?
+  utter_ask_city:
+  - text: In which city?
   utter_ask_price:
   - text: How much money can you afford?
   utter_default:
@@ -65,7 +99,7 @@ templates:
   - text: I am not sure what you are talking about.
   utter_welcome:
   - text: It is my pleasure to help you. Is there anything else?
-  utter_wrong_location:
+  utter_wrong_city:
   - text: location type is not in the database, please try again
   utter_wrong_price:
   - text: price should be a positive float, please try again

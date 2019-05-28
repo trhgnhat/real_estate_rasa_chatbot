@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/House.iml" filepath="$PROJECT_DIR$/.idea/House.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../TextClassifier_repo/.idea/TextClassifier_repo.iml" filepath="$PROJECT_DIR$/../../TextClassifier_repo/.idea/TextClassifier_repo.iml" />
-      <module fileurl="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/rasa_nlu/.idea/rasa_nlu.iml" filepath="$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/rasa_nlu/.idea/rasa_nlu.iml" />
     </modules>
   </component>
 </project>

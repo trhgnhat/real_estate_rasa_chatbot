@@ -2,72 +2,336 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "greet",
-        "text": "Hello"
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "si"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "okay hi how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how r u>"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Are you ok?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how you doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how r u ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you alright"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life been treating you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how r u"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Hi Sara! How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things with you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything all right"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's new?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Do you feel good?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's up"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "h r u ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you today"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hello, how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing today my sweet friend"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are u"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are things?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you men?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "nah, I'm good - how are you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it hanging?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are yuo"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi how u doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi how u doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "¿Qué pasa?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "come stai?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are xou"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's going on?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing today?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Ahoy matey how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hw r u?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How've you been?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's it going?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are You?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how have you been"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's good"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you'"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up man"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "wassup>"
+      },
+      {
+        "intent": "deny",
+        "text": "do you have something else"
+      },
+      {
+        "intent": "deny",
+        "text": "no thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "uh no"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "not today"
       },
       {
         "intent": "goodbye",
-        "text": "Bye"
-      },
-      {
-        "intent": "house_request",
-        "text": "i am looking for houses"
-      },
-      {
-        "intent": "house_request",
-        "text": "I am interested in buying a house and need some information."
-      },
-      {
-        "intent": "house_request",
-        "text": "I would like to discuss purchasing a home with you."
-      },
-      {
-        "intent": "house_request",
-        "text": "I have been thinking of buying a house and would like to speak with you."
-      },
-      {
-        "intent": "house_request",
-        "entities": [
-          {
-            "start": 31,
-            "end": 43,
-            "value": "Marine Drive",
-            "entity": "location"
-          }
-        ],
-        "text": "I'm interested in the house in Marine Drive. What can you tell me about it?"
-      },
-      {
-        "intent": "greet",
-        "text": "Hello"
-      },
-      {
-        "intent": "goodbye",
-        "text": "goodbye"
-      },
-      {
-        "intent": "greet",
-        "text": "hey"
-      },
-      {
-        "intent": "greet",
-        "text": "hello"
-      },
-      {
-        "intent": "greet",
-        "text": "hi"
-      },
-      {
-        "intent": "greet",
-        "text": "heya"
-      },
-      {
-        "intent": "greet",
-        "text": "howdy"
-      },
-      {
-        "intent": "greet",
-        "text": "hey there"
+        "text": "Bye bot"
       },
       {
         "intent": "goodbye",
@@ -75,7 +339,7 @@
       },
       {
         "intent": "goodbye",
-        "text": "goodbye"
+        "text": "see you later"
       },
       {
         "intent": "goodbye",
@@ -83,38 +347,680 @@
       },
       {
         "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
         "text": "see ya"
       },
       {
         "intent": "goodbye",
-        "text": "see you later"
+        "text": "have a nice day"
       },
       {
-        "intent": "house_request",
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byebye!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "yolo"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "house_inform",
         "entities": [
           {
-            "start": 26,
-            "end": 31,
-            "value": "Hanoi",
+            "start": 28,
+            "end": 34,
+            "value": "Hawaii",
+            "entity": "city"
+          }
+        ],
+        "text": "I am thinking of moving  to Hawaii"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 15,
+            "end": 33,
+            "value": "own shower kitchen",
+            "entity": "house_feature"
+          },
+          {
+            "start": 38,
+            "end": 54,
+            "value": "2 sleeping rooms",
+            "entity": "bed_room"
+          }
+        ],
+        "text": "Apartment with own shower kitchen and 2 sleeping rooms"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "the bus",
+            "entity": "transportation"
+          },
+          {
+            "start": 39,
+            "end": 49,
+            "value": "25 minutes",
+            "entity": "time_spent"
+          }
+        ],
+        "text": "it is better if i can go to the bus in 25 minutes"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "metro",
+            "entity": "transportation"
+          }
+        ],
+        "text": "i need metro nearby to travel around"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "500",
+            "entity": "price"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "1000",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "euro",
+            "entity": "currency"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "500 to 1000 euro for a home"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 34,
+            "value": "residential neighborhood",
+            "entity": "local_feature"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "coffee shops",
+            "entity": "local_feature"
+          },
+          {
+            "start": 56,
+            "end": 60,
+            "value": "bars",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "This is a residential neighborhood, coffee shops and no bars"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 47,
+            "end": 58,
+            "value": "restaurants",
+            "entity": "local_feature"
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "value": "bakery",
+            "entity": "local_feature"
+          },
+          {
+            "start": 73,
+            "end": 91,
+            "value": "leisure facilities",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "The local area also features several delicious restaurants, a bakery and leisure facilities"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "Hanoi city",
             "entity": "location"
           }
         ],
-        "text": "i want to find a house in Hanoi"
+        "text": "somewhere in Hanoi city"
       },
       {
-        "intent": "house_request",
+        "intent": "house_inform",
         "entities": [
           {
-            "start": 26,
+            "start": 72,
+            "end": 84,
+            "value": "free parking",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need the neighborhood to be secured and there is must be at least one free parking"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 19,
             "end": 44,
-            "value": "4 millions dollars",
+            "value": "nice spacious living room",
+            "entity": "guess_room"
+          },
+          {
+            "start": 46,
+            "end": 60,
+            "value": "three bedrooms",
+            "entity": "bed_room"
+          },
+          {
+            "start": 64,
+            "end": 78,
+            "value": "small bathroom",
+            "entity": "bath_room"
+          },
+          {
+            "start": 83,
+            "end": 91,
+            "value": "a garden",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "there is must be a nice spacious living room, three bedrooms, a small bathroom and a garden"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "Pasadena",
+            "entity": "city"
+          }
+        ],
+        "text": "I am most interested in Pasadena"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "100000",
+            "entity": "price"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "euro",
+            "entity": "currency"
+          }
+        ],
+        "text": "no more than 100000 euro"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 59,
+            "end": 62,
+            "value": "25k",
+            "entity": "price"
+          },
+          {
+            "start": 63,
+            "end": 66,
+            "value": "usd",
+            "entity": "currency"
+          }
+        ],
+        "text": "The asking price has recently gone down to two hundred and 25k usd"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 8,
+            "value": "$",
+            "entity": "currency"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "335000",
             "entity": "price"
           }
         ],
-        "text": "Is there a house in range 4 millions dollars?"
+        "text": "i want $335000, and i'll throw in the appliances"
       },
       {
-        "intent": "inform",
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "parking",
+            "entity": "local_feature"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "5 minutes",
+            "entity": "time_spent"
+          },
+          {
+            "start": 47,
+            "end": 58,
+            "value": "bus station",
+            "entity": "local_feature"
+          },
+          {
+            "start": 63,
+            "end": 73,
+            "value": "10 minutes",
+            "entity": "time_spent"
+          },
+          {
+            "start": 77,
+            "end": 86,
+            "value": "the metro",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "We have one parking available, 5 minutes to thebus station and 10 minutes to the metro"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "queen size bed",
+            "entity": "house_feature"
+          },
+          {
+            "start": 47,
+            "end": 56,
+            "value": "2 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "The room i want has a queen size bed ideal for 2 persons"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "metro station",
+            "entity": "local_feature"
+          },
+          {
+            "start": 46,
+            "end": 54,
+            "value": "5 minute",
+            "entity": "time_spent"
+          }
+        ],
+        "text": "i need to go to metro station in no more than 5 minute"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Pasadena",
+            "entity": "city"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "Arcadia",
+            "entity": "city"
+          }
+        ],
+        "text": "I am interested in Pasadenaor Arcadia."
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 72,
+            "end": 84,
+            "value": "free parking",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need the neighborhood to be secured and there is must be at least one free parking"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 47,
+            "value": "ABC School District",
+            "entity": "city"
+          }
+        ],
+        "text": "Yes, we want to stay in the ABC School District"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "Ho Chi Minh city",
+            "entity": "location"
+          }
+        ],
+        "text": "in Ho Chi Minh city"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 37,
+            "value": "side of the beach",
+            "entity": "local_feature"
+          },
+          {
+            "start": 57,
+            "end": 67,
+            "value": "2 millions",
+            "entity": "price"
+          },
+          {
+            "start": 68,
+            "end": 71,
+            "value": "usd",
+            "entity": "currency"
+          },
+          {
+            "start": 75,
+            "end": 89,
+            "value": "Hochiminh city",
+            "entity": "city"
+          }
+        ],
+        "text": "i want a house with side of the beach which is less than 2 millions usd in Hochiminh city"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 14,
+            "value": "$",
+            "entity": "currency"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "100000",
+            "entity": "price"
+          }
+        ],
+        "text": "no more than $100000"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Comfortable",
+            "entity": "house_feature"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "bright",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "Comfortable and bright"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "two guess room",
+            "entity": "guess_room"
+          }
+        ],
+        "text": "i need two guess room"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "a free parking",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "there is must be a free parking"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 33,
+            "end": 39,
+            "value": "a view",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "I would love to have a home with a view"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 76,
+            "end": 91,
+            "value": "very large home",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "We have several generations of family living in our household and so need a very large home"
+      },
+      {
+        "intent": "house_inform",
         "entities": [
           {
             "start": 6,
@@ -126,345 +1032,55 @@
         "text": "under 4mil"
       },
       {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 16,
-            "value": "Ho Chi Minh city",
-            "entity": "location"
-          }
-        ],
-        "text": "Ho Chi Minh city"
-      },
-      {
-        "intent": "house_request",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "DaNang ",
-            "entity": "location"
-          },
-          {
-            "start": 48,
-            "end": 61,
-            "value": "1 billion vnd",
-            "entity": "price"
-          }
-        ],
-        "text": "i would like to buy a house in DaNang city with 1 billion vnd"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 50,
-            "end": 64,
-            "value": " king-size bed",
-            "entity": "house_feature"
-          },
-          {
-            "start": 70,
-            "end": 83,
-            "value": "large windows",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Comfortable and bright, the modern room features a king-size bed, and large windows"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 40,
-            "end": 45,
-            "value": "metro",
-            "entity": "transportation"
-          },
-          {
-            "start": 111,
-            "end": 121,
-            "value": "20 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 132,
-            "end": 153,
-            "value": "2 private guest rooms",
-            "entity": "guess_room"
-          },
-          {
-            "start": 188,
-            "end": 198,
-            "value": " king-size beds",
-            "entity": "house_feature"
-          },
-          {
-            "start": 202,
-            "end": 213,
-            "value": "double beds",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "It's the outskirts of the city, but the metro will take you to the historical town center of Amsterdam in just 20 minutes! We offer 2 private guest rooms of 13 m2 (no.1), 22 m2 (no.2) with king-size or double beds in our home"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 48,
-            "end": 59,
-            "value": "restaurants",
-            "entity": "local_feature"
-          },
-          {
-            "start": 63,
-            "end": 69,
-            "value": "bakery",
-            "entity": "local_feature"
-          },
-          {
-            "start": 74,
-            "end": 92,
-            "value": "leisure facilities",
-            "entity": "local_feature"
-          }
-        ],
-        "text": " The local area also features several delicious restaurants, a bakery and leisure facilities"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 17,
-            "value": "The Metro Station",
-            "entity": "location"
-          },
-          {
-            "start": 21,
-            "end": 39,
-            "value": "less than 1 minute",
-            "entity": "less_time_spent"
-          },
-          {
-            "start": 40,
-            "end": 49,
-            "value": "walk away",
-            "entity": "transportation"
-          }
-        ],
-        "text": "The Metro Station is less than 1 minute walk away, and provides access to the heart of the city"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 5,
-            "end": 15,
-            "value": "quiet area",
-            "entity": "local_feature"
-          },
-          {
-            "start": 20,
-            "end": 28,
-            "value": "security",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "Is a quiet area and security"
-      },
-      {
-        "intent": "inform",
+        "intent": "house_inform",
         "entities": [
           {
             "start": 13,
-            "end": 20,
-            "value": "parking",
-            "entity": "local_feature"
-          },
-          {
-            "start": 32,
-            "end": 41,
-            "value": "5 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 48,
-            "end": 60,
-            "value": " bus station",
-            "entity": "local_feature"
-          },
-          {
-            "start": 48,
-            "end": 60,
-            "value": " bus station",
-            "entity": "location"
-          },
-          {
-            "start": 65,
-            "end": 75,
-            "value": "10 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 78,
-            "end": 88,
-            "value": " the metro",
-            "entity": "location"
-          },
-          {
-            "start": 78,
-            "end": 88,
-            "value": " the metro",
-            "entity": "local_feature"
+            "end": 23,
+            "value": "Hanoi city",
+            "entity": "city"
           }
         ],
-        "text": " We have one parking available, 5 minutes to the bus station and 10 minutes to the metro"
+        "text": "somewhere in Hanoi city"
       },
       {
-        "intent": "inform",
+        "intent": "house_inform",
         "entities": [
-          {
-            "start": 10,
-            "end": 34,
-            "value": "residential neighborhood",
-            "entity": "local_feature"
-          },
-          {
-            "start": 36,
-            "end": 38,
-            "value": "no",
-            "entity": "quantity"
-          },
-          {
-            "start": 39,
-            "end": 51,
-            "value": "coffee shops",
-            "entity": "location"
-          },
-          {
-            "start": 39,
-            "end": 51,
-            "value": "coffee shops",
-            "entity": "local_feature"
-          },
-          {
-            "start": 59,
-            "end": 63,
-            "value": "bars",
-            "entity": "location"
-          },
-          {
-            "start": 59,
-            "end": 63,
-            "value": "bars",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "This is a residential neighborhood, no coffee shops and no bars"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 30,
-            "end": 52,
-            "value": "interactive television",
-            "entity": "house_feature"
-          },
-          {
-            "start": 54,
-            "end": 59,
-            "value": "Wi-Fi",
-            "entity": "house_feature"
-          },
-          {
-            "start": 61,
-            "end": 70,
-            "value": "microwave",
-            "entity": "house_feature"
-          },
-          {
-            "start": 72,
-            "end": 78,
-            "value": "kettle",
-            "entity": "house_feature"
-          },
-          {
-            "start": 80,
-            "end": 90,
-            "value": "hair dryer",
-            "entity": "house_feature"
-          },
-          {
-            "start": 92,
-            "end": 104,
-            "value": "refrigerator",
-            "entity": "house_feature"
-          },
-          {
-            "start": 114,
-            "end": 120,
-            "value": "towels",
-            "entity": "house_feature"
-          },
-          {
-            "start": 122,
-            "end": 131,
-            "value": "bathrobes",
-            "entity": "house_feature"
-          },
-          {
-            "start": 133,
-            "end": 139,
-            "value": "dishes",
-            "entity": "house_feature"
-          },
-          {
-            "start": 143,
-            "end": 159,
-            "value": " eating utensils",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Additional facilities include interactive television, Wi-Fi, microwave, kettle, hair dryer, refrigerator and also towels, bathrobes, dishes and eating utensils are provided"
-      },
-      {
-        "intent": "house_request",
-        "text": "I would like to discuss purchasing a home with you."
-      },
-      {
-        "intent": "house_request",
-        "text": "I am interested in buying a house and need some information."
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 31,
-            "end": 38,
-            "value": "Arcadia",
-            "entity": "location"
-          },
           {
             "start": 19,
-            "end": 28,
-            "value": "Pasadena ",
+            "end": 30,
+            "value": "city center",
             "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "25 min",
+            "entity": "time_spent"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "metro",
+            "entity": "transportation"
           }
         ],
-        "text": "I am interested in Pasadena or Arcadia."
+        "text": "You can get to the city center in 25 min by metro"
       },
       {
-        "intent": "inform",
+        "intent": "house_inform",
         "entities": [
           {
             "start": 10,
             "end": 22,
             "value": "medium-sized",
             "entity": "house_feature"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "house",
+            "entity": "real_estate_type"
           },
           {
             "start": 43,
@@ -482,49 +1098,329 @@
         "text": "We need a medium-sized house with at least 3 bedrooms and 2 bathrooms"
       },
       {
-        "intent": "inform",
+        "intent": "house_inform",
         "entities": [
           {
             "start": 28,
-            "end": 47,
-            "value": "ABC School District",
-            "entity": "location"
-          }
-        ],
-        "text": "Yes, we want to stay in the ABC School District."
-      },
-      {
-        "intent": "inform",
-        "entities": [
+            "end": 36,
+            "value": "lakeside",
+            "entity": "local_feature"
+          },
           {
-            "start": 33,
-            "end": 39,
-            "value": "a view",
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "dock",
             "entity": "local_feature"
           }
         ],
-        "text": "I would love to have a home with a view"
+        "text": "We really want to live in a lakeside home with a dock for our boat"
       },
       {
-        "intent": "inform",
+        "intent": "house_inform",
         "entities": [
           {
-            "start": 36,
+            "start": 7,
+            "end": 17,
+            "value": "a bathroom",
+            "entity": "bath_room"
+          }
+        ],
+        "text": "i need a bathroom for each room"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "the bus",
+            "entity": "transportation"
+          },
+          {
+            "start": 39,
+            "end": 49,
+            "value": "25 minutes",
+            "entity": "time_spent"
+          }
+        ],
+        "text": "it is better if i can go to the bus in 25 minutes"
+      },
+      {
+        "intent": "house_inform",
+        "text": "it is pretty stupid for now"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "free parking",
+            "entity": "local_feature"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "5 minute",
+            "entity": "time_spent"
+          }
+        ],
+        "text": "i need to go to free parking in no more than 5 minute"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "a bathroom",
+            "entity": "bath_room"
+          }
+        ],
+        "text": "i need a bathroom for each room"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "5 minutes",
+            "entity": "time_spent"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": "metro station",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "About 5 minutes to the closest metro station"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "Ho Chi Minh city",
+            "entity": "city"
+          }
+        ],
+        "text": "in Ho Chi Minh city"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "big guess room",
+            "entity": "guess_room"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "value": "2 millions",
+            "entity": "price"
+          },
+          {
+            "start": 60,
+            "end": 63,
+            "value": "vnd",
+            "entity": "currency"
+          },
+          {
+            "start": 67,
+            "end": 72,
+            "value": "Hanoi",
+            "entity": "city"
+          }
+        ],
+        "text": "i need a house with big guess room which is only 2 millions vnd in Hanoi"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "quiet area",
+            "entity": "local_feature"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "security",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need local is a quiet area and security"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "double room",
+            "entity": "bed_room"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "modern",
+            "entity": "house_feature"
+          },
+          {
+            "start": 37,
+            "end": 46,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 50,
+            "end": 70,
+            "value": "Amsterdam South East",
+            "entity": "city"
+          }
+        ],
+        "text": "i need double room in our modern new apartment in Amsterdam South East"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 14,
+            "value": "$",
+            "entity": "currency"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "1M",
+            "entity": "price"
+          }
+        ],
+        "text": "no more than $1M"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 31,
             "end": 43,
-            "value": "Arcadia",
+            "value": "two bedrooms",
+            "entity": "bed_room"
+          },
+          {
+            "start": 49,
+            "end": 63,
+            "value": "king-size beds",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "it will be perfect if there is two bedrooms with king-size beds"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "modern coach",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "i need some modern coach"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "two guess room",
+            "entity": "guess_room"
+          }
+        ],
+        "text": "i need two guess room"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "modern coach",
+            "entity": "house_feature"
+          }
+        ],
+        "text": "i need some modern coach"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "a bus stop",
+            "entity": "transportation"
+          }
+        ],
+        "text": "i need a bus stop nearby"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "security",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need security"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "free parking",
+            "entity": "local_feature"
+          }
+        ],
+        "text": "i need a free parking available nearby"
+      },
+      {
+        "intent": "house_inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 39,
+            "value": "central of the city",
             "entity": "location"
           },
           {
-            "start": 24,
-            "end": 33,
-            "value": "Pasadena ",
-            "entity": "location"
+            "start": 53,
+            "end": 62,
+            "value": "10 minute",
+            "entity": "time_spent"
           }
         ],
-        "text": "I would like to live in Pasadena or Arcadia."
+        "text": "i need to travel to central of the city in less than 10 minute"
       },
       {
-        "intent": "inform",
+        "intent": "house_inform",
         "entities": [
           {
             "start": 16,
@@ -545,1661 +1441,1585 @@
             "entity": "bath_room"
           }
         ],
-        "text": "We would like a smaller cozy cottage with 2 bedrooms and 1 bathroom."
+        "text": "We would like a smaller cozy cottage with 2 bedrooms and 1 bathroom"
       },
       {
-        "intent": "inform",
+        "intent": "house_inform",
         "entities": [
           {
-            "start": 28,
-            "end": 41,
-            "value": "lakeside home",
-            "entity": "local_feature"
+            "start": 31,
+            "end": 43,
+            "value": "two bedrooms",
+            "entity": "bed_room"
           },
           {
             "start": 49,
-            "end": 53,
-            "value": "dock",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "We really want to live in a lakeside home with a dock for our boat"
-      },
-      {
-        "intent": "house_request",
-        "text": "I have been thinking of buying a house and would like to speak with you"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 24,
-            "end": 33,
-            "value": "Pasadena ",
-            "entity": "location"
-          },
-          {
-            "start": 36,
-            "end": 43,
-            "value": "Arcadia",
-            "entity": "location"
-          }
-        ],
-        "text": "I am most interested in Pasadena or Arcadia, but would be open to other suggestions"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 77,
-            "end": 92,
-            "value": "very large home",
+            "end": 63,
+            "value": "king-size beds",
             "entity": "house_feature"
           }
         ],
-        "text": "We have several generations of family living in our household and so need  a very large home"
+        "text": "it will be perfect if there is two bedrooms with king-size beds"
       },
       {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 48,
-            "end": 64,
-            "value": "view of the lake",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "In a perfect world, we would like a home with a view of the lake"
-      },
-      {
-        "intent": "house_request",
-        "text": "I want to go house shopping"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 28,
-            "end": 34,
-            "value": "Hawaii",
-            "entity": "location"
-          }
-        ],
-        "text": "I am thinking of moving  to Hawaii"
-      },
-      {
-        "intent": "house_request",
-        "text": "I am looking to buy a house for myself and my son"
-      },
-      {
-        "intent": "house_request",
-        "text": "I'd like to view some homes now"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 7,
-            "end": 15,
-            "value": "$335,000",
-            "entity": "price"
-          }
-        ],
-        "text": "i want $335,000, and i'll throw in the appliances"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 34,
-            "end": 39,
-            "value": "$330K",
-            "entity": "price"
-          }
-        ],
-        "text": "I am willing to raise my offer to $330K"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 59,
-            "end": 70,
-            "value": "25k dollars",
-            "entity": "price"
-          }
-        ],
-        "text": "The asking price has recently gone down to two hundred and 25k dollars"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 7,
-            "end": 18,
-            "value": "1000 dollar",
-            "entity": "price"
-          }
-        ],
-        "text": "500 to 1000 dollars for a home"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 17,
-            "value": "Central Amsterdam",
-            "entity": "local_feature"
-          },
-          {
-            "start": 26,
-            "end": 35,
-            "value": "20 minute",
-            "entity": "time_spent"
-          }
-        ],
-        "text": "Central Amsterdam is just 20 minute subway ride away from this spacious room"
-      },
-      {
-        "intent": "inform",
+        "intent": "house_inform",
         "entities": [
           {
             "start": 17,
-            "end": 27,
-            "value": "free Wi Fi",
-            "entity": "house_feature"
-          },
-          {
-            "start": 32,
-            "end": 44,
-            "value": "free parking",
+            "end": 31,
+            "value": "a free parking",
             "entity": "local_feature"
           }
         ],
-        "text": "Guests can enjoy free Wi Fi and free parking"
+        "text": "there is must be a free parking"
       },
       {
-        "intent": "inform",
+        "intent": "house_inform",
         "entities": [
           {
-            "start": 68,
-            "end": 81,
-            "value": "large windows",
-            "entity": "house_feature"
-          },
-          {
-            "start": 50,
-            "end": 63,
-            "value": "king size bed",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Comfortable and bright the modern room features a king size bed and large windows"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 46,
-            "end": 57,
-            "value": "double room",
-            "entity": "house_feature"
-          },
-          {
-            "start": 89,
-            "end": 109,
-            "value": "Amsterdam South East",
-            "entity": "location"
-          }
-        ],
-        "text": "Dear Guest We offer a spacous and comfortable double room in our modern new apartment in Amsterdam South East"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 110,
-            "end": 120,
-            "value": "20 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 92,
-            "end": 102,
-            "value": "Amsterdam ",
-            "entity": "location"
-          },
-          {
-            "start": 130,
-            "end": 151,
-            "value": "2 private guest rooms",
-            "entity": "house_feature"
-          },
-          {
-            "start": 182,
-            "end": 191,
-            "value": "king size",
-            "entity": "house_feature"
-          },
-          {
-            "start": 195,
-            "end": 206,
-            "value": "double beds",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "It s the outskirts of the city but the metro will take you to the historical town center of Amsterdam in just 20 minutes We offer 2 private guest rooms of 13 m2 no 1 22 m2 no 2 with king size or double beds in our home"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 27,
-            "end": 36,
-            "value": "6 persons",
-            "entity": "num_persons"
-          }
-        ],
-        "text": "There is maximum space for 6 persons"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 20,
-            "end": 39,
-            "value": "high speed internet",
-            "entity": "house_feature"
-          },
-          {
-            "start": 0,
+            "start": 7,
             "end": 15,
-            "value": "Sheets blankets",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Sheets blankets and high speed Internet access are included"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 61,
-            "end": 67,
-            "value": "bakery",
-            "entity": "local_feature"
-          },
-          {
-            "start": 72,
-            "end": 90,
-            "value": "leisure facilities",
-            "entity": "local_feature"
-          },
-          {
-            "start": 37,
-            "end": 58,
-            "value": "delicious restaurants",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "The local area also features several delicious restaurants a bakery and leisure facilities"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 4,
-            "end": 9,
-            "value": "metro",
-            "entity": "local_feature"
-          },
-          {
-            "start": 21,
-            "end": 39,
-            "value": "less than 1 minute",
-            "entity": "time_spent"
-          }
-        ],
-        "text": "The Metro Station is less than 1 minute walk away and provides access to the heart of the city"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 5,
-            "end": 15,
-            "value": "quiet area",
-            "entity": "local_feature"
-          },
-          {
-            "start": 20,
-            "end": 28,
             "value": "security",
             "entity": "local_feature"
           }
         ],
-        "text": "Is a quiet area and security"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 30,
-            "end": 39,
-            "value": "5 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 63,
-            "end": 73,
-            "value": "10 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 47,
-            "end": 58,
-            "value": "bus station",
-            "entity": "local_feature"
-          },
-          {
-            "start": 81,
-            "end": 86,
-            "value": "metro",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "We have one parking available 5 minutes to the bus station and 10 minutes to the metro"
+        "text": "i need security"
       },
       {
         "intent": "house_request",
         "entities": [
           {
-            "start": 7,
-            "end": 17,
-            "value": "great time",
-            "entity": "local_feature"
-          },
-          {
-            "start": 21,
-            "end": 30,
-            "value": "Amsterdam",
-            "entity": "location"
+            "start": 17,
+            "end": 21,
+            "value": "flat",
+            "entity": "real_estate_type"
           }
         ],
-        "text": "Have a great time in Amsterdam in my quite and very friendly house"
+        "text": "i am looking for flat"
       },
       {
         "intent": "house_request",
-        "entities": [
-          {
-            "start": 12,
-            "end": 30,
-            "value": "modern built house",
-            "entity": "house_feature"
-          },
-          {
-            "start": 40,
-            "end": 52,
-            "value": "safe parking",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "Comfortable modern built house free and safe parking in front"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 34,
-            "end": 41,
-            "value": "washer",
-            "entity": "house_feature"
-          },
-          {
-            "start": 41,
-            "end": 46,
-            "value": "dryer",
-            "entity": "house_feature"
-          },
-          {
-            "start": 80,
-            "end": 99,
-            "value": "fully loaded fridge",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "You have access to modern kitchen washer dryer ironing equipment free weights a fully loaded fridge"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 38,
-            "end": 50,
-            "value": "coffee shops",
-            "entity": "local_feature"
-          },
-          {
-            "start": 58,
-            "end": 62,
-            "value": "bars",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "This is a residential neighborhood no coffee shops and no bars"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 60,
-            "end": 72,
-            "value": "direct metro",
-            "entity": "local_feature"
-          },
-          {
-            "start": 87,
-            "end": 97,
-            "value": "15 minutes",
-            "entity": "time_spent"
-          }
-        ],
-        "text": "To get to centrum and historic Amsterdam you need to take a direct metro ride which is 15 minutes"
-      },
-      {
-        "intent": "house_request",
-        "entities": [
-          {
-            "start": 32,
-            "end": 41,
-            "value": "5 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 23,
-            "end": 29,
-            "value": "metro ",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "Distance from house to metro is 5 minutes walk"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 14,
-            "value": "Master Bedroom",
-            "entity": "bed_room"
-          },
-          {
-            "start": 85,
-            "end": 95,
-            "value": "Amsterdam",
-            "entity": "location"
-          }
-        ],
-        "text": "Master Bedroom mainly handmade interior design close to the vibrating city centre of Amsterdam surrounded by nature"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 20,
-            "end": 29,
-            "value": "Amsterdam",
-            "entity": "location"
-          }
-        ],
-        "text": "You wish to explore Amsterdam but at the same time relax and be surrounded by nature Our beautiful home offers luxury comfort sustainability fair trade arts culture massage music"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 18,
-            "value": "organic cotton bed",
-            "entity": "house_feature"
-          },
-          {
-            "start": 30,
-            "end": 36,
-            "value": "towels",
-            "entity": "house_feature"
-          },
-          {
-            "start": 19,
-            "end": 25,
-            "value": "sheets",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Organic cotton bed sheets and towels"
-      },
-      {
-        "intent": "inform",
         "entities": [
           {
             "start": 13,
-            "end": 31,
-            "value": "luxurious bathroom",
-            "entity": "house_feature"
+            "end": 22,
+            "value": "apartment",
+            "entity": "real_estate_type"
           }
         ],
-        "text": "We share our luxurious bathroom the kitchen island and the eating area with you"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 115,
-            "end": 134,
-            "value": "Amsterdam Southeast",
-            "entity": "location"
-          }
-        ],
-        "text": "An attractive stylish room on the ground floor in a modern monumental complex in the best kept secret of Amsterdam Amsterdam Southeast"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 21,
-            "value": "Two white chandeliers",
-            "entity": "house_feature"
-          },
-          {
-            "start": 58,
-            "end": 67,
-            "value": "twin beds",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Two white chandeliers above and reading lamps next to the twin beds which are comfortable"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 30,
-            "end": 52,
-            "value": "interactive television",
-            "entity": "house_feature"
-          },
-          {
-            "start": 53,
-            "end": 58,
-            "value": "Wi Fi",
-            "entity": "house_feature"
-          },
-          {
-            "start": 59,
-            "end": 68,
-            "value": "microwave",
-            "entity": "house_feature"
-          },
-          {
-            "start": 69,
-            "end": 75,
-            "value": "kettle",
-            "entity": "house_feature"
-          },
-          {
-            "start": 76,
-            "end": 86,
-            "value": "hair dryer",
-            "entity": "house_feature"
-          },
-          {
-            "start": 87,
-            "end": 99,
-            "value": "refrigerator",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Additional facilities include interactive television Wi Fi microwave kettle hair dryer refrigerator and also towels bathrobes dishes and eating utensils are provided"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 30,
-            "end": 36,
-            "value": "garden",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Guests are allowed to use the garden"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 9,
-            "end": 23,
-            "value": "beautiful park",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "Also the beautiful park is at their service"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 19,
-            "end": 35,
-            "value": "Amsterdam center",
-            "entity": "local_feature"
-          },
-          {
-            "start": 39,
-            "end": 45,
-            "value": "25 min",
-            "entity": "time_spent"
-          },
-          {
-            "start": 49,
-            "end": 54,
-            "value": "metro",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "You can get to the Amsterdam center in 25 min by metro"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 17,
-            "end": 29,
-            "value": "private room",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "You ll have your private room and an awesome shared living area bathroom and garden"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 20,
-            "end": 32,
-            "value": "storage area",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "You can fill up our storage area if you re travelling with a lot of luggage"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 78,
-            "end": 96,
-            "value": "quiet neighborhood",
-            "entity": "local_feature"
-          },
-          {
-            "start": 108,
-            "end": 117,
-            "value": "huge park",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "In the weekends if you want we could give you a nice tour of Amsterdam It s a quiet neighborhood close to a huge park at the edge of the city"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 24,
-            "end": 33,
-            "value": "3 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 49,
-            "end": 60,
-            "value": "bus station",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "Walking distances About 3 minutes to the closest bus station"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 6,
-            "end": 15,
-            "value": "5 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 31,
-            "end": 44,
-            "value": "metro station",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "About 5 minutes to the closest metro station"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 77,
-            "end": 96,
-            "value": "view transportation",
-            "entity": "local_feature"
-          },
-          {
-            "start": 21,
-            "end": 25,
-            "value": "calm",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "the neighbourhood is calm in the night you can sleep like a baby there are a view transportation possibiletys and you can get everywhere in a view minutes the ajax arena is in within walking distance"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "bathroom",
-            "entity": "location"
-          },
-          {
-            "start": 30,
-            "end": 45,
-            "value": "wonderfull view",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "bathroom toilet terras with a wonderfull view no access to the kitchen or the rest of the house i have almost everything that the geast should need in the room"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 17,
-            "value": "Central Amsterdam",
-            "entity": "local_feature"
-          },
-          {
-            "start": 26,
-            "end": 35,
-            "value": "20 minute",
-            "entity": "time_spent"
-          },
-          {
-            "start": 36,
-            "end": 42,
-            "value": "subway",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "Central Amsterdam is just 20 minute subway ride away from this spacious room"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 68,
-            "end": 81,
-            "value": "large windows",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Comfortable and bright the modern room features a king size bed and large windows"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 110,
-            "end": 120,
-            "value": "20 minutes",
-            "entity": "time_spent"
-          }
-        ],
-        "text": "It s the outskirts of the city but the metro will take you to the historical town center of Amsterdam in just 20 minutes We offer 2 private guest rooms of 13 m2 no 1 22 m2 no 2 with king size or double beds in our home"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 27,
-            "end": 36,
-            "value": "6 persons",
-            "entity": "num_persons"
-          }
-        ],
-        "text": "There is maximum space for 6 persons"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 20,
-            "end": 39,
-            "value": "high speed internet",
-            "entity": "location"
-          }
-        ],
-        "text": "Sheets blankets and high speed Internet access are included"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 61,
-            "end": 67,
-            "value": "bakery",
-            "entity": "local_feature"
-          },
-          {
-            "start": 72,
-            "end": 90,
-            "value": "leisure facilities",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "The local area also features several delicious restaurants a bakery and leisure facilities"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 4,
-            "end": 9,
-            "value": "metro",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "The Metro Station is less than 1 minute walk away and provides access to the heart of the city"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 37,
-            "end": 55,
-            "value": "great view silence",
-            "entity": "location"
-          }
-        ],
-        "text": "The place is situated on the channel great view silence"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 18,
-            "value": "kitchen livin room",
-            "entity": "location"
-          },
-          {
-            "start": 19,
-            "end": 30,
-            "value": "2 bathrooms",
-            "entity": "bath_room"
-          }
-        ],
-        "text": "Kitchen livin room 2 bathrooms wi fi 3D whidescreen television lake Depends on their wish It s a very friendly and quiet neighbourhood You can get at the apartment by metro bus or bycicle very easy"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 18,
-            "value": "kitchen livin room",
-            "entity": "location"
-          },
-          {
-            "start": 19,
-            "end": 30,
-            "value": "2 bathrooms",
-            "entity": "bath_room"
-          }
-        ],
-        "text": "Kitchen livin room 2 bathrooms wi fi 3D whidescreen television lake You will have your privacy in your room and the house is big enough to feel confortable"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 12,
-            "end": 21,
-            "value": "friendly",
-            "entity": "local_feature"
-          },
-          {
-            "start": 25,
-            "end": 31,
-            "value": "quiet",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "It s a very friendly and quiet neighbourhood You can get at the apartment by metro bus or bycicle very easy"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 12,
-            "value": "Free parking",
-            "entity": "local_feature"
-          },
-          {
-            "start": 33,
-            "end": 44,
-            "value": "2 bathrooms",
-            "entity": "house_feature"
-          },
-          {
-            "start": 45,
-            "end": 50,
-            "value": "wi fi",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Free parking Kitchen living room 2 bathrooms wi fi 3D whidescreen television garden You will have your privacy in your room and the house is big enough to feel confortable"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 8,
-            "end": 29,
-            "value": "wonderfully vacations",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "Enjoy a wonderfully vacations in one comfortable room with a small walking closet"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 15,
-            "end": 28,
-            "value": "security area",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "In a quiet and security area"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 30,
-            "end": 39,
-            "value": "5 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 55,
-            "end": 65,
-            "value": "10 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 73,
-            "end": 86,
-            "value": "metro station",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "We have one parking available 5 minutes to the bus and 10 minutes to the metro station"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 25,
-            "end": 38,
-            "value": "large windows",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "The room is clear with a large windows it s small walking closet TV additional cabinet with drawer for clothes too floor lamps and table and fan with light"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 74,
-            "end": 87,
-            "value": "three persons",
-            "entity": "num_persons"
-          }
-        ],
-        "text": "Also is important that you know this room is possible and comfortable for three persons"
+        "text": "give me some apartment"
       },
       {
         "intent": "house_request",
         "entities": [
           {
-            "start": 54,
-            "end": 62,
-            "value": "backyard",
-            "entity": "house_feature"
-          },
-          {
-            "start": 25,
-            "end": 43,
-            "value": "Amsterdam Zuidoost",
-            "entity": "location"
+            "start": 40,
+            "end": 50,
+            "value": "hanoi city",
+            "entity": "city"
           }
         ],
-        "text": "The house is situated in Amsterdam Zuidoost and has a backyard"
+        "text": "i need some information about houses in hanoi city"
       },
       {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 54,
-            "end": 64,
-            "value": "20 minutes",
-            "entity": "time_spent"
-          }
-        ],
-        "text": "You can get to the city centre easily by metro within 20 minutes"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 15,
-            "end": 27,
-            "value": "large window",
-            "entity": "house_feature"
-          },
-          {
-            "start": 34,
-            "end": 44,
-            "value": "double bed",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "The room has a large window and a double bed"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 35,
-            "end": 49,
-            "value": "queen size bed",
-            "entity": "house_feature"
-          },
-          {
-            "start": 60,
-            "end": 69,
-            "value": "2 persons",
-            "entity": "num_persons"
-          }
-        ],
-        "text": "The room we are offering you has a queen size bed ideal for 2 persons"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 12,
-            "end": 26,
-            "value": "quite spacious",
-            "entity": "local_feature"
-          },
-          {
-            "start": 34,
-            "end": 52,
-            "value": "completely private",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "The room is quite spacious and is completely private"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "microwave",
-            "entity": "location"
-          },
-          {
-            "start": 63,
-            "end": 71,
-            "value": "bathroom",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "microwave tosti machine dishwasher dining room living room and bathroom"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 43,
-            "end": 55,
-            "value": "Private room",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "We hope you will enjoy it as much as we do Private room Shared kitchen dining area living room bathroom toilet"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 17,
-            "end": 43,
-            "value": "North borough of Amsterdam",
-            "entity": "location"
-          }
-        ],
-        "text": "Apartment in the North borough of Amsterdam"
-      },
-      {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
             "start": 7,
-            "end": 18,
-            "value": "five minute",
-            "entity": "time_spent"
+            "end": 11,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i want home"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a house and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "house",
+            "entity": "real_estate_type"
           },
           {
-            "start": 58,
-            "end": 69,
-            "value": "supermarket",
-            "entity": "local_feature"
+            "start": 26,
+            "end": 31,
+            "value": "Hanoi",
+            "entity": "city"
           }
         ],
-        "text": "It s a five minute walk to a small shopping center with a supermarket"
+        "text": "i want to find a house in Hanoi"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 48,
-            "end": 58,
-            "value": "15 minutes",
-            "entity": "time_spent"
-          }
-        ],
-        "text": "Buses will take you to the city center in about 15 minutes day and night"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 9,
+            "start": 15,
             "end": 19,
-            "value": "one person",
-            "entity": "house_feature"
+            "value": "flat",
+            "entity": "real_estate_type"
           },
           {
-            "start": 83,
-            "end": 96,
-            "value": "second matras",
-            "entity": "house_feature"
+            "start": 23,
+            "end": 36,
+            "value": "nhatrang city",
+            "entity": "location"
           }
         ],
-        "text": "It has a one person bed which has an option for a second person because there is a second matras in the drawer beneath the bed"
+        "text": "search me some flat in nhatrang city"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a house and would like to speak with you."
+      },
+      {
+        "intent": "house_request",
         "entities": [
           {
             "start": 37,
-            "end": 56,
-            "value": "extra storage space",
-            "entity": "house_feature"
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
           }
         ],
-        "text": "If needed the apartment has a lot of extra storage space"
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a flat and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "4 millions",
+            "entity": "price"
+          },
+          {
+            "start": 37,
+            "end": 40,
+            "value": "vnd",
+            "entity": "currency"
+          }
+        ],
+        "text": "Is there a house in range 4 millions vnd?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "give me some houses"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "give me some home for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "give me some houses for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i want houses"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 32,
+            "end": 44,
+            "value": "Marine Drive",
+            "entity": "city"
+          }
+        ],
+        "text": "I'm interested in the houses in Marine Drive. What can you tell me about it?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "danang",
+            "entity": "location"
+          }
+        ],
+        "text": "i am looking for houses in danang"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "is there any flat less than 1 billion dollars?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "hcm",
+            "entity": "location"
+          }
+        ],
+        "text": "give me the list of home in hcm"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 46,
+            "end": 52,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "would you mind give me some information about houses for sell?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 46,
+            "end": 55,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "would you mind give me some information about apartment for sell?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i want apartment"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "hanoi city",
+            "entity": "location"
+          }
+        ],
+        "text": "i need some information about apartment in hanoi city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Hanoi",
+            "entity": "city"
+          }
+        ],
+        "text": "i want to find a house in Hanoi"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a house and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a home and would like to speak with you"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "give me some flat"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a house and would like to speak with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "need flat for sell"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "need apartment for sell"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Hanoi",
+            "entity": "city"
+          }
+        ],
+        "text": "i want to find a house in Hanoi"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 46,
+            "end": 50,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "would you mind give me some information about flat for sell?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a houses and would like to speak with you"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "homes",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I'd like to view some homes now"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "DaNang",
+            "entity": "city"
+          },
+          {
+            "start": 47,
+            "end": 56,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 57,
+            "end": 60,
+            "value": "vnd",
+            "entity": "currency"
+          }
+        ],
+        "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 38,
+            "end": 48,
+            "value": "hanoi city",
+            "entity": "location"
+          }
+        ],
+        "text": "i need some information about home in hanoi city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i am looking for houses"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "homes",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I'd like to view some homes now"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 46,
+            "end": 52,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "would you mind give me some information about houses for sell?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a house and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Hanoi",
+            "entity": "city"
+          }
+        ],
+        "text": "i want to find a house in Hanoi"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "give me some flat for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "need houses for sell"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I want to go apartment shopping"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I want to go houses shopping"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am interested in buying a house and need some information."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "houses",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "i want houses"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "hcm",
+            "entity": "location"
+          }
+        ],
+        "text": "give me the list of flat in hcm"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 25,
+            "end": 38,
+            "value": "nhatrang city",
+            "entity": "location"
+          }
+        ],
+        "text": "search me some houses in nhatrang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 33,
+            "end": 42,
+            "value": "1 million",
+            "entity": "price"
+          },
+          {
+            "start": 46,
+            "end": 60,
+            "value": "nha trang city",
+            "entity": "location"
+          }
+        ],
+        "text": "search me some home no more than 1 million in nha trang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I want to go home shopping"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "give me some houses for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "danang",
+            "entity": "location"
+          }
+        ],
+        "text": "i am looking for home in danang"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 33,
+            "value": "hcm",
+            "entity": "city"
+          }
+        ],
+        "text": "give me the list of houses in hcm"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "need home for sell"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 25,
+            "end": 38,
+            "value": "nhatrang city",
+            "entity": "city"
+          }
+        ],
+        "text": "search me some houses in nhatrang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "DaNang",
+            "entity": "city"
+          },
+          {
+            "start": 47,
+            "end": 56,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 57,
+            "end": 60,
+            "value": "vnd",
+            "entity": "currency"
+          }
+        ],
+        "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
       },
       {
         "intent": "house_request",
         "entities": [
           {
             "start": 16,
-            "end": 31,
-            "value": "washing machine",
-            "entity": "house_feature"
+            "end": 20,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "4 persons",
+            "entity": "num_persons"
           }
         ],
-        "text": "You can use the washing machine for free"
+        "text": "i want to buy a home for 4 persons"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 2,
-            "end": 24,
-            "value": "private double bedroom",
-            "entity": "bed_room"
+            "start": 13,
+            "end": 17,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "dollars",
+            "entity": "currency"
           }
         ],
-        "text": "A private double bedroom with your own private entrance"
+        "text": "is there any home less than 1 billion dollars?"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I want to go flat shopping"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 39,
+            "value": "4 persons",
+            "entity": "num_persons"
+          }
+        ],
+        "text": "i want to buy a apartment for 4 persons"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am looking to buy a house for myself and my son"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "flat",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a flat and would like to speak with you"
+      },
+      {
+        "intent": "house_request",
         "entities": [
           {
             "start": 5,
-            "end": 15,
-            "value": "15 minutes",
-            "entity": "time_spent"
+            "end": 11,
+            "value": "houses",
+            "entity": "real_estate_type"
           }
         ],
-        "text": "Only 15 minutes away from the city that is easily accessible day and night"
+        "text": "need houses for sell"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 33,
-            "end": 43,
-            "value": "great view",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "It s a whole new building with a great view"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 45,
-            "end": 55,
-            "value": "quiet area",
-            "entity": "local_feature"
+            "start": 15,
+            "end": 24,
+            "value": "apartment",
+            "entity": "real_estate_type"
           },
           {
-            "start": 87,
-            "end": 97,
-            "value": "15 minutes",
-            "entity": "time_spent"
+            "start": 28,
+            "end": 41,
+            "value": "nhatrang city",
+            "entity": "location"
           }
         ],
-        "text": "Our home which accomodates 5 is located in a quiet area with the centre of Amsterdam a 15 minutes bike ride away"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 33,
-            "end": 47,
-            "value": "three bedrooms",
-            "entity": "bed_room"
-          },
-          {
-            "start": 50,
-            "end": 64,
-            "value": "small bathroom",
-            "entity": "bath_room"
-          }
-        ],
-        "text": "With a nice spacious living room three bedrooms a small bathroom and a garden you have the perfect base to wander around the city or even go into the countryside"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 44,
-            "end": 56,
-            "value": "great garden",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "My apartment is on the groudfloor and has a great garden"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 34,
-            "end": 44,
-            "value": "15 minutes",
-            "entity": "time_spent"
-          }
-        ],
-        "text": "By bike and bus Amsterdam city is 15 minutes away"
+        "text": "search me some apartment in nhatrang city"
       },
       {
         "intent": "house_request",
         "entities": [
           {
             "start": 30,
-            "end": 42,
-            "value": "supermarkets",
-            "entity": "local_feature"
+            "end": 34,
+            "value": "flat",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 38,
+            "end": 48,
+            "value": "hanoi city",
+            "entity": "location"
           }
         ],
-        "text": "In front of my house you have supermarkets and more"
+        "text": "i need some information about flat in hanoi city"
       },
       {
         "intent": "house_request",
         "entities": [
           {
-            "start": 0,
-            "end": 12,
-            "value": "Free parking",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "Free parking at my house I have 4 bikes availeble that you can rent"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "2 minutes",
-            "entity": "time_spent"
+            "start": 11,
+            "end": 16,
+            "value": "house",
+            "entity": "real_estate_type"
           },
           {
-            "start": 199,
-            "end": 209,
-            "value": "15 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 42,
-            "end": 56,
-            "value": "2 supermarkets",
-            "entity": "local_feature"
-          }
-        ],
-        "text": "2 minutes walking from my house there are 2 supermarkets grocery stores bakkery buther and more Really handy From the airport Schiphol Please take a train to central station Amsterdam this will take 15 minutes"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 20,
-            "end": 30,
-            "value": "15 minutes",
-            "entity": "time_spent"
-          },
-          {
-            "start": 49,
-            "end": 58,
-            "value": "2 minutes",
-            "entity": "time_spent"
-          }
-        ],
-        "text": "The bustrip is also 15 minutes and then you walk 2 minutes to my house"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 18,
-            "end": 30,
-            "value": "quiet street",
-            "entity": "local_feature"
+            "start": 26,
+            "end": 36,
+            "value": "4 millions",
+            "entity": "price"
           },
           {
             "start": 37,
-            "end": 47,
-            "value": "10 minutes",
-            "entity": "time_spent"
+            "end": 44,
+            "value": "dollars",
+            "entity": "currency"
           }
         ],
-        "text": "Our house is in a quiet street about 10 minutes from the center of Amsterdam"
+        "text": "Is there a house in range 4 millions dollars?"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 63,
-            "end": 70,
-            "value": "balcony",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "It has a living room and kitchen also there is 1 bedroom and a balcony"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 62,
-            "end": 72,
-            "value": "10 minutes",
-            "entity": "time_spent"
-          }
-        ],
-        "text": "The apartment is in the quiet part of Amsterdam but less then 10 minutes you are in the vibrant centre of Amsterdam"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 53,
-            "end": 67,
-            "value": "beautiful view",
-            "entity": "local_feature"
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
           },
           {
-            "start": 142,
-            "end": 161,
-            "value": "spacious studioroom",
-            "entity": "house_feature"
+            "start": 31,
+            "end": 37,
+            "value": "DaNang",
+            "entity": "city"
           },
           {
-            "start": 173,
-            "end": 186,
-            "value": "queensize bed",
-            "entity": "house_feature"
-          }
-        ],
-        "text": "Welcome Relax wake up with the sounds of birds and a beautiful view on the park Come check out the green side of Amsterdam While staying in a spacious studioroom 45m with a queensize bed and alot of light coming in Cozy quiet practical What makes this room so special is the enormous amount of space it offers"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 175,
-            "end": 189,
-            "value": "beautiful view",
-            "entity": "local_feature"
+            "start": 47,
+            "end": 56,
+            "value": "1 billion",
+            "entity": "price"
           },
           {
-            "start": 9,
-            "end": 23,
-            "value": "queen size bed",
-            "entity": "house_feature"
+            "start": 57,
+            "end": 60,
+            "value": "vnd",
+            "entity": "currency"
           }
         ],
-        "text": "With its queen size bed it s very comfortable and you will fall asleep in an instant Besides the big size the room also offers a lot of privacy having your own balcony with a beautiful view and a dining table right at your hand"
+        "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 66,
-            "end": 82,
-            "value": "5 or more people",
-            "entity": "num_persons"
+            "start": 33,
+            "end": 38,
+            "value": "house",
+            "entity": "real_estate_type"
           }
         ],
-        "text": "The room is perfect for a couple but can easily accommodate up to 5 or more people"
+        "text": "I have been thinking of buying a house and would like to speak with you."
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 66,
-            "end": 88,
-            "value": "comfortable double bed",
-            "entity": "house_feature"
+            "start": 22,
+            "end": 26,
+            "value": "flat",
+            "entity": "real_estate_type"
           },
           {
-            "start": 11,
-            "end": 25,
-            "value": "queen size bed",
-            "entity": "house_feature"
+            "start": 30,
+            "end": 42,
+            "value": "Marine Drive",
+            "entity": "city"
           }
         ],
-        "text": "It has one queen size bed and another sofa bed which turns into a comfortable double bed"
+        "text": "I'm interested in the flat in Marine Drive. What can you tell me about it?"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
             "start": 15,
-            "end": 24,
-            "value": "6 persons",
-            "entity": "num_persons"
+            "end": 21,
+            "value": "houses",
+            "entity": "real_estate_type"
           },
           {
-            "start": 72,
-            "end": 91,
-            "value": "an extra double bed",
-            "entity": "house_feature"
+            "start": 35,
+            "end": 44,
+            "value": "1 million",
+            "entity": "price"
           },
           {
-            "start": 96,
-            "end": 113,
-            "value": "an extra mattress",
-            "entity": "house_feature"
+            "start": 45,
+            "end": 52,
+            "value": "dollars",
+            "entity": "currency"
           }
         ],
-        "text": "When more than 6 persons the second bedroom will be used which contains an extra double bed and an extra mattress will be added"
+        "text": "search me some houses no more than 1 million dollars"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 34,
-            "end": 42,
-            "value": "good bed",
-            "entity": "house_feature"
-          },
-          {
-            "start": 10,
-            "end": 26,
-            "value": "clean quiet room",
-            "entity": "house_feature"
+            "start": 22,
+            "end": 27,
+            "value": "homes",
+            "entity": "real_estate_type"
           }
         ],
-        "text": "You get a clean quiet room with a good bed and green view"
+        "text": "I'd like to view some homes now"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 50,
-            "end": 60,
-            "value": "15 minutes",
-            "entity": "time_spent"
+            "start": 17,
+            "end": 21,
+            "value": "flat",
+            "entity": "real_estate_type"
           },
           {
-            "start": 81,
-            "end": 102,
-            "value": "amsterdam city center",
+            "start": 25,
+            "end": 31,
+            "value": "danang",
             "entity": "location"
           }
         ],
-        "text": "What I have to offer is a very spacious apartment 15 minutes bus nr 32 ride from Amsterdam city center"
+        "text": "i am looking for flat in danang"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "danang",
+            "entity": "location"
+          }
+        ],
+        "text": "i am looking for apartment in danang"
+      },
+      {
+        "intent": "house_request",
         "entities": [
           {
             "start": 28,
-            "end": 38,
-            "value": "baanakkers",
-            "entity": "local_feature"
+            "end": 32,
+            "value": "home",
+            "entity": "real_estate_type"
           }
         ],
-        "text": "Immersed in the greenery at Baanakkers Park"
+        "text": "I am interested in buying a home and need some information."
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 55,
-            "end": 64,
-            "value": "10 minute",
-            "entity": "time_spent"
+            "start": 13,
+            "end": 22,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 33,
+            "end": 42,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 43,
+            "end": 50,
+            "value": "dollars",
+            "entity": "currency"
           }
         ],
-        "text": "Our beautiful newly renovated apartment located just a 10 minute bus ride from the city center with easy access to the station just outside our building"
+        "text": "is there any apartment less than 1 billion dollars?"
       },
       {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
-            "start": 12,
-            "end": 21,
-            "value": "40 minute",
-            "entity": "time_spent"
+            "start": 11,
+            "end": 16,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "4 millions",
+            "entity": "price"
+          },
+          {
+            "start": 37,
+            "end": 44,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "Is there a house in range 4 millions dollars?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "house",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I am looking to buy a house for myself and my son"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 23,
+            "end": 36,
+            "value": "nhatrang city",
+            "entity": "location"
+          }
+        ],
+        "text": "search me some home in nhatrang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 33,
+            "end": 42,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I have been thinking of buying a apartment and would like to speak with you"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 35,
+            "end": 47,
+            "value": "Marine Drive",
+            "entity": "city"
+          }
+        ],
+        "text": "I'm interested in the apartment in Marine Drive. What can you tell me about it?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "danang",
+            "entity": "city"
+          }
+        ],
+        "text": "i am looking for houses in danang"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "apartment",
+            "entity": "real_estate_type"
           },
           {
             "start": 27,
             "end": 36,
-            "value": "20 minute",
-            "entity": "time_spent"
+            "value": "4 persons",
+            "entity": "num_persons"
           }
         ],
-        "text": "It s just a 40 minute walk 20 minute bike ride including beautiful ferry ride to the Center"
+        "text": "give me some apartment for 4 persons"
       },
       {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 8,
-            "end": 20,
-            "value": "one bathroom",
-            "entity": "bath_room"
-          }
-        ],
-        "text": "We have one bathroom and one shower laundry room"
-      },
-      {
-        "intent": "inform",
+        "intent": "house_request",
         "entities": [
           {
             "start": 15,
-            "end": 33,
-            "value": "own shower kitchen",
-            "entity": "house_feature"
+            "end": 24,
+            "value": "apartment",
+            "entity": "real_estate_type"
           },
           {
             "start": 38,
-            "end": 54,
-            "value": "2 sleeping rooms",
-            "entity": "bed_room"
+            "end": 47,
+            "value": "1 million",
+            "entity": "price"
+          },
+          {
+            "start": 51,
+            "end": 65,
+            "value": "nha trang city",
+            "entity": "location"
           }
         ],
-        "text": "Apartment with own shower kitchen and 2 sleeping rooms"
+        "text": "search me some apartment no more than 1 million in nha trang city"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "home",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 42,
+            "value": "Marine Drive",
+            "entity": "city"
+          }
+        ],
+        "text": "I'm interested in the home in Marine Drive. What can you tell me about it?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "apartment",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 33,
+            "end": 36,
+            "value": "hcm",
+            "entity": "location"
+          }
+        ],
+        "text": "give me the list of apartment in hcm"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "houses",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 30,
+            "end": 39,
+            "value": "1 billion",
+            "entity": "price"
+          },
+          {
+            "start": 40,
+            "end": 47,
+            "value": "dollars",
+            "entity": "currency"
+          }
+        ],
+        "text": "is there any houses less than 1 billion dollars?"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 37,
+            "end": 41,
+            "value": "home",
+            "entity": "real_estate_type"
+          }
+        ],
+        "text": "I would like to discuss purchasing a home with you."
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thankyou",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thankyou",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks"
       }
     ],
     "regex_features": [
       {
+        "name": "city",
+        "pattern": "[aA-zZ]+ [cC][iI][tT][yY]"
+      },
+      {
         "name": "price",
-        "pattern": "[0-9]{}"
+        "pattern": "(\\d+\\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
+      },
+      {
+        "name": "price",
+        "pattern": "(\\d+\\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
+      },
+      {
+        "name": "price",
+        "pattern": "(\\d+\\s*(?:[mM]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
       },
       {
         "name": "zipcode",
@@ -2208,38 +3028,57 @@
     ],
     "lookup_tables": [
       {
-        "name": "location",
-        "elements": "data/location/location.txt"
+        "name": "real_estate_type",
+        "elements": [
+          "apartment",
+          "flat",
+          "house",
+          "home"
+        ]
       },
       {
         "name": "city",
-        "elements": [
-          "Hanoi",
-          "Ho Chi Minh",
-          "Danang",
-          "cheese"
-        ]
+        "elements": "data/location/city.txt"
+      },
+      {
+        "name": "currency",
+        "elements": "data/currency/currency.txt"
       }
     ],
     "entity_synonyms": [
       {
-        "value": "Ho Chi Minh City",
+        "value": "HCM city",
         "synonyms": [
-          "HoChiMinh city",
+          "Ho Chi Minh City",
+          "HoChiMinh City",
+          "hochiminh city",
+          "ho chi minh",
           "hcmc",
           "Sai Gon",
           "Saigon",
-          "Saigon city",
+          "saigon",
           "hcm"
         ]
       },
       {
-        "value": "dollar",
+        "value": "apartment",
+        "synonyms": [
+          "flat"
+        ]
+      },
+      {
+        "value": "house",
+        "synonyms": [
+          "houses",
+          "home"
+        ]
+      },
+      {
+        "value": "usd",
         "synonyms": [
           "dollars",
           "$",
-          "usd",
-          "buck"
+          "dollar"
         ]
       }
     ]

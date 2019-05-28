@@ -148,8 +148,18 @@
 - i'm off
 - see you later alligator
 - we'll speak soon
+- see ya
+- farewell
+- byebye!
+- bye
+- goodbye
 
 ## intent:greet
+- yo
+- hi there
+- nice to meet you
+- yolo
+- hey
 - Hello
 - Hello
 - hey
@@ -176,131 +186,196 @@
 - hi
 
 ## intent:house_request
-- i am looking for houses
-- I am interested in buying a house and need some information.
-- I would like to discuss purchasing a home with you.
-- I have been thinking of buying a house and would like to speak with you.
-- I'm interested in the house in [Marine Drive](city). What can you tell me about it?
-- i want to find a house in [Hanoi](city)
-- Is there a house in range [4 millions dollars](price)?
-- i would like to buy a house in [DaNang](city)city with [1 billion](price) [vnd](currency)
-- I would like to discuss purchasing a home with you.
-- I am interested in buying a house and need some information.
-- I have been thinking of buying a house and would like to speak with you
-- I want to go house shopping
-- I am looking to buy a house for myself and my son
-- I'd like to view some homes now
-- i want to buy a house for [4 persons](num_persons)
+- i am looking for [houses](real_estate_type)
+- I am interested in buying a [house](real_estate_type) and need some information.
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
+- I'm interested in the [houses](real_estate_type) in [Marine Drive](city). What can you tell me about it?
+- i want to find a [house](real_estate_type) in [Hanoi](city)
+- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I am interested in buying a [houses](real_estate_type) and need some information.
+- I have been thinking of buying a [houses](real_estate_type) and would like to speak with you
+- I want to go [houses](real_estate_type) shopping
+- I am looking to buy a [house](real_estate_type) for myself and my son
+- I'd like to view some [homes](real_estate_type) now
+- i want to buy a [houses](real_estate_type) for [4 persons](num_persons)
+- i am looking for [houses](real_estate_type) in [danang](location)
+- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](currency)?
+- give me the list of [houses](real_estate_type) in [hcm](location)
+- i want [houses](real_estate_type)
+- give me some [houses](real_estate_type)
+- i need some information about [houses](real_estate_type) in [hanoi city](location)
+- search me some [houses](real_estate_type) in [nhatrang city](location)
+- search me some [houses](real_estate_type) no more than [1 million](price) in [nha trang city](location)
+- would you mind give me some information about [houses](real_estate_type) for sell?
+- need [houses](real_estate_type) for sell
+- give me some [houses](real_estate_type) for [4 persons](num_persons)
+- i am looking for [apartment](real_estate_type)
+- I am interested in buying a [house](real_estate_type) and need some information.
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
+- I'm interested in the [apartment](real_estate_type) in [Marine Drive](city). What can you tell me about it?
+- i want to find a [house](real_estate_type) in [Hanoi](city)
+- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I am interested in buying a [apartment](real_estate_type) and need some information.
+- I have been thinking of buying a [apartment](real_estate_type) and would like to speak with you
+- I want to go [apartment](real_estate_type) shopping
+- I am looking to buy a [house](real_estate_type) for myself and my son
+- I'd like to view some [homes](real_estate_type) now
+- i want to buy a [apartment](real_estate_type) for [4 persons](num_persons)
+- i am looking for [apartment](real_estate_type) in [danang](location)
+- is there any [apartment](real_estate_type) less than [1 billion](price) [dollars](currency)?
+- give me the list of [apartment](real_estate_type) in [hcm](location)
+- i want [apartment](real_estate_type)
+- give me some [apartment](real_estate_type)
+- i need some information about [apartment](real_estate_type) in [hanoi city](location)
+- search me some [apartment](real_estate_type) in [nhatrang city](location)
+- search me some [apartment](real_estate_type) no more than [1 million](price) in [nha trang city](location)
+- would you mind give me some information about [apartment](real_estate_type) for sell?
+- need [apartment](real_estate_type) for sell
+- give me some [apartment](real_estate_type) for [4 persons](num_persons)
+- i am looking for [home](real_estate_type)
+- I am interested in buying a [house](real_estate_type) and need some information.
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
+- I'm interested in the [home](real_estate_type) in [Marine Drive](city). What can you tell me about it?
+- i want to find a [house](real_estate_type) in [Hanoi](city)
+- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I am interested in buying a [home](real_estate_type) and need some information.
+- I have been thinking of buying a [home](real_estate_type) and would like to speak with you
+- I want to go [home](real_estate_type) shopping
+- I am looking to buy a [house](real_estate_type) for myself and my son
+- I'd like to view some [homes](real_estate_type) now
+- i want to buy a [home](real_estate_type) for [4 persons](num_persons)
+- i am looking for [home](real_estate_type) in [danang](location)
+- is there any [home](real_estate_type) less than [1 billion](price) [dollars](currency)?
+- give me the list of [home](real_estate_type) in [hcm](location)
+- i want [home](real_estate_type)
+- give me some [home](real_estate_type)
+- i need some information about [home](real_estate_type) in [hanoi city](location)
+- search me some [home](real_estate_type) in [nhatrang city](location)
+- search me some [home](real_estate_type) no more than [1 million](price) in [nha trang city](location)
+- would you mind give me some information about [home](real_estate_type) for sell?
+- need [home](real_estate_type) for sell
+- give me some [home](real_estate_type) for [4 persons](num_persons)
+- i am looking for [flat](real_estate_type)
+- I am interested in buying a [house](real_estate_type) and need some information.
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
+- I'm interested in the [flat](real_estate_type) in [Marine Drive](city). What can you tell me about it?
+- i want to find a [house](real_estate_type) in [Hanoi](city)
+- Is there a [house](real_estate_type) in range [4 millions](price) [vnd](currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I am interested in buying a [flat](real_estate_type) and need some information.
+- I have been thinking of buying a [flat](real_estate_type) and would like to speak with you
+- I want to go [flat](real_estate_type) shopping
+- I am looking to buy a [house](real_estate_type) for myself and my son
+- I'd like to view some [homes](real_estate_type) now
+- i want to buy a [flat](real_estate_type) for [4 persons](num_persons)
+- i am looking for [flat](real_estate_type) in [danang](location)
+- is there any [flat](real_estate_type) less than [1 billion](price) [dollars](currency)?
+- give me the list of [flat](real_estate_type) in [hcm](location)
+- i want [flat](real_estate_type)
+- give me some [flat](real_estate_type)
+- i need some information about [flat](real_estate_type) in [hanoi city](location)
+- search me some [flat](real_estate_type) in [nhatrang city](location)
+- search me some [flat](real_estate_type) no more than [1 million](price) in [nha trang city](location)
+- would you mind give me some information about [flat](real_estate_type) for sell?
+- need [flat](real_estate_type) for sell
+- give me some [flat](real_estate_type) for [4 persons](num_persons)
+- i am looking for [houses](real_estate_type) in [danang](city)
+- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](currency)? 
+- give me the list of [houses](real_estate_type) in [hcm](city)
+- i want [houses](real_estate_type)
+- give me some [houses](real_estate_type)
+- i need some information about houses in [hanoi city](city)
+- search me some [houses](real_estate_type) in [nhatrang city](city)
+- search me some [houses](real_estate_type) no more than [1 million](price) [dollars](currency)
+- would you mind give me some information about [houses](real_estate_type) for sell?
+- need [houses](real_estate_type) for sell
+- give me some [houses](real_estate_type) for [4 persons](num_persons)
 
-## intent:inform
+
+## intent:house_inform
+- no more than [$](currency)[1M](price)
+- no more than [$](currency)[100000](price)
+- no more than [100000](price) [dollars](currency)
+- it is pretty stupid for now
+- hey i think i will change the price to more than [200000](price) [dollars](currency)
+- i need the neighborhood to be secured and there is must be at least one [free parking](local_feature)
+- i need [security](local_feature)
+- it will be perfect if there is [two bedrooms](bed_room) with [king-size beds](house_feature)
+- there is must be [a free parking](local_feature)
+- i need [a bus stop](transportation) nearby
+- i need [two guess room](guess_room)
+- it is better if i can go to [the bus](transportation) in [25 minutes](time_spent)
+- i need [a bathroom](bath_room) for each room
+- in [Ho Chi Minh city](city)
+- somewhere in [Hanoi city](city)
+- i need some [modern coach](house_feature)
+- I am interested in [Pasadena](city)or [Arcadia](city).
+- We need a [medium-sized](house_feature) [house](real_estate_type) with at least [3 bedrooms](bed_room) and [2 bathrooms](bath_room)
+- Yes, we want to stay in the [ABC School District](city)
+- I would love to have a [home](real_estate_type) with [a view](local_feature)
+- I would like to live in [Pasadena](city)
+- We would like a [smaller cozy cottage](house_feature) with [2 bedrooms](bed_room) and [1 bathroom](bath_room)
+- We really want to live in a [lakeside](local_feature) [home](real_estate_type) with a [dock](local_feature) for our boat
+- I am most interested in [Pasadena](city)
+- We have several generations of family living in our household and so need a [very large home](house_feature)
+- In a perfect world, we would like a [home](real_estate_type) with a [view of the lake](local_feature)
+- I am thinking of moving  to [Hawaii](city)
+- i want [$](currency)[335000](price), and i'll throw in the appliances
+- I am willing to raise my offer to [$](currency)[330K](price)
+- The asking price has recently gone down to two hundred and [25k](price) [usd](currency)
+- [500](price) to [1000](price) [euro](currency) for a [home](real_estate_type)
 - under [4mil](price)
 - [Ho Chi Minh city](city)
-- Comfortable and bright, the modern room features a[king-size bed](house_feature), and [large windows](house_feature)
-- It's the outskirts of the city, but the [metro](transportation) will take you to the historical town center of Amsterdam in just [20 minutes](time_spent)! We offer [2 private guest rooms](guess_room) of 13 m2 (no.1), 22 m2 (no.2) with[king-size](house_feature: king-size beds) or [double beds](house_feature) in our home
--  The local area also features several delicious [restaurants](local_feature), a [bakery](local_feature) and [leisure facilities](local_feature)
-- [The Metro Station](city) is [less than 1 minute](less_time_spent) [walk away](transportation), and provides access to the heart of the city
-- Is a [quiet area](local_feature) and [security](local_feature)
--  We have one [parking](local_feature) available, [5 minutes](time_spent) to the[bus station](local_feature)[bus station](city) and [10 minutes](time_spent) to[the metro](city)[the metro](local_feature)
-- This is a [residential neighborhood](local_feature), [no](quantity) [coffee shops](city)[coffee shops](local_feature) and no [bars](city)[bars](local_feature)
-- Additional facilities include [interactive television](house_feature), [Wi-Fi](house_feature), [microwave](house_feature), [kettle](house_feature), [hair dryer](house_feature), [refrigerator](house_feature) and also [towels](house_feature), [bathrobes](house_feature), [dishes](house_feature) and[eating utensils](house_feature) are provided
-- I am interested in [Pasadena](city)or [Arcadia](city).
-- We need a [medium-sized](house_feature) house with at least [3 bedrooms](bed_room) and [2 bathrooms](bath_room)
-- Yes, we want to stay in the [ABC School District](city).
-- I would love to have a home with [a view](local_feature)
-- I would like to live in [Pasadena](city)or [Arcadia](city).
-- We would like a [smaller cozy cottage](house_feature) with [2 bedrooms](bed_room) and [1 bathroom](bath_room).
-- We really want to live in a [lakeside home](local_feature) with a [dock](local_feature) for our boat
-- I am most interested in [Pasadena](city)or [Arcadia](city), but would be open to other suggestions
-- We have several generations of family living in our household and so need  a [very large home](house_feature)
-- In a perfect world, we would like a home with a [view of the lake](local_feature)
-- I am thinking of moving  to [Hawaii](city)
-- i want [$335,000](price), and i'll throw in the appliances
-- I am willing to raise my offer to [$330K](price)
-- The asking price has recently gone down to two hundred and [25k dollars](price)
-- 500 to [1000 dollar](price)s for a home
-- [Central Amsterdam](local_feature) is just [20 minute](time_spent) subway ride away from this spacious room
-- Guests can enjoy [free Wi Fi](house_feature) and [free parking](local_feature)
-- Comfortable and bright the modern room features a [king size bed](house_feature) and [large windows](house_feature)
-- Dear Guest We offer a spacous and comfortable [double room](house_feature) in our modern new apartment in [Amsterdam South East](city)
-- It s the outskirts of the city but the metro will take you to the historical town center of [Amsterdam](city)in just [20 minutes](time_spent) We offer [2 private guest rooms](house_feature) of 13 m2 no 1 22 m2 no 2 with [king size](house_feature) or [double beds](house_feature) in our home
+- no more than [$](currency)[1M](price)
+- no more than [$](currency)[100000](price)
+- no more than [100000](price) [euro](currency)
+- hey i think i will change the price to more than [200000](price) [vnd](currency)
+- i need the neighborhood to be secured and there is must be at least one [free parking](local_feature)
+- i need [security](local_feature)
+- it will be perfect if there is [two bedrooms](bed_room) with [king-size beds](house_feature)
+- there is must be [a free parking](local_feature)
+- i need [a bus stop](transportation) nearby
+- i need [two guess room](guess_room)
+- it is better if i can go to [the bus](transportation) in [25 minutes](time_spent)
+- i need [a bathroom](bath_room) for each room
+- in [Ho Chi Minh city](location)
+- somewhere in [Hanoi city](location)
+- i need some [modern coach](house_feature)
 - There is maximum space for [6 persons](num_persons)
-- [Sheets blankets](house_feature) and [high speed Internet](house_feature:high speed internet) access are included
-- The local area also features several [delicious restaurants](local_feature) a [bakery](local_feature) and [leisure facilities](local_feature)
-- The [Metro](local_feature:metro) Station is [less than 1 minute](time_spent) walk away and provides access to the heart of the city
-- Is a [quiet area](local_feature) and [security](local_feature)
-- We have one parking available [5 minutes](time_spent) to the [bus station](local_feature) and [10 minutes](time_spent) to the [metro](local_feature)
-- You have access to modern kitchen [washer](house_feature:washer)[dryer](house_feature) ironing equipment free weights a [fully loaded fridge](house_feature)
-- This is a residential neighborhood no [coffee shops](local_feature) and no [bars](local_feature)
-- To get to centrum and historic Amsterdam you need to take a [direct metro](local_feature) ride which is [15 minutes](time_spent)
-- [Master Bedroom](bed_room) mainly handmade interior design close to the vibrating city centre of [Amsterdam](city:Amsterdam)surrounded by nature
-- You wish to explore [Amsterdam](city) but at the same time relax and be surrounded by nature Our beautiful home offers luxury comfort sustainability fair trade arts culture massage music
-- [Organic cotton bed](house_feature:organic cotton bed) [sheets](house_feature) and [towels](house_feature)
-- We share our [luxurious bathroom](house_feature) the kitchen island and the eating area with you
-- An attractive stylish room on the ground floor in a modern monumental complex in the best kept secret of Amsterdam [Amsterdam Southeast](city)
-- [Two white chandeliers](house_feature) above and reading lamps next to the [twin beds](house_feature) which are comfortable
-- Additional facilities include [interactive television](house_feature) [Wi Fi](house_feature) [microwave](house_feature) [kettle](house_feature) [hair dryer](house_feature) [refrigerator](house_feature) and also towels bathrobes dishes and eating utensils are provided
-- Guests are allowed to use the [garden](house_feature)
-- Also the [beautiful park](local_feature) is at their service
-- You can get to the [Amsterdam center](local_feature) in [25 min](time_spent) by [metro](local_feature)
-- You ll have your [private room](house_feature) and an awesome shared living area bathroom and garden
-- You can fill up our [storage area](house_feature) if you re travelling with a lot of luggage
-- In the weekends if you want we could give you a nice tour of Amsterdam It s a [quiet neighborhood](local_feature) close to a [huge park](local_feature) at the edge of the city
-- Walking distances About [3 minutes](time_spent) to the closest [bus station](local_feature)
+- i need local is a [quiet area](local_feature) and [security](local_feature)
+- i want a [spacous](house_feature) and [comfortable](house_feature)
+- i need [double room](bed_room) in our [modern](house_feature) new [apartment](real_estate_type) in [Amsterdam South East](city)
+- [Comfortable](house_feature) and [bright](house_feature)
+- the modern room features a[king-size bed](house_feature) and [large windows](house_feature)
+- i need [metro](transportation) nearby to travel around
+- The local area also features several delicious [restaurants](local_feature), a [bakery](local_feature) and [leisure facilities](local_feature)
+- i need a [free parking](local_feature) available nearby
+- i need to travel to [restaurant](local_feature) in no more than [10 minute](time_spent)
+- i need to go to [metro station](local_feature) in no more than [5 minute](time_spent)
+- i need to travel to [central of the city](location) in less than [10 minute](time_spent)
+- i need to go to [free parking](local_feature) in no more than [5 minute](time_spent)
+- This is a [residential neighborhood](local_feature), [coffee shops](local_feature) and no [bars](local_feature)
+- We have one [parking](local_feature) available, [5 minutes](time_spent) to the[bus station](local_feature) and [10 minutes](time_spent) to [the metro](local_feature)
+- there is must be a [nice spacious living room](guess_room), [three bedrooms](bed_room), a [small bathroom](bath_room) and [a garden](house_feature)
 - About [5 minutes](time_spent) to the closest [metro station](local_feature)
-- the neighbourhood is [calm](local_feature) in the night you can sleep like a baby there are a [view transportation](local_feature) possibiletys and you can get everywhere in a view minutes the ajax arena is in within walking distance
-- [bathroom](city) toilet terras with a [wonderfull view](local_feature) no access to the kitchen or the rest of the house i have almost everything that the geast should need in the room
-- [Central Amsterdam](local_feature) is just [20 minute](time_spent) [subway](local_feature) ride away from this spacious room
-- Comfortable and bright the modern room features a king size bed and [large windows](house_feature)
-- It s the outskirts of the city but the metro will take you to the historical town center of Amsterdam in just [20 minutes](time_spent) We offer 2 private guest rooms of 13 m2 no 1 22 m2 no 2 with king size or double beds in our home
-- There is maximum space for [6 persons](num_persons)
-- Sheets blankets and [high speed Internet](city:high speed internet) access are included
-- The local area also features several delicious restaurants a [bakery](local_feature) and [leisure facilities](local_feature)
-- The [Metro](local_feature:metro) Station is less than 1 minute walk away and provides access to the heart of the city
-- The place is situated on the channel [great view silence](city)
-- [Kitchen livin room](city:kitchen livin room) [2 bathrooms](bath_room) wi fi 3D whidescreen television lake Depends on their wish It s a very friendly and quiet neighbourhood You can get at the apartment by metro bus or bycicle very easy
-- [Kitchen livin room](city:kitchen livin room) [2 bathrooms](bath_room) wi fi 3D whidescreen television lake You will have your privacy in your room and the house is big enough to feel confortable
-- It s a very [friendly](local_feature:friendly)and [quiet](local_feature:quiet)neighbourhood You can get at the apartment by metro bus or bycicle very easy
-- [Free parking](local_feature) Kitchen living room [2 bathrooms](house_feature) [wi fi](house_feature) 3D whidescreen television garden You will have your privacy in your room and the house is big enough to feel confortable
-- Enjoy a [wonderfully vacations](local_feature) in one comfortable room with a small walking closet
-- In a quiet and [security area](local_feature)
-- We have one parking available [5 minutes](time_spent) to the bus and [10 minutes](time_spent) to the [metro station](local_feature)
-- The room is clear with a [large windows](house_feature) it s small walking closet TV additional cabinet with drawer for clothes too floor lamps and table and fan with light
-- Also is important that you know this room is possible and comfortable for [three persons](num_persons)
-- You can get to the city centre easily by metro within [20 minutes](time_spent)
-- The room has a [large window](house_feature) and a [double bed](local_feature)
-- The room we are offering you has a [queen size bed](house_feature) ideal for [2 persons](num_persons)
-- The room is [quite spacious](local_feature) and is [completely private](local_feature)
-- [microwave](city) tosti machine dishwasher dining room living room and [bathroom](house_feature)
-- We hope you will enjoy it as much as we do [Private room](house_feature) Shared kitchen dining area living room bathroom toilet
-- Apartment in the [North borough of Amsterdam](city)
-- It s a [five minute](time_spent) walk to a small shopping center with a [supermarket](local_feature)
-- Buses will take you to the city center in about [15 minutes](time_spent) day and night
-- It has a [one person](house_feature) bed which has an option for a second person because there is a [second matras](house_feature) in the drawer beneath the bed
-- If needed the apartment has a lot of [extra storage space](house_feature)
-- A [private double bedroom](bed_room) with your own private entrance
-- Only [15 minutes](time_spent) away from the city that is easily accessible day and night
-- It s a whole new building with a [great view](local_feature)
-- Our home which accomodates 5 is located in a [quiet area](local_feature) with the centre of Amsterdam a [15 minutes](time_spent) bike ride away
-- With a nice spacious living room [three bedrooms](bed_room) a [small bathroom](bath_room) and a garden you have the perfect base to wander around the city or even go into the countryside
-- My apartment is on the groudfloor and has a [great garden](local_feature)
-- By bike and bus Amsterdam city is [15 minutes](time_spent) away
-- [2 minutes](time_spent) walking from my house there are [2 supermarkets](local_feature) grocery stores bakkery buther and more Really handy From the airport Schiphol Please take a train to central station Amsterdam this will take [15 minutes](time_spent)
-- The bustrip is also [15 minutes](time_spent) and then you walk [2 minutes](time_spent) to my house
-- Our house is in a [quiet street](local_feature) about [10 minutes](time_spent) from the center of Amsterdam
-- It has a living room and kitchen also there is 1 bedroom and a [balcony](house_feature)
-- The apartment is in the quiet part of Amsterdam but less then [10 minutes](time_spent) you are in the vibrant centre of Amsterdam
-- Welcome Relax wake up with the sounds of birds and a [beautiful view](local_feature) on the park Come check out the green side of Amsterdam While staying in a [spacious studioroom](house_feature) 45m with a [queensize bed](house_feature) and alot of light coming in Cozy quiet practical What makes this room so special is the enormous amount of space it offers
-- With its [queen size bed](house_feature) it s very comfortable and you will fall asleep in an instant Besides the big size the room also offers a lot of privacy having your own balcony with a [beautiful view](local_feature) and a dining table right at your hand
-- The room is perfect for a couple but can easily accommodate up to [5 or more people](num_persons)
-- It has one [queen size bed](house_feature) and another sofa bed which turns into a [comfortable double bed](house_feature)
-- When more than [6 persons](num_persons) the second bedroom will be used which contains [an extra double bed](house_feature) and [an extra mattress](house_feature) will be added
-- You get a [clean quiet room](house_feature) with a [good bed](house_feature) and green view
-- What I have to offer is a very spacious apartment [15 minutes](time_spent) bus nr 32 ride from [Amsterdam city center](city:amsterdam city center)
-- Immersed in the greenery at [Baanakkers](local_feature:baanakkers) Park
-- Our beautiful newly renovated apartment located just a [10 minute](time_spent) bus ride from the city center with easy access to the station just outside our building
-- It s just a [40 minute](time_spent) walk [20 minute](time_spent) bike ride including beautiful ferry ride to the Center
-- We have [one bathroom](bath_room) and one shower laundry room
-- Apartment with [own shower kitchen](house_feature) and [2 sleeping rooms](bed_room)
+- The room i want has a [queen size bed](house_feature) ideal for [2 persons](num_persons)
+- [Apartment](real_estate_type) with [own shower kitchen](house_feature) and [2 sleeping rooms](bed_room)
+- You can get to the [city center](location) in [25 min](time_spent) by [metro](transportation)
+- i want a house with [side of the beach](local_feature) which is less than [2 millions](price) [usd](currency) in [Hochiminh city](city)
+- i need a house with [big guess room](guess_room) which is only [2 millions](price) [vnd](currency) in [Hanoi](city)
+- i am find a house with [two bedrooms](bed_room) which is no more than [2 millions](price) [euro](currency) in [Ca Mau city](city)
+
 
 ## synonym:HCM city
 - Ho Chi Minh City
@@ -313,28 +388,22 @@
 - saigon
 - hcm
 
-## synonym:dollar
+## synonym:usd
 - dollars
 - $
-- usd
-- buck
+- dollar
 
-## synonym:billions
-- 000000000
-- BILLIONS
-- bil
-- B
+## synonym:house
+- houses
+- home
 
-## synonym:millions
-- 000000
-- MILLIONS
-- mil
-- M
+## synonym:apartment
+- flat
 
 ## regex:price
-- (\d+\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]+)+)+
-- (\d+\s*(?:[mM]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]+)+)+
-- (\d+\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]+)+)+
+- (\d+\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+
+- (\d+\s*(?:[mM]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+
+- (\d+\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+
 
 ## regex:zipcode
 - [0-9]{5}
@@ -342,11 +411,12 @@
 ## regex:city
 - [aA-zZ]+ [cC][iI][tT][yY]
 
+## lookup:real_estate_type
+- apartment
+- flat
+- house
+- home
 ## lookup:city
-  data/city/city.txt
-
-## lookup:city
-- Hanoi
-- Ho Chi Minh
-- Danang
-
+  data/location/city.txt
+## lookup:currency
+  data/currency/currency.txt
