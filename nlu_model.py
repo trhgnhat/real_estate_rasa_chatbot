@@ -20,7 +20,7 @@ def evaluate_nlu(model_dir):
     interpreter = Interpreter.load(model_dir)
     test_data_path = "data/test_data.json"
     evaluate_result_dir = 'configs/nlu_configs/' + model_dir.split("/")[-1] + '/evaluate/'
-    run_evaluation(test_data_path,
+    run_evaluation("data/test_data.md",
                    model_dir,
                    report_folder=evaluate_result_dir,
                    successes_filename=evaluate_result_dir + 'successes.json',
@@ -35,8 +35,6 @@ def evaluate_nlu(model_dir):
         false_pred = False  # means predict correctly
         pred = interpreter.parse(each['text'])
         if "entities" in each and "entities" in pred and len(pred['entities']) > 0:
-            pprint.pprint(pred)
-            pprint.pprint(each)
             if len(pred['entities']) != len(each['entities']):
                 false_pred = True
             else:
@@ -55,11 +53,11 @@ def evaluate_nlu(model_dir):
 
 if __name__ == '__main__':
     all_configs_dir = [
-        "custom_nlu_config_1",
-        "custom_nlu_config_2",
+        # "custom_nlu_config_1",
+        # "custom_nlu_config_2",
         "custom_nlu_config_3",
-        "spacy_nlp_config",
-        "tensorflow_embedding_config"
+        # "spacy_nlp_config",
+        # "tensorflow_embedding_config"
     ]
     for each in all_configs_dir:
         config_dir = 'configs/nlu_configs/' + each + "/nlu_config.md"

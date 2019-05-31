@@ -10,7 +10,7 @@ pipeline:
   # between these two words, therefore setting this to `true`.
   case_sensitive: false
 - name: "tokenizer_spacy"
-- name: "intent_entity_featurizer_regex"
+- name: "components.fuzzywuzzy_regex_featurizer.FuzzyWuzzyRegexFeaturizer"
 - name: "ner_crf"
   BILOU_flag: True
   max_iterations: 100
@@ -29,4 +29,4 @@ pipeline:
 - name: "intent_featurizer_ngrams"
 - name: "intent_classifier_tensorflow_embedding"
   batch_size: 10
-  epochs: 500
+  epochs: 1

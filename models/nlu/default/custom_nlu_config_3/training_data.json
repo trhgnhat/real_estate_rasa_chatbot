@@ -594,7 +594,7 @@
             "start": 12,
             "end": 16,
             "value": "euro",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           },
           {
             "start": 23,
@@ -660,7 +660,7 @@
             "start": 13,
             "end": 23,
             "value": "Hanoi city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "somewhere in Hanoi city"
@@ -732,7 +732,7 @@
             "start": 20,
             "end": 24,
             "value": "euro",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "no more than 100000 euro"
@@ -750,7 +750,7 @@
             "start": 63,
             "end": 66,
             "value": "usd",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "The asking price has recently gone down to two hundred and 25k usd"
@@ -762,7 +762,7 @@
             "start": 7,
             "end": 8,
             "value": "$",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           },
           {
             "start": 8,
@@ -894,7 +894,7 @@
             "start": 3,
             "end": 19,
             "value": "Ho Chi Minh city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "in Ho Chi Minh city"
@@ -918,7 +918,7 @@
             "start": 68,
             "end": 71,
             "value": "usd",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           },
           {
             "start": 75,
@@ -936,7 +936,7 @@
             "start": 13,
             "end": 14,
             "value": "$",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           },
           {
             "start": 14,
@@ -1050,7 +1050,7 @@
             "start": 19,
             "end": 30,
             "value": "city center",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           },
           {
             "start": 34,
@@ -1234,7 +1234,7 @@
             "start": 60,
             "end": 63,
             "value": "vnd",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           },
           {
             "start": 67,
@@ -1300,7 +1300,7 @@
             "start": 13,
             "end": 14,
             "value": "$",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           },
           {
             "start": 14,
@@ -1408,7 +1408,7 @@
             "start": 20,
             "end": 39,
             "value": "central of the city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           },
           {
             "start": 53,
@@ -1576,7 +1576,7 @@
             "start": 23,
             "end": 36,
             "value": "nhatrang city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "search me some flat in nhatrang city"
@@ -1648,7 +1648,7 @@
             "start": 37,
             "end": 40,
             "value": "vnd",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "Is there a house in range 4 millions vnd?"
@@ -1756,7 +1756,7 @@
             "start": 27,
             "end": 33,
             "value": "danang",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "i am looking for houses in danang"
@@ -1780,7 +1780,7 @@
             "start": 38,
             "end": 45,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "is there any flat less than 1 billion dollars?"
@@ -1798,7 +1798,7 @@
             "start": 28,
             "end": 31,
             "value": "hcm",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "give me the list of home in hcm"
@@ -1852,7 +1852,7 @@
             "start": 43,
             "end": 53,
             "value": "hanoi city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "i need some information about apartment in hanoi city"
@@ -2026,7 +2026,7 @@
             "start": 57,
             "end": 60,
             "value": "vnd",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
@@ -2044,7 +2044,7 @@
             "start": 38,
             "end": 48,
             "value": "hanoi city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "i need some information about home in hanoi city"
@@ -2218,7 +2218,7 @@
             "start": 28,
             "end": 31,
             "value": "hcm",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "give me the list of flat in hcm"
@@ -2236,7 +2236,7 @@
             "start": 25,
             "end": 38,
             "value": "nhatrang city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "search me some houses in nhatrang city"
@@ -2260,7 +2260,7 @@
             "start": 46,
             "end": 60,
             "value": "nha trang city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "search me some home no more than 1 million in nha trang city"
@@ -2308,7 +2308,7 @@
             "start": 25,
             "end": 31,
             "value": "danang",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "i am looking for home in danang"
@@ -2386,7 +2386,7 @@
             "start": 57,
             "end": 60,
             "value": "vnd",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
@@ -2428,7 +2428,7 @@
             "start": 38,
             "end": 45,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "is there any home less than 1 billion dollars?"
@@ -2512,7 +2512,7 @@
             "start": 28,
             "end": 41,
             "value": "nhatrang city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "search me some apartment in nhatrang city"
@@ -2530,7 +2530,7 @@
             "start": 38,
             "end": 48,
             "value": "hanoi city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "i need some information about flat in hanoi city"
@@ -2554,7 +2554,7 @@
             "start": 37,
             "end": 44,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "Is there a house in range 4 millions dollars?"
@@ -2584,7 +2584,7 @@
             "start": 57,
             "end": 60,
             "value": "vnd",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
@@ -2638,7 +2638,7 @@
             "start": 45,
             "end": 52,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "search me some houses no more than 1 million dollars"
@@ -2668,7 +2668,7 @@
             "start": 25,
             "end": 31,
             "value": "danang",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "i am looking for flat in danang"
@@ -2698,7 +2698,7 @@
             "start": 30,
             "end": 36,
             "value": "danang",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "i am looking for apartment in danang"
@@ -2734,7 +2734,7 @@
             "start": 43,
             "end": 50,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "is there any apartment less than 1 billion dollars?"
@@ -2758,7 +2758,7 @@
             "start": 37,
             "end": 44,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "Is there a house in range 4 millions dollars?"
@@ -2788,7 +2788,7 @@
             "start": 23,
             "end": 36,
             "value": "nhatrang city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "search me some home in nhatrang city"
@@ -2878,7 +2878,7 @@
             "start": 51,
             "end": 65,
             "value": "nha trang city",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "search me some apartment no more than 1 million in nha trang city"
@@ -2914,7 +2914,7 @@
             "start": 33,
             "end": 36,
             "value": "hcm",
-            "entity": "location"
+            "entity": "lookup_tables/location"
           }
         ],
         "text": "give me the list of apartment in hcm"
@@ -2938,7 +2938,7 @@
             "start": 40,
             "end": 47,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "is there any houses less than 1 billion dollars?"
@@ -3038,11 +3038,11 @@
       },
       {
         "name": "city",
-        "elements": "data/location/city.txt"
+        "elements": "data/lookup_tables/location/city.txt"
       },
       {
         "name": "currency",
-        "elements": "data/currency/currency.txt"
+        "elements": "data/lookup_tables/currency/currency.txt"
       }
     ],
     "entity_synonyms": [

@@ -3038,11 +3038,11 @@
       },
       {
         "name": "city",
-        "elements": "data/location/city.txt"
+        "elements": "data/lookup_tables/location/city.txt"
       },
       {
         "name": "currency",
-        "elements": "data/currency/currency.txt"
+        "elements": "data/lookup_tables/currency/currency.txt"
       }
     ],
     "entity_synonyms": [

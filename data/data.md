@@ -192,8 +192,8 @@
 - I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
 - I'm interested in the [houses](real_estate_type) in [Marine Drive](city). What can you tell me about it?
 - i want to find a [house](real_estate_type) in [Hanoi](city)
-- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
-- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](lookup_tables/currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](lookup_tables/currency)
 - I would like to discuss purchasing a [home](real_estate_type) with you.
 - I am interested in buying a [houses](real_estate_type) and need some information.
 - I have been thinking of buying a [houses](real_estate_type) and would like to speak with you
@@ -201,14 +201,14 @@
 - I am looking to buy a [house](real_estate_type) for myself and my son
 - I'd like to view some [homes](real_estate_type) now
 - i want to buy a [houses](real_estate_type) for [4 persons](num_persons)
-- i am looking for [houses](real_estate_type) in [danang](location)
-- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](currency)?
-- give me the list of [houses](real_estate_type) in [hcm](location)
+- i am looking for [houses](real_estate_type) in [danang](lookup_tables/location)
+- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](lookup_tables/currency)?
+- give me the list of [houses](real_estate_type) in [hcm](lookup_tables/location)
 - i want [houses](real_estate_type)
 - give me some [houses](real_estate_type)
-- i need some information about [houses](real_estate_type) in [hanoi city](location)
-- search me some [houses](real_estate_type) in [nhatrang city](location)
-- search me some [houses](real_estate_type) no more than [1 million](price) in [nha trang city](location)
+- i need some information about [houses](real_estate_type) in [hanoi city](lookup_tables/location)
+- search me some [houses](real_estate_type) in [nhatrang city](lookup_tables/location)
+- search me some [houses](real_estate_type) no more than [1 million](price) in [nha trang city](lookup_tables/location)
 - would you mind give me some information about [houses](real_estate_type) for sell?
 - need [houses](real_estate_type) for sell
 - give me some [houses](real_estate_type) for [4 persons](num_persons)
@@ -218,8 +218,8 @@
 - I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
 - I'm interested in the [apartment](real_estate_type) in [Marine Drive](city). What can you tell me about it?
 - i want to find a [house](real_estate_type) in [Hanoi](city)
-- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
-- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](lookup_tables/currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](lookup_tables/currency)
 - I would like to discuss purchasing a [home](real_estate_type) with you.
 - I am interested in buying a [apartment](real_estate_type) and need some information.
 - I have been thinking of buying a [apartment](real_estate_type) and would like to speak with you
@@ -227,14 +227,14 @@
 - I am looking to buy a [house](real_estate_type) for myself and my son
 - I'd like to view some [homes](real_estate_type) now
 - i want to buy a [apartment](real_estate_type) for [4 persons](num_persons)
-- i am looking for [apartment](real_estate_type) in [danang](location)
-- is there any [apartment](real_estate_type) less than [1 billion](price) [dollars](currency)?
-- give me the list of [apartment](real_estate_type) in [hcm](location)
+- i am looking for [apartment](real_estate_type) in [danang](lookup_tables/location)
+- is there any [apartment](real_estate_type) less than [1 billion](price) [dollars](lookup_tables/currency)?
+- give me the list of [apartment](real_estate_type) in [hcm](lookup_tables/location)
 - i want [apartment](real_estate_type)
 - give me some [apartment](real_estate_type)
-- i need some information about [apartment](real_estate_type) in [hanoi city](location)
-- search me some [apartment](real_estate_type) in [nhatrang city](location)
-- search me some [apartment](real_estate_type) no more than [1 million](price) in [nha trang city](location)
+- i need some information about [apartment](real_estate_type) in [hanoi city](lookup_tables/location)
+- search me some [apartment](real_estate_type) in [nhatrang city](lookup_tables/location)
+- search me some [apartment](real_estate_type) no more than [1 million](price) in [nha trang city](lookup_tables/location)
 - would you mind give me some information about [apartment](real_estate_type) for sell?
 - need [apartment](real_estate_type) for sell
 - give me some [apartment](real_estate_type) for [4 persons](num_persons)
@@ -244,8 +244,8 @@
 - I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
 - I'm interested in the [home](real_estate_type) in [Marine Drive](city). What can you tell me about it?
 - i want to find a [house](real_estate_type) in [Hanoi](city)
-- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
-- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](lookup_tables/currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](lookup_tables/currency)
 - I would like to discuss purchasing a [home](real_estate_type) with you.
 - I am interested in buying a [home](real_estate_type) and need some information.
 - I have been thinking of buying a [home](real_estate_type) and would like to speak with you
@@ -253,14 +253,14 @@
 - I am looking to buy a [house](real_estate_type) for myself and my son
 - I'd like to view some [homes](real_estate_type) now
 - i want to buy a [home](real_estate_type) for [4 persons](num_persons)
-- i am looking for [home](real_estate_type) in [danang](location)
-- is there any [home](real_estate_type) less than [1 billion](price) [dollars](currency)?
-- give me the list of [home](real_estate_type) in [hcm](location)
+- i am looking for [home](real_estate_type) in [danang](lookup_tables/location)
+- is there any [home](real_estate_type) less than [1 billion](price) [dollars](lookup_tables/currency)?
+- give me the list of [home](real_estate_type) in [hcm](lookup_tables/location)
 - i want [home](real_estate_type)
 - give me some [home](real_estate_type)
-- i need some information about [home](real_estate_type) in [hanoi city](location)
-- search me some [home](real_estate_type) in [nhatrang city](location)
-- search me some [home](real_estate_type) no more than [1 million](price) in [nha trang city](location)
+- i need some information about [home](real_estate_type) in [hanoi city](lookup_tables/location)
+- search me some [home](real_estate_type) in [nhatrang city](lookup_tables/location)
+- search me some [home](real_estate_type) no more than [1 million](price) in [nha trang city](lookup_tables/location)
 - would you mind give me some information about [home](real_estate_type) for sell?
 - need [home](real_estate_type) for sell
 - give me some [home](real_estate_type) for [4 persons](num_persons)
@@ -270,8 +270,8 @@
 - I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
 - I'm interested in the [flat](real_estate_type) in [Marine Drive](city). What can you tell me about it?
 - i want to find a [house](real_estate_type) in [Hanoi](city)
-- Is there a [house](real_estate_type) in range [4 millions](price) [vnd](currency)?
-- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- Is there a [house](real_estate_type) in range [4 millions](price) [vnd](lookup_tables/currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](lookup_tables/currency)
 - I would like to discuss purchasing a [home](real_estate_type) with you.
 - I am interested in buying a [flat](real_estate_type) and need some information.
 - I have been thinking of buying a [flat](real_estate_type) and would like to speak with you
@@ -279,36 +279,36 @@
 - I am looking to buy a [house](real_estate_type) for myself and my son
 - I'd like to view some [homes](real_estate_type) now
 - i want to buy a [flat](real_estate_type) for [4 persons](num_persons)
-- i am looking for [flat](real_estate_type) in [danang](location)
-- is there any [flat](real_estate_type) less than [1 billion](price) [dollars](currency)?
-- give me the list of [flat](real_estate_type) in [hcm](location)
+- i am looking for [flat](real_estate_type) in [danang](lookup_tables/location)
+- is there any [flat](real_estate_type) less than [1 billion](price) [dollars](lookup_tables/currency)?
+- give me the list of [flat](real_estate_type) in [hcm](lookup_tables/location)
 - i want [flat](real_estate_type)
 - give me some [flat](real_estate_type)
-- i need some information about [flat](real_estate_type) in [hanoi city](location)
-- search me some [flat](real_estate_type) in [nhatrang city](location)
-- search me some [flat](real_estate_type) no more than [1 million](price) in [nha trang city](location)
+- i need some information about [flat](real_estate_type) in [hanoi city](lookup_tables/location)
+- search me some [flat](real_estate_type) in [nhatrang city](lookup_tables/location)
+- search me some [flat](real_estate_type) no more than [1 million](price) in [nha trang city](lookup_tables/location)
 - would you mind give me some information about [flat](real_estate_type) for sell?
 - need [flat](real_estate_type) for sell
 - give me some [flat](real_estate_type) for [4 persons](num_persons)
 - i am looking for [houses](real_estate_type) in [danang](city)
-- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](currency)? 
+- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](lookup_tables/currency)? 
 - give me the list of [houses](real_estate_type) in [hcm](city)
 - i want [houses](real_estate_type)
 - give me some [houses](real_estate_type)
 - i need some information about houses in [hanoi city](city)
 - search me some [houses](real_estate_type) in [nhatrang city](city)
-- search me some [houses](real_estate_type) no more than [1 million](price) [dollars](currency)
+- search me some [houses](real_estate_type) no more than [1 million](price) [dollars](lookup_tables/currency)
 - would you mind give me some information about [houses](real_estate_type) for sell?
 - need [houses](real_estate_type) for sell
 - give me some [houses](real_estate_type) for [4 persons](num_persons)
 
 
 ## intent:house_inform
-- no more than [$](currency)[1M](price)
-- no more than [$](currency)[100000](price)
-- no more than [100000](price) [dollars](currency)
+- no more than [$](lookup_tables/currency)[1M](price)
+- no more than [$](lookup_tables/currency)[100000](price)
+- no more than [100000](price) [dollars](lookup_tables/currency)
 - it is pretty stupid for now
-- hey i think i will change the price to more than [200000](price) [dollars](currency)
+- hey i think i will change the price to more than [200000](price) [dollars](lookup_tables/currency)
 - i need the neighborhood to be secured and there is must be at least one [free parking](local_feature)
 - i need [security](local_feature)
 - it will be perfect if there is [two bedrooms](bed_room) with [king-size beds](house_feature)
@@ -331,16 +331,16 @@
 - We have several generations of family living in our household and so need a [very large home](house_feature)
 - In a perfect world, we would like a [home](real_estate_type) with a [view of the lake](local_feature)
 - I am thinking of moving  to [Hawaii](city)
-- i want [$](currency)[335000](price), and i'll throw in the appliances
-- I am willing to raise my offer to [$](currency)[330K](price)
-- The asking price has recently gone down to two hundred and [25k](price) [usd](currency)
-- [500](price) to [1000](price) [euro](currency) for a [home](real_estate_type)
+- i want [$](lookup_tables/currency)[335000](price), and i'll throw in the appliances
+- I am willing to raise my offer to [$](lookup_tables/currency)[330K](price)
+- The asking price has recently gone down to two hundred and [25k](price) [usd](lookup_tables/currency)
+- [500](price) to [1000](price) [euro](lookup_tables/currency) for a [home](real_estate_type)
 - under [4mil](price)
 - [Ho Chi Minh city](city)
-- no more than [$](currency)[1M](price)
-- no more than [$](currency)[100000](price)
-- no more than [100000](price) [euro](currency)
-- hey i think i will change the price to more than [200000](price) [vnd](currency)
+- no more than [$](lookup_tables/currency)[1M](price)
+- no more than [$](lookup_tables/currency)[100000](price)
+- no more than [100000](price) [euro](lookup_tables/currency)
+- hey i think i will change the price to more than [200000](price) [vnd](lookup_tables/currency)
 - i need the neighborhood to be secured and there is must be at least one [free parking](local_feature)
 - i need [security](local_feature)
 - it will be perfect if there is [two bedrooms](bed_room) with [king-size beds](house_feature)
@@ -349,8 +349,8 @@
 - i need [two guess room](guess_room)
 - it is better if i can go to [the bus](transportation) in [25 minutes](time_spent)
 - i need [a bathroom](bath_room) for each room
-- in [Ho Chi Minh city](location)
-- somewhere in [Hanoi city](location)
+- in [Ho Chi Minh city](lookup_tables/location)
+- somewhere in [Hanoi city](lookup_tables/location)
 - i need some [modern coach](house_feature)
 - There is maximum space for [6 persons](num_persons)
 - i need local is a [quiet area](local_feature) and [security](local_feature)
@@ -363,7 +363,7 @@
 - i need a [free parking](local_feature) available nearby
 - i need to travel to [restaurant](local_feature) in no more than [10 minute](time_spent)
 - i need to go to [metro station](local_feature) in no more than [5 minute](time_spent)
-- i need to travel to [central of the city](location) in less than [10 minute](time_spent)
+- i need to travel to [central of the city](lookup_tables/location) in less than [10 minute](time_spent)
 - i need to go to [free parking](local_feature) in no more than [5 minute](time_spent)
 - This is a [residential neighborhood](local_feature), [coffee shops](local_feature) and no [bars](local_feature)
 - We have one [parking](local_feature) available, [5 minutes](time_spent) to the[bus station](local_feature) and [10 minutes](time_spent) to [the metro](local_feature)
@@ -371,10 +371,10 @@
 - About [5 minutes](time_spent) to the closest [metro station](local_feature)
 - The room i want has a [queen size bed](house_feature) ideal for [2 persons](num_persons)
 - [Apartment](real_estate_type) with [own shower kitchen](house_feature) and [2 sleeping rooms](bed_room)
-- You can get to the [city center](location) in [25 min](time_spent) by [metro](transportation)
-- i want a house with [side of the beach](local_feature) which is less than [2 millions](price) [usd](currency) in [Hochiminh city](city)
-- i need a house with [big guess room](guess_room) which is only [2 millions](price) [vnd](currency) in [Hanoi](city)
-- i am find a house with [two bedrooms](bed_room) which is no more than [2 millions](price) [euro](currency) in [Ca Mau city](city)
+- You can get to the [city center](lookup_tables/location) in [25 min](time_spent) by [metro](transportation)
+- i want a house with [side of the beach](local_feature) which is less than [2 millions](price) [usd](lookup_tables/currency) in [Hochiminh city](city)
+- i need a house with [big guess room](guess_room) which is only [2 millions](price) [vnd](lookup_tables/currency) in [Hanoi](city)
+- i am find a house with [two bedrooms](bed_room) which is no more than [2 millions](price) [euro](lookup_tables/currency) in [Ca Mau city](city)
 
 
 ## synonym:HCM city
@@ -417,6 +417,6 @@
 - house
 - home
 ## lookup:city
-  data/location/city.txt
+  data/lookup_tables/location/city.txt
 ## lookup:currency
-  data/currency/currency.txt
+  data/lookup_tables/currency/currency.txt

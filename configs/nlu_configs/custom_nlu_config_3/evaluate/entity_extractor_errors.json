@@ -22,7 +22,7 @@
           "end": 32,
           "value": "comfortable",
           "entity": "house_feature",
-          "confidence": 0.6538733913110824,
+          "confidence": 0.6572006713644369,
           "extractor": "ner_crf"
         }
       ]
@@ -59,17 +59,20 @@
         {
           "start": 12,
           "end": 17,
-          "value": "house",
+          "value": "houses",
           "entity": "real_estate_type",
-          "confidence": 0.9500270345645304,
-          "extractor": "ner_crf"
+          "confidence": 0.913941142869456,
+          "extractor": "ner_crf",
+          "processors": [
+            "ner_synonyms"
+          ]
         },
         {
           "start": 23,
           "end": 35,
           "value": "two bedrooms",
           "entity": "bed_room",
-          "confidence": 0.8273712766114105,
+          "confidence": 0.8271886526187041,
           "extractor": "ner_crf"
         },
         {
@@ -77,23 +80,23 @@
           "end": 68,
           "value": "2 millions",
           "entity": "price",
-          "confidence": 0.9571938320728409,
+          "confidence": 0.9536494696716136,
           "extractor": "ner_crf"
         },
         {
           "start": 69,
           "end": 73,
           "value": "euro",
-          "entity": "currency",
-          "confidence": 0.9909856292755036,
+          "entity": "lookup_tables/currency",
+          "confidence": 0.9897249271631242,
           "extractor": "ner_crf"
         },
         {
           "start": 77,
           "end": 88,
           "value": "ca mau city",
-          "entity": "location",
-          "confidence": 0.5259179883418496,
+          "entity": "lookup_tables/location",
+          "confidence": 0.612539325875796,
           "extractor": "ner_crf"
         }
       ]
@@ -120,7 +123,7 @@
           "end": 18,
           "value": "perfect world",
           "entity": "local_feature",
-          "confidence": 0.3627510484105039,
+          "confidence": 0.3800220865224996,
           "extractor": "ner_crf"
         },
         {
@@ -128,7 +131,7 @@
           "end": 40,
           "value": "house",
           "entity": "real_estate_type",
-          "confidence": 0.9811625022705257,
+          "confidence": 0.9844626206776729,
           "extractor": "ner_crf",
           "processors": [
             "ner_synonyms"
@@ -139,7 +142,7 @@
           "end": 52,
           "value": "a view",
           "entity": "local_feature",
-          "confidence": 0.8505904612459597,
+          "confidence": 0.8695188584727839,
           "extractor": "ner_crf"
         }
       ]
@@ -176,25 +179,28 @@
         {
           "start": 22,
           "end": 27,
-          "value": "house",
+          "value": "houses",
           "entity": "real_estate_type",
-          "confidence": 0.991974084747979,
-          "extractor": "ner_crf"
+          "confidence": 0.9912014854972635,
+          "extractor": "ner_crf",
+          "processors": [
+            "ner_synonyms"
+          ]
         },
         {
           "start": 47,
           "end": 56,
           "value": "1 billion",
           "entity": "price",
-          "confidence": 0.9837109714642963,
+          "confidence": 0.9795982843368354,
           "extractor": "ner_crf"
         },
         {
           "start": 57,
           "end": 60,
           "value": "vnd",
-          "entity": "currency",
-          "confidence": 0.9863396355628476,
+          "entity": "lookup_tables/currency",
+          "confidence": 0.995131894528635,
           "extractor": "ner_crf"
         }
       ]
@@ -221,7 +227,7 @@
           "end": 50,
           "value": "hanoi city",
           "entity": "city",
-          "confidence": 0.8993859485306455,
+          "confidence": 0.9296170194949753,
           "extractor": "ner_crf"
         }
       ]

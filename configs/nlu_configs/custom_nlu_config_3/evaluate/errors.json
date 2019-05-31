@@ -1,10 +1,26 @@
 [
   {
+    "text": "yes sure",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.4956522583961487
+    }
+  },
+  {
     "text": "ok",
     "intent": "affirm",
     "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.7905784845352173
+      "name": "goodbye",
+      "confidence": 0.4627501368522644
+    }
+  },
+  {
+    "text": "and you",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.4998718500137329
     }
   },
   {
@@ -13,6 +29,14 @@
     "intent_prediction": {
       "name": "",
       "confidence": 0.0
+    }
+  },
+  {
+    "text": "no this does not work for me",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.48923739790916443
     }
   },
   {
@@ -36,7 +60,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.7724294662475586
+      "confidence": 0.49120861291885376
     }
   },
   {
@@ -48,11 +72,51 @@
     }
   },
   {
+    "text": "In a perfect world, we would like a home with a view of the lake",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.594147264957428
+    }
+  },
+  {
+    "text": "There is maximum space for 6 persons",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.558722972869873
+    }
+  },
+  {
     "text": "I would like to live in Pasadena",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7904584407806396
+      "confidence": 0.6774432063102722
+    }
+  },
+  {
+    "text": "perfect thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.46530693769454956
+    }
+  },
+  {
+    "text": "Thanks for that",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5629769563674927
+    }
+  },
+  {
+    "text": "Thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.46449393033981323
     }
   }
 ]

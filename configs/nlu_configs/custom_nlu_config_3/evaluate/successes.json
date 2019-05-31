@@ -1,18 +1,10 @@
 [
   {
-    "text": "yes sure",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.9493793845176697
-    }
-  },
-  {
     "text": "How are you today?",
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9639338850975037
+      "confidence": 0.8902612924575806
     }
   },
   {
@@ -20,7 +12,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9549018144607544
+      "confidence": 0.7293866872787476
     }
   },
   {
@@ -28,7 +20,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.96536785364151
+      "confidence": 0.762819766998291
     }
   },
   {
@@ -36,7 +28,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9615962505340576
+      "confidence": 0.8272325992584229
     }
   },
   {
@@ -44,7 +36,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9539346098899841
+      "confidence": 0.7853425145149231
     }
   },
   {
@@ -52,7 +44,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9540345072746277
+      "confidence": 0.5998377203941345
     }
   },
   {
@@ -60,7 +52,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9647459387779236
+      "confidence": 0.8704922795295715
     }
   },
   {
@@ -68,7 +60,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9623585939407349
+      "confidence": 0.7811165452003479
     }
   },
   {
@@ -76,7 +68,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.7291369438171387
+      "confidence": 0.5412269234657288
     }
   },
   {
@@ -84,7 +76,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9619983434677124
+      "confidence": 0.6144816875457764
     }
   },
   {
@@ -92,7 +84,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9636473655700684
+      "confidence": 0.8789308667182922
     }
   },
   {
@@ -100,15 +92,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9636794924736023
-    }
-  },
-  {
-    "text": "and you",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9276235103607178
+      "confidence": 0.8623287081718445
     }
   },
   {
@@ -116,7 +100,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9652242064476013
+      "confidence": 0.8777047991752625
     }
   },
   {
@@ -124,7 +108,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9128393530845642
+      "confidence": 0.7630760073661804
     }
   },
   {
@@ -132,7 +116,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9638957381248474
+      "confidence": 0.8823334574699402
     }
   },
   {
@@ -140,15 +124,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9656367301940918
-    }
-  },
-  {
-    "text": "no this does not work for me",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.948837399482727
+      "confidence": 0.8035973310470581
     }
   },
   {
@@ -156,7 +132,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.9454752802848816
+      "confidence": 0.5043197870254517
     }
   },
   {
@@ -164,7 +140,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.8060482144355774
+      "confidence": 0.46212583780288696
     }
   },
   {
@@ -172,7 +148,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.9593206644058228
+      "confidence": 0.6257109045982361
     }
   },
   {
@@ -180,7 +156,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.9783424735069275
+      "confidence": 0.5857980847358704
     }
   },
   {
@@ -188,7 +164,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.9783424735069275
+      "confidence": 0.5857980847358704
     }
   },
   {
@@ -196,7 +172,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.979607343673706
+      "confidence": 0.456014484167099
     }
   },
   {
@@ -204,7 +180,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.978513777256012
+      "confidence": 0.5662968754768372
     }
   },
   {
@@ -212,7 +188,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.979142963886261
+      "confidence": 0.48145750164985657
     }
   },
   {
@@ -220,7 +196,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9645543694496155
+      "confidence": 0.564102053642273
     }
   },
   {
@@ -228,7 +204,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9561904668807983
+      "confidence": 0.7239059805870056
     }
   },
   {
@@ -236,7 +212,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8901659250259399
+      "confidence": 0.6369913816452026
     }
   },
   {
@@ -244,7 +220,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9592142105102539
+      "confidence": 0.7020236849784851
     }
   },
   {
@@ -252,15 +228,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.879358172416687
-    }
-  },
-  {
-    "text": "In a perfect world, we would like a home with a view of the lake",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9637988805770874
+      "confidence": 0.5812438130378723
     }
   },
   {
@@ -268,7 +236,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9636850953102112
+      "confidence": 0.723173975944519
     }
   },
   {
@@ -276,7 +244,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9627858400344849
+      "confidence": 0.5844438076019287
     }
   },
   {
@@ -284,15 +252,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9655408263206482
-    }
-  },
-  {
-    "text": "There is maximum space for 6 persons",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9530248045921326
+      "confidence": 0.7941495776176453
     }
   },
   {
@@ -300,7 +260,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9375351667404175
+      "confidence": 0.7410376667976379
     }
   },
   {
@@ -308,7 +268,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.961529016494751
+      "confidence": 0.8199195861816406
     }
   },
   {
@@ -316,7 +276,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9486469626426697
+      "confidence": 0.777519941329956
     }
   },
   {
@@ -324,7 +284,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9646389484405518
+      "confidence": 0.6281026005744934
     }
   },
   {
@@ -332,7 +292,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9773992300033569
+      "confidence": 0.7521654963493347
     }
   },
   {
@@ -340,7 +300,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9786053895950317
+      "confidence": 0.8075543642044067
     }
   },
   {
@@ -348,7 +308,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9762479662895203
+      "confidence": 0.7897931933403015
     }
   },
   {
@@ -356,7 +316,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9791786670684814
+      "confidence": 0.8291585445404053
     }
   },
   {
@@ -364,7 +324,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9788767099380493
+      "confidence": 0.750152587890625
     }
   },
   {
@@ -372,7 +332,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9785737991333008
+      "confidence": 0.7930421233177185
     }
   },
   {
@@ -380,7 +340,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9800525903701782
+      "confidence": 0.846014142036438
     }
   },
   {
@@ -388,7 +348,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9788621068000793
+      "confidence": 0.734526515007019
     }
   },
   {
@@ -396,7 +356,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9797086715698242
+      "confidence": 0.8600258827209473
     }
   },
   {
@@ -404,7 +364,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9800525903701782
+      "confidence": 0.846014142036438
     }
   },
   {
@@ -412,7 +372,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.976333498954773
+      "confidence": 0.7586778402328491
     }
   },
   {
@@ -420,7 +380,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9774651527404785
+      "confidence": 0.7699315547943115
     }
   },
   {
@@ -428,7 +388,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9744749665260315
+      "confidence": 0.8271195888519287
     }
   },
   {
@@ -436,7 +396,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9776787757873535
+      "confidence": 0.8223446607589722
     }
   },
   {
@@ -444,7 +404,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9813340306282043
+      "confidence": 0.7840259075164795
     }
   },
   {
@@ -452,7 +412,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9764180183410645
+      "confidence": 0.7669965624809265
     }
   },
   {
@@ -460,7 +420,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9792924523353577
+      "confidence": 0.7685443758964539
     }
   },
   {
@@ -468,7 +428,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9777042865753174
+      "confidence": 0.7885740399360657
     }
   },
   {
@@ -476,7 +436,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9829873442649841
+      "confidence": 0.8212107419967651
     }
   },
   {
@@ -484,7 +444,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9793375730514526
+      "confidence": 0.8321908712387085
     }
   },
   {
@@ -492,7 +452,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.979403018951416
+      "confidence": 0.786644458770752
     }
   },
   {
@@ -500,7 +460,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9679691791534424
+      "confidence": 0.7779241800308228
     }
   },
   {
@@ -508,31 +468,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9744749665260315
-    }
-  },
-  {
-    "text": "perfect thank you",
-    "intent": "thankyou",
-    "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.9612115025520325
-    }
-  },
-  {
-    "text": "Thanks for that",
-    "intent": "thankyou",
-    "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.9655762314796448
-    }
-  },
-  {
-    "text": "Thank you",
-    "intent": "thankyou",
-    "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.9608248472213745
+      "confidence": 0.8271195888519287
     }
   }
 ]

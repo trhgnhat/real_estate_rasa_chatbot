@@ -2230,7 +2230,7 @@
     "lookup_tables": [
       {
         "name": "location",
-        "elements": "data/location/city.txt"
+        "elements": "data/lookup_tables/location/city.txt"
       },
       {
         "name": "city",

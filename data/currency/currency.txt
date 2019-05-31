@@ -1,3 +1,0 @@
-vnd
-usd
-euro

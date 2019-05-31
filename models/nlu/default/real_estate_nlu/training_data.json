@@ -2209,7 +2209,7 @@
     "lookup_tables": [
       {
         "name": "location",
-        "elements": "data/location/location.txt"
+        "elements": "data/lookup_tables/location/location.txt"
       },
       {
         "name": "city",

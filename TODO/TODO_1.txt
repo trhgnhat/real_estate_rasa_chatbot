@@ -1,4 +1,1 @@
-- ngrams tokenizer
-
-- how to improve word embedding model? -> using pretrained model + continuously train the data belonging to RE field and defined it to be dummy intent
--> cast vector of RE words to stick together
+input = 1 sentence

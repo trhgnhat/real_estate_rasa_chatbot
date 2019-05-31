@@ -15,23 +15,23 @@
 
 ## intent:house_request
 - i am looking for [houses](real_estate_type) in [danang](city)
-- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](currency)? 
+- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](lookup_tables/currency)? 
 - give me the list of [houses](real_estate_type) in [hcm](city)
 - i want [houses](real_estate_type)
 - give me some [houses](real_estate_type)
 - i need some information about houses in [hanoi city](city)
 - search me some [houses](real_estate_type) in [nhatrang city](city)
-- search me some [houses](real_estate_type) no more than [1 million](price) [dollars](currency)
+- search me some [houses](real_estate_type) no more than [1 million](price) [dollars](lookup_tables/currency)
 - would you mind give me some information about [houses](real_estate_type) for sell?
 - need [houses](real_estate_type) for sell
 - give me some [houses](real_estate_type) for [4 persons](num_persons)
 
 ## intent:house_inform
-- no more than [$](currency)[1M](price)
-- no more than [$](currency)[100000](price)
-- no more than [100000](price) [dollars](currency)
+- no more than [$](lookup_tables/currency)[1M](price)
+- no more than [$](lookup_tables/currency)[100000](price)
+- no more than [100000](price) [dollars](lookup_tables/currency)
 - it is pretty stupid for now
-- hey i think i will change the price to more than [200000](price) [dollars](currency)
+- hey i think i will change the price to more than [200000](price) [dollars](lookup_tables/currency)
 - i need the neighborhood to be secured and there is must be at least one [free parking](local_feature)
 - i need [security](local_feature)
 - it will be perfect if there is [two bedrooms](bed_room) with [king-size beds](house_feature)
