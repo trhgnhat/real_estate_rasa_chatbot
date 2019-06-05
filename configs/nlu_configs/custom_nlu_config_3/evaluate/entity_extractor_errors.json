@@ -1,236 +1,121 @@
 {
-  "examples": [
-    {
-      "text": "i want a spacous and comfortable",
-      "true": [
+    "examples": [
         {
-          "start": 9,
-          "end": 16,
-          "value": "spacous",
-          "entity": "house_feature"
+            "text": "i want a spacous and comfortable",
+            "true": [
+                {
+                    "start": 9,
+                    "end": 16,
+                    "value": "spacous",
+                    "entity": "house_feature"
+                },
+                {
+                    "start": 21,
+                    "end": 32,
+                    "value": "comfortable",
+                    "entity": "house_feature"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 21,
+                    "end": 32,
+                    "value": "comfortable",
+                    "entity": "house_feature",
+                    "confidence": 0.6454526314387149,
+                    "extractor": "ner_crf"
+                }
+            ]
         },
         {
-          "start": 21,
-          "end": 32,
-          "value": "comfortable",
-          "entity": "house_feature"
+            "text": "I am willing to raise my offer to $330K",
+            "true": [
+                {
+                    "start": 34,
+                    "end": 35,
+                    "value": "$",
+                    "entity": "lookup_tables/currency"
+                },
+                {
+                    "start": 35,
+                    "end": 39,
+                    "value": "330K",
+                    "entity": "price"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 35,
+                    "end": 39,
+                    "value": "330k",
+                    "entity": "price",
+                    "confidence": 0.5146962214854952,
+                    "extractor": "ner_crf"
+                }
+            ]
+        },
+        {
+            "text": "i would like to buy a house in DaNangcity with 1 billion vnd",
+            "true": [
+                {
+                    "start": 22,
+                    "end": 27,
+                    "value": "house",
+                    "entity": "real_estate_type"
+                },
+                {
+                    "start": 31,
+                    "end": 37,
+                    "value": "DaNang",
+                    "entity": "city"
+                },
+                {
+                    "start": 47,
+                    "end": 56,
+                    "value": "1 billion",
+                    "entity": "price"
+                },
+                {
+                    "start": 57,
+                    "end": 60,
+                    "value": "vnd",
+                    "entity": "lookup_tables/currency"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 22,
+                    "end": 27,
+                    "value": "house",
+                    "entity": "real_estate_type",
+                    "confidence": 0.9932308852053716,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "start": 47,
+                    "end": 56,
+                    "value": "1 billion",
+                    "entity": "price",
+                    "confidence": 0.9843866106075709,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "start": 57,
+                    "end": 60,
+                    "value": "vnd",
+                    "entity": "lookup_tables/currency",
+                    "confidence": 0.9857649959047322,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "value": "DaNang",
+                    "confidence": 1,
+                    "entity": "city",
+                    "start": 31,
+                    "end": 37,
+                    "extractor": "dict_ner_extractor"
+                }
+            ]
         }
-      ],
-      "predict": [
-        {
-          "start": 21,
-          "end": 32,
-          "value": "comfortable",
-          "entity": "house_feature",
-          "confidence": 0.6572006713644369,
-          "extractor": "ner_crf"
-        }
-      ]
-    },
-    {
-      "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau city",
-      "true": [
-        {
-          "start": 23,
-          "end": 35,
-          "value": "two bedrooms",
-          "entity": "bed_room"
-        },
-        {
-          "start": 58,
-          "end": 68,
-          "value": "2 millions",
-          "entity": "price"
-        },
-        {
-          "start": 69,
-          "end": 73,
-          "value": "euro",
-          "entity": "currency"
-        },
-        {
-          "start": 77,
-          "end": 88,
-          "value": "Ca Mau city",
-          "entity": "city"
-        }
-      ],
-      "predict": [
-        {
-          "start": 12,
-          "end": 17,
-          "value": "houses",
-          "entity": "real_estate_type",
-          "confidence": 0.913941142869456,
-          "extractor": "ner_crf",
-          "processors": [
-            "ner_synonyms"
-          ]
-        },
-        {
-          "start": 23,
-          "end": 35,
-          "value": "two bedrooms",
-          "entity": "bed_room",
-          "confidence": 0.8271886526187041,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 58,
-          "end": 68,
-          "value": "2 millions",
-          "entity": "price",
-          "confidence": 0.9536494696716136,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 69,
-          "end": 73,
-          "value": "euro",
-          "entity": "lookup_tables/currency",
-          "confidence": 0.9897249271631242,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 77,
-          "end": 88,
-          "value": "ca mau city",
-          "entity": "lookup_tables/location",
-          "confidence": 0.612539325875796,
-          "extractor": "ner_crf"
-        }
-      ]
-    },
-    {
-      "text": "In a perfect world, we would like a home with a view of the lake",
-      "true": [
-        {
-          "start": 36,
-          "end": 40,
-          "value": "home",
-          "entity": "real_estate_type"
-        },
-        {
-          "start": 48,
-          "end": 64,
-          "value": "view of the lake",
-          "entity": "local_feature"
-        }
-      ],
-      "predict": [
-        {
-          "start": 5,
-          "end": 18,
-          "value": "perfect world",
-          "entity": "local_feature",
-          "confidence": 0.3800220865224996,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 36,
-          "end": 40,
-          "value": "house",
-          "entity": "real_estate_type",
-          "confidence": 0.9844626206776729,
-          "extractor": "ner_crf",
-          "processors": [
-            "ner_synonyms"
-          ]
-        },
-        {
-          "start": 46,
-          "end": 52,
-          "value": "a view",
-          "entity": "local_feature",
-          "confidence": 0.8695188584727839,
-          "extractor": "ner_crf"
-        }
-      ]
-    },
-    {
-      "text": "i would like to buy a house in DaNangcity with 1 billion vnd",
-      "true": [
-        {
-          "start": 22,
-          "end": 27,
-          "value": "house",
-          "entity": "real_estate_type"
-        },
-        {
-          "start": 31,
-          "end": 37,
-          "value": "DaNang",
-          "entity": "city"
-        },
-        {
-          "start": 47,
-          "end": 56,
-          "value": "1 billion",
-          "entity": "price"
-        },
-        {
-          "start": 57,
-          "end": 60,
-          "value": "vnd",
-          "entity": "currency"
-        }
-      ],
-      "predict": [
-        {
-          "start": 22,
-          "end": 27,
-          "value": "houses",
-          "entity": "real_estate_type",
-          "confidence": 0.9912014854972635,
-          "extractor": "ner_crf",
-          "processors": [
-            "ner_synonyms"
-          ]
-        },
-        {
-          "start": 47,
-          "end": 56,
-          "value": "1 billion",
-          "entity": "price",
-          "confidence": 0.9795982843368354,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 57,
-          "end": 60,
-          "value": "vnd",
-          "entity": "lookup_tables/currency",
-          "confidence": 0.995131894528635,
-          "extractor": "ner_crf"
-        }
-      ]
-    },
-    {
-      "text": "i need some information about houses in hanoi city",
-      "true": [
-        {
-          "start": 30,
-          "end": 36,
-          "value": "houses",
-          "entity": "real_estate_type"
-        },
-        {
-          "start": 40,
-          "end": 50,
-          "value": "hanoi city",
-          "entity": "location"
-        }
-      ],
-      "predict": [
-        {
-          "start": 40,
-          "end": 50,
-          "value": "hanoi city",
-          "entity": "city",
-          "confidence": 0.9296170194949753,
-          "extractor": "ner_crf"
-        }
-      ]
-    }
-  ]
+    ]
 }

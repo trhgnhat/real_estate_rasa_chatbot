@@ -1,26 +1,10 @@
 [
   {
-    "text": "yes sure",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.4956522583961487
-    }
-  },
-  {
-    "text": "ok",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.4627501368522644
-    }
-  },
-  {
-    "text": "and you",
+    "text": "Do you have a great day?",
     "intent": "ask_howdoing",
     "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.4998718500137329
+      "name": "deny",
+      "confidence": 0.5347337126731873
     }
   },
   {
@@ -29,14 +13,6 @@
     "intent_prediction": {
       "name": "",
       "confidence": 0.0
-    }
-  },
-  {
-    "text": "no this does not work for me",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.48923739790916443
     }
   },
   {
@@ -56,14 +32,6 @@
     }
   },
   {
-    "text": "we'll speak soon",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.49120861291885376
-    }
-  },
-  {
     "text": "yo",
     "intent": "greet",
     "intent_prediction": {
@@ -72,51 +40,11 @@
     }
   },
   {
-    "text": "In a perfect world, we would like a home with a view of the lake",
-    "intent": "house_inform",
+    "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau  city",
+    "intent": "house_request",
     "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.594147264957428
-    }
-  },
-  {
-    "text": "There is maximum space for 6 persons",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.558722972869873
-    }
-  },
-  {
-    "text": "I would like to live in Pasadena",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.6774432063102722
-    }
-  },
-  {
-    "text": "perfect thank you",
-    "intent": "thankyou",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.46530693769454956
-    }
-  },
-  {
-    "text": "Thanks for that",
-    "intent": "thankyou",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5629769563674927
-    }
-  },
-  {
-    "text": "Thank you",
-    "intent": "thankyou",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.46449393033981323
+      "name": "house_inform",
+      "confidence": 0.8046234250068665
     }
   }
 ]

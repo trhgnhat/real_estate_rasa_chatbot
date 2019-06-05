@@ -24,13 +24,15 @@ def evaluate_nlu(model_dir):
                    model_dir,
                    report_folder=evaluate_result_dir,
                    successes_filename=evaluate_result_dir + 'successes.json',
-                   errors_filename=evaluate_result_dir + 'errors.json',
-                   confmat_filename=evaluate_result_dir + 'confmat.png',
-                   intent_hist_filename=evaluate_result_dir + 'intent_hist.png')
+                   errors_filename=evaluate_result_dir + 'errors.json')
+    # ,
+    # confmat_filename = evaluate_result_dir + 'confmat.png',
+    # intent_hist_filename = evaluate_result_dir + 'intent_hist.png'
     with open(test_data_path, 'r') as f:
         data = json.load(f)
         data = data["rasa_nlu_data"]["common_examples"]
     false_data = {'examples': []}
+    true_data = {'examples': []}
     for each in data:
         false_pred = False  # means predict correctly
         pred = interpreter.parse(each['text'])
@@ -40,15 +42,21 @@ def evaluate_nlu(model_dir):
             else:
                 for idx, pred_entity in enumerate(pred['entities']):
                     true_entity = each["entities"][idx]
-                    if pred_entity['start'] != true_entity['start'] and pred_entity['end'] != true_entity['end'] and \
-                            pred_entity['value'] != true_entity['value'] and pred_entity['entity'] != true_entity[
-                        'entity']:
+                    if pred_entity['start'] != true_entity['start'] and \
+                            pred_entity['end'] != true_entity['end'] and \
+                            pred_entity['value'] != true_entity['value'] and \
+                            pred_entity['entity'] != true_entity['entity']:
                         false_pred = True
         if false_pred:
             false_data['examples'].append({"text": each['text'], "true": each["entities"], "predict": pred["entities"]})
-
+        else:
+            true_data['examples'].append({"text": each['text'], "predict": pred["entities"]})
+    false_data['support'] = len(false_data['examples'])
+    true_data['support'] = len(true_data['examples'])
     with open(evaluate_result_dir + 'entity_extractor_errors.json', 'w') as outfile:
         json.dump(false_data, outfile, indent=4)
+    with open(evaluate_result_dir + 'entity_extractor_successes.json', 'w') as outfile:
+        json.dump(true_data, outfile, indent=4)
 
 
 if __name__ == '__main__':

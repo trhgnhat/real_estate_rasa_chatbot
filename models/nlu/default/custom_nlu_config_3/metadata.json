@@ -12,10 +12,9 @@
             "class": "rasa_nlu.tokenizers.spacy_tokenizer.SpacyTokenizer"
         },
         {
-            "name": "fuzzywuzzy_regex_featurizer",
-            "regex_file": "fuzzy_wuzzy_regex_featurizer.json",
-            "regex_fuzwuz_table_file": "fuzzy_wuzzy_regex_featurizer_lookup_tables.json",
-            "class": "components.fuzzywuzzy_regex_featurizer.FuzzyWuzzyRegexFeaturizer"
+          "name": "intent_entity_featurizer_regex",
+          "regex_file": "regex_featurizer.json",
+          "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer"
         },
         {
             "BILOU_flag": true,
@@ -123,9 +122,9 @@
             "class": "rasa_nlu.extractors.crf_entity_extractor.CRFEntityExtractor"
         },
         {
-            "name": "ner_synonyms",
-            "synonyms_file": "entity_synonyms.json",
-            "class": "rasa_nlu.extractors.entity_synonyms.EntitySynonymMapper"
+          "name": "dict_ner_extractor",
+          "dict_ner_file": "dict_ner_extractor.json",
+          "class": "components.dict_ner_extractor.DictNerExtractor"
         },
         {
             "analyzer": "word",
@@ -161,7 +160,7 @@
             ],
             "hidden_layers_sizes_b": [],
             "batch_size": 10,
-            "epochs": 1,
+          "epochs": 300,
             "embed_dim": 20,
             "mu_pos": 0.8,
             "mu_neg": -0.4,
@@ -182,6 +181,6 @@
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20190531-205915",
+  "trained_at": "20190606-022109",
     "rasa_nlu_version": "0.14.6"
 }

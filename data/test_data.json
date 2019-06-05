@@ -158,7 +158,7 @@
             "start": 13,
             "end": 14,
             "value": "$",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           },
           {
             "start": 14,
@@ -173,36 +173,6 @@
         "intent": "house_inform",
         "entities": [
           {
-            "start": 23,
-            "end": 35,
-            "value": "two bedrooms",
-            "entity": "bed_room"
-          },
-          {
-            "start": 58,
-            "end": 68,
-            "value": "2 millions",
-            "entity": "price"
-          },
-          {
-            "start": 69,
-            "end": 73,
-            "value": "euro",
-            "entity": "currency"
-          },
-          {
-            "start": 77,
-            "end": 88,
-            "value": "Ca Mau city",
-            "entity": "city"
-          }
-        ],
-        "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau city"
-      },
-      {
-        "intent": "house_inform",
-        "entities": [
-          {
             "start": 49,
             "end": 55,
             "value": "200000",
@@ -212,7 +182,7 @@
             "start": 56,
             "end": 63,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "hey i think i will change the price to more than 200000 dollars"
@@ -224,7 +194,7 @@
             "start": 34,
             "end": 35,
             "value": "$",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           },
           {
             "start": 35,
@@ -266,7 +236,7 @@
             "start": 56,
             "end": 59,
             "value": "vnd",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "hey i think i will change the price to more than 200000 vnd"
@@ -276,12 +246,12 @@
         "entities": [
           {
             "start": 0,
-            "end": 16,
-            "value": "Ho Chi Minh city",
+            "end": 12,
+            "value": "Ho Chi Minh ",
             "entity": "city"
           }
         ],
-        "text": "Ho Chi Minh city"
+        "text": "Ho Chi Minh  city"
       },
       {
         "intent": "house_inform",
@@ -320,7 +290,7 @@
             "start": 20,
             "end": 27,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "no more than 100000 dollars"
@@ -350,7 +320,7 @@
             "start": 13,
             "end": 14,
             "value": "$",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           },
           {
             "start": 14,
@@ -390,6 +360,42 @@
           }
         ],
         "text": "I would like to live in Pasadena"
+      },
+      {
+        "intent": "house_request",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "house",
+            "entity": "real_estate_type"
+          },
+          {
+            "start": 23,
+            "end": 35,
+            "value": "two bedrooms",
+            "entity": "bed_room"
+          },
+          {
+            "start": 58,
+            "end": 68,
+            "value": "2 millions",
+            "entity": "price"
+          },
+          {
+            "start": 69,
+            "end": 73,
+            "value": "euro",
+            "entity": "lookup_tables/currency"
+          },
+          {
+            "start": 77,
+            "end": 84,
+            "value": "Ca Mau ",
+            "entity": "city"
+          }
+        ],
+        "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau  city"
       },
       {
         "intent": "house_request",
@@ -498,12 +504,12 @@
           },
           {
             "start": 48,
-            "end": 62,
-            "value": "nha trang city",
-            "entity": "location"
+            "end": 58,
+            "value": "nha trang ",
+            "entity": "city"
           }
         ],
-        "text": "search me some houses no more than 1 million in nha trang city"
+        "text": "search me some houses no more than 1 million in nha trang  city"
       },
       {
         "intent": "house_request",
@@ -602,7 +608,7 @@
             "start": 40,
             "end": 47,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "is there any houses less than 1 billion dollars?"
@@ -624,12 +630,12 @@
           },
           {
             "start": 46,
-            "end": 60,
-            "value": "nha trang city",
-            "entity": "location"
+            "end": 56,
+            "value": "nha trang ",
+            "entity": "city"
           }
         ],
-        "text": "search me some flat no more than 1 million in nha trang city"
+        "text": "search me some flat no more than 1 million in nha trang  city"
       },
       {
         "intent": "house_request",
@@ -650,7 +656,7 @@
             "start": 37,
             "end": 44,
             "value": "dollars",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "Is there a house in range 4 millions dollars?"
@@ -680,7 +686,7 @@
             "start": 30,
             "end": 33,
             "value": "hcm",
-            "entity": "location"
+            "entity": "city"
           }
         ],
         "text": "give me the list of houses in hcm"
@@ -710,7 +716,7 @@
             "start": 57,
             "end": 60,
             "value": "vnd",
-            "entity": "currency"
+            "entity": "lookup_tables/currency"
           }
         ],
         "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
@@ -726,9 +732,9 @@
           },
           {
             "start": 40,
-            "end": 50,
-            "value": "hanoi city",
-            "entity": "location"
+            "end": 45,
+            "value": "hanoi",
+            "entity": "city"
           }
         ],
         "text": "i need some information about houses in hanoi city"
@@ -772,10 +778,6 @@
     ],
     "regex_features": [
       {
-        "name": "city",
-        "pattern": "[aA-zZ]+ [cC][iI][tT][yY]"
-      },
-      {
         "name": "price",
         "pattern": "(\\d+\\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
       },
@@ -813,17 +815,9 @@
     ],
     "entity_synonyms": [
       {
-        "value": "HCM city",
+        "value": "Ho Chi Minh",
         "synonyms": [
-          "Ho Chi Minh City",
-          "HoChiMinh City",
-          "hochiminh city",
-          "ho chi minh",
-          "hcmc",
-          "Sai Gon",
-          "Saigon",
-          "saigon",
-          "hcm"
+          "data/lookup_tables/synonyms/Ho\\Chi\\Minh.txt"
         ]
       },
       {

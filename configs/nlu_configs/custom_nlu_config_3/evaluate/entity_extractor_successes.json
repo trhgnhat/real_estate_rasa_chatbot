@@ -1,0 +1,778 @@
+{
+  "examples": [
+    {
+      "text": "yes sure",
+      "predict": []
+    },
+    {
+      "text": "ok",
+      "predict": []
+    },
+    {
+      "text": "How are you today?",
+      "predict": []
+    },
+    {
+      "text": "Hows it going",
+      "predict": []
+    },
+    {
+      "text": "what's up?",
+      "predict": []
+    },
+    {
+      "text": "are you ok",
+      "predict": []
+    },
+    {
+      "text": "How's life treating you friend?",
+      "predict": []
+    },
+    {
+      "text": "what about your day",
+      "predict": []
+    },
+    {
+      "text": "how are you doing?",
+      "predict": []
+    },
+    {
+      "text": "how you doing?",
+      "predict": []
+    },
+    {
+      "text": "Do you have a great day?",
+      "predict": []
+    },
+    {
+      "text": "Is everything ok?",
+      "predict": []
+    },
+    {
+      "text": "How was your day?",
+      "predict": []
+    },
+    {
+      "text": "how's your day going",
+      "predict": []
+    },
+    {
+      "text": "and you",
+      "predict": []
+    },
+    {
+      "text": "hi sara, how are you?",
+      "predict": []
+    },
+    {
+      "text": "are you having a good day",
+      "predict": []
+    },
+    {
+      "text": "how are you????",
+      "predict": []
+    },
+    {
+      "text": "how are u?",
+      "predict": []
+    },
+    {
+      "text": "noope",
+      "predict": []
+    },
+    {
+      "text": "no this does not work for me",
+      "predict": []
+    },
+    {
+      "text": "goodnight",
+      "predict": []
+    },
+    {
+      "text": "farewell",
+      "predict": []
+    },
+    {
+      "text": "goodbye",
+      "predict": []
+    },
+    {
+      "text": "we'll speak soon",
+      "predict": []
+    },
+    {
+      "text": "bye for now",
+      "predict": []
+    },
+    {
+      "text": "Bye",
+      "predict": []
+    },
+    {
+      "text": "hi Mister",
+      "predict": []
+    },
+    {
+      "text": "hi pal!",
+      "predict": []
+    },
+    {
+      "text": "yo",
+      "predict": []
+    },
+    {
+      "text": "hey there",
+      "predict": []
+    },
+    {
+      "text": "hello robot",
+      "predict": []
+    },
+    {
+      "text": "hey",
+      "predict": []
+    },
+    {
+      "text": "no more than $1M",
+      "predict": [
+        {
+          "start": 13,
+          "end": 14,
+          "value": "$",
+          "entity": "lookup_tables/currency",
+          "confidence": 0.9030657053691974,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 14,
+          "end": 16,
+          "value": "1m",
+          "entity": "price",
+          "confidence": 0.906260101268996,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "hey i think i will change the price to more than 200000 dollars",
+      "predict": [
+        {
+          "start": 49,
+          "end": 55,
+          "value": "200000",
+          "entity": "price",
+          "confidence": 0.6642721945292309,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 56,
+          "end": 63,
+          "value": "dollars",
+          "entity": "lookup_tables/currency",
+          "confidence": 0.35273658924082657,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "In a perfect world, we would like a home with a view of the lake",
+      "predict": [
+        {
+          "start": 36,
+          "end": 40,
+          "value": "home",
+          "entity": "real_estate_type",
+          "confidence": 0.9805768372705851,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 46,
+          "end": 52,
+          "value": "a view",
+          "entity": "local_feature",
+          "confidence": 0.8470567014817505,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "hey i think i will change the price to more than 200000 vnd",
+      "predict": [
+        {
+          "start": 49,
+          "end": 55,
+          "value": "200000",
+          "entity": "price",
+          "confidence": 0.8756235670716468,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 56,
+          "end": 59,
+          "value": "vnd",
+          "entity": "lookup_tables/currency",
+          "confidence": 0.7819091470353845,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "Ho Chi Minh  city",
+      "predict": [
+        {
+          "value": "Ho Chi Minh",
+          "confidence": 1,
+          "entity": "city",
+          "start": 0,
+          "end": 11,
+          "extractor": "dict_ner_extractor"
+        }
+      ]
+    },
+    {
+      "text": "i need a bus stop nearby",
+      "predict": [
+        {
+          "start": 7,
+          "end": 17,
+          "value": "a bus stop",
+          "entity": "transportation",
+          "confidence": 0.8399616234291856,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "There is maximum space for 6 persons",
+      "predict": [
+        {
+          "start": 27,
+          "end": 36,
+          "value": "6 persons",
+          "entity": "num_persons",
+          "confidence": 0.929865352241148,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "no more than 100000 dollars",
+      "predict": [
+        {
+          "start": 13,
+          "end": 19,
+          "value": "100000",
+          "entity": "price",
+          "confidence": 0.7853395650436684,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 20,
+          "end": 27,
+          "value": "dollars",
+          "entity": "lookup_tables/currency",
+          "confidence": 0.48121688499236254,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i need to travel to restaurant in no more than 10 minute",
+      "predict": [
+        {
+          "start": 20,
+          "end": 30,
+          "value": "restaurant",
+          "entity": "real_estate_type",
+          "confidence": 0.41754838044213166,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 47,
+          "end": 56,
+          "value": "10 minute",
+          "entity": "time_spent",
+          "confidence": 0.9203826973145793,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "no more than $100000",
+      "predict": [
+        {
+          "start": 13,
+          "end": 14,
+          "value": "$",
+          "entity": "lookup_tables/currency",
+          "confidence": 0.968354649805092,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 14,
+          "end": 20,
+          "value": "100000",
+          "entity": "price",
+          "confidence": 0.9427539916381621,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "the modern room features aking-size bed and large windows",
+      "predict": []
+    },
+    {
+      "text": "I would like to live in Pasadena",
+      "predict": [
+        {
+          "start": 24,
+          "end": 32,
+          "value": "pasadena",
+          "entity": "city",
+          "confidence": 0.7591286302541855,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau  city",
+      "predict": [
+        {
+          "start": 12,
+          "end": 17,
+          "value": "house",
+          "entity": "real_estate_type",
+          "confidence": 0.9507020406519432,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 23,
+          "end": 35,
+          "value": "two bedrooms",
+          "entity": "bed_room",
+          "confidence": 0.8353232914686972,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 58,
+          "end": 68,
+          "value": "2 millions",
+          "entity": "price",
+          "confidence": 0.9525157554215538,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 69,
+          "end": 73,
+          "value": "euro",
+          "entity": "lookup_tables/currency",
+          "confidence": 0.9892756038905932,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 77,
+          "end": 83,
+          "value": "ca mau",
+          "entity": "city",
+          "confidence": 0.5347111468657114,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "I'd like to view some homes now",
+      "predict": [
+        {
+          "start": 22,
+          "end": 27,
+          "value": "homes",
+          "entity": "real_estate_type",
+          "confidence": 0.9619927925420846,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "I am interested in buying a houses and need some information.",
+      "predict": [
+        {
+          "start": 28,
+          "end": 34,
+          "value": "houses",
+          "entity": "real_estate_type",
+          "confidence": 0.9950536285685879,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i want to buy a flat for 4 persons",
+      "predict": [
+        {
+          "start": 16,
+          "end": 20,
+          "value": "flat",
+          "entity": "real_estate_type",
+          "confidence": 0.9953483239241993,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 25,
+          "end": 34,
+          "value": "4 persons",
+          "entity": "num_persons",
+          "confidence": 0.9721561107429402,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "I have been thinking of buying a house and would like to speak with you.",
+      "predict": [
+        {
+          "start": 33,
+          "end": 38,
+          "value": "house",
+          "entity": "real_estate_type",
+          "confidence": 0.9851286105321014,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i am looking for home",
+      "predict": [
+        {
+          "start": 17,
+          "end": 21,
+          "value": "home",
+          "entity": "real_estate_type",
+          "confidence": 0.9751268836873835,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "I am interested in buying a apartment and need some information.",
+      "predict": [
+        {
+          "start": 28,
+          "end": 37,
+          "value": "apartment",
+          "entity": "real_estate_type",
+          "confidence": 0.9964538421769445,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "I would like to discuss purchasing a home with you.",
+      "predict": [
+        {
+          "start": 37,
+          "end": 41,
+          "value": "home",
+          "entity": "real_estate_type",
+          "confidence": 0.9935137430101763,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "search me some houses no more than 1 million in nha trang  city",
+      "predict": [
+        {
+          "start": 15,
+          "end": 21,
+          "value": "houses",
+          "entity": "real_estate_type",
+          "confidence": 0.9877635396741664,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 35,
+          "end": 44,
+          "value": "1 million",
+          "entity": "price",
+          "confidence": 0.9708096738467394,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 48,
+          "end": 57,
+          "value": "nha trang",
+          "entity": "city",
+          "confidence": 0.887917389451547,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "would you mind give me some information about home for sell?",
+      "predict": [
+        {
+          "start": 46,
+          "end": 50,
+          "value": "home",
+          "entity": "real_estate_type",
+          "confidence": 0.994493434398555,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "I would like to discuss purchasing a home with you.",
+      "predict": [
+        {
+          "start": 37,
+          "end": 41,
+          "value": "home",
+          "entity": "real_estate_type",
+          "confidence": 0.9935137430101763,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i want to buy a houses for 4 persons",
+      "predict": [
+        {
+          "start": 16,
+          "end": 22,
+          "value": "houses",
+          "entity": "real_estate_type",
+          "confidence": 0.995417956383088,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "value": "4 persons",
+          "entity": "num_persons",
+          "confidence": 0.9701420195576145,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i am looking for apartment",
+      "predict": [
+        {
+          "start": 17,
+          "end": 26,
+          "value": "apartment",
+          "entity": "real_estate_type",
+          "confidence": 0.9700782390601418,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "I am looking to buy a house for myself and my son",
+      "predict": [
+        {
+          "start": 22,
+          "end": 27,
+          "value": "house",
+          "entity": "real_estate_type",
+          "confidence": 0.9920667901740053,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "give me some home",
+      "predict": [
+        {
+          "start": 13,
+          "end": 17,
+          "value": "home",
+          "entity": "real_estate_type",
+          "confidence": 0.9900337683568943,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "is there any houses less than 1 billion dollars?",
+      "predict": [
+        {
+          "start": 13,
+          "end": 19,
+          "value": "houses",
+          "entity": "real_estate_type",
+          "confidence": 0.9818981400255632,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 30,
+          "end": 39,
+          "value": "1 billion",
+          "entity": "price",
+          "confidence": 0.9910658841615817,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 40,
+          "end": 47,
+          "value": "dollars",
+          "entity": "lookup_tables/currency",
+          "confidence": 0.9806904922780915,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "search me some flat no more than 1 million in nha trang  city",
+      "predict": [
+        {
+          "start": 15,
+          "end": 19,
+          "value": "flat",
+          "entity": "real_estate_type",
+          "confidence": 0.9710166675456711,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 33,
+          "end": 42,
+          "value": "1 million",
+          "entity": "price",
+          "confidence": 0.970726330136267,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 46,
+          "end": 55,
+          "value": "nha trang",
+          "entity": "city",
+          "confidence": 0.8879174037526836,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "Is there a house in range 4 millions dollars?",
+      "predict": [
+        {
+          "start": 11,
+          "end": 16,
+          "value": "house",
+          "entity": "real_estate_type",
+          "confidence": 0.9912174780271873,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 26,
+          "end": 36,
+          "value": "4 millions",
+          "entity": "price",
+          "confidence": 0.9692494630927779,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 37,
+          "end": 44,
+          "value": "dollars",
+          "entity": "lookup_tables/currency",
+          "confidence": 0.979338394011408,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "give me some houses",
+      "predict": [
+        {
+          "start": 13,
+          "end": 19,
+          "value": "houses",
+          "entity": "real_estate_type",
+          "confidence": 0.984933026366754,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "give me the list of houses in hcm",
+      "predict": [
+        {
+          "start": 20,
+          "end": 26,
+          "value": "houses",
+          "entity": "real_estate_type",
+          "confidence": 0.9921288439847489,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 30,
+          "end": 33,
+          "value": "hcm",
+          "entity": "city",
+          "confidence": 0.9806132844099439,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i need some information about houses in hanoi city",
+      "predict": [
+        {
+          "start": 30,
+          "end": 36,
+          "value": "houses",
+          "entity": "real_estate_type",
+          "confidence": 0.989548353334878,
+          "extractor": "ner_crf"
+        },
+        {
+          "start": 40,
+          "end": 45,
+          "value": "hanoi",
+          "entity": "city",
+          "confidence": 0.9983371426503602,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "i want flat",
+      "predict": [
+        {
+          "start": 7,
+          "end": 11,
+          "value": "flat",
+          "entity": "real_estate_type",
+          "confidence": 0.9370299181668496,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "I am looking to buy a house for myself and my son",
+      "predict": [
+        {
+          "start": 22,
+          "end": 27,
+          "value": "house",
+          "entity": "real_estate_type",
+          "confidence": 0.9920667901740053,
+          "extractor": "ner_crf"
+        }
+      ]
+    },
+    {
+      "text": "perfect thank you",
+      "predict": []
+    },
+    {
+      "text": "Thanks for that",
+      "predict": []
+    },
+    {
+      "text": "Thank you",
+      "predict": []
+    }
+  ]
+}

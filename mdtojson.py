@@ -9,13 +9,14 @@ from rasa.nlu.training_data import load_data
 
 # USE AT YOUR OWN RISK
 
-input_training_file = 'data/test_data.md'
+input_md_file = ['data/test_data.md', 'data/training_data.md']
 
 # *******************************************************
 # TAKE CARE: output_md_file is overwritten automatically
 # *******************************************************
 
-output_md_file = 'data/test_data.json'
 
-with open(output_md_file, 'w') as f:
-    f.write(load_data(input_training_file).as_json())
+for each in input_md_file:
+    with open(each.replace(".md", ".json"), 'w') as f:
+        f.write(load_data(each).as_json())
+    print("Done for", each, 'file')

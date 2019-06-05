@@ -1,10 +1,26 @@
 [
   {
+    "text": "yes sure",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8996785283088684
+    }
+  },
+  {
+    "text": "ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.33368560671806335
+    }
+  },
+  {
     "text": "How are you today?",
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8902612924575806
+      "confidence": 0.9117285013198853
     }
   },
   {
@@ -12,7 +28,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.7293866872787476
+      "confidence": 0.7965921759605408
     }
   },
   {
@@ -20,7 +36,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.762819766998291
+      "confidence": 0.9075031280517578
     }
   },
   {
@@ -28,7 +44,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8272325992584229
+      "confidence": 0.879040539264679
     }
   },
   {
@@ -36,7 +52,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.7853425145149231
+      "confidence": 0.8171491622924805
     }
   },
   {
@@ -44,7 +60,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.5998377203941345
+      "confidence": 0.7823516726493835
     }
   },
   {
@@ -52,7 +68,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8704922795295715
+      "confidence": 0.9172465205192566
     }
   },
   {
@@ -60,15 +76,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.7811165452003479
-    }
-  },
-  {
-    "text": "Do you have a great day?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.5412269234657288
+      "confidence": 0.8775957226753235
     }
   },
   {
@@ -76,7 +84,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.6144816875457764
+      "confidence": 0.8687877058982849
     }
   },
   {
@@ -84,7 +92,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8789308667182922
+      "confidence": 0.9116760492324829
     }
   },
   {
@@ -92,7 +100,15 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8623287081718445
+      "confidence": 0.9098197817802429
+    }
+  },
+  {
+    "text": "and you",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.23863321542739868
     }
   },
   {
@@ -100,7 +116,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8777047991752625
+      "confidence": 0.9086021184921265
     }
   },
   {
@@ -108,7 +124,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.7630760073661804
+      "confidence": 0.7205209732055664
     }
   },
   {
@@ -116,7 +132,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8823334574699402
+      "confidence": 0.9115971326828003
     }
   },
   {
@@ -124,7 +140,15 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8035973310470581
+      "confidence": 0.9082954525947571
+    }
+  },
+  {
+    "text": "no this does not work for me",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9051132202148438
     }
   },
   {
@@ -132,7 +156,15 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.5043197870254517
+      "confidence": 0.9409997463226318
+    }
+  },
+  {
+    "text": "we'll speak soon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.23762395977973938
     }
   },
   {
@@ -140,7 +172,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.46212583780288696
+      "confidence": 0.9013873934745789
     }
   },
   {
@@ -148,7 +180,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.6257109045982361
+      "confidence": 0.9207587838172913
     }
   },
   {
@@ -156,7 +188,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.5857980847358704
+      "confidence": 0.9136380553245544
     }
   },
   {
@@ -164,7 +196,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.5857980847358704
+      "confidence": 0.9136380553245544
     }
   },
   {
@@ -172,7 +204,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.456014484167099
+      "confidence": 0.9248144626617432
     }
   },
   {
@@ -180,7 +212,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.5662968754768372
+      "confidence": 0.8818564414978027
     }
   },
   {
@@ -188,7 +220,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.48145750164985657
+      "confidence": 0.9121386408805847
     }
   },
   {
@@ -196,7 +228,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.564102053642273
+      "confidence": 0.8325530290603638
     }
   },
   {
@@ -204,15 +236,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.7239059805870056
-    }
-  },
-  {
-    "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau city",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.6369913816452026
+      "confidence": 0.8385365009307861
     }
   },
   {
@@ -220,7 +244,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.7020236849784851
+      "confidence": 0.8384854197502136
     }
   },
   {
@@ -228,7 +252,15 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.5812438130378723
+      "confidence": 0.8150759339332581
+    }
+  },
+  {
+    "text": "In a perfect world, we would like a home with a view of the lake",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8347147703170776
     }
   },
   {
@@ -236,15 +268,15 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.723173975944519
+      "confidence": 0.8400977253913879
     }
   },
   {
-    "text": "Ho Chi Minh city",
+    "text": "Ho Chi Minh  city",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.5844438076019287
+      "confidence": 0.6819511651992798
     }
   },
   {
@@ -252,7 +284,15 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.7941495776176453
+      "confidence": 0.8365768194198608
+    }
+  },
+  {
+    "text": "There is maximum space for 6 persons",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.45034849643707275
     }
   },
   {
@@ -260,7 +300,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.7410376667976379
+      "confidence": 0.8291425108909607
     }
   },
   {
@@ -268,7 +308,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8199195861816406
+      "confidence": 0.8396339416503906
     }
   },
   {
@@ -276,7 +316,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.777519941329956
+      "confidence": 0.8341510891914368
     }
   },
   {
@@ -284,7 +324,15 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.6281026005744934
+      "confidence": 0.8363861441612244
+    }
+  },
+  {
+    "text": "I would like to live in Pasadena",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8220354318618774
     }
   },
   {
@@ -292,7 +340,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7521654963493347
+      "confidence": 0.9029155373573303
     }
   },
   {
@@ -300,7 +348,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8075543642044067
+      "confidence": 0.917587399482727
     }
   },
   {
@@ -308,7 +356,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7897931933403015
+      "confidence": 0.9025997519493103
     }
   },
   {
@@ -316,7 +364,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8291585445404053
+      "confidence": 0.9109810590744019
     }
   },
   {
@@ -324,7 +372,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.750152587890625
+      "confidence": 0.9128134250640869
     }
   },
   {
@@ -332,7 +380,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7930421233177185
+      "confidence": 0.9179345965385437
     }
   },
   {
@@ -340,15 +388,15 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.846014142036438
+      "confidence": 0.8208085894584656
     }
   },
   {
-    "text": "search me some houses no more than 1 million in nha trang city",
+    "text": "search me some houses no more than 1 million in nha trang  city",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.734526515007019
+      "confidence": 0.9025570750236511
     }
   },
   {
@@ -356,7 +404,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8600258827209473
+      "confidence": 0.9156813621520996
     }
   },
   {
@@ -364,7 +412,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.846014142036438
+      "confidence": 0.8208085894584656
     }
   },
   {
@@ -372,7 +420,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7586778402328491
+      "confidence": 0.902113139629364
     }
   },
   {
@@ -380,7 +428,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7699315547943115
+      "confidence": 0.9128332138061523
     }
   },
   {
@@ -388,7 +436,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8271195888519287
+      "confidence": 0.9148803949356079
     }
   },
   {
@@ -396,7 +444,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8223446607589722
+      "confidence": 0.8967169523239136
     }
   },
   {
@@ -404,15 +452,15 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7840259075164795
+      "confidence": 0.9117245078086853
     }
   },
   {
-    "text": "search me some flat no more than 1 million in nha trang city",
+    "text": "search me some flat no more than 1 million in nha trang  city",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7669965624809265
+      "confidence": 0.9024686813354492
     }
   },
   {
@@ -420,7 +468,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7685443758964539
+      "confidence": 0.8978586196899414
     }
   },
   {
@@ -428,7 +476,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7885740399360657
+      "confidence": 0.8930618762969971
     }
   },
   {
@@ -436,7 +484,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8212107419967651
+      "confidence": 0.9011430740356445
     }
   },
   {
@@ -444,7 +492,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8321908712387085
+      "confidence": 0.906313419342041
     }
   },
   {
@@ -452,7 +500,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.786644458770752
+      "confidence": 0.9159616231918335
     }
   },
   {
@@ -460,7 +508,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.7779241800308228
+      "confidence": 0.8800517320632935
     }
   },
   {
@@ -468,7 +516,31 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8271195888519287
+      "confidence": 0.9148803949356079
+    }
+  },
+  {
+    "text": "perfect thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.820563018321991
+    }
+  },
+  {
+    "text": "Thanks for that",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.8316053152084351
+    }
+  },
+  {
+    "text": "Thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.8202731609344482
     }
   }
 ]

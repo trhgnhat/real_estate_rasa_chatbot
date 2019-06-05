@@ -16,6 +16,10 @@
     "pattern": "(\\d+\\s*(?:[mM]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
   },
   {
+    "name": "price",
+    "pattern": "[0-9]{3,}"
+  },
+  {
     "name": "zipcode",
     "pattern": "[0-9]{5}"
   },
@@ -25,7 +29,7 @@
   },
   {
     "name": "city",
-    "pattern": "(?i)(\\bCan\\ Tho\\b|\\bDa\\ Nang\\b|\\bHai\\ Phong\\b|\\bHa\\ Noi\\b|\\bHo\\ Chi\\ Minh\\ City\\b|\\bBa\\ Ria\\b|\\bBac\\ Lieu\\b|\\bBac\\ Giang\\b|\\bBac\\ Ninh\\b|\\bBao\\ Loc\\b|\\bBien\\ Hoa\\b|\\bBuon\\ Ma\\ Thuot\\b|\\bBen\\ Tre\\b|\\bCa\\ Mau\\b|\\bCam\\ Pha\\b|\\bCao\\ Lanh\\b|\\bDa\\ Lat\\b|\\bDien\\ Bien\\ Phu\\b|\\bDong\\ Ha\\b|\\bDong\\ Hoi\\b|\\bHa\\ Tinh\\b|\\bHai\\ Duong\\b|\\bHa\\ Long\\b|\\bHoa\\ Binh\\b|\\bHoi\\ An\\b|\\bHue\\b|\\bHung\\ Yen\\b|\\bKon\\ Tum\\b|\\bLang\\ Son\\b|\\bLao\\ Cai\\b|\\bLong\\ Xuyen\\b|\\bMong\\ Cai\\b|\\bMy\\ Tho\\b|\\bNam\\ Dinh\\b|\\bNinh\\ Binh\\b|\\bNha\\ Trang\\b|\\bCam\\ Ranh\\b|\\bPhan\\ Rang\\-Thap\\ Cham\\b|\\bPhan\\ Thiet\\b|\\bPhu\\ Ly\\b|\\bPleiku\\b|\\bQuang\\ Ngai\\b|\\bQuy\\ Nhon\\b|\\bRach\\ Gia\\b|\\bSoc\\ Trang\\b|\\bSon\\ La\\b|\\bTam\\ Ky\\b|\\bTan\\ An\\b|\\bThai\\ Binh\\b|\\bThai\\ Nguyen\\b|\\bThanh\\ Hoa\\b|\\bTra\\ Vinh\\b|\\bTuy\\ Hoa\\b|\\bTuyen\\ Quang\\b|\\bUong\\ Bi\\b|\\bViet\\ Tri\\b|\\bVinh\\b|\\bVinh\\ Yen\\b|\\bVinh\\ Long\\b|\\bVung\\ Tau\\b|\\bYen\\ Bai\\b)"
+    "pattern": "(?i)(\\bCan\\ Tho\\b|\\bDa\\ Nang\\b|\\bHai\\ Phong\\b|\\bHa\\ Noi\\b|\\bHo\\ Chi\\ Minh\\b|\\bBa\\ Ria\\b|\\bBac\\ Lieu\\b|\\bBac\\ Giang\\b|\\bBac\\ Ninh\\b|\\bBao\\ Loc\\b|\\bBien\\ Hoa\\b|\\bBuon\\ Ma\\ Thuot\\b|\\bBen\\ Tre\\b|\\bCa\\ Mau\\b|\\bCam\\ Pha\\b|\\bCao\\ Lanh\\b|\\bDa\\ Lat\\b|\\bDien\\ Bien\\ Phu\\b|\\bDong\\ Ha\\b|\\bDong\\ Hoi\\b|\\bHa\\ Tinh\\b|\\bHai\\ Duong\\b|\\bHa\\ Long\\b|\\bHoa\\ Binh\\b|\\bHoi\\ An\\b|\\bHue\\b|\\bHung\\ Yen\\b|\\bKon\\ Tum\\b|\\bLang\\ Son\\b|\\bLao\\ Cai\\b|\\bLong\\ Xuyen\\b|\\bMong\\ Cai\\b|\\bMy\\ Tho\\b|\\bNam\\ Dinh\\b|\\bNinh\\ Binh\\b|\\bNha\\ Trang\\b|\\bCam\\ Ranh\\b|\\bPhan\\ Rang\\b|\\bPhan\\ Thiet\\b|\\bPhu\\ Ly\\b|\\bPleiku\\b|\\bQuang\\ Ngai\\b|\\bQuy\\ Nhon\\b|\\bRach\\ Gia\\b|\\bSoc\\ Trang\\b|\\bSon\\ La\\b|\\bTam\\ Ky\\b|\\bTan\\ An\\b|\\bThai\\ Binh\\b|\\bThai\\ Nguyen\\b|\\bThanh\\ Hoa\\b|\\bTra\\ Vinh\\b|\\bTuy\\ Hoa\\b|\\bTuyen\\ Quang\\b|\\bUong\\ Bi\\b|\\bViet\\ Tri\\b|\\bVinh\\b|\\bVinh\\ Yen\\b|\\bVinh\\ Long\\b|\\bVung\\ Tau\\b|\\bYen\\ Bai\\b)"
   },
   {
     "name": "currency",

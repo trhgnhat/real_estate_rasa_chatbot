@@ -10,7 +10,7 @@ pipeline:
   # between these two words, therefore setting this to `true`.
   case_sensitive: false
 - name: "tokenizer_spacy"
-- name: "components.fuzzywuzzy_regex_featurizer.FuzzyWuzzyRegexFeaturizer"
+- name: "intent_entity_featurizer_regex"
 - name: "ner_crf"
   BILOU_flag: True
   max_iterations: 100
@@ -22,6 +22,7 @@ pipeline:
     - ["bias", "low", "prefix5", "prefix2", "suffix5",  "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
     - ["low", "prefix5", "prefix2", "suffix5", "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
     - ["low", "prefix5", "prefix2", "suffix5", "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
+- name: "components.dict_ner_extractor.DictNerExtractor"
 - name: "ner_synonyms"
 - name: "intent_featurizer_count_vectors"
   token_pattern: '(?u)\b\w+\b'
@@ -29,4 +30,4 @@ pipeline:
 - name: "intent_featurizer_ngrams"
 - name: "intent_classifier_tensorflow_embedding"
   batch_size: 10
-  epochs: 1
+  epochs: 300

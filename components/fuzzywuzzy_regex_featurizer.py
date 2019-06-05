@@ -49,7 +49,6 @@ class FuzzyWuzzyRegexFeaturizer(Featurizer):
 
         self.known_patterns = training_data.regex_features
         self._add_lookup_table_regexes(training_data.lookup_tables)
-        print("pattern:", self.known_patterns)
 
         for example in training_data.training_examples:
             updated = self._text_features_with_regex(example)
@@ -85,24 +84,6 @@ class FuzzyWuzzyRegexFeaturizer(Featurizer):
         message is tokenized, the function will mark all tokens with a dict
         relating the name of the regex to whether it was matched."""
 
-        # transform words that are in look up tables into the right format (which is defined in look up tables)
-        try:
-            for name, values in self.lookup_tables_features.items():
-                fuzwuzword = process.extractOne(message.text.replace(" ", ""), values)
-                if fuzwuzword[1] > 70 and len(message.text) > len(fuzwuzword[0]):
-                    max_score = 0
-                    max_word = ""
-                    word_tokens = message.text.split()
-                    for index, word in enumerate(word_tokens):
-                        tokenized_words = " ".join(word_tokens[index:index + len(fuzwuzword[0].split())])
-                        check_word = process.extractOne(tokenized_words, values, scorer=fuzz.token_sort_ratio)
-                        if max_score < check_word[1]:
-                            max_score = check_word[1]
-                            max_word = " ".join([word for word in tokenized_words.split() if word not in STOPWORDS])
-                    if len(max_word.strip()) > 0:
-                        message.text = message.text.replace(max_word, fuzwuzword[0])
-        except Exception as e:
-            print(e)
         matches = []
         for i, exp in enumerate(self.known_patterns):
             match = re.search(exp["pattern"], message.text)

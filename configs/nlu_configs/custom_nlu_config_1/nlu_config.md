@@ -10,6 +10,7 @@ pipeline:
   # between these two words, therefore setting this to `true`.
   case_sensitive: false
 - name: "tokenizer_spacy"
+- name: "intent_entity_featurizer_regex"
 - name: "ner_crf"
   features:
     - ["bias", "low", "prefix5", "prefix2", "suffix5", "suffix3", "suffix2", "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
@@ -25,7 +26,6 @@ pipeline:
   # Specifies the L2 regularization coefficient.
   L2_c: 1e-3
 - name: "ner_synonyms"
-- name: "intent_entity_featurizer_regex"
 - name: "intent_featurizer_count_vectors"
   token_pattern: '(?u)\b\w+\b'
   max_ngram: 4
