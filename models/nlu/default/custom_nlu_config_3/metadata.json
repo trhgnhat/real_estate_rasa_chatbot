@@ -127,6 +127,11 @@
           "class": "components.dict_ner_extractor.DictNerExtractor"
         },
         {
+          "name": "ner_synonyms",
+          "synonyms_file": "entity_synonyms.json",
+          "class": "rasa_nlu.extractors.entity_synonyms.EntitySynonymMapper"
+        },
+      {
             "analyzer": "word",
             "token_pattern": "(?u)\\b\\w+\\b",
             "strip_accents": null,
@@ -181,6 +186,6 @@
         }
     ],
     "training_data": "training_data.json",
-  "trained_at": "20190606-022109",
+  "trained_at": "20190606-215630",
     "rasa_nlu_version": "0.14.6"
 }

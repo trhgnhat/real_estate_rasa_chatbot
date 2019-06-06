@@ -3,6 +3,7 @@ from rasa_nlu import config
 from rasa_nlu.model import Trainer
 from rasa_nlu.model import Metadata, Interpreter
 from rasa_nlu.evaluate import run_evaluation
+from operator import itemgetter
 import pprint
 import json
 
@@ -36,6 +37,9 @@ def evaluate_nlu(model_dir):
     for each in data:
         false_pred = False  # means predict correctly
         pred = interpreter.parse(each['text'])
+        pred['entities'] = sorted(pred['entities'], key=itemgetter('start'))
+        if "entities" not in each:
+            each['entities'] = []
         if "entities" in each and "entities" in pred and len(pred['entities']) > 0:
             if len(pred['entities']) != len(each['entities']):
                 false_pred = True
@@ -50,7 +54,7 @@ def evaluate_nlu(model_dir):
         if false_pred:
             false_data['examples'].append({"text": each['text'], "true": each["entities"], "predict": pred["entities"]})
         else:
-            true_data['examples'].append({"text": each['text'], "predict": pred["entities"]})
+            true_data['examples'].append({"text": each['text'], "true": each["entities"], "predict": pred["entities"]})
     false_data['support'] = len(false_data['examples'])
     true_data['support'] = len(true_data['examples'])
     with open(evaluate_result_dir + 'entity_extractor_errors.json', 'w') as outfile:
@@ -69,5 +73,5 @@ if __name__ == '__main__':
     ]
     for each in all_configs_dir:
         config_dir = 'configs/nlu_configs/' + each + "/nlu_config.md"
-        train_nlu(data_path='data/', configs=config_dir, model_dir='models/nlu')
+        # train_nlu(data_path='data/', configs=config_dir, model_dir='models/nlu')
         evaluate_nlu('models/nlu/default/' + each)

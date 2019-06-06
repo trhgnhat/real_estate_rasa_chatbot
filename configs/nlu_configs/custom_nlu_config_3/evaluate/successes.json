@@ -4,7 +4,7 @@
     "intent": "affirm",
     "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.8996785283088684
+      "confidence": 0.953315258026123
     }
   },
   {
@@ -12,7 +12,7 @@
     "intent": "affirm",
     "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.33368560671806335
+      "confidence": 0.8041735291481018
     }
   },
   {
@@ -20,7 +20,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9117285013198853
+      "confidence": 0.9562873244285583
     }
   },
   {
@@ -28,7 +28,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.7965921759605408
+      "confidence": 0.958985447883606
     }
   },
   {
@@ -36,7 +36,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9075031280517578
+      "confidence": 0.9620401859283447
     }
   },
   {
@@ -44,7 +44,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.879040539264679
+      "confidence": 0.9577414989471436
     }
   },
   {
@@ -52,7 +52,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8171491622924805
+      "confidence": 0.9549638032913208
     }
   },
   {
@@ -60,7 +60,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.7823516726493835
+      "confidence": 0.7542831897735596
     }
   },
   {
@@ -68,7 +68,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9172465205192566
+      "confidence": 0.9549833536148071
     }
   },
   {
@@ -76,7 +76,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8775957226753235
+      "confidence": 0.9590889811515808
     }
   },
   {
@@ -84,7 +84,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.8687877058982849
+      "confidence": 0.9527300596237183
     }
   },
   {
@@ -92,7 +92,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9116760492324829
+      "confidence": 0.9571361541748047
     }
   },
   {
@@ -100,15 +100,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9098197817802429
-    }
-  },
-  {
-    "text": "and you",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.23863321542739868
+      "confidence": 0.9580812454223633
     }
   },
   {
@@ -116,15 +108,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9086021184921265
-    }
-  },
-  {
-    "text": "are you having a good day",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.7205209732055664
+      "confidence": 0.9558050632476807
     }
   },
   {
@@ -132,7 +116,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9115971326828003
+      "confidence": 0.9571645855903625
     }
   },
   {
@@ -140,7 +124,7 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9082954525947571
+      "confidence": 0.9569659233093262
     }
   },
   {
@@ -148,7 +132,7 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "deny",
-      "confidence": 0.9051132202148438
+      "confidence": 0.9195700287818909
     }
   },
   {
@@ -156,15 +140,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.9409997463226318
-    }
-  },
-  {
-    "text": "we'll speak soon",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.23762395977973938
+      "confidence": 0.9451563358306885
     }
   },
   {
@@ -172,7 +148,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.9013873934745789
+      "confidence": 0.9007765650749207
     }
   },
   {
@@ -180,7 +156,7 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.9207587838172913
+      "confidence": 0.9473651051521301
     }
   },
   {
@@ -188,7 +164,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.9136380553245544
+      "confidence": 0.9250274896621704
     }
   },
   {
@@ -196,7 +172,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.9136380553245544
+      "confidence": 0.9250274896621704
     }
   },
   {
@@ -204,7 +180,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.9248144626617432
+      "confidence": 0.9257136583328247
     }
   },
   {
@@ -212,7 +188,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.8818564414978027
+      "confidence": 0.9225616455078125
     }
   },
   {
@@ -220,7 +196,7 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.9121386408805847
+      "confidence": 0.9270497560501099
     }
   },
   {
@@ -228,7 +204,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8325530290603638
+      "confidence": 0.9837570786476135
     }
   },
   {
@@ -236,7 +212,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8385365009307861
+      "confidence": 0.99565589427948
     }
   },
   {
@@ -244,7 +220,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8384854197502136
+      "confidence": 0.9526106715202332
     }
   },
   {
@@ -252,7 +228,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8150759339332581
+      "confidence": 0.9473491311073303
     }
   },
   {
@@ -260,7 +236,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8347147703170776
+      "confidence": 0.9925421476364136
     }
   },
   {
@@ -268,7 +244,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8400977253913879
+      "confidence": 0.9701679348945618
     }
   },
   {
@@ -276,7 +252,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.6819511651992798
+      "confidence": 0.9493672847747803
     }
   },
   {
@@ -284,7 +260,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8365768194198608
+      "confidence": 0.9923431277275085
     }
   },
   {
@@ -292,7 +268,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.45034849643707275
+      "confidence": 0.9138364791870117
     }
   },
   {
@@ -300,7 +276,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8291425108909607
+      "confidence": 0.8387101292610168
     }
   },
   {
@@ -308,7 +284,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8396339416503906
+      "confidence": 0.9918345212936401
     }
   },
   {
@@ -316,7 +292,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8341510891914368
+      "confidence": 0.9723921418190002
     }
   },
   {
@@ -324,15 +300,7 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8363861441612244
-    }
-  },
-  {
-    "text": "I would like to live in Pasadena",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.8220354318618774
+      "confidence": 0.9890587329864502
     }
   },
   {
@@ -340,7 +308,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9029155373573303
+      "confidence": 0.9448986649513245
     }
   },
   {
@@ -348,7 +316,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.917587399482727
+      "confidence": 0.9652341604232788
     }
   },
   {
@@ -356,7 +324,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9025997519493103
+      "confidence": 0.9446870684623718
     }
   },
   {
@@ -364,7 +332,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9109810590744019
+      "confidence": 0.9608524441719055
     }
   },
   {
@@ -372,7 +340,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9128134250640869
+      "confidence": 0.9497734904289246
     }
   },
   {
@@ -380,7 +348,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9179345965385437
+      "confidence": 0.9618666172027588
     }
   },
   {
@@ -388,7 +356,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8208085894584656
+      "confidence": 0.9682201147079468
     }
   },
   {
@@ -396,7 +364,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9025570750236511
+      "confidence": 0.9616754651069641
     }
   },
   {
@@ -404,7 +372,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9156813621520996
+      "confidence": 0.9651227593421936
     }
   },
   {
@@ -412,7 +380,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8208085894584656
+      "confidence": 0.9682201147079468
     }
   },
   {
@@ -420,7 +388,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.902113139629364
+      "confidence": 0.9487954378128052
     }
   },
   {
@@ -428,7 +396,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9128332138061523
+      "confidence": 0.9486639499664307
     }
   },
   {
@@ -436,7 +404,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9148803949356079
+      "confidence": 0.9612743258476257
     }
   },
   {
@@ -444,7 +412,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8967169523239136
+      "confidence": 0.9452535510063171
     }
   },
   {
@@ -452,7 +420,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9117245078086853
+      "confidence": 0.959224283695221
     }
   },
   {
@@ -460,7 +428,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9024686813354492
+      "confidence": 0.9613789916038513
     }
   },
   {
@@ -468,7 +436,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8978586196899414
+      "confidence": 0.9632149338722229
     }
   },
   {
@@ -476,7 +444,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8930618762969971
+      "confidence": 0.9404380321502686
     }
   },
   {
@@ -484,7 +452,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9011430740356445
+      "confidence": 0.9510523676872253
     }
   },
   {
@@ -492,7 +460,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.906313419342041
+      "confidence": 0.9623216390609741
     }
   },
   {
@@ -500,7 +468,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9159616231918335
+      "confidence": 0.9620834589004517
     }
   },
   {
@@ -508,7 +476,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8800517320632935
+      "confidence": 0.9278303384780884
     }
   },
   {
@@ -516,7 +484,7 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9148803949356079
+      "confidence": 0.9612743258476257
     }
   },
   {
@@ -524,7 +492,7 @@
     "intent": "thankyou",
     "intent_prediction": {
       "name": "thankyou",
-      "confidence": 0.820563018321991
+      "confidence": 0.9646616578102112
     }
   },
   {
@@ -532,7 +500,7 @@
     "intent": "thankyou",
     "intent_prediction": {
       "name": "thankyou",
-      "confidence": 0.8316053152084351
+      "confidence": 0.9614141583442688
     }
   },
   {
@@ -540,7 +508,7 @@
     "intent": "thankyou",
     "intent_prediction": {
       "name": "thankyou",
-      "confidence": 0.8202731609344482
+      "confidence": 0.9650262594223022
     }
   }
 ]

@@ -53,69 +53,7 @@
                     "extractor": "ner_crf"
                 }
             ]
-        },
-        {
-            "text": "i would like to buy a house in DaNangcity with 1 billion vnd",
-            "true": [
-                {
-                    "start": 22,
-                    "end": 27,
-                    "value": "house",
-                    "entity": "real_estate_type"
-                },
-                {
-                    "start": 31,
-                    "end": 37,
-                    "value": "DaNang",
-                    "entity": "city"
-                },
-                {
-                    "start": 47,
-                    "end": 56,
-                    "value": "1 billion",
-                    "entity": "price"
-                },
-                {
-                    "start": 57,
-                    "end": 60,
-                    "value": "vnd",
-                    "entity": "lookup_tables/currency"
-                }
-            ],
-            "predict": [
-                {
-                    "start": 22,
-                    "end": 27,
-                    "value": "house",
-                    "entity": "real_estate_type",
-                    "confidence": 0.9932308852053716,
-                    "extractor": "ner_crf"
-                },
-                {
-                    "start": 47,
-                    "end": 56,
-                    "value": "1 billion",
-                    "entity": "price",
-                    "confidence": 0.9843866106075709,
-                    "extractor": "ner_crf"
-                },
-                {
-                    "start": 57,
-                    "end": 60,
-                    "value": "vnd",
-                    "entity": "lookup_tables/currency",
-                    "confidence": 0.9857649959047322,
-                    "extractor": "ner_crf"
-                },
-                {
-                    "value": "DaNang",
-                    "confidence": 1,
-                    "entity": "city",
-                    "start": 31,
-                    "end": 37,
-                    "extractor": "dict_ner_extractor"
-                }
-            ]
         }
-    ]
+    ],
+    "support": 2
 }

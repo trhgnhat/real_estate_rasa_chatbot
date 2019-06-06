@@ -4,7 +4,23 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "deny",
-      "confidence": 0.5347337126731873
+      "confidence": 0.6108106970787048
+    }
+  },
+  {
+    "text": "and you",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7901362180709839
+    }
+  },
+  {
+    "text": "are you having a good day",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6998240947723389
     }
   },
   {
@@ -32,6 +48,14 @@
     }
   },
   {
+    "text": "we'll speak soon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.742266058921814
+    }
+  },
+  {
     "text": "yo",
     "intent": "greet",
     "intent_prediction": {
@@ -40,11 +64,19 @@
     }
   },
   {
+    "text": "I would like to live in Pasadena",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9221088886260986
+    }
+  },
+  {
     "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau  city",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8046234250068665
+      "confidence": 0.9902979731559753
     }
   }
 ]
