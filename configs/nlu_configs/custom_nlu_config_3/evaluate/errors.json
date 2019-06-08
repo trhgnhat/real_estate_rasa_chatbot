@@ -1,58 +1,18 @@
 [
   {
-    "text": "Do you have a great day?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.6108106970787048
-    }
-  },
-  {
-    "text": "and you",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.7901362180709839
-    }
-  },
-  {
-    "text": "are you having a good day",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.6998240947723389
-    }
-  },
-  {
-    "text": "noope",
-    "intent": "deny",
+    "text": "definitely",
+    "intent": "affirm",
     "intent_prediction": {
       "name": "",
       "confidence": 0.0
     }
   },
   {
-    "text": "goodnight",
+    "text": "have a nice day",
     "intent": "goodbye",
     "intent_prediction": {
-      "name": "",
-      "confidence": 0.0
-    }
-  },
-  {
-    "text": "farewell",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "",
-      "confidence": 0.0
-    }
-  },
-  {
-    "text": "we'll speak soon",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.742266058921814
+      "name": "ask_howdoing",
+      "confidence": 0.9148412942886353
     }
   },
   {
@@ -64,19 +24,43 @@
     }
   },
   {
-    "text": "I would like to live in Pasadena",
+    "text": "We really want to live in a lakeside home with a dock for our boat",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9221088886260986
+      "confidence": 0.9033633470535278
     }
   },
   {
-    "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau  city",
-    "intent": "house_request",
+    "text": "Yes, we want to stay in the hanoi",
+    "intent": "house_inform",
     "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9902979731559753
+      "name": "affirm",
+      "confidence": 0.6803448796272278
+    }
+  },
+  {
+    "text": "i need double bedroom in our modern new apartment in Lao Cai",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.8483167886734009
+    }
+  },
+  {
+    "text": "I would love to have a home with a view",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.7297862768173218
+    }
+  },
+  {
+    "text": "Apartment with own shower kitchen and 2 sleeping rooms",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9444016218185425
     }
   }
 ]

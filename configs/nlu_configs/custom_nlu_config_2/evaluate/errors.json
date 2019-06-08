@@ -1,58 +1,26 @@
 [
   {
-    "text": "ok",
+    "text": "definitely",
     "intent": "affirm",
     "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.974109411239624
+      "name": "",
+      "confidence": 0.0
     }
   },
   {
-    "text": "what about your day",
+    "text": "h r u ?",
     "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.856245219707489
-    }
-  },
-  {
-    "text": "Do you have a great day?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.9622273445129395
-    }
-  },
-  {
-    "text": "are you having a good day",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.875441312789917
-    }
-  },
-  {
-    "text": "noope",
-    "intent": "deny",
     "intent_prediction": {
       "name": "",
       "confidence": 0.0
     }
   },
   {
-    "text": "goodnight",
+    "text": "have a nice day",
     "intent": "goodbye",
     "intent_prediction": {
-      "name": "",
-      "confidence": 0.0
-    }
-  },
-  {
-    "text": "farewell",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "",
-      "confidence": 0.0
+      "name": "greet",
+      "confidence": 0.8838008046150208
     }
   },
   {
@@ -64,11 +32,35 @@
     }
   },
   {
-    "text": "Ho Chi Minh city",
+    "text": "We really want to live in a lakeside home with a dock for our boat",
     "intent": "house_inform",
     "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.8510507941246033
+      "name": "house_request",
+      "confidence": 0.9878687858581543
+    }
+  },
+  {
+    "text": "Yes, we want to stay in the hanoi",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9824939966201782
+    }
+  },
+  {
+    "text": "i need double bedroom in our modern new apartment in Lao Cai",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.863987147808075
+    }
+  },
+  {
+    "text": "I would love to have a home with a view",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.9649192094802856
     }
   }
 ]

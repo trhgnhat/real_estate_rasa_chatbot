@@ -12,6 +12,11 @@
       "class": "rasa_nlu.tokenizers.spacy_tokenizer.SpacyTokenizer"
     },
     {
+      "name": "intent_entity_featurizer_regex",
+      "regex_file": "regex_featurizer.json",
+      "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer"
+    },
+    {
       "BILOU_flag": true,
       "features": [
         [
@@ -76,11 +81,6 @@
       "class": "rasa_nlu.extractors.entity_synonyms.EntitySynonymMapper"
     },
     {
-      "name": "intent_entity_featurizer_regex",
-      "regex_file": "regex_featurizer.json",
-      "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer"
-    },
-    {
       "analyzer": "word",
       "token_pattern": "(?u)\\b\\w+\\b",
       "strip_accents": null,
@@ -135,6 +135,6 @@
     }
   ],
   "training_data": "training_data.json",
-  "trained_at": "20190529-000910",
+  "trained_at": "20190608-225440",
   "rasa_nlu_version": "0.14.6"
 }

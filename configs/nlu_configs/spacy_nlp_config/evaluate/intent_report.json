@@ -6,9 +6,9 @@
     "support": 2
   },
   "ask_howdoing": {
-    "precision": 0.9411764705882353,
-    "recall": 0.9411764705882353,
-    "f1-score": 0.9411764705882353,
+    "precision": 0.8947368421052632,
+    "recall": 1.0,
+    "f1-score": 0.9444444444444444,
     "support": 17
   },
   "deny": {
@@ -18,33 +18,33 @@
     "support": 2
   },
   "goodbye": {
-    "precision": 1.0,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.5,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7272727272727272,
     "support": 6
   },
   "greet": {
-    "precision": 0.7142857142857143,
+    "precision": 1.0,
     "recall": 0.8333333333333334,
-    "f1-score": 0.7692307692307692,
+    "f1-score": 0.9090909090909091,
     "support": 6
   },
   "house_inform": {
-    "precision": 0.9375,
-    "recall": 1.0,
-    "f1-score": 0.967741935483871,
+    "precision": 1.0,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9285714285714286,
     "support": 15
   },
   "house_request": {
-    "precision": 0.9583333333333334,
+    "precision": 0.8846153846153846,
     "recall": 1.0,
-    "f1-score": 0.9787234042553191,
+    "f1-score": 0.9387755102040816,
     "support": 23
   },
   "thankyou": {
-    "precision": 0.6,
-    "recall": 1.0,
-    "f1-score": 0.7499999999999999,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
     "support": 3
   },
   "micro avg": {
@@ -54,15 +54,15 @@
     "support": 74
   },
   "macro avg": {
-    "precision": 0.7272452731092438,
-    "recall": 0.7634803921568627,
-    "f1-score": 0.7133590724447743,
+    "precision": 0.7390856950067476,
+    "recall": 0.7541666666666667,
+    "f1-score": 0.7393527107812822,
     "support": 74
   },
   "weighted avg": {
-    "precision": 0.8854488416988417,
+    "precision": 0.8741893715577926,
     "recall": 0.8918918918918919,
-    "f1-score": 0.8715155668312841,
+    "f1-score": 0.8782992640135497,
     "support": 74
   }
 }

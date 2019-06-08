@@ -5,17 +5,8 @@
     },
     "house_form": {
       "slots": [
-        "price",
-        "location",
-        "feedback",
         "requested_slot"
       ]
-    },
-    "utter_noworries": {
-      "slots": []
-    },
-    "utter_slots_values": {
-      "slots": []
     }
   },
   "python": "3.6.6",
@@ -32,7 +23,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190522-085150",
+  "trained_at": "20190609-015538",
   "rasa_core": "0.13.8",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.2"

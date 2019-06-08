@@ -1,42 +1,18 @@
 [
   {
-    "text": "ok",
+    "text": "definitely",
     "intent": "affirm",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7444295883178711
-    }
-  },
-  {
-    "text": "Do you have a great day?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.9687983393669128
-    }
-  },
-  {
-    "text": "noope",
-    "intent": "deny",
-    "intent_prediction": {
       "name": "",
       "confidence": 0.0
     }
   },
   {
-    "text": "goodnight",
+    "text": "have a nice day",
     "intent": "goodbye",
     "intent_prediction": {
-      "name": "",
-      "confidence": 0.0
-    }
-  },
-  {
-    "text": "farewell",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "",
-      "confidence": 0.0
+      "name": "ask_howdoing",
+      "confidence": 0.9375784993171692
     }
   },
   {
@@ -48,11 +24,19 @@
     }
   },
   {
-    "text": "I would like to live in Pasadena",
+    "text": "We really want to live in a lakeside home with a dock for our boat",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8366844654083252
+      "confidence": 0.7020747661590576
+    }
+  },
+  {
+    "text": "i need double bedroom in our modern new apartment in Lao Cai",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.7662730813026428
     }
   }
 ]

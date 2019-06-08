@@ -34,6 +34,6 @@ def run_house_agent(interpreter,
 
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
-    model_dir = "custom_nlu_config_2"
+    model_dir = "custom_nlu_config_3"
     nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/' + model_dir)
     run_house_agent(nlu_interpreter)

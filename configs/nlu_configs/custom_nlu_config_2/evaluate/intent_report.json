@@ -12,39 +12,39 @@
     "support": 2
   },
   "ask_howdoing": {
-    "precision": 0.875,
-    "recall": 0.8235294117647058,
-    "f1-score": 0.8484848484848485,
+    "precision": 1.0,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9696969696969697,
     "support": 17
   },
   "deny": {
     "precision": 1.0,
-    "recall": 0.5,
-    "f1-score": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 2
   },
   "goodbye": {
-    "precision": 0.6666666666666666,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.6666666666666666,
-    "support": 6
-  },
-  "greet": {
     "precision": 1.0,
     "recall": 0.8333333333333334,
     "f1-score": 0.9090909090909091,
     "support": 6
   },
+  "greet": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 6
+  },
   "house_inform": {
     "precision": 1.0,
-    "recall": 0.9333333333333333,
-    "f1-score": 0.9655172413793104,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.846153846153846,
     "support": 15
   },
   "house_request": {
-    "precision": 0.9583333333333334,
+    "precision": 0.8518518518518519,
     "recall": 1.0,
-    "f1-score": 0.9787234042553191,
+    "f1-score": 0.92,
     "support": 23
   },
   "thankyou": {
@@ -54,21 +54,21 @@
     "support": 3
   },
   "micro avg": {
-    "precision": 0.8783783783783784,
-    "recall": 0.8783783783783784,
-    "f1-score": 0.8783783783783784,
+    "precision": 0.8918918918918919,
+    "recall": 0.8918918918918919,
+    "f1-score": 0.8918918918918919,
     "support": 74
   },
   "macro avg": {
-    "precision": 0.8333333333333334,
-    "recall": 0.69520697167756,
-    "f1-score": 0.7446462670233763,
+    "precision": 0.8539094650205761,
+    "recall": 0.7601307189542484,
+    "f1-score": 0.793882413882414,
     "support": 74
   },
   "weighted avg": {
-    "precision": 0.9313063063063064,
-    "recall": 0.8783783783783784,
-    "f1-score": 0.899173668432656,
+    "precision": 0.9404404404404405,
+    "recall": 0.8918918918918919,
+    "f1-score": 0.9070950670950669,
     "support": 74
   }
 }

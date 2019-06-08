@@ -15,13 +15,9 @@ pipeline:
   BILOU_flag: True
   max_iterations: 100
   features:
-    - ["low", "prefix5", "prefix2", "suffix5", "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
-    - ["low", "prefix5", "prefix2", "suffix5", "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
-    - ["bias", "low", "prefix5", "prefix2", "suffix5",  "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
-    - ["bias", "low", "prefix5", "prefix2", "suffix5",  "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
-    - ["bias", "low", "prefix5", "prefix2", "suffix5",  "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
-    - ["low", "prefix5", "prefix2", "suffix5", "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
-    - ["low", "prefix5", "prefix2", "suffix5", "upper", "title", "digit", "pattern", "pos", "pos2", "upper"]
+    - ["prefix5", "prefix2", "suffix5",  "suffix2",  "upper", "digit", "pattern", "pos", "pos2"]
+    - ["bias", "low", "prefix5", "prefix2", "suffix5",  "upper", "title", "digit", "pattern", "pos", "pos2"]
+    - ["prefix5", "prefix2", "suffix5",  "suffix2",  "upper", "digit", "pattern", "pos", "pos2"]
 - name: "components.dict_ner_extractor.DictNerExtractor"
 - name: "ner_synonyms"
 - name: "intent_featurizer_count_vectors"

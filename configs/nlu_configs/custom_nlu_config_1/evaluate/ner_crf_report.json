@@ -1,63 +1,75 @@
 {
+  "bath_room": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2
+  },
   "bed_room": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5
   },
   "city": {
     "precision": 1.0,
-    "recall": 0.1111111111111111,
-    "f1-score": 0.19999999999999998,
-    "support": 9
-  },
-  "currency": {
-    "precision": 1.0,
-    "recall": 0.9,
-    "f1-score": 0.9473684210526316,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
     "support": 10
   },
-  "house_feature": {
-    "precision": 0.6666666666666666,
-    "recall": 0.25,
-    "f1-score": 0.36363636363636365,
-    "support": 8
+  "furniture": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 16
   },
-  "local_feature": {
+  "house_description": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "house_feature": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
     "support": 5
   },
-  "location": {
-    "precision": 0.75,
-    "recall": 1.0,
-    "f1-score": 0.8571428571428571,
-    "support": 9
+  "local_feature": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5
   },
-  "no_entity": {
-    "precision": 0.9555555555555556,
-    "recall": 0.9948586118251928,
-    "f1-score": 0.9748110831234258,
-    "support": 389
-  },
-  "num_persons": {
+  "lookup_tables/currency": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6
   },
-  "price": {
+  "no_entity": {
+    "precision": 0.9225352112676056,
+    "recall": 1.0,
+    "f1-score": 0.9597069597069597,
+    "support": 393
+  },
+  "num_persons": {
     "precision": 1.0,
-    "recall": 0.9473684210526315,
-    "f1-score": 0.972972972972973,
-    "support": 19
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "price": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11
   },
   "real_estate_type": {
-    "precision": 0.96,
-    "recall": 1.0,
-    "f1-score": 0.9795918367346939,
-    "support": 24
+    "precision": 1.0,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.962962962962963,
+    "support": 28
   },
   "time_spent": {
     "precision": 1.0,
@@ -66,27 +78,27 @@
     "support": 2
   },
   "transportation": {
-    "precision": 1.0,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 3
   },
   "micro avg": {
-    "precision": 0.948559670781893,
-    "recall": 0.948559670781893,
-    "f1-score": 0.948559670781893,
-    "support": 486
+    "precision": 0.9285714285714286,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9285714285714286,
+    "support": 490
   },
   "macro avg": {
-    "precision": 0.8610185185185184,
-    "recall": 0.7113892897768559,
-    "f1-score": 0.7329602945552454,
-    "support": 486
+    "precision": 0.7028001341381623,
+    "recall": 0.5877551020408163,
+    "f1-score": 0.6254411277703202,
+    "support": 490
   },
   "weighted avg": {
-    "precision": 0.9420461819844536,
-    "recall": 0.948559670781893,
-    "f1-score": 0.9353811990473967,
-    "support": 486
+    "precision": 0.8849789211459231,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9030181680359143,
+    "support": 490
   }
 }

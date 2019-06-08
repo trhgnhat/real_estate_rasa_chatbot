@@ -1,59 +1,243 @@
 {
     "examples": [
         {
-            "text": "i want a spacous and comfortable",
+            "text": "the modern room features aking-size bed and large windows",
             "true": [
                 {
-                    "start": 9,
-                    "end": 16,
-                    "value": "spacous",
-                    "entity": "house_feature"
+                    "start": 26,
+                    "end": 39,
+                    "value": "king-size bed",
+                    "entity": "furniture"
                 },
                 {
-                    "start": 21,
-                    "end": 32,
-                    "value": "comfortable",
+                    "start": 44,
+                    "end": 57,
+                    "value": "large windows",
                     "entity": "house_feature"
                 }
             ],
             "predict": [
                 {
-                    "start": 21,
-                    "end": 32,
-                    "value": "comfortable",
-                    "entity": "house_feature",
-                    "confidence": 0.6454526314387149,
+                    "value": "modern",
+                    "confidence": 1,
+                    "entity": "house_description",
+                    "start": 4,
+                    "end": 10,
+                    "extractor": "dict_ner_extractor"
+                },
+                {
+                    "value": "king-size bed",
+                    "confidence": 1,
+                    "entity": "house_description",
+                    "start": 26,
+                    "end": 39,
+                    "extractor": "dict_ner_extractor"
+                }
+            ]
+        },
+        {
+            "text": "We need a medium-sized house with at least 3 bedrooms and 2 bathrooms",
+            "true": [
+                {
+                    "start": 10,
+                    "end": 22,
+                    "value": "medium-sized",
+                    "entity": "furniture"
+                },
+                {
+                    "start": 23,
+                    "end": 28,
+                    "value": "house",
+                    "entity": "real_estate_type"
+                },
+                {
+                    "start": 43,
+                    "end": 44,
+                    "value": "3",
+                    "entity": "bed_room"
+                },
+                {
+                    "start": 58,
+                    "end": 59,
+                    "value": "2",
+                    "entity": "bath_room"
+                }
+            ],
+            "predict": [
+                {
+                    "value": "house",
+                    "confidence": 1,
+                    "entity": "real_estate_type",
+                    "start": 23,
+                    "end": 28,
+                    "extractor": "dict_ner_extractor"
+                },
+                {
+                    "start": 43,
+                    "end": 44,
+                    "value": "3",
+                    "entity": "bed_room",
+                    "confidence": 0.7893509672695188,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "start": 58,
+                    "end": 59,
+                    "value": "2",
+                    "entity": "price",
+                    "confidence": 0.3213158497963973,
                     "extractor": "ner_crf"
                 }
             ]
         },
         {
-            "text": "I am willing to raise my offer to $330K",
+            "text": "We really want to live in a lakeside home with a dock for our boat",
             "true": [
                 {
-                    "start": 34,
-                    "end": 35,
-                    "value": "$",
-                    "entity": "lookup_tables/currency"
+                    "start": 28,
+                    "end": 36,
+                    "value": "lakeside",
+                    "entity": "local_feature"
                 },
                 {
-                    "start": 35,
-                    "end": 39,
-                    "value": "330K",
-                    "entity": "price"
+                    "start": 37,
+                    "end": 41,
+                    "value": "home",
+                    "entity": "real_estate_type"
+                },
+                {
+                    "start": 49,
+                    "end": 53,
+                    "value": "dock",
+                    "entity": "local_feature"
                 }
             ],
             "predict": [
                 {
+                    "value": "house",
+                    "confidence": 1,
+                    "entity": "real_estate_type",
+                    "start": 37,
+                    "end": 41,
+                    "extractor": "dict_ner_extractor",
+                    "processors": [
+                        "ner_synonyms"
+                    ]
+                },
+                {
+                    "start": 49,
+                    "end": 53,
+                    "value": "dock",
+                    "entity": "real_estate_type",
+                    "confidence": 0.42661566628659026,
+                    "extractor": "ner_crf"
+                }
+            ]
+        },
+        {
+            "text": "I would love to have a home with a view",
+            "true": [
+                {
+                    "start": 23,
+                    "end": 27,
+                    "value": "home",
+                    "entity": "real_estate_type"
+                },
+                {
                     "start": 35,
                     "end": 39,
-                    "value": "330k",
-                    "entity": "price",
-                    "confidence": 0.5146962214854952,
+                    "value": "view",
+                    "entity": "local_feature"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 23,
+                    "end": 27,
+                    "value": "house",
+                    "entity": "real_estate_type",
+                    "confidence": 0.9452130963269629,
+                    "extractor": "ner_crf",
+                    "processors": [
+                        "ner_synonyms"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Apartment with own shower kitchen and 2 sleeping rooms",
+            "true": [
+                {
+                    "start": 0,
+                    "end": 9,
+                    "value": "Apartment",
+                    "entity": "real_estate_type"
+                },
+                {
+                    "start": 15,
+                    "end": 33,
+                    "value": "own shower kitchen",
+                    "entity": "house_feature"
+                },
+                {
+                    "start": 38,
+                    "end": 39,
+                    "value": "2",
+                    "entity": "bed_room"
+                }
+            ],
+            "predict": [
+                {
+                    "value": "Apartment",
+                    "confidence": 1,
+                    "entity": "real_estate_type",
+                    "start": 0,
+                    "end": 9,
+                    "extractor": "dict_ner_extractor"
+                }
+            ]
+        },
+        {
+            "text": "We would like a smaller cozy cottage with 2 bedrooms and 1 bathroom",
+            "true": [
+                {
+                    "start": 16,
+                    "end": 36,
+                    "value": "smaller cozy cottage",
+                    "entity": "furniture"
+                },
+                {
+                    "start": 42,
+                    "end": 43,
+                    "value": "2",
+                    "entity": "bed_room"
+                },
+                {
+                    "start": 57,
+                    "end": 58,
+                    "value": "1",
+                    "entity": "bath_room"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 42,
+                    "end": 43,
+                    "value": "2",
+                    "entity": "bed_room",
+                    "confidence": 0.815193993279185,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "start": 57,
+                    "end": 58,
+                    "value": "1",
+                    "entity": "bath_room",
+                    "confidence": 0.6763627775689971,
                     "extractor": "ner_crf"
                 }
             ]
         }
     ],
-    "support": 2
+    "support": 6
 }

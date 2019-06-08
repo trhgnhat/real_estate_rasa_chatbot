@@ -129,8 +129,7 @@ class DictNerExtractor(EntityExtractor):
             save = True
             # check if the entity are not recognized by ner_crf yet, otherwise pass
             for ent in message.get("entities", []):
-                if ent['value'].lower() == each[1].lower() and ent['start'] == start and each[0] in ent['entity'].split(
-                        "/"):
+                if ent['start'] == start:
                     save = False
                     break
             if save:

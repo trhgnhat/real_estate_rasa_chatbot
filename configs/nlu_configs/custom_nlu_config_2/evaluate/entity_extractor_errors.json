@@ -1,176 +1,225 @@
 {
-  "examples": [
-    {
-      "text": "i want a spacous and comfortable",
-      "true": [
+    "examples": [
         {
-          "start": 9,
-          "end": 16,
-          "value": "spacous",
-          "entity": "house_feature"
+            "text": "i need double bedroom in our modern new apartment in Lao Cai",
+            "true": [
+                {
+                    "start": 7,
+                    "end": 13,
+                    "value": "double",
+                    "entity": "bed_room"
+                },
+                {
+                    "start": 29,
+                    "end": 35,
+                    "value": "modern",
+                    "entity": "house_description"
+                },
+                {
+                    "start": 40,
+                    "end": 49,
+                    "value": "apartment",
+                    "entity": "real_estate_type"
+                },
+                {
+                    "start": 53,
+                    "end": 60,
+                    "value": "Lao Cai",
+                    "entity": "city"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 40,
+                    "end": 49,
+                    "value": "apartment",
+                    "entity": "real_estate_type",
+                    "confidence": 0.9704196564020312,
+                    "extractor": "ner_crf"
+                }
+            ]
         },
         {
-          "start": 21,
-          "end": 32,
-          "value": "comfortable",
-          "entity": "house_feature"
+            "text": "I would love to have a home with a view",
+            "true": [
+                {
+                    "start": 23,
+                    "end": 27,
+                    "value": "home",
+                    "entity": "real_estate_type"
+                },
+                {
+                    "start": 35,
+                    "end": 39,
+                    "value": "view",
+                    "entity": "local_feature"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 23,
+                    "end": 27,
+                    "value": "house",
+                    "entity": "real_estate_type",
+                    "confidence": 0.9447700358348883,
+                    "extractor": "ner_crf",
+                    "processors": [
+                        "ner_synonyms"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "We would like a smaller cozy cottage with 2 bedrooms and 1 bathroom",
+            "true": [
+                {
+                    "start": 16,
+                    "end": 36,
+                    "value": "smaller cozy cottage",
+                    "entity": "furniture"
+                },
+                {
+                    "start": 42,
+                    "end": 43,
+                    "value": "2",
+                    "entity": "bed_room"
+                },
+                {
+                    "start": 57,
+                    "end": 58,
+                    "value": "1",
+                    "entity": "bath_room"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 42,
+                    "end": 43,
+                    "value": "2",
+                    "entity": "bed_room",
+                    "confidence": 0.24153382372557491,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "start": 57,
+                    "end": 58,
+                    "value": "1",
+                    "entity": "bath_room",
+                    "confidence": 0.6523837680538607,
+                    "extractor": "ner_crf"
+                }
+            ]
+        },
+        {
+            "text": "i would like to buy a house in DaNangcity with 1 billion vnd",
+            "true": [
+                {
+                    "start": 22,
+                    "end": 27,
+                    "value": "house",
+                    "entity": "real_estate_type"
+                },
+                {
+                    "start": 31,
+                    "end": 37,
+                    "value": "DaNang",
+                    "entity": "city"
+                },
+                {
+                    "start": 47,
+                    "end": 56,
+                    "value": "1 billion",
+                    "entity": "price"
+                },
+                {
+                    "start": 57,
+                    "end": 60,
+                    "value": "vnd",
+                    "entity": "lookup_tables/currency"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 22,
+                    "end": 27,
+                    "value": "house",
+                    "entity": "real_estate_type",
+                    "confidence": 0.9413951803719357,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "start": 47,
+                    "end": 56,
+                    "value": "1 billion",
+                    "entity": "price",
+                    "confidence": 0.9777463636240257,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "start": 57,
+                    "end": 60,
+                    "value": "vnd",
+                    "entity": "lookup_tables/currency",
+                    "confidence": 0.9647396449560783,
+                    "extractor": "ner_crf"
+                }
+            ]
+        },
+        {
+            "text": "i would like to buy a house in DaNangcity with 1 billion vnd",
+            "true": [
+                {
+                    "start": 22,
+                    "end": 27,
+                    "value": "house",
+                    "entity": "real_estate_type"
+                },
+                {
+                    "start": 31,
+                    "end": 37,
+                    "value": "DaNang",
+                    "entity": "city"
+                },
+                {
+                    "start": 47,
+                    "end": 56,
+                    "value": "1 billion",
+                    "entity": "price"
+                },
+                {
+                    "start": 57,
+                    "end": 60,
+                    "value": "vnd",
+                    "entity": "lookup_tables/currency"
+                }
+            ],
+            "predict": [
+                {
+                    "start": 22,
+                    "end": 27,
+                    "value": "house",
+                    "entity": "real_estate_type",
+                    "confidence": 0.9413951803719357,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "start": 47,
+                    "end": 56,
+                    "value": "1 billion",
+                    "entity": "price",
+                    "confidence": 0.9777463636240257,
+                    "extractor": "ner_crf"
+                },
+                {
+                    "start": 57,
+                    "end": 60,
+                    "value": "vnd",
+                    "entity": "lookup_tables/currency",
+                    "confidence": 0.9647396449560783,
+                    "extractor": "ner_crf"
+                }
+            ]
         }
-      ],
-      "predict": [
-        {
-          "start": 21,
-          "end": 32,
-          "value": "comfortable",
-          "entity": "house_feature",
-          "confidence": 0.7967667591571804,
-          "extractor": "ner_crf"
-        }
-      ]
-    },
-    {
-      "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau city",
-      "true": [
-        {
-          "start": 23,
-          "end": 35,
-          "value": "two bedrooms",
-          "entity": "bed_room"
-        },
-        {
-          "start": 58,
-          "end": 68,
-          "value": "2 millions",
-          "entity": "price"
-        },
-        {
-          "start": 69,
-          "end": 73,
-          "value": "euro",
-          "entity": "currency"
-        },
-        {
-          "start": 77,
-          "end": 88,
-          "value": "Ca Mau city",
-          "entity": "city"
-        }
-      ],
-      "predict": [
-        {
-          "start": 12,
-          "end": 17,
-          "value": "house",
-          "entity": "real_estate_type",
-          "confidence": 0.5669395864207815,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 23,
-          "end": 35,
-          "value": "two bedrooms",
-          "entity": "bed_room",
-          "confidence": 0.9292359285695856,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 58,
-          "end": 68,
-          "value": "2 millions",
-          "entity": "price",
-          "confidence": 0.9346372041213635,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 69,
-          "end": 73,
-          "value": "euro",
-          "entity": "currency",
-          "confidence": 0.9689479933266993,
-          "extractor": "ner_crf"
-        }
-      ]
-    },
-    {
-      "text": "i need to travel to restaurant in no more than 10 minute",
-      "true": [
-        {
-          "start": 20,
-          "end": 30,
-          "value": "restaurant",
-          "entity": "local_feature"
-        },
-        {
-          "start": 47,
-          "end": 56,
-          "value": "10 minute",
-          "entity": "time_spent"
-        }
-      ],
-      "predict": [
-        {
-          "start": 47,
-          "end": 56,
-          "value": "10 minute",
-          "entity": "time_spent",
-          "confidence": 0.9045403502889036,
-          "extractor": "ner_crf"
-        }
-      ]
-    },
-    {
-      "text": "i would like to buy a house in DaNangcity with 1 billion vnd",
-      "true": [
-        {
-          "start": 22,
-          "end": 27,
-          "value": "house",
-          "entity": "real_estate_type"
-        },
-        {
-          "start": 31,
-          "end": 37,
-          "value": "DaNang",
-          "entity": "city"
-        },
-        {
-          "start": 47,
-          "end": 56,
-          "value": "1 billion",
-          "entity": "price"
-        },
-        {
-          "start": 57,
-          "end": 60,
-          "value": "vnd",
-          "entity": "currency"
-        }
-      ],
-      "predict": [
-        {
-          "start": 22,
-          "end": 27,
-          "value": "house",
-          "entity": "real_estate_type",
-          "confidence": 0.9361920490968962,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 47,
-          "end": 56,
-          "value": "1 billion",
-          "entity": "price",
-          "confidence": 0.9807063499282688,
-          "extractor": "ner_crf"
-        },
-        {
-          "start": 57,
-          "end": 60,
-          "value": "vnd",
-          "entity": "currency",
-          "confidence": 0.959994876772147,
-          "extractor": "ner_crf"
-        }
-      ]
-    }
-  ]
+    ],
+    "support": 5
 }

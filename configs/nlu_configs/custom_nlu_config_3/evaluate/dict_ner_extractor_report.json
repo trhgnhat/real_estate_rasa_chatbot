@@ -1,21 +1,39 @@
 {
-  "bed_room": {
+  "bath_room": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
     "support": 2
   },
+  "bed_room": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5
+  },
   "city": {
     "precision": 1.0,
-    "recall": 0.3076923076923077,
-    "f1-score": 0.47058823529411764,
-    "support": 13
+    "recall": 0.3,
+    "f1-score": 0.4615384615384615,
+    "support": 10
+  },
+  "furniture": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 16
+  },
+  "house_description": {
+    "precision": 0.125,
+    "recall": 1.0,
+    "f1-score": 0.2222222222222222,
+    "support": 1
   },
   "house_feature": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 8
+    "support": 5
   },
   "local_feature": {
     "precision": 0.0,
@@ -27,31 +45,31 @@
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 10
+    "support": 6
   },
   "no_entity": {
-    "precision": 0.8168724279835391,
-    "recall": 1.0,
-    "f1-score": 0.89920724801812,
-    "support": 397
+    "precision": 0.8214285714285714,
+    "recall": 0.9949109414758269,
+    "f1-score": 0.8998849252013809,
+    "support": 393
   },
   "num_persons": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 6
+    "support": 3
   },
   "price": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 19
+    "support": 11
   },
   "real_estate_type": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 25
+    "precision": 1.0,
+    "recall": 0.10714285714285714,
+    "f1-score": 0.19354838709677416,
+    "support": 28
   },
   "time_spent": {
     "precision": 0.0,
@@ -66,21 +84,21 @@
     "support": 3
   },
   "micro avg": {
-    "precision": 0.8183673469387756,
-    "recall": 0.8183673469387756,
-    "f1-score": 0.8183673469387756,
+    "precision": 0.8122448979591836,
+    "recall": 0.8122448979591836,
+    "f1-score": 0.8122448979591836,
     "support": 490
   },
   "macro avg": {
-    "precision": 0.16517022072577628,
-    "recall": 0.11888111888111888,
-    "f1-score": 0.12452686211929433,
+    "precision": 0.21045918367346936,
+    "recall": 0.171575271329906,
+    "f1-score": 0.12694242828991706,
     "support": 490
   },
   "weighted avg": {
-    "precision": 0.6883639875703367,
-    "recall": 0.8183673469387756,
-    "f1-score": 0.7410263765755453,
+    "precision": 0.7366253644314869,
+    "recall": 0.8122448979591836,
+    "f1-score": 0.74267701485808,
     "support": 490
   }
 }

@@ -1,7 +1,19 @@
 [
   {
+    "name": "bath_room",
+    "pattern": "(\\d{2}\\s*(?i)(?:[b]+[a]+[t]+[h]+\\s*[r]+[o]+[o]+[m]+[s]*)+)+"
+  },
+  {
+    "name": "bed_room",
+    "pattern": "(\\d{2}\\s*(?i)(?:[b]+[e]+[d]+\\s*[r]+[o]+[o]+[m]+[s]*)+)+"
+  },
+  {
     "name": "city",
-    "pattern": "[aA-zZ]+ [cC][iI][tT][yY]"
+    "pattern": "[aA-zZ]+\\s*(?i)[c]+[i]+[t]+[y]+"
+  },
+  {
+    "name": "guess_room",
+    "pattern": "(\\d{2}\\s*(?i)(?:[g]+[u]+[e]+[s]+[s]+\\s*[r]+[o]+[o]+[m]+[s]*)+)+"
   },
   {
     "name": "price",
@@ -14,10 +26,6 @@
   {
     "name": "price",
     "pattern": "(\\d+\\s*(?:[mM]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
-  },
-  {
-    "name": "price",
-    "pattern": "[0-9]{3,}"
   },
   {
     "name": "zipcode",
@@ -34,5 +42,13 @@
   {
     "name": "currency",
     "pattern": "(?i)(\\bvnd\\b|\\busd\\b|\\beuro\\b)"
+  },
+  {
+    "name": "house_description",
+    "pattern": "(?i)(\\bappointed\\b|\\bbaronial\\b|\\bbeachfront\\b|\\bbrick\\-built\\b|\\bbrownstone\\b|\\bburnt\\-out\\b|\\bcarbuncle\\b|\\bcarpeted\\b|\\bcavernous\\b|\\bcolonial\\b|\\bcomfortable\\b|\\bcondemned\\b|\\bCorinthian\\b|\\bcovered\\b|\\bcurtained\\-off\\b|\\bdank\\b|\\bdarkened\\b|\\bderelict\\b|\\bdetached\\b|\\bdilapidated\\b|\\bDoric\\b|\\bensuite\\b|\\bfiretrap\\b|\\bfurnished\\b|\\bgabled\\b|\\bhalf\\-timbered\\b|\\bhandsome\\b|\\bhigh\\-rise\\b|\\bIonic\\b|\\blabyrinthine\\b|\\blofty\\b|\\blong\\-stay\\b|\\blow\\-rise\\b|\\bmoated\\b|\\bmodest\\b|\\bmodular\\b|\\bnon\\-residential\\b|\\bnot\\ enough\\ room\\ to\\ swing\\ a\\ cat\\b|\\bopen\\-plan\\b|\\bpalatial\\b|\\bPerpendicular\\b|\\bprefab\\b|\\bprefabricated\\b|\\brabbit\\ warren\\b|\\brambling\\b|\\bredbrick\\b|\\bRomanesque\\b|\\brooftop\\b|\\bruined\\b|\\bsecure\\b|\\bself\\-contained\\b|\\bsemi\\-detached\\b|\\bservice\\b|\\bshuttered\\b|\\bsnug\\b|\\bspacious\\b|\\bsplit\\-level\\b|\\bsprawl\\b|\\bsprawling\\b|\\bstark\\b|\\btimbered\\b|\\btumbledown\\b|\\bunfurnished\\b|\\bunoccupied\\b|\\bvaulted\\b|\\bwarm\\b|\\bwell\\-appointed\\b|\\badventurous\\b|\\bhuge\\b|\\bModern\\b|\\bbeautiful\\b|\\bsuperb\\b|\\bgreat\\b|\\bmarvellous\\b|\\bwonderful\\b|\\bfine\\b|\\bcultured\\b|\\bexcellent\\b|\\bpolished\\b|\\belegant\\b|\\bfeminine\\b)"
+  },
+  {
+    "name": "house_description",
+    "pattern": "(?i)(\\bking\\-size\\ bed\\b|\\bdouble\\ bed\\b|\\bsingle\\ bed\\b|\\bsofa\\b|\\btelevision\\b|\\btv\\b|\\bbench\\b|\\bfan\\b|\\bair\\ conditioner\\b|\\bfridge\\b|\\brefridgerator\\b|\\bmicrowaves\\b|\\bbathtube\\b)"
   }
 ]

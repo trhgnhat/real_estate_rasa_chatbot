@@ -1,7 +1,19 @@
 [
   {
+    "name": "bath_room",
+    "pattern": "(\\d{2}\\s*(?i)(?:[b]+[a]+[t]+[h]+\\s*[r]+[o]+[o]+[m]+[s]*)+)+"
+  },
+  {
+    "name": "bed_room",
+    "pattern": "(\\d{2}\\s*(?i)(?:[b]+[e]+[d]+\\s*[r]+[o]+[o]+[m]+[s]*)+)+"
+  },
+  {
     "name": "city",
-    "pattern": "[aA-zZ]+ [cC][iI][tT][yY]"
+    "pattern": "[aA-zZ]+\\s*(?i)[c]+[i]+[t]+[y]+"
+  },
+  {
+    "name": "guess_room",
+    "pattern": "(\\d{2}\\s*(?i)(?:[g]+[u]+[e]+[s]+[s]+\\s*[r]+[o]+[o]+[m]+[s]*)+)+"
   },
   {
     "name": "price",
@@ -25,10 +37,18 @@
   },
   {
     "name": "city",
-    "pattern": "(?i)(\\bCan\\ Tho\\b|\\bDa\\ Nang\\b|\\bHai\\ Phong\\b|\\bHa\\ Noi\\b|\\bHo\\ Chi\\ Minh\\ City\\b|\\bBa\\ Ria\\b|\\bBac\\ Lieu\\b|\\bBac\\ Giang\\b|\\bBac\\ Ninh\\b|\\bBao\\ Loc\\b|\\bBien\\ Hoa\\b|\\bBuon\\ Ma\\ Thuot\\b|\\bBen\\ Tre\\b|\\bCa\\ Mau\\b|\\bCam\\ Pha\\b|\\bCao\\ Lanh\\b|\\bDa\\ Lat\\b|\\bDien\\ Bien\\ Phu\\b|\\bDong\\ Ha\\b|\\bDong\\ Hoi\\b|\\bHa\\ Tinh\\b|\\bHai\\ Duong\\b|\\bHa\\ Long\\b|\\bHoa\\ Binh\\b|\\bHoi\\ An\\b|\\bHue\\b|\\bHung\\ Yen\\b|\\bKon\\ Tum\\b|\\bLang\\ Son\\b|\\bLao\\ Cai\\b|\\bLong\\ Xuyen\\b|\\bMong\\ Cai\\b|\\bMy\\ Tho\\b|\\bNam\\ Dinh\\b|\\bNinh\\ Binh\\b|\\bNha\\ Trang\\b|\\bCam\\ Ranh\\b|\\bPhan\\ Rang\\-Thap\\ Cham\\b|\\bPhan\\ Thiet\\b|\\bPhu\\ Ly\\b|\\bPleiku\\b|\\bQuang\\ Ngai\\b|\\bQuy\\ Nhon\\b|\\bRach\\ Gia\\b|\\bSoc\\ Trang\\b|\\bSon\\ La\\b|\\bTam\\ Ky\\b|\\bTan\\ An\\b|\\bThai\\ Binh\\b|\\bThai\\ Nguyen\\b|\\bThanh\\ Hoa\\b|\\bTra\\ Vinh\\b|\\bTuy\\ Hoa\\b|\\bTuyen\\ Quang\\b|\\bUong\\ Bi\\b|\\bViet\\ Tri\\b|\\bVinh\\b|\\bVinh\\ Yen\\b|\\bVinh\\ Long\\b|\\bVung\\ Tau\\b|\\bYen\\ Bai\\b)"
+    "pattern": "(?i)(\\bCan\\ Tho\\b|\\bDa\\ Nang\\b|\\bHai\\ Phong\\b|\\bHa\\ Noi\\b|\\bHo\\ Chi\\ Minh\\b|\\bBa\\ Ria\\b|\\bBac\\ Lieu\\b|\\bBac\\ Giang\\b|\\bBac\\ Ninh\\b|\\bBao\\ Loc\\b|\\bBien\\ Hoa\\b|\\bBuon\\ Ma\\ Thuot\\b|\\bBen\\ Tre\\b|\\bCa\\ Mau\\b|\\bCam\\ Pha\\b|\\bCao\\ Lanh\\b|\\bDa\\ Lat\\b|\\bDien\\ Bien\\ Phu\\b|\\bDong\\ Ha\\b|\\bDong\\ Hoi\\b|\\bHa\\ Tinh\\b|\\bHai\\ Duong\\b|\\bHa\\ Long\\b|\\bHoa\\ Binh\\b|\\bHoi\\ An\\b|\\bHue\\b|\\bHung\\ Yen\\b|\\bKon\\ Tum\\b|\\bLang\\ Son\\b|\\bLao\\ Cai\\b|\\bLong\\ Xuyen\\b|\\bMong\\ Cai\\b|\\bMy\\ Tho\\b|\\bNam\\ Dinh\\b|\\bNinh\\ Binh\\b|\\bNha\\ Trang\\b|\\bCam\\ Ranh\\b|\\bPhan\\ Rang\\b|\\bPhan\\ Thiet\\b|\\bPhu\\ Ly\\b|\\bPleiku\\b|\\bQuang\\ Ngai\\b|\\bQuy\\ Nhon\\b|\\bRach\\ Gia\\b|\\bSoc\\ Trang\\b|\\bSon\\ La\\b|\\bTam\\ Ky\\b|\\bTan\\ An\\b|\\bThai\\ Binh\\b|\\bThai\\ Nguyen\\b|\\bThanh\\ Hoa\\b|\\bTra\\ Vinh\\b|\\bTuy\\ Hoa\\b|\\bTuyen\\ Quang\\b|\\bUong\\ Bi\\b|\\bViet\\ Tri\\b|\\bVinh\\b|\\bVinh\\ Yen\\b|\\bVinh\\ Long\\b|\\bVung\\ Tau\\b|\\bYen\\ Bai\\b)"
   },
   {
     "name": "currency",
     "pattern": "(?i)(\\bvnd\\b|\\busd\\b|\\beuro\\b)"
+  },
+  {
+    "name": "house_description",
+    "pattern": "(?i)(\\bappointed\\b|\\bbaronial\\b|\\bbeachfront\\b|\\bbrick\\-built\\b|\\bbrownstone\\b|\\bburnt\\-out\\b|\\bcarbuncle\\b|\\bcarpeted\\b|\\bcavernous\\b|\\bcolonial\\b|\\bcomfortable\\b|\\bcondemned\\b|\\bCorinthian\\b|\\bcovered\\b|\\bcurtained\\-off\\b|\\bdank\\b|\\bdarkened\\b|\\bderelict\\b|\\bdetached\\b|\\bdilapidated\\b|\\bDoric\\b|\\bensuite\\b|\\bfiretrap\\b|\\bfurnished\\b|\\bgabled\\b|\\bhalf\\-timbered\\b|\\bhandsome\\b|\\bhigh\\-rise\\b|\\bIonic\\b|\\blabyrinthine\\b|\\blofty\\b|\\blong\\-stay\\b|\\blow\\-rise\\b|\\bmoated\\b|\\bmodest\\b|\\bmodular\\b|\\bnon\\-residential\\b|\\bnot\\ enough\\ room\\ to\\ swing\\ a\\ cat\\b|\\bopen\\-plan\\b|\\bpalatial\\b|\\bPerpendicular\\b|\\bprefab\\b|\\bprefabricated\\b|\\brabbit\\ warren\\b|\\brambling\\b|\\bredbrick\\b|\\bRomanesque\\b|\\brooftop\\b|\\bruined\\b|\\bsecure\\b|\\bself\\-contained\\b|\\bsemi\\-detached\\b|\\bservice\\b|\\bshuttered\\b|\\bsnug\\b|\\bspacious\\b|\\bsplit\\-level\\b|\\bsprawl\\b|\\bsprawling\\b|\\bstark\\b|\\btimbered\\b|\\btumbledown\\b|\\bunfurnished\\b|\\bunoccupied\\b|\\bvaulted\\b|\\bwarm\\b|\\bwell\\-appointed\\b|\\badventurous\\b|\\bhuge\\b|\\bModern\\b|\\bbeautiful\\b|\\bsuperb\\b|\\bgreat\\b|\\bmarvellous\\b|\\bwonderful\\b|\\bfine\\b|\\bcultured\\b|\\bexcellent\\b|\\bpolished\\b|\\belegant\\b|\\bfeminine\\b)"
+  },
+  {
+    "name": "house_description",
+    "pattern": "(?i)(\\bking\\-size\\ bed\\b|\\bdouble\\ bed\\b|\\bsingle\\ bed\\b|\\bsofa\\b|\\btelevision\\b|\\btv\\b|\\bbench\\b|\\bfan\\b|\\bair\\ conditioner\\b|\\bfridge\\b|\\brefridgerator\\b|\\bmicrowaves\\b|\\bbathtube\\b)"
   }
 ]

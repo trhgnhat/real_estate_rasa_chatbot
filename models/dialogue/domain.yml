@@ -1,64 +1,168 @@
 %YAML 1.1
 ---
 actions:
-- utter_slots_values
-- utter_ask_location
-- utter_greet
-- utter_default
 - utter_ask_feedback
-- utter_wrong_location
-- utter_submit
-- utter_welcome
+- utter_ask_for_more_info
+- utter_ask_real_estate_type
+- utter_ask_bed_room
+- utter_ask_bath_room
+- utter_ask_guess_room
 - utter_ask_price
-- utter_unclear
-- utter_noworries
+- utter_ask_city
+- utter_default
 - utter_goodbye
+- utter_greet
+- utter_noworries
+- utter_slots_values
+- utter_unclear
+- utter_welcome
+- utter_wrong_city
 - utter_wrong_price
+- utter_wrong_real_estate_type
 config:
   store_entities_as_slots: true
 entities:
-- location
 - price
+- location
 - feedback
+- local_feature
+- city
+- bed_room
+- bath_room
+- house_feature
+- transportation
+- real_estate_type
+- guess_room
+- time_spent
 forms:
 - house_form
 intents:
-- greet:
-    use_entities: true
 - house_request:
     use_entities: true
-- inform:
+- house_inform:
     use_entities: true
-- thanking:
+- greet:
     use_entities: true
-- thanks:
+- thankyou:
+    use_entities: true
+- ask_howdoing:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
     use_entities: true
 - goodbye:
     use_entities: true
 slots:
+  bath_room:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  bed_room:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  city:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  currency:
+    auto_fill: true
+    initial_value: usd
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - usd
+    - euro
+    - vnd
   feedback:
-    auto_fill: false
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  guess_room:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  house_feature:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  local_feature:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
   location:
-    auto_fill: false
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
   price:
-    auto_fill: false
+    auto_fill: true
     initial_value: null
-    type: rasa_core.slots.UnfeaturizedSlot
+    type: rasa_core.slots.TextSlot
+  real_estate_type:
+    auto_fill: true
+    initial_value: house
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - house
+    - apartment
   requested_slot:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
+  time_spent:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  transportation:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
 templates:
+  utter_ask_bath_room:
+  - buttons:
+    - payload: '1'
+      title: '1'
+    - payload: '2'
+      title: '2'
+    - payload: '3'
+      title: '3'
+    - payload: '4'
+      title: '4'
+    text: How many bathroom do you need?
+  utter_ask_bed_room:
+  - buttons:
+    - payload: '1'
+      title: '1'
+    - payload: '2'
+      title: '2'
+    - payload: '3'
+      title: '3'
+    - payload: '4'
+      title: '4'
+    text: How many bedroom do you need?
+  utter_ask_city:
+  - text: Where are you searching for?
+  utter_ask_currency:
+  - text: which currency are you using?
   utter_ask_feedback:
   - text: please give your feedback on your experience so far
-  utter_ask_location:
-  - text: In what location?
+  utter_ask_for_more_info:
+  - text: Is there any more requirements?
+  utter_ask_guess_room:
+  - buttons:
+    - payload: '1'
+      title: '1'
+    - payload: '2'
+      title: '2'
+    - payload: '3'
+      title: '3'
+    - payload: '4'
+      title: '4'
+    text: How many guessroom do you need?
   utter_ask_price:
   - text: How much money can you afford?
+  utter_ask_real_estate_type:
+  - text: Are you searching for houses or apartments?
   utter_default:
   - text: sorry, I didn't understand you, please try input something else
   utter_goodbye:
@@ -69,15 +173,19 @@ templates:
   utter_noworries:
   - text: you are welcome :)
   utter_slots_values:
-  - text: "I am going to run a house search using the following parameters:\n - location:\
-      \ {location}\n - price: {price}"
-  utter_submit:
-  - text: All done!
+  - text: "I am going to run a house search using the following parameters:\n - type:\
+      \ {real_estate_type}\n- location: {location}\n- price: {price}\n- number of\
+      \ bedrooms: {bed_room}\n- number of bathrooms: {bath_room}\n- number of guess\
+      \ rooms: {guess_room}\n"
   utter_unclear:
   - text: I am not sure what you are talking about.
   utter_welcome:
   - text: It is my pleasure to help you. Is there anything else?
-  utter_wrong_location:
+  utter_wrong_city:
   - text: location type is not in the database, please try again
+  utter_wrong_currency:
+  - text: Sorry, we only support for usd/vnd/euro currency at the moment
   utter_wrong_price:
   - text: price should be a positive float, please try again
+  utter_wrong_real_estate_type:
+  - text: Sorry, we only support for houses/apartments searching at the moment
