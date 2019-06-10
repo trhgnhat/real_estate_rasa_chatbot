@@ -4,7 +4,7 @@ python -m rasa_nlu.evaluate --data data/data.json --config configs/nlu_configs/c
 
 python -m rasa_core.evaluate --stories data/stories.md --core models/dialogue -o results
 
-python -m rasa_core_sdk.endpoint --actions action
+python -m rasa_core_sdk.endpoint --actions form_action
 
 python -m rasa_nlu.evaluate --data data/data.json --config configs/nlu_configs/custom_nlu_config_1/nlu_config.md --mode crossvalidation
 

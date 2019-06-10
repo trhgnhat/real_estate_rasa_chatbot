@@ -3,10 +3,13 @@ from typing import Dict, Text, Any, List, Union, Optional
 
 from rasa_core_sdk import ActionExecutionRejection
 from rasa_core_sdk import Tracker
-from rasa_core_sdk.events import SlotSet
+from rasa_core_sdk.events import SlotSet, FollowupAction, ReminderScheduled
 from rasa_core_sdk.executor import CollectingDispatcher
 from rasa_core_sdk.forms import FormAction, REQUESTED_SLOT
 
+from rasa_core_sdk import Action
+from datetime import datetime
+from datetime import timedelta
 
 class RestaurantForm(FormAction):
     """Example of a custom form action"""
@@ -19,7 +22,12 @@ class RestaurantForm(FormAction):
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
         """A list of required slots that the form has to fill"""
-        return ["real_estate_type", "city", "price", "currency", "bed_room", "bath_room", "guess_room", "feedback"]
+        if tracker.get_slot('real_estate_type') == "house":
+            return ["real_estate_type", "city", "price", "currency", "bed_room", "bath_room", "guess_room"]
+        else:
+            return ["real_estate_type", "city", "price", "currency", "bed_room", "bath_room",
+                    "request_more_info", "confirm_information", "is_satisfied"]
+            # return ["real_estate_type", "city", "price", "currency", "bed_room", "bath_room", "guess_room", "request_more_info", "is_satisfied"]
 
     def slot_mappings(self):
         # type: () -> Dict[Text: Union[Dict, List[Dict]]]
@@ -85,7 +93,19 @@ class RestaurantForm(FormAction):
                                                       intent=["house_inform",
                                                               "house_request"]),
                 "feedback": [self.from_entity(entity="feedback"),
-                             self.from_text()]}
+                             self.from_text(intent="feedback")]}
+
+    @staticmethod
+    def return_information(tracker: Tracker) -> Optional[Text]:
+        try:
+            response = """information (collecting from house_form):\n"""
+            for entity_name, entity in tracker.current_slot_values().items():
+                if tracker.get_slot(entity_name) is not None:
+                    response += "- {}: {}\n".format(entity_name, entity)
+            return response
+        except Exception as e:
+            print(e)
+            print(tracker.current_slot_values().items())
 
     @staticmethod
     def re_type_db():
@@ -128,7 +148,7 @@ class RestaurantForm(FormAction):
                       dispatcher: CollectingDispatcher,
                       tracker: Tracker,
                       domain: Dict[Text, Any]) -> Optional[Text]:
-        value.lower()
+        value = value.lower()
         value = self.city_remove(value)
         if value:
             # validation succeeded
@@ -139,13 +159,11 @@ class RestaurantForm(FormAction):
             # user will be asked for the slot again
             return None
 
-    def real_estate_type(self,
-                         value: Text,
-                         dispatcher: CollectingDispatcher,
-                         tracker: Tracker,
-                         domain: Dict[Text, Any]) -> Optional[Text]:
-        if value[-1] == "s":
-            value = value[:-1]
+    def validate_real_estate_type(self,
+                                  value: Text,
+                                  dispatcher: CollectingDispatcher,
+                                  tracker: Tracker,
+                                  domain: Dict[Text, Any]) -> Optional[Text]:
         if value.lower() in self.re_type_db():
             # validation succeeded
             return value
@@ -155,11 +173,11 @@ class RestaurantForm(FormAction):
             # user will be asked for the slot again
             return None
 
-    def real_estate_type(self,
-                         value: Text,
-                         dispatcher: CollectingDispatcher,
-                         tracker: Tracker,
-                         domain: Dict[Text, Any]) -> Optional[Text]:
+    def validate_currency(self,
+                          value: Text,
+                          dispatcher: CollectingDispatcher,
+                          tracker: Tracker,
+                          domain: Dict[Text, Any]) -> Optional[Text]:
         if value.lower() in self.currency_db():
             # validation succeeded
             return value
@@ -174,7 +192,25 @@ class RestaurantForm(FormAction):
                        dispatcher: CollectingDispatcher,
                        tracker: Tracker,
                        domain: Dict[Text, Any]) -> Optional[Text]:
-
+        word_rm_dict = {
+            "\s*k": "000",
+            "\s*thousand": "000",
+            "\s*thousands": "000",
+            "\s*millions": "000000",
+            "\s*million": "000000",
+            "\s*mil": "000000",
+            "\s*M": "000000",
+            "\s*billions": "000000000",
+            "\s*bil": "000000000",
+            "\s*B": "000000000",
+            "\s*billion": "000000000",
+        }
+        import re
+        regex = "(?i)(" + "|".join([each for each in word_rm_dict]) + ")"
+        for match in re.findall(regex, value):
+            if match in word_rm_dict:
+                value = value.replace(match, word_rm_dict[match])
+        value = value.replace(" ", "").replace(".", "").replace(",", "")
         if self.is_float(value) and float(value) > 0:
             return value
         else:
@@ -228,14 +264,24 @@ class RestaurantForm(FormAction):
         """Define what the form has to do
             after all required slots are filled"""
 
-        location = tracker.get_slot("location")
-        price = tracker.get_slot("price")
-        feedback = tracker.get_slot("feedback")
-        bed_room = tracker.get_slot("bed_room")
-        bath_room = tracker.get_slot("bath_room")
-        guess_room = tracker.get_slot("guess_room")
+        return []
 
-        dispatcher.utter_template('utter_ask_for_more_info', tracker)
 
-        return [SlotSet('location', location), SlotSet('price', price), SlotSet('feedback', feedback),
-                SlotSet('bed_room', bed_room), SlotSet('bath_room', bath_room), SlotSet('guess_room', guess_room)]
+class ActionHouse(Action):
+    def name(self):
+        return 'action_house'
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            response = """information (processing in action):\n"""
+            for entity_name, entity in tracker.current_slot_values().items():
+                if entity_name in ["request_more_info", "is_satisfied", "confirm_information"]:
+                    continue
+                if tracker.get_slot(entity_name) is not None:
+                    response += "- {}: {}\n".format(entity_name, entity)
+
+            dispatcher.utter_message(response)
+            return [SlotSet("found", "Not implement yet")]
+        except Exception as e:
+            print(e)
+            print(tracker.current_slot_values().items())

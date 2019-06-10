@@ -350,7 +350,7 @@
           "start": 20,
           "end": 27,
           "value": "dollars",
-          "entity": "lookup_tables/currency"
+          "entity": "currency"
         }
       ],
       "predict": [
@@ -366,7 +366,7 @@
           "start": 20,
           "end": 27,
           "value": "usd",
-          "entity": "lookup_tables/currency",
+          "entity": "currency",
           "confidence": 0.9487014001822676,
           "extractor": "ner_crf",
           "processors": [
@@ -536,7 +536,7 @@
           "start": 37,
           "end": 44,
           "value": "dollars",
-          "entity": "lookup_tables/currency"
+          "entity": "currency"
         }
       ],
       "predict": [
@@ -560,7 +560,7 @@
           "start": 37,
           "end": 44,
           "value": "usd",
-          "entity": "lookup_tables/currency",
+          "entity": "currency",
           "confidence": 0.956920798635742,
           "extractor": "ner_crf",
           "processors": [
@@ -588,7 +588,7 @@
           "start": 40,
           "end": 47,
           "value": "dollars",
-          "entity": "lookup_tables/currency"
+          "entity": "currency"
         }
       ],
       "predict": [
@@ -612,7 +612,7 @@
           "start": 40,
           "end": 47,
           "value": "usd",
-          "entity": "lookup_tables/currency",
+          "entity": "currency",
           "confidence": 0.96574696615768,
           "extractor": "ner_crf",
           "processors": [
@@ -768,7 +768,7 @@
           "start": 37,
           "end": 44,
           "value": "dollars",
-          "entity": "lookup_tables/currency"
+          "entity": "currency"
         }
       ],
       "predict": [
@@ -792,7 +792,7 @@
           "start": 37,
           "end": 44,
           "value": "usd",
-          "entity": "lookup_tables/currency",
+          "entity": "currency",
           "confidence": 0.956920798635742,
           "extractor": "ner_crf",
           "processors": [

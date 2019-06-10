@@ -1,243 +1,417 @@
 {
     "examples": [
         {
-            "text": "the modern room features aking-size bed and large windows",
+          "text": "how's life been treating you?",
+          "true": [],
+            "predict": [
+                {
+                  "value": "been tre",
+                    "confidence": 1,
+                  "entity": "city",
+                  "start": 11,
+                  "end": 19,
+                    "extractor": "dict_ner_extractor"
+                }
+            ]
+        },
+      {
+        "text": "i need to travel to central of the city in less than 10 minute",
+        "true": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "central of the",
+            "entity": "city"
+          },
+          {
+            "start": 53,
+            "end": 55,
+            "value": "10",
+            "entity": "time_spent"
+          }
+        ],
+        "predict": [
+          {
+            "start": 53,
+            "end": 55,
+            "value": "10",
+            "entity": "time_spent",
+            "confidence": 0.9161681263466722,
+            "extractor": "ner_crf"
+          }
+        ]
+      },
+      {
+        "text": "The local area also features several delicious restaurants, a bakery and leisure facilities",
+        "true": [
+          {
+            "start": 47,
+            "end": 58,
+            "value": "restaurants",
+            "entity": "local_feature"
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "value": "bakery",
+            "entity": "local_feature"
+          },
+          {
+            "start": 73,
+            "end": 91,
+            "value": "leisure facilities",
+            "entity": "local_feature"
+          }
+        ],
+        "predict": [
+          {
+            "start": 62,
+            "end": 68,
+            "value": "bakery",
+            "entity": "local_feature",
+            "confidence": 0.27632923085264927,
+            "extractor": "ner_crf"
+          }
+        ]
+      },
+      {
+        "text": "i need to go to metro station in no more than 5 minute",
+        "true": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "metro station",
+            "entity": "local_feature"
+          },
+          {
+            "start": 46,
+            "end": 47,
+            "value": "5",
+            "entity": "time_spent"
+          }
+        ],
+        "predict": [
+          {
+            "start": 46,
+            "end": 47,
+            "value": "5",
+            "entity": "time_spent",
+            "confidence": 0.9119512776333272,
+            "extractor": "ner_crf"
+          }
+        ]
+      },
+      {
+        "text": "The asking price has recently gone down to two hundred and 25k usd",
+        "true": [
+          {
+            "start": 59,
+            "end": 62,
+            "value": "25k",
+            "entity": "price"
+                },
+                {
+                  "start": 63,
+                  "end": 66,
+                  "value": "usd",
+                  "entity": "currency"
+                }
+        ],
+        "predict": [
+          {
+            "start": 43,
+            "end": 46,
+            "value": "2",
+            "entity": "number",
+            "confidence": 0.18688871255243494,
+            "extractor": "ner_crf",
+            "processors": [
+              "ner_synonyms"
+            ]
+          },
+          {
+            "start": 47,
+            "end": 54,
+            "value": "hundred",
+            "entity": "number",
+            "confidence": 0.2235215297628781,
+            "extractor": "ner_crf"
+          },
+          {
+            "value": "usd",
+                    "confidence": 1,
+            "entity": "currency",
+            "start": 63,
+            "end": 66,
+                    "extractor": "dict_ner_extractor"
+                }
+            ]
+        },
+        {
+          "text": "The room i want has a queen size bed ideal for 2 persons",
             "true": [
                 {
-                    "start": 26,
-                    "end": 39,
-                    "value": "king-size bed",
+                  "start": 22,
+                  "end": 36,
+                  "value": "queen size bed",
                     "entity": "furniture"
                 },
                 {
-                    "start": 44,
-                    "end": 57,
-                    "value": "large windows",
-                    "entity": "house_feature"
-                }
-            ],
-            "predict": [
-                {
-                    "value": "modern",
-                    "confidence": 1,
-                    "entity": "house_description",
-                    "start": 4,
-                    "end": 10,
-                    "extractor": "dict_ner_extractor"
-                },
-                {
-                    "value": "king-size bed",
-                    "confidence": 1,
-                    "entity": "house_description",
-                    "start": 26,
-                    "end": 39,
-                    "extractor": "dict_ner_extractor"
-                }
-            ]
-        },
-        {
-            "text": "We need a medium-sized house with at least 3 bedrooms and 2 bathrooms",
-            "true": [
-                {
-                    "start": 10,
-                    "end": 22,
-                    "value": "medium-sized",
-                    "entity": "furniture"
-                },
-                {
-                    "start": 23,
-                    "end": 28,
-                    "value": "house",
-                    "entity": "real_estate_type"
-                },
-                {
-                    "start": 43,
-                    "end": 44,
-                    "value": "3",
-                    "entity": "bed_room"
-                },
-                {
-                    "start": 58,
-                    "end": 59,
+                  "start": 47,
+                  "end": 48,
                     "value": "2",
-                    "entity": "bath_room"
+                  "entity": "num_persons"
                 }
             ],
             "predict": [
                 {
-                    "value": "house",
-                    "confidence": 1,
-                    "entity": "real_estate_type",
-                    "start": 23,
-                    "end": 28,
-                    "extractor": "dict_ner_extractor"
-                },
-                {
-                    "start": 43,
-                    "end": 44,
-                    "value": "3",
-                    "entity": "bed_room",
-                    "confidence": 0.7893509672695188,
-                    "extractor": "ner_crf"
-                },
-                {
-                    "start": 58,
-                    "end": 59,
+                  "start": 47,
+                  "end": 48,
                     "value": "2",
-                    "entity": "price",
-                    "confidence": 0.3213158497963973,
+                  "entity": "num_persons",
+                  "confidence": 0.8929288358172822,
                     "extractor": "ner_crf"
                 }
             ]
         },
         {
-            "text": "We really want to live in a lakeside home with a dock for our boat",
+          "text": "About 5 minutes to the closest metro station",
             "true": [
                 {
-                    "start": 28,
-                    "end": 36,
-                    "value": "lakeside",
-                    "entity": "local_feature"
+                  "start": 6,
+                  "end": 7,
+                  "value": "5",
+                  "entity": "time_spent"
                 },
-                {
-                    "start": 37,
-                    "end": 41,
-                    "value": "home",
-                    "entity": "real_estate_type"
-                },
-                {
-                    "start": 49,
-                    "end": 53,
-                    "value": "dock",
+              {
+                "start": 31,
+                "end": 44,
+                "value": "metro station",
                     "entity": "local_feature"
+              }
+            ],
+          "predict": [
+                {
+                  "start": 6,
+                  "end": 7,
+                  "value": "5",
+                  "entity": "time_spent",
+                  "confidence": 0.8772690643524734,
+                  "extractor": "ner_crf"
+                }
+          ]
+        },
+      {
+        "text": "i want a house with side of the beach which is less than 2 millions usd in Hochiminh city",
+        "true": [
+          {
+            "start": 20,
+            "end": 37,
+            "value": "side of the beach",
+                    "entity": "local_feature"
+          },
+          {
+            "start": 57,
+            "end": 67,
+            "value": "2 millions",
+            "entity": "price"
+          },
+          {
+            "start": 68,
+            "end": 71,
+            "value": "usd",
+            "entity": "currency"
+          },
+          {
+            "start": 75,
+            "end": 84,
+            "value": "Hochiminh",
+            "entity": "city"
                 }
             ],
             "predict": [
                 {
+                  "start": 9,
+                  "end": 14,
                     "value": "house",
-                    "confidence": 1,
                     "entity": "real_estate_type",
-                    "start": 37,
-                    "end": 41,
-                    "extractor": "dict_ner_extractor",
-                    "processors": [
-                        "ner_synonyms"
-                    ]
+                  "confidence": 0.9965072898774828,
+                  "extractor": "ner_crf"
+                },
+              {
+                "start": 57,
+                "end": 67,
+                "value": "2 millions",
+                "entity": "price",
+                "confidence": 0.8479277688227983,
+                "extractor": "ner_crf"
                 },
                 {
-                    "start": 49,
-                    "end": 53,
-                    "value": "dock",
-                    "entity": "real_estate_type",
-                    "confidence": 0.42661566628659026,
+                  "start": 68,
+                  "end": 71,
+                  "value": "usd",
+                  "entity": "currency",
+                  "confidence": 0.6323852334938672,
                     "extractor": "ner_crf"
+                },
+              {
+                "value": "Hochiminh",
+                "confidence": 1,
+                "entity": "city",
+                "start": 75,
+                "end": 84,
+                "extractor": "dict_ner_extractor"
                 }
             ]
         },
         {
-            "text": "I would love to have a home with a view",
+          "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau city",
             "true": [
                 {
                     "start": 23,
-                    "end": 27,
-                    "value": "home",
-                    "entity": "real_estate_type"
+                  "end": 26,
+                  "value": "two",
+                  "entity": "bed_room"
+                },
+              {
+                "start": 58,
+                "end": 68,
+                "value": "2 millions",
+                "entity": "price"
+              },
+              {
+                "start": 69,
+                "end": 73,
+                "value": "euro",
+                "entity": "currency"
                 },
                 {
-                    "start": 35,
-                    "end": 39,
-                    "value": "view",
-                    "entity": "local_feature"
+                  "start": 77,
+                  "end": 83,
+                  "value": "Ca Mau",
+                  "entity": "city"
                 }
             ],
             "predict": [
                 {
-                    "start": 23,
-                    "end": 27,
+                  "start": 12,
+                  "end": 17,
                     "value": "house",
                     "entity": "real_estate_type",
-                    "confidence": 0.9452130963269629,
+                  "confidence": 0.9965599777953894,
+                  "extractor": "ner_crf"
+                },
+              {
+                "start": 23,
+                "end": 26,
+                "value": "2",
+                "entity": "bed_room",
+                "confidence": 0.9354717099004027,
                     "extractor": "ner_crf",
                     "processors": [
                         "ner_synonyms"
                     ]
+              },
+              {
+                "start": 58,
+                "end": 68,
+                "value": "2 millions",
+                "entity": "price",
+                "confidence": 0.8910427491431253,
+                "extractor": "ner_crf"
+              },
+              {
+                "start": 69,
+                "end": 73,
+                "value": "euro",
+                "entity": "currency",
+                "confidence": 0.8411723606195884,
+                "extractor": "ner_crf"
+              },
+              {
+                "start": 77,
+                "end": 83,
+                "value": "ca mau",
+                "entity": "city",
+                "confidence": 0.8724224739761332,
+                "extractor": "ner_crf"
                 }
             ]
         },
         {
-            "text": "Apartment with own shower kitchen and 2 sleeping rooms",
+          "text": "i need a house with two guess room which is only 2 millions vnd in Hanoi",
             "true": [
                 {
-                    "start": 0,
-                    "end": 9,
-                    "value": "Apartment",
-                    "entity": "real_estate_type"
+                  "start": 20,
+                  "end": 23,
+                  "value": "two",
+                  "entity": "guess_room"
+                },
+              {
+                "start": 49,
+                "end": 59,
+                "value": "2 millions",
+                "entity": "price"
                 },
                 {
-                    "start": 15,
-                    "end": 33,
-                    "value": "own shower kitchen",
-                    "entity": "house_feature"
+                  "start": 60,
+                  "end": 63,
+                  "value": "vnd",
+                  "entity": "currency"
                 },
                 {
-                    "start": 38,
-                    "end": 39,
-                    "value": "2",
-                    "entity": "bed_room"
+                  "start": 67,
+                  "end": 72,
+                  "value": "Hanoi",
+                  "entity": "city"
                 }
             ],
             "predict": [
                 {
-                    "value": "Apartment",
-                    "confidence": 1,
+                  "start": 9,
+                  "end": 14,
+                  "value": "house",
                     "entity": "real_estate_type",
-                    "start": 0,
-                    "end": 9,
-                    "extractor": "dict_ner_extractor"
-                }
-            ]
-        },
-        {
-            "text": "We would like a smaller cozy cottage with 2 bedrooms and 1 bathroom",
-            "true": [
-                {
-                    "start": 16,
-                    "end": 36,
-                    "value": "smaller cozy cottage",
-                    "entity": "furniture"
+                  "confidence": 0.9965489879634747,
+                  "extractor": "ner_crf"
+                },
+              {
+                "start": 20,
+                "end": 23,
+                    "value": "2",
+                "entity": "guess_room",
+                "confidence": 0.6358769755193635,
+                "extractor": "ner_crf",
+                "processors": [
+                  "ner_synonyms"
+                ]
                 },
                 {
-                    "start": 42,
-                    "end": 43,
-                    "value": "2",
-                    "entity": "bed_room"
-                },
-                {
-                    "start": 57,
-                    "end": 58,
-                    "value": "1",
-                    "entity": "bath_room"
-                }
-            ],
-            "predict": [
-                {
-                    "start": 42,
-                    "end": 43,
-                    "value": "2",
-                    "entity": "bed_room",
-                    "confidence": 0.815193993279185,
+                  "start": 49,
+                  "end": 59,
+                  "value": "2 millions",
+                  "entity": "price",
+                  "confidence": 0.5475434020771277,
                     "extractor": "ner_crf"
                 },
                 {
-                    "start": 57,
-                    "end": 58,
-                    "value": "1",
-                    "entity": "bath_room",
-                    "confidence": 0.6763627775689971,
+                  "start": 60,
+                  "end": 63,
+                  "value": "vnd",
+                  "entity": "currency",
+                  "confidence": 0.6749281625758179,
+                  "extractor": "ner_crf"
+                },
+              {
+                "start": 67,
+                "end": 72,
+                "value": "hanoi",
+                "entity": "city",
+                "confidence": 0.9967578613645599,
                     "extractor": "ner_crf"
                 }
             ]
         }
     ],
-    "support": 6
+  "support": 10
 }

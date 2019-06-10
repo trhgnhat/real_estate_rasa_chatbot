@@ -558,7 +558,7 @@
             "start": 13,
             "end": 14,
             "value": "$",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 14,
@@ -630,7 +630,7 @@
             "start": 12,
             "end": 16,
             "value": "euro",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 23,
@@ -690,7 +690,7 @@
             "start": 68,
             "end": 71,
             "value": "usd",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 75,
@@ -744,7 +744,7 @@
             "start": 20,
             "end": 24,
             "value": "euro",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "no more than 100000 euro"
@@ -804,7 +804,7 @@
             "start": 56,
             "end": 59,
             "value": "vnd",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "hey i think i will change the price to more than 200000 vnd"
@@ -1086,7 +1086,7 @@
             "start": 34,
             "end": 35,
             "value": "$",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 35,
@@ -1194,7 +1194,7 @@
             "start": 13,
             "end": 14,
             "value": "$",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 14,
@@ -1224,7 +1224,7 @@
             "start": 69,
             "end": 73,
             "value": "euro",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 77,
@@ -1270,7 +1270,7 @@
             "start": 60,
             "end": 63,
             "value": "vnd",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 67,
@@ -1306,7 +1306,7 @@
             "start": 56,
             "end": 63,
             "value": "dollars",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "hey i think i will change the price to more than 200000 dollars"
@@ -1342,7 +1342,7 @@
             "start": 13,
             "end": 14,
             "value": "$",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 14,
@@ -1360,7 +1360,7 @@
             "start": 7,
             "end": 8,
             "value": "$",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 8,
@@ -1414,7 +1414,7 @@
             "start": 63,
             "end": 66,
             "value": "usd",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "The asking price has recently gone down to two hundred and 25k usd"
@@ -1450,7 +1450,7 @@
             "start": 13,
             "end": 14,
             "value": "$",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           },
           {
             "start": 14,
@@ -1630,7 +1630,7 @@
             "start": 57,
             "end": 60,
             "value": "vnd",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
@@ -1654,7 +1654,7 @@
             "start": 37,
             "end": 40,
             "value": "vnd",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "Is there a house in range 4 millions vnd?"
@@ -1774,7 +1774,7 @@
             "start": 37,
             "end": 44,
             "value": "dollars",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "Is there a house in range 4 millions dollars?"
@@ -1960,7 +1960,7 @@
             "start": 38,
             "end": 45,
             "value": "dollars",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "is there any home less than 1 billion dollars?"
@@ -2068,7 +2068,7 @@
             "start": 38,
             "end": 45,
             "value": "dollars",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "is there any flat less than 1 billion dollars?"
@@ -2392,7 +2392,7 @@
             "start": 43,
             "end": 50,
             "value": "dollars",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "is there any apartment less than 1 billion dollars?"
@@ -2440,7 +2440,7 @@
             "start": 40,
             "end": 47,
             "value": "dollars",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "is there any houses less than 1 billion dollars?"
@@ -2524,7 +2524,7 @@
             "start": 45,
             "end": 52,
             "value": "dollars",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "search me some houses no more than 1 million dollars"
@@ -2860,7 +2860,7 @@
             "start": 57,
             "end": 60,
             "value": "vnd",
-            "entity": "lookup_tables/currency"
+            "entity": "currency"
           }
         ],
         "text": "i would like to buy a house in DaNangcity with 1 billion vnd"
@@ -3008,19 +3008,19 @@
       },
       {
         "name": "city",
-        "elements": "data/lookup_tables/location/city.txt"
+        "elements": "data/location/city.txt"
       },
       {
         "name": "currency",
-        "elements": "data/lookup_tables/currency/currency.txt"
+        "elements": "data/currency/currency.txt"
       },
       {
         "name": "house_description",
-        "elements": "data/lookup_tables/house_features/house_description.txt"
+        "elements": "data/house_features/house_description.txt"
       },
       {
         "name": "house_description",
-        "elements": "data/lookup_tables/house_features/furnitures.txt"
+        "elements": "data/house_features/furnitures.txt"
       }
     ],
     "entity_synonyms": [

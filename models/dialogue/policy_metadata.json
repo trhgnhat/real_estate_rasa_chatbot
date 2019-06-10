@@ -1,9 +1,29 @@
 {
   "action_fingerprints": {
     "action_listen": {
-      "slots": []
+      "slots": [
+        "requested_slot",
+        "house_description",
+        "local_feature",
+        "city",
+        "real_estate_type"
+      ]
     },
     "house_form": {
+      "slots": [
+        "requested_slot",
+        "location",
+        "feedback",
+        "bath_room",
+        "price",
+        "city",
+        "guess_room",
+        "bed_room",
+        "request_more_info",
+        "real_estate_type"
+      ]
+    },
+    "action_house": {
       "slots": [
         "requested_slot"
       ]
@@ -23,7 +43,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190609-015538",
+  "trained_at": "20190611-021626",
   "rasa_core": "0.13.8",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.2"

@@ -1,6 +1,6 @@
 [
   {
-    "text": "definitely",
+    "text": "absolutely",
     "intent": "affirm",
     "intent_prediction": {
       "name": "",
@@ -8,59 +8,51 @@
     }
   },
   {
-    "text": "have a nice day",
+    "text": "no thanks",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.715181827545166
+    }
+  },
+  {
+    "text": "no thank you",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.8289485573768616
+    }
+  },
+  {
+    "text": "not good enough",
+    "intent": "feedback",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9781489372253418
+    }
+  },
+  {
+    "text": "gotta go",
     "intent": "goodbye",
     "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9148412942886353
+      "name": "house_inform",
+      "confidence": 0.7725743055343628
     }
   },
   {
-    "text": "yo",
+    "text": "nice to meet you",
     "intent": "greet",
     "intent_prediction": {
-      "name": "",
-      "confidence": 0.0
+      "name": "goodbye",
+      "confidence": 0.8802760243415833
     }
   },
   {
-    "text": "We really want to live in a lakeside home with a dock for our boat",
+    "text": "i want a house with side of the beach which is less than 2 millions usd in Hochiminh city",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9033633470535278
-    }
-  },
-  {
-    "text": "Yes, we want to stay in the hanoi",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.6803448796272278
-    }
-  },
-  {
-    "text": "i need double bedroom in our modern new apartment in Lao Cai",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.8483167886734009
-    }
-  },
-  {
-    "text": "I would love to have a home with a view",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.7297862768173218
-    }
-  },
-  {
-    "text": "Apartment with own shower kitchen and 2 sleeping rooms",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.9444016218185425
+      "confidence": 0.9104199409484863
     }
   }
 ]

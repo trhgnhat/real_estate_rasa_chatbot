@@ -1,27 +1,33 @@
 {
-  "bath_room": {
+  "bed_room": {
         "precision": 1.0,
     "recall": 0.5,
     "f1-score": 0.6666666666666666,
         "support": 2
     },
-  "bed_room": {
-    "precision": 1.0,
-    "recall": 0.6,
-    "f1-score": 0.7499999999999999,
-    "support": 5
-  },
     "city": {
         "precision": 1.0,
-      "recall": 0.7,
-      "f1-score": 0.8235294117647058,
-      "support": 10
+      "recall": 0.6428571428571429,
+      "f1-score": 0.782608695652174,
+      "support": 14
     },
-  "furniture": {
+  "currency": {
     "precision": 1.0,
-    "recall": 0.375,
-    "f1-score": 0.5454545454545454,
-    "support": 16
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9
+  },
+  "furniture": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+    },
+  "guess_room": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
   },
   "house_description": {
     "precision": 0.0,
@@ -29,53 +35,47 @@
     "f1-score": 0.0,
     "support": 1
     },
-    "house_feature": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1-score": 0.0,
-      "support": 5
-    },
     "local_feature": {
       "precision": 1.0,
-      "recall": 0.4,
-      "f1-score": 0.5714285714285715,
-        "support": 5
+      "recall": 0.08333333333333333,
+      "f1-score": 0.15384615384615385,
+      "support": 12
     },
-    "lookup_tables/currency": {
+  "no_entity": {
+    "precision": 0.95,
+    "recall": 0.9891540130151844,
+    "f1-score": 0.9691817215727948,
+    "support": 461
+  },
+  "num_persons": {
         "precision": 1.0,
-      "recall": 1.0,
-      "f1-score": 1.0,
-      "support": 6
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
     },
-    "no_entity": {
-      "precision": 0.9357142857142857,
-      "recall": 1.0,
-      "f1-score": 0.966789667896679,
-      "support": 393
+  "number": {
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1-score": 0.7692307692307693,
+    "support": 5
     },
-    "num_persons": {
+  "price": {
         "precision": 1.0,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9285714285714286,
+    "support": 15
+  },
+  "real_estate_type": {
+    "precision": 0.8928571428571429,
         "recall": 1.0,
-        "f1-score": 1.0,
-      "support": 3
-    },
-    "price": {
-      "precision": 0.9166666666666666,
-        "recall": 1.0,
-      "f1-score": 0.9565217391304348,
-      "support": 11
-    },
-    "real_estate_type": {
-        "precision": 0.9615384615384616,
-      "recall": 0.8928571428571429,
-      "f1-score": 0.9259259259259259,
-      "support": 28
+    "f1-score": 0.9433962264150945,
+    "support": 25
     },
     "time_spent": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
-        "support": 2
+      "support": 4
     },
     "transportation": {
         "precision": 1.0,
@@ -84,21 +84,21 @@
         "support": 3
     },
     "micro avg": {
-      "precision": 0.9408163265306122,
-      "recall": 0.9408163265306122,
-      "f1-score": 0.9408163265306122,
-        "support": 490
+      "precision": 0.9466192170818505,
+      "recall": 0.9466192170818505,
+      "f1-score": 0.9466192170818505,
+      "support": 562
     },
     "macro avg": {
-      "precision": 0.8438513867085297,
-      "recall": 0.6524659863945577,
-      "f1-score": 0.7147368948762521,
-        "support": 490
+      "precision": 0.8191326530612244,
+      "recall": 0.6883976222448487,
+      "f1-score": 0.7110484380388084,
+      "support": 562
     },
     "weighted avg": {
-      "precision": 0.9321267847798459,
-      "recall": 0.9408163265306122,
-      "f1-score": 0.9279572399492888,
-        "support": 490
+      "precision": 0.9437658871377733,
+      "recall": 0.9466192170818505,
+      "f1-score": 0.9344466223026207,
+      "support": 562
     }
 }

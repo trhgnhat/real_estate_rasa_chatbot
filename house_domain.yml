@@ -1,51 +1,65 @@
 %YAML 1.1
 ---
 actions:
-- utter_wrong_price
+- utter_ask_bath_room
+- utter_wrong_real_estate_type
 - utter_ask_guess_room
-- utter_welcome
-- utter_ask_for_more_info
-- utter_goodbye
-- utter_ask_feedback
-- utter_default
+- utter_ask_request_more_info
+- utter_wrong_price
 - utter_ask_price
 - utter_noworries
-- utter_wrong_city
-- utter_ask_real_estate_type
-- utter_ask_city
-- utter_slots_values
-- utter_unclear
-- utter_wrong_real_estate_type
-- utter_ask_bath_room
-- utter_greet
 - utter_ask_bed_room
+- utter_ask_city
+- utter_default
+- utter_ask_feedback
+- utter_submit
+- utter_welcome
+- utter_unclear
+- utter_greet
+- utter_slots_values
+- action_house
+- utter_goodbye
+- utter_ask_real_estate_type
+- utter_wrong_city
+- utter_ask_satisfaction
+- utter_ask_confirm_information
 entities:
-- local_feature
-- time_spent
-- transportation
-- bed_room
-- house_feature
-- location
+- number
+- currency
+- house_description
 - guess_room
+- real_estate_type
+- local_feature
+- transportation
 - feedback
+- bed_room
+- price
 - bath_room
 - city
-- lookup_tables/currency
-- price
-- real_estate_type
-- number
+- location
+- time_spent
+- house_feature
 forms:
 - house_form
 intents:
-- deny
-- greet
-- house_request
 - house_inform
+- house_request
+- greet
+- deny
 - thankyou
 - ask_howdoing
 - affirm
 - goodbye
+- feedback
 slots:
+  is_satisfied:
+    initial_value: False
+    type: bool
+  request_more_info:
+    type: bool
+  confirm_information:
+    initial_value: False
+    type: bool
   bath_room:
     type: unfeaturized
   bed_room:
@@ -62,6 +76,8 @@ slots:
   feedback:
     type: text
   guess_room:
+    type: unfeaturized
+  house_description:
     type: unfeaturized
   house_feature:
     type: unfeaturized
@@ -83,6 +99,9 @@ slots:
     type: unfeaturized
   transportation:
     type: unfeaturized
+  found:
+    type: list
+
 templates:
   utter_ask_bath_room:
   - buttons:
@@ -112,9 +131,6 @@ templates:
   - text: which currency are you using?
   utter_ask_feedback:
   - text: please give your feedback on your experience so far
-  utter_ask_for_more_info:
-  - text: Is there any more requirements?
-  - text: Is there anything else?
   utter_ask_guess_room:
   - buttons:
     - payload: '1'
@@ -144,6 +160,8 @@ templates:
       \ {real_estate_type}\n- location: {location}\n- price: {price}\n- number of\
       \ bedrooms: {bed_room}\n- number of bathrooms: {bath_room}\n- number of guess\
       \ rooms: {guess_room}\n"
+  utter_submit:
+  - text: All done!
   utter_unclear:
   - text: I am not sure what you are talking about.
   utter_welcome:
@@ -156,5 +174,22 @@ templates:
   - text: price should be a positive float, please try again
   utter_wrong_real_estate_type:
   - text: Sorry, we only support for houses/apartments searching at the moment
-  utter_submit:
-  - text: All done!
+  utter_ask_satisfaction:
+  - text: Are you satisfied with my results?
+  utter_ask_confirm_information:
+  - text: Are all of the information correct?
+  utter_ask_request_more_info:
+  - text: Is there any more requirements?
+  - text: Is there anything else?
+  utter_please_to_hear:
+  - text: I am please to hear more
+  utter_understand:
+  - text: Got it!
+  - text: I got it!
+  - text: Okay
+  - text: confirmed
+  - text: understood
+  utter_thanks_for_feedback:
+  - text: thank you for your feedback
+  utter_call_if_need_help:
+  - text: I am right here if you need more helps. Inbox me if you need any information

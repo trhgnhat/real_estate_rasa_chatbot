@@ -75,3 +75,4 @@ if __name__ == '__main__':
         config_dir = 'configs/nlu_configs/' + each + "/nlu_config.md"
         train_nlu(data_path='data/', configs=config_dir, model_dir='models/nlu')
         evaluate_nlu('models/nlu/default/' + each)
+    input("Enter to exit:")

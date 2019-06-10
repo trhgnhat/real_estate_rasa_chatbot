@@ -1,15 +1,19 @@
-## intent:deny
-- stupid
-- no
+## intent:affirm
+- yes
 
-## intent:greet
-- hi
+## intent:deny
+- no, it is enough
+
+## intent:feedback
+- yes, it is great
+- u are doing great, keep going
+
+## intent:goodbye
+- ok, bye
 
 ## intent:house_inform
-- [100000](price) [dollar](lookup_tables/currency:usd) please
-- [1](number) please
-- [5](bath_room) bathroom
-- only [1](number) is okay
-
-## intent:house_request
-- i am looking for [house](real_estate_type) in [da nang](city) city
+- i am looking for [houses](real_estate_type:house) in [hanoi](city) with no more than [2 billions](price) [dollars](currency:usd) and must have at least [two](bed_room:2) bedrooms
+- [two](number:2) is enough
+- at least [one](number:1)
+- the neigborhood must be [secured](house_description) and the [house](real_estate_type) must be [comfortable](house_description)
+- yes, there will be [4](num_persons) persons living together

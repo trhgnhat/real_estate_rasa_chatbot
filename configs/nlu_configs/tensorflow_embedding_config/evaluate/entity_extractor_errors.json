@@ -143,7 +143,7 @@
                     "start": 57,
                     "end": 60,
                     "value": "vnd",
-                    "entity": "lookup_tables/currency"
+                  "entity": "currency"
                 }
             ],
             "predict": [
@@ -167,7 +167,7 @@
                     "start": 57,
                     "end": 60,
                     "value": "vnd",
-                    "entity": "lookup_tables/currency",
+                  "entity": "currency",
                     "confidence": 0.9620703631729252,
                     "extractor": "ner_crf"
                 }
@@ -198,7 +198,7 @@
                     "start": 57,
                     "end": 60,
                     "value": "vnd",
-                    "entity": "lookup_tables/currency"
+                  "entity": "currency"
                 }
             ],
             "predict": [
@@ -222,7 +222,7 @@
                     "start": 57,
                     "end": 60,
                     "value": "vnd",
-                    "entity": "lookup_tables/currency",
+                  "entity": "currency",
                     "confidence": 0.9620703631729252,
                     "extractor": "ner_crf"
                 }
