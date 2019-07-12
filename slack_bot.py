@@ -27,8 +27,7 @@ def run_house_bot():
                        action_endpoint=action_endpoint,
                        tracker_store=db)
 
-    activate_token = "PThxVDwYJwhVRBFCA4P5McnA"
-    bot_oauth_token = "xoxb-418579686375-687166536998-jXGCB6fZLVlqLF5EqTOOD937"  # is slack_token
+    bot_oauth_token = ""  # is slack_token
     input_channel = SlackInput(
         slack_token=bot_oauth_token,
         slack_channel=""
