@@ -1,22 +1,17 @@
-## intent:thankyou
-- Thanks
-- Thank you
-- Thank you so much
-- Thanks bot
-- Thanks for that
-- cheers
-- cheers bro
-- ok thanks!
-- perfect thank you
-- thanks a bunch for everything
-- thanks for the help
-- thanks a lot
-- amazing, thanks
-- cool, thanks
-- cool thank you
+## intent:affirm
+- yes
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+- yeah
+- si
+- yes
+- yes
+- yes
 
-##intent:ask_howdoing
-- Ahoy matey how are you?
+## intent:ask_howdoing
 - are you alright
 - are you having a good day
 - Are you ok?
@@ -95,24 +90,30 @@
 - what doing
 - what doing
 - how are xou
-- ¿Qué pasa?
 - hi how are you?
 - hi sara, how are you?
 - Hows it going
-- come stai?
 - How you doing?
 
-## intent:affirm
-- yes
-- yes sure
-- absolutely
-- for sure
-- yes yes yes
-- definitely
-- yeah
-- si
+## intent:ask_more
+- thanks, is there anything else?
+- is there anything else?
+- any more suggest?
+- any more options?
+- more options please,
+- it is good, but i want to see more
+- give me more options
+- show me more options
+- its good but give me more options
+
+## intent:confirm
+- it's okay
+- i am ok with that
 - ok
 - okay
+- confirmed
+- i confirm
+- that's okay
 
 ## intent:deny
 - no
@@ -125,6 +126,21 @@
 - no this does not work for me
 - no, thats all
 - enough
+- no
+- no
+
+## intent:feedback
+- it is great
+- it is a great experience
+- it is a great experience
+- it is great
+- very stupid
+- not good enough
+- excellence
+- incredible
+- you are very smart
+- very good
+- still stupid
 
 ## intent:goodbye
 - Bye
@@ -186,148 +202,17 @@
 - hello is anybody there
 - hello robot
 - hi
-
-## intent:feedback
-- it is great
-- it is a great experience
-- it is a great experience
-- it is great
-- very stupid
-- not good enough
-- excellence
-- incredible
-- you are very smart
-- very good
-
-## intent:house_request
-- i am looking for [houses](real_estate_type)
-- I am interested in buying a [house](real_estate_type) and need some information.
-- I would like to discuss purchasing a [home](real_estate_type) with you.
-- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
-- I'm interested in the [houses](real_estate_type) in [Danang](city). What can you tell me about it?
-- i want to find a [house](real_estate_type) in [Hanoi](city)
-- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
-- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
-- I would like to discuss purchasing a [home](real_estate_type) with you.
-- I am interested in buying a [houses](real_estate_type) and need some information.
-- I have been thinking of buying a [houses](real_estate_type) and would like to speak with you
-- I want to go [houses](real_estate_type) shopping
-- I am looking to buy a [house](real_estate_type) for myself and my son
-- I'd like to view some [homes](real_estate_type) now
-- i want to buy a [houses](real_estate_type) for [4](num_persons) persons
-- i am looking for [houses](real_estate_type) in [danang](city)
-- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](currency)?
-- give me the list of [houses](real_estate_type) in [hcm](city)
-- i want [houses](real_estate_type)
-- give me some [houses](real_estate_type)
-- i need some information about [houses](real_estate_type) in [hanoi](city) city
-- search me some [houses](real_estate_type) in [nhatrang](city) city
-- search me some [houses](real_estate_type) no more than [1 million](price) in [nha trang](city) city
-- would you mind give me some information about [houses](real_estate_type) for sell?
-- need [houses](real_estate_type) for sell
-- give me some [houses](real_estate_type) for [4](num_persons) persons
-- i am looking for [apartment](real_estate_type)
-- I am interested in buying a [house](real_estate_type) and need some information.
-- I would like to discuss purchasing a [home](real_estate_type) with you.
-- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
-- I'm interested in the [apartment](real_estate_type) in [Lang Son](city). What can you tell me about it?
-- i want to find a [house](real_estate_type) in [Hanoi](city)
-- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
-- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
-- I would like to discuss purchasing a [home](real_estate_type) with you.
-- I am interested in buying a [apartment](real_estate_type) and need some information.
-- I have been thinking of buying a [apartment](real_estate_type) and would like to speak with you
-- I want to go [apartment](real_estate_type) shopping
-- I am looking to buy a [house](real_estate_type) for myself and my son
-- I'd like to view some [homes](real_estate_type) now
-- i want to buy a [apartment](real_estate_type) for [4](num_persons) persons
-- i am looking for [apartment](real_estate_type) in [danang](city)
-- is there any [apartment](real_estate_type) less than [1 billion](price) [dollars](currency)?
-- give me the list of [apartment](real_estate_type) in [hcm](city)
-- i want [apartment](real_estate_type)
-- give me some [apartment](real_estate_type)
-- i need some information about [apartment](real_estate_type) in [hanoi](city) city
-- search me some [apartment](real_estate_type) in [nhatrang](city) city
-- search me some [apartment](real_estate_type) no more than [1 million](price) in [nha trang](city) city
-- would you mind give me some information about [apartment](real_estate_type) for sell?
-- need [apartment](real_estate_type) for sell
-- give me some [apartment](real_estate_type) for [4](num_persons) persons
-- i am looking for [home](real_estate_type)
-- I am interested in buying a [house](real_estate_type) and need some information.
-- I would like to discuss purchasing a [home](real_estate_type) with you.
-- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
-- I'm interested in the [home](real_estate_type) in [Lang Son](city). What can you tell me about it?
-- i want to find a [house](real_estate_type) in [Hanoi](city)
-- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
-- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
-- I would like to discuss purchasing a [home](real_estate_type) with you.
-- I am interested in buying a [home](real_estate_type) and need some information.
-- I have been thinking of buying a [home](real_estate_type) and would like to speak with you
-- I want to go [home](real_estate_type) shopping
-- I am looking to buy a [house](real_estate_type) for myself and my son
-- I'd like to view some [homes](real_estate_type) now
-- i want to buy a [home](real_estate_type) for [4](num_persons) persons
-- i am looking for [home](real_estate_type) in [danang](city)
-- is there any [home](real_estate_type) less than [1 billion](price) [dollars](currency)?
-- give me the list of [home](real_estate_type) in [hcm](city)
-- i want [home](real_estate_type)
-- give me some [home](real_estate_type)
-- i need some information about [home](real_estate_type) in [hanoi](city) city
-- search me some [home](real_estate_type) in [nhatrang](city) city
-- search me some [home](real_estate_type) no more than [1 million](price) in [nha trang](city) city
-- would you mind give me some information about [home](real_estate_type) for sell?
-- need [home](real_estate_type) for sell
-- give me some [home](real_estate_type) for [4](num_persons) persons
-- i am looking for [flat](real_estate_type)
-- I am interested in buying a [house](real_estate_type) and need some information.
-- I would like to discuss purchasing a [home](real_estate_type) with you.
-- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
-- I'm interested in the [flat](real_estate_type) in [Lang Son](city). What can you tell me about it?
-- i want to find a [house](real_estate_type) in [Hanoi](city)
-- Is there a [house](real_estate_type) in range [4 millions](price) [vnd](currency)?
-- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
-- I would like to discuss purchasing a [home](real_estate_type) with you.
-- I am interested in buying a [flat](real_estate_type) and need some information.
-- I have been thinking of buying a [flat](real_estate_type) and would like to speak with you
-- I want to go [flat](real_estate_type) shopping
-- I am looking to buy a [house](real_estate_type) for myself and my son
-- I'd like to view some [homes](real_estate_type) now
-- i want to buy a [flat](real_estate_type) for [4](num_persons) persons
-- i am looking for [flat](real_estate_type) in [danang](city)
-- is there any [flat](real_estate_type) less than [1 billion](price) [dollars](currency)?
-- give me the list of [flat](real_estate_type) in [hcm](city)
-- i want [flat](real_estate_type)
-- give me some [flat](real_estate_type)
-- i need some information about [flat](real_estate_type) in [hanoi](city) city
-- search me some [flat](real_estate_type) in [nhatrang](city) city
-- search me some [flat](real_estate_type) no more than [1 million](price) in [nha trang](city) city
-- would you mind give me some information about [flat](real_estate_type) for sell?
-- need [flat](real_estate_type) for sell
-- give me some [flat](real_estate_type) for [4](num_persons) persons
-- i am looking for [houses](real_estate_type) in [danang](city)
-- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](currency)? 
-- give me the list of [houses](real_estate_type) in [hcm](city)
-- i want [houses](real_estate_type)
-- give me some [houses](real_estate_type)
-- i need some information about houses in [hanoi](city) city
-- search me some [houses](real_estate_type) in [nhatrang](city) city
-- search me some [houses](real_estate_type) no more than [1 million](price) [dollars](currency)
-- would you mind give me some information about [houses](real_estate_type) for sell?
-- need [houses](real_estate_type) for sell
-- give me some [houses](real_estate_type) for [4](num_persons) persons
-- i am looking for [house](real_estate_type) in [da nang](city) city
-- i am looking for [houses](real_estate_type:house) in [nhatrang](city) city
-
+- hi
 
 ## intent:house_inform
 - [100000](price) [dollar](currency:usd) please
 - [1](number) please
-- [5](bath_room) bathroom
+- [5](bath_room) bathrooms
 - only [1](number) is okay
 - at least [1](number)
 - at most [2](number)
 - more than [3](number)
-- less than [4](number) 
+- less than [4](number)
 - [5](number) thanks
 - [6](number) is ok
 - [1](number) please
@@ -335,12 +220,12 @@
 - i think [1](number)
 - [1](number) room i guess
 - [one](number) please
-- [five](bath_room) bathroom
+- [five](bath_room) bathrooms
 - only [one](number) is okay
 - at least [one](number)
 - at most [six](number)
 - more than [ten](number)
-- less than [seven](number) 
+- less than [seven](number)
 - [five](number) thanks
 - [6](number) is ok
 - [one](number) please
@@ -394,7 +279,7 @@
 - in [Ho Chi Minh](city) city
 - somewhere in [Hanoi](city) city
 - i need some [modern coach](furniture)
-- There is maximum space for [6](num_persons) persons
+- There is maximum space for [6](num_person) persons
 - i need local is a [quiet](house_description) area and [security](house_description)
 - i want a [spacous](house_description) and [comfortable](house_description)
 - i need [double](bed_room) bedroom in our [modern](house_description) new [apartment](real_estate_type) in [Lao Cai](city)
@@ -409,9 +294,9 @@
 - i need to go to [free parking](local_feature) in no more than [5](time_spent) minute
 - This is a [residential neighborhood](house_description), [coffee shops](local_feature) and no [bars](local_feature)
 - We have one [parking](local_feature) available, [5](time_spent) minutes to the[bus station](local_feature) and [10](time_spent) minutes to [the metro](local_feature)
-- there is must be a [one](guess_room) living room, [three](bed_room) bedrooms, a [small](bath_room) bathroom and a [garden](house_feature)
+- there is must be a [one](guess_room) living room, [three](bed_room) bedrooms, [one](bath_room) bathroom and a [garden](house_feature)
 - About [5](time_spent) minutes to the closest [metro station](local_feature)
-- The room i want has a [queen size bed](furniture) ideal for [2](num_persons) persons
+- The room i want has a [queen size bed](furniture) ideal for [2](num_person) persons
 - [Apartment](real_estate_type) with [own shower kitchen](house_feature) and [2](bed_room) sleeping rooms
 - You can get to the [city center](city) in [25 min](time_spent) by [metro](transportation)
 - i want a house with [side of the beach](local_feature) which is less than [2 millions](price) [usd](currency) in [Hochiminh](city) city
@@ -422,30 +307,159 @@
 - i need [2](number) only
 - just [1](number) is okay
 - [one](number:1) please
+- [two](number:2) please
 - i need to live in [secured](house_description) neighborhood and it is great if there is a [bus stop](local_feature) near by
+- i need a [house](real_estate_type) in [hochiminh](city) city
+- [1 million](price) [dollar](currency:usd)
+- [1](number) please
+- [two](number) please
+- [two](bath_room) bathrooms please
+- [1](number) please
+- [6](number)
+- i need the [house](real_estate_type) to be near the [bus station](local_feature) and have many [large windows](house_feature) inside
+- i want a big [sofa](furniture) included
+- there will be [four](num_person) people living together so i need the [house](real_estate_type) to be [big](house_description)
+- i will pay by [vnd](currency)
 
-## synonym:Ho Chi Minh
-- Ho Chi Minh City
-- hochiminh city
-- hcmc
-- Sai Gon
-- saigon
-- hcm
+## intent:house_request
+- i am looking for [houses](real_estate_type)
+- I am interested in buying a [house](real_estate_type) and need some information.
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
+- I'm interested in the [houses](real_estate_type) in [Danang](city). What can you tell me about it?
+- i want to find a [house](real_estate_type) in [Hanoi](city)
+- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I am interested in buying a [houses](real_estate_type) and need some information.
+- I have been thinking of buying a [houses](real_estate_type) and would like to speak with you
+- I want to go [houses](real_estate_type) shopping
+- I am looking to buy a [house](real_estate_type) for myself and my son
+- I'd like to view some [homes](real_estate_type) now
+- i want to buy a [houses](real_estate_type) for [4](num_person) persons
+- i am looking for [houses](real_estate_type) in [danang](city)
+- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](currency)?
+- give me the list of [houses](real_estate_type) in [hcm](city)
+- i want [houses](real_estate_type)
+- give me some [houses](real_estate_type)
+- i need some information about [houses](real_estate_type) in [hanoi](city) city
+- search me some [houses](real_estate_type) in [nhatrang](city) city
+- search me some [houses](real_estate_type) no more than [1 million](price) in [nha trang](city) city
+- would you mind give me some information about [houses](real_estate_type) for sell?
+- need [houses](real_estate_type) for sell
+- give me some [houses](real_estate_type) for [4](num_person) persons
+- i am looking for [apartment](real_estate_type)
+- I am interested in buying a [house](real_estate_type) and need some information.
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
+- I'm interested in the [apartment](real_estate_type) in [Lang Son](city). What can you tell me about it?
+- i want to find a [house](real_estate_type) in [Hanoi](city)
+- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I am interested in buying a [apartment](real_estate_type) and need some information.
+- I have been thinking of buying a [apartment](real_estate_type) and would like to speak with you
+- I want to go [apartment](real_estate_type) shopping
+- I am looking to buy a [house](real_estate_type) for myself and my son
+- I'd like to view some [homes](real_estate_type) now
+- i want to buy a [apartment](real_estate_type) for [4](num_person) persons
+- i am looking for [apartment](real_estate_type) in [danang](city)
+- is there any [apartment](real_estate_type) less than [1 billion](price) [dollars](currency)?
+- give me the list of [apartment](real_estate_type) in [hcm](city)
+- i want [apartment](real_estate_type)
+- give me some [apartment](real_estate_type)
+- i need some information about [apartment](real_estate_type) in [hanoi](city) city
+- search me some [apartment](real_estate_type) in [nhatrang](city) city
+- search me some [apartment](real_estate_type) no more than [1 million](price) in [nha trang](city) city
+- would you mind give me some information about [apartment](real_estate_type) for sell?
+- need [apartment](real_estate_type) for sell
+- give me some [apartment](real_estate_type) for [4](num_person) persons
+- i am looking for [home](real_estate_type)
+- I am interested in buying a [house](real_estate_type) and need some information.
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
+- I'm interested in the [home](real_estate_type) in [Lang Son](city). What can you tell me about it?
+- i want to find a [house](real_estate_type) in [Hanoi](city)
+- Is there a [house](real_estate_type) in range [4 millions](price) [dollars](currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I am interested in buying a [home](real_estate_type) and need some information.
+- I have been thinking of buying a [home](real_estate_type) and would like to speak with you
+- I want to go [home](real_estate_type) shopping
+- I am looking to buy a [house](real_estate_type) for myself and my son
+- I'd like to view some [homes](real_estate_type) now
+- i want to buy a [home](real_estate_type) for [4](num_person) persons
+- i am looking for [home](real_estate_type) in [danang](city)
+- is there any [home](real_estate_type) less than [1 billion](price) [dollars](currency)?
+- give me the list of [home](real_estate_type) in [hcm](city)
+- i want [home](real_estate_type)
+- give me some [home](real_estate_type)
+- i need some information about [home](real_estate_type) in [hanoi](city) city
+- search me some [home](real_estate_type) in [nhatrang](city) city
+- search me some [home](real_estate_type) no more than [1 million](price) in [nha trang](city) city
+- would you mind give me some information about [home](real_estate_type) for sell?
+- need [home](real_estate_type) for sell
+- give me some [home](real_estate_type) for [4](num_person) persons
+- i am looking for [flat](real_estate_type)
+- I am interested in buying a [house](real_estate_type) and need some information.
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I have been thinking of buying a [house](real_estate_type) and would like to speak with you.
+- I'm interested in the [flat](real_estate_type) in [Lang Son](city). What can you tell me about it?
+- i want to find a [house](real_estate_type) in [Hanoi](city)
+- Is there a [house](real_estate_type) in range [4 millions](price) [vnd](currency)?
+- i would like to buy a [house](real_estate_type) in [DaNang](city)city with [1 billion](price) [vnd](currency)
+- I would like to discuss purchasing a [home](real_estate_type) with you.
+- I am interested in buying a [flat](real_estate_type) and need some information.
+- I have been thinking of buying a [flat](real_estate_type) and would like to speak with you
+- I want to go [flat](real_estate_type) shopping
+- I am looking to buy a [house](real_estate_type) for myself and my son
+- I'd like to view some [homes](real_estate_type) now
+- i want to buy a [flat](real_estate_type) for [4](num_person) persons
+- i am looking for [flat](real_estate_type) in [danang](city)
+- is there any [flat](real_estate_type) less than [1 billion](price) [dollars](currency)?
+- give me the list of [flat](real_estate_type) in [hcm](city)
+- i want [flat](real_estate_type)
+- give me some [flat](real_estate_type)
+- i need some information about [flat](real_estate_type) in [hanoi](city) city
+- search me some [flat](real_estate_type) in [nhatrang](city) city
+- search me some [flat](real_estate_type) no more than [1 million](price) in [nha trang](city) city
+- would you mind give me some information about [flat](real_estate_type) for sell?
+- need [flat](real_estate_type) for sell
+- give me some [flat](real_estate_type) for [4](num_person) persons
+- i am looking for [houses](real_estate_type) in [danang](city)
+- is there any [houses](real_estate_type) less than [1 billion](price) [dollars](currency)?
+- give me the list of [houses](real_estate_type) in [hcm](city)
+- i want [houses](real_estate_type)
+- give me some [houses](real_estate_type)
+- i need some information about houses in [hanoi](city) city
+- search me some [houses](real_estate_type) in [nhatrang](city) city
+- search me some [houses](real_estate_type) no more than [1 million](price) [dollars](currency)
+- would you mind give me some information about [houses](real_estate_type) for sell?
+- need [houses](real_estate_type) for sell
+- give me some [houses](real_estate_type) for [4](num_person) persons
+- i am looking for [house](real_estate_type) in [da nang](city) city
+- i am looking for [houses](real_estate_type:house) in [nhatrang](city) city
 
-## synonym:usd
-- dollars
-- $
-- dollar
+## intent:thankyou
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- okay, thanks
 
-## synonym:house
-- houses
-- homes
-- home
-
-## synonym:apartment
-- apartments
-- flats
-- flat
+## synonym:0
+- zero
 
 ## synonym:000
 - k
@@ -472,53 +486,91 @@
 
 ## synonym:1
 - one
-## synonym:2
-- two
-## synonym:3
-- three
-## synonym:4
-- four
-## synonym:5
-- five
-## synonym:6
-- six
-## synonym:7
-- seven
-## synonym:8
-- eight
-## synonym:9
-- nine
+
 ## synonym:10
 - ten
 
-## regex:price
-- (\d+\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+
-- (\d+\s*(?:[mM]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+
-- (\d+\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+
+## synonym:2
+- two
+
+## synonym:3
+- three
+
+## synonym:4
+- four
+
+## synonym:5
+- five
+
+## synonym:6
+- six
+
+## synonym:7
+- seven
+
+## synonym:8
+- eight
+
+## synonym:9
+- nine
+
+## synonym:Ho Chi Minh
+- Ho Chi Minh City
+- hochiminh city
+- hcmc
+- Sai Gon
+- saigon
+- hcm
+
+## synonym:apartment
+- apartments
+- flats
+- flat
+
+## synonym:house
+- houses
+- homes
+- home
+
+## synonym:usd
+- dollar
+- dollars
+- $
+
+## regex:bath_room
+- (\d{2}\s*(?i)(?:[b]+[a]+[t]+[h]+\s*[r]+[o]+[o]+[m]+[s]*)+)+
 
 ## regex:bed_room
 - (\d{2}\s*(?i)(?:[b]+[e]+[d]+\s*[r]+[o]+[o]+[m]+[s]*)+)+
-## regex:bath_room
-- (\d{2}\s*(?i)(?:[b]+[a]+[t]+[h]+\s*[r]+[o]+[o]+[m]+[s]*)+)+
-## regex:guess_room
-- (\d{2}\s*(?i)(?:[g]+[u]+[e]+[s]+[s]+\s*[r]+[o]+[o]+[m]+[s]*)+)+
-
-## regex:zipcode
-- [0-9]{5}
 
 ## regex:city
 - [aA-zZ]+\s*(?i)[c]+[i]+[t]+[y]+
+
+## regex:guess_room
+- (\d{2}\s*(?i)(?:[g]+[u]+[e]+[s]+[s]+\s*[r]+[o]+[o]+[m]+[s]*)+)+
+
+## regex:price
+- (\d+\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+
+- (\d+\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+
+- (\d+\s*(?:[mM]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+
+
+## regex:zipcode
+- [0-9]{5}
 
 ## lookup:real_estate_type
 - apartment
 - flat
 - house
 - home
+
 ## lookup:city
   data/lookup_tables/location/city.txt
+
 ## lookup:currency
   data/lookup_tables/currency/currency.txt
+
 ## lookup:house_description
   data/lookup_tables/house_features/house_description.txt
+
 ## lookup:house_description
   data/lookup_tables/house_features/furnitures.txt

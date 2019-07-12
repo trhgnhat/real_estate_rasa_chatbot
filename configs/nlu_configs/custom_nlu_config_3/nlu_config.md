@@ -11,19 +11,14 @@ pipeline:
   case_sensitive: false
 - name: "tokenizer_spacy"
 - name: "intent_entity_featurizer_regex"
-- name: "ner_crf"
-  BILOU_flag: True
-  max_iterations: 100
-  features:
-    - ["prefix5", "prefix2", "suffix5",  "suffix2",  "upper", "digit", "pattern", "pos", "pos2"]
-    - ["bias", "low", "prefix5", "prefix2", "suffix5",  "upper", "title", "digit", "pattern", "pos", "pos2"]
-    - ["prefix5", "prefix2", "suffix5",  "suffix2",  "upper", "digit", "pattern", "pos", "pos2"]
+- name: "intent_featurizer_spacy"
+- name: "components.modified_crf_entity_extractor.ModifiedCRFEntityExtractor"
 - name: "components.dict_ner_extractor.DictNerExtractor"
 - name: "ner_synonyms"
 - name: "intent_featurizer_count_vectors"
   token_pattern: '(?u)\b\w+\b'
   max_ngram: 4
 - name: "intent_featurizer_ngrams"
-- name: "intent_classifier_tensorflow_embedding"
-  batch_size: 10
-  epochs: 300
+- name: "intent_classifier_sklearn"
+  gamma: [0.1, 1, 10, 100]
+  kernal: ["linear", "rbf", "poly"]

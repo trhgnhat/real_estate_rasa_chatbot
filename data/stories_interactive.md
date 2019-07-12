@@ -1,96 +1,79 @@
-## Generated Story -9059401830618429968
+
+## Generated Story 3368241047826805535
 * greet
     - utter_greet
-* house_request{"real_estate_type": "house", "city": "nhatrang"}
-    - slot{"city": "nhatrang"}
+* house_request{"real_estate_type": "house", "city": "hanoi"}
+    - slot{"city": "hanoi"}
     - slot{"real_estate_type": "house"}
     - house_form
     - form{"name": "house_form"}
     - slot{"real_estate_type": "house"}
-    - slot{"city": "nhatrang"}
+    - slot{"city": "hanoi"}
     - slot{"requested_slot": "price"}
-* form: house_inform{"price": "1 billions", "currency": "vnd"}
+* form: house_inform{"price": "1 billions", "currency": "usd"}
+    - slot{"currency": "usd"}
     - slot{"price": "1 billions"}
     - form: house_form
+    - slot{"currency": "usd"}
     - slot{"price": null}
     - slot{"requested_slot": "price"}
-* form: house_inform{"price": "1000000", "currency": "vnd"}
-    - slot{"price": "1000000"}
+* form: house_inform{"price": "1 billion", "currency": "usd"}
+    - slot{"currency": "usd"}
+    - slot{"price": "1 billion"}
     - form: house_form
+    - slot{"currency": "usd"}
+    - slot{"price": null}
+    - slot{"requested_slot": "price"}
+* form: house_inform{"price": "1 million", "currency": "usd"}
+    - slot{"currency": "usd"}
+    - slot{"price": "1 million"}
+    - form: house_form
+    - slot{"currency": "usd"}
     - slot{"price": "1000000"}
     - slot{"requested_slot": "bed_room"}
-* form: house_inform{"number": "2"}
+* form: number{"number": "1"}
     - form: house_form
-    - slot{"bed_room": "2"}
+    - slot{"bed_room": "1"}
     - slot{"requested_slot": "bath_room"}
-* form: house_inform{"number": "1"}
+* form: house_inform{"number": "1", "guess_room": "1"}
+    - slot{"guess_room": "1"}
     - form: house_form
+    - slot{"guess_room": "1"}
     - slot{"bath_room": "1"}
-    - slot{"requested_slot": "guess_room"}
-* form: house_inform{"number": "1"}
-    - form: house_form
-    - slot{"guess_room": "1"}
-    - slot{"requested_slot": "request_more_info"}
-    - form: house_form
-    - slot{"requested_slot": "request_more_info"}
-    - utter_ask_request_more_info
-    - action_listen
-* form: house_inform{"house_description": "great", "local_feature": "bus stop"}
-    - slot{"house_description": "great"}
-    - slot{"local_feature": "bus stop"}
-    - house_form
-    - slot{"request_more_info": true}
-    - slot{"requested_slot": "feedback"}
-* form: house_inform
-    - form: house_form
-    - utter_ask_request_more_info
-* deny
     - form{"name": null}
     - slot{"requested_slot": null}
-    - utter_submit
-    - utter_slots_values
-    - action_house
-## Generated Story 1484301423811423976
-* house_inform{"real_estate_type": "house", "city": "hanoi", "price": "2 billions", "currency": "usd", "bed_room": "2"}
-    - slot{"bed_room": "2"}
-    - slot{"city": "hanoi"}
-    - slot{"currency": "usd"}
-    - slot{"price": "2 billions"}
-    - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
-    - slot{"real_estate_type": "house"}
-    - slot{"city": "hanoi"}
-    - slot{"price": "2 billions"}
-    - slot{"currency": "usd"}
-    - slot{"bed_room": "2"}
-    - slot{"requested_slot": "bath_room"}
-* form: house_inform{"number": "2"}
-    - form: house_form
-    - slot{"bath_room": "2"}
-    - slot{"requested_slot": "guess_room"}
-* form: house_inform{"number": "1"}
-    - form: house_form
-    - slot{"guess_room": "1"}
-    - slot{"requested_slot": "request_more_info"}
-* form: affirm
-    - form: house_form
-    - slot{"request_more_info": true}
+    - utter_ask_request_more_info
+* affirm
     - utter_please_to_hear
-* house_inform{"house_description": "comfortable", "real_estate_type": "house"}
+* house_inform{"local_feature": "free parking", "house_description": "comfortable"}
     - slot{"house_description": "comfortable"}
-    - slot{"real_estate_type": "house"}
-    - utter_understand
+    - slot{"local_feature": "free parking"}
     - utter_ask_request_more_info
-* house_inform{"num_persons": "4"}
+* house_inform{"furniture": "double bed"}
     - utter_understand
     - utter_ask_request_more_info
 * deny
-    - utter_understand
-    - form{"name": null}
-    - slot{"requested_slot": null}
     - action_house
     - slot{"found": "Not implement yet"}
+    - utter_ask_confirm_information
+* deny
+    - utter_please_to_hear
+* house_inform{"bed_room": "2"}
+    - slot{"bed_room": "2"}
+    - house_form
+    - form{"name": "house_form"}
+    - slot{"bed_room": "2"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_ask_request_more_info
+* deny
+    - utter_ask_confirm_information
+* deny
+    - utter_need_change_info
+* affirm
+    - action_house
+    - slot{"found": "Not implement yet"}
+    - utter_understand
     - utter_ask_satisfaction
 * affirm
     - utter_ask_feedback
@@ -98,4 +81,5 @@
     - utter_thanks_for_feedback
     - utter_call_if_need_help
 * affirm
-
+    - utter_goodbye
+* goodbye

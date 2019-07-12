@@ -1,0 +1,5 @@
+tracker_store:
+  type: mongod
+  url: "mongodb://localhost:2701"
+  db: "real-estate-bot"
+  auth_source: "conversation-tracking"

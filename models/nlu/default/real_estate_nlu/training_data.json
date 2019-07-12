@@ -798,7 +798,7 @@
             "start": 27,
             "end": 36,
             "value": "6 persons",
-            "entity": "num_persons"
+            "entity": "num_person"
           }
         ],
         "text": "There is maximum space for 6 persons"
@@ -1380,7 +1380,7 @@
             "start": 27,
             "end": 36,
             "value": "6 persons",
-            "entity": "num_persons"
+            "entity": "num_person"
           }
         ],
         "text": "There is maximum space for 6 persons"
@@ -1584,7 +1584,7 @@
             "start": 74,
             "end": 87,
             "value": "three persons",
-            "entity": "num_persons"
+            "entity": "num_person"
           }
         ],
         "text": "Also is important that you know this room is possible and comfortable for three persons"
@@ -1650,7 +1650,7 @@
             "start": 60,
             "end": 69,
             "value": "2 persons",
-            "entity": "num_persons"
+            "entity": "num_person"
           }
         ],
         "text": "The room we are offering you has a queen size bed ideal for 2 persons"
@@ -2040,7 +2040,7 @@
             "start": 66,
             "end": 82,
             "value": "5 or more people",
-            "entity": "num_persons"
+            "entity": "num_person"
           }
         ],
         "text": "The room is perfect for a couple but can easily accommodate up to 5 or more people"
@@ -2070,7 +2070,7 @@
             "start": 15,
             "end": 24,
             "value": "6 persons",
-            "entity": "num_persons"
+            "entity": "num_person"
           },
           {
             "start": 72,

@@ -1,0 +1,206 @@
+{
+  "examples": [
+    {
+      "text": "i want a house with side of the beach which is less than 2 millions usd in Hochiminh city",
+      "true": [
+        {
+          "start": 20,
+          "end": 37,
+          "value": "side of the beach",
+          "entity": "local_feature"
+        },
+        {
+          "start": 57,
+          "end": 67,
+          "value": "2 millions",
+          "entity": "price"
+        },
+        {
+          "start": 68,
+          "end": 71,
+          "value": "usd",
+          "entity": "currency"
+        },
+        {
+          "start": 75,
+          "end": 84,
+          "value": "Hochiminh",
+          "entity": "city"
+        }
+      ],
+      "predict": [
+        {
+          "value": "house",
+          "confidence": 1,
+          "entity": "real_estate_type",
+          "start": 9,
+          "end": 14,
+          "extractor": "dict_ner_extractor"
+        },
+        {
+          "start": 20,
+          "end": 37,
+          "value": "side of the beach",
+          "entity": "local_feature",
+          "confidence": 0.9227871343759703,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "start": 57,
+          "end": 67,
+          "value": "2 millions",
+          "entity": "price",
+          "confidence": 0.9858214351821583,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "start": 68,
+          "end": 71,
+          "value": "usd",
+          "entity": "currency",
+          "confidence": 0.9866299091996196,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "start": 75,
+          "end": 84,
+          "value": "hochiminh",
+          "entity": "city",
+          "confidence": 0.9254253429786027,
+          "extractor": "modified_crf_entity_extractor"
+        }
+      ]
+    },
+    {
+      "text": "We have one parking available, 5 minutes to thebus station and 10 minutes to the metro",
+      "true": [
+        {
+          "start": 12,
+          "end": 19,
+          "value": "parking",
+          "entity": "local_feature"
+        },
+        {
+          "start": 31,
+          "end": 32,
+          "value": "5",
+          "entity": "time_spent"
+        },
+        {
+          "start": 47,
+          "end": 58,
+          "value": "bus station",
+          "entity": "local_feature"
+        },
+        {
+          "start": 63,
+          "end": 65,
+          "value": "10",
+          "entity": "time_spent"
+        },
+        {
+          "start": 77,
+          "end": 86,
+          "value": "the metro",
+          "entity": "local_feature"
+        }
+      ],
+      "predict": [
+        {
+          "start": 12,
+          "end": 19,
+          "value": "parking",
+          "entity": "local_feature",
+          "confidence": 0.8555560020498224,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "start": 31,
+          "end": 32,
+          "value": "5",
+          "entity": "time_spent",
+          "confidence": 0.9642546960886476,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "start": 63,
+          "end": 65,
+          "value": "10",
+          "entity": "time_spent",
+          "confidence": 0.9748897973342865,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "start": 77,
+          "end": 86,
+          "value": "the metro",
+          "entity": "local_feature",
+          "confidence": 0.8407937083566098,
+          "extractor": "modified_crf_entity_extractor"
+        }
+      ]
+    },
+    {
+      "text": "i need the neighborhood to be secured and there is must be at least one free parking",
+      "true": [
+        {
+          "start": 72,
+          "end": 84,
+          "value": "free parking",
+          "entity": "local_feature"
+        }
+      ],
+      "predict": [
+        {
+          "start": 30,
+          "end": 37,
+          "value": "secured",
+          "entity": "house_description",
+          "confidence": 0.5195675626680027,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "start": 72,
+          "end": 84,
+          "value": "free parking",
+          "entity": "local_feature",
+          "confidence": 0.9812290406509409,
+          "extractor": "modified_crf_entity_extractor"
+        }
+      ]
+    },
+    {
+      "text": "i need some information about houses in hanoi city",
+      "true": [
+        {
+          "start": 40,
+          "end": 45,
+          "value": "hanoi",
+          "entity": "city"
+        }
+      ],
+      "predict": [
+        {
+          "start": 30,
+          "end": 36,
+          "value": "house",
+          "entity": "real_estate_type",
+          "confidence": 0.7597651649080084,
+          "extractor": "modified_crf_entity_extractor",
+          "processors": [
+            "ner_synonyms"
+          ]
+        },
+        {
+          "start": 40,
+          "end": 45,
+          "value": "hanoi",
+          "entity": "city",
+          "confidence": 0.9988148156719644,
+          "extractor": "modified_crf_entity_extractor"
+        }
+      ]
+    }
+  ],
+  "support": 4
+}

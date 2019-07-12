@@ -1,0 +1,18 @@
+[
+  {
+    "text": "is there anything else?",
+    "intent": "ask_more",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.46549864994291085
+    }
+  },
+  {
+    "text": "more options please,",
+    "intent": "ask_more",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.6160884506896493
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "text": "is there anything else?",
+    "intent": "ask_more",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.5423723650097668
+    }
+  },
+  {
+    "text": "more options please,",
+    "intent": "ask_more",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.6684794130401166
+    }
+  },
+  {
+    "text": "i confirm",
+    "intent": "confirm",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.6975834191446151
+    }
+  },
+  {
+    "text": "ok",
+    "intent": "confirm",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8010574593782558
+    }
+  }
+]

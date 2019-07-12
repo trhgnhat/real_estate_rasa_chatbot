@@ -1,0 +1,64 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "currency",
+        "bed_room",
+        "price",
+        "real_estate_type",
+        "city"
+      ]
+    },
+    "house_form": {
+      "slots": [
+        "currency",
+        "bed_room",
+        "price",
+        "requested_slot",
+        "real_estate_type",
+        "guess_room",
+        "city",
+        "bath_room"
+      ]
+    },
+    "action_house": {
+      "slots": [
+        "found"
+      ]
+    },
+    "utter_please_to_hear": {
+      "slots": [
+        "house_description",
+        "requested_slot",
+        "real_estate_type"
+      ]
+    },
+    "utter_ask_request_more_info": {
+      "slots": [
+        "requested_slot",
+        "num_person"
+      ]
+    },
+    "action_wait_for_command": {
+      "slots": []
+    }
+  },
+  "python": "3.6.6",
+  "max_histories": [
+    3,
+    2,
+    3,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20190706-200902",
+  "rasa_core": "0.13.8",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.2"
+}

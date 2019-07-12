@@ -25,8 +25,7 @@ class RestaurantForm(FormAction):
         if tracker.get_slot('real_estate_type') == "house":
             return ["real_estate_type", "city", "price", "currency", "bed_room", "bath_room", "guess_room"]
         else:
-            return ["real_estate_type", "city", "price", "currency", "bed_room", "bath_room",
-                    "request_more_info", "confirm_information", "is_satisfied"]
+            return ["real_estate_type", "city", "price", "currency", "bed_room", "bath_room"]
             # return ["real_estate_type", "city", "price", "currency", "bed_room", "bath_room", "guess_room", "request_more_info", "is_satisfied"]
 
     def slot_mappings(self):
@@ -45,10 +44,12 @@ class RestaurantForm(FormAction):
                                                              "house_request"]),
                 "price": [self.from_entity(entity="price",
                                            intent=["house_inform",
-                                                   "house_request"]),
+                                                   "house_request",
+                                                   "number"]),
                           self.from_entity(entity="number",
                                            intent=["house_inform",
-                                                   "house_request"])
+                                                   "house_request",
+                                                   "number"])
                           ],
                 "currency": self.from_entity(entity="currency",
                                              intent=["house_inform",
@@ -58,27 +59,33 @@ class RestaurantForm(FormAction):
                                                        "house_request"]),
                 "guess_room": [self.from_entity(entity="guess_room",
                                                 intent=["house_inform",
-                                                        "house_request"]),
+                                                        "house_request",
+                                                        "number"]),
                                self.from_entity(entity="number",
                                                 intent=["house_inform",
-                                                        "house_request"])
+                                                        "house_request",
+                                                        "number"])
                                ],
                 "transportation": self.from_entity(entity="transportation",
                                                    intent=["house_inform",
                                                            "house_request"]),
                 "bath_room": [self.from_entity(entity="bath_room",
                                                intent=["house_inform",
-                                                       "house_request"]),
+                                                       "house_request",
+                                                       "number"]),
                               self.from_entity(entity="number",
                                                intent=["house_inform",
-                                                       "house_request"])
+                                                       "house_request",
+                                                       "number"])
                               ],
                 "bed_room": [self.from_entity(entity="bed_room",
                                               intent=["house_inform",
-                                                      "house_request"]),
+                                                      "house_request",
+                                                      "number"]),
                              self.from_entity(entity="number",
                                               intent=["house_inform",
-                                                      "house_request"])
+                                                      "house_request",
+                                                      "number"])
                              ],
                 "location": self.from_entity(entity="location",
                                              intent=["house_inform",
@@ -111,7 +118,7 @@ class RestaurantForm(FormAction):
     def re_type_db():
         # type: () -> List[Text]
         """Database of supported cuisines"""
-        return ["house", "apartment"]
+        return ["house", "home", "apartment", "flat"]
 
     @staticmethod
     def currency_db():
@@ -122,7 +129,7 @@ class RestaurantForm(FormAction):
     @staticmethod
     def city_remove(value):
         """Database of supported cuisines"""
-        value = value.replace("city", "")
+        value = value.replace("city", "").strip()
         return value
 
     @staticmethod
@@ -193,17 +200,17 @@ class RestaurantForm(FormAction):
                        tracker: Tracker,
                        domain: Dict[Text, Any]) -> Optional[Text]:
         word_rm_dict = {
-            "\s*k": "000",
-            "\s*thousand": "000",
-            "\s*thousands": "000",
-            "\s*millions": "000000",
-            "\s*million": "000000",
-            "\s*mil": "000000",
-            "\s*M": "000000",
-            "\s*billions": "000000000",
-            "\s*bil": "000000000",
-            "\s*B": "000000000",
-            "\s*billion": "000000000",
+            "k": "000",
+            "thousand": "000",
+            "thousands": "000",
+            "millions": "000000",
+            "million": "000000",
+            "mil": "000000",
+            "M": "000000",
+            "billions": "000000000",
+            "bil": "000000000",
+            "B": "000000000",
+            "billion": "000000000",
         }
         import re
         regex = "(?i)(" + "|".join([each for each in word_rm_dict]) + ")"
@@ -273,15 +280,41 @@ class ActionHouse(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            response = """information (processing in action):\n"""
-            for entity_name, entity in tracker.current_slot_values().items():
-                if entity_name in ["request_more_info", "is_satisfied", "confirm_information"]:
-                    continue
-                if tracker.get_slot(entity_name) is not None:
-                    response += "- {}: {}\n".format(entity_name, entity)
+            response = "\
+            Database has not been setup yet.\n \
+            This is the end of the implementation.\n \
+            Further work will focus on completing the action and database.\n \
+            Thank you for your trials!\n \
+            "
 
             dispatcher.utter_message(response)
             return [SlotSet("found", "Not implement yet")]
         except Exception as e:
             print(e)
             print(tracker.current_slot_values().items())
+
+
+class ActionPostHouseInfo(Action):
+    def name(self):
+        return 'action_post_house_info'
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            response = """information (processing in action):\n"""
+            for entity_name, entity in tracker.current_slot_values().items():
+                if entity_name in ["request_more_info", "is_satisfied", "confirm_information"]:
+                    continue
+                if tracker.get_slot(entity_name) is not None:
+                    response += "- {}: {}\n".format(entity_name, entity)
+            dispatcher.utter_message(response)
+        except Exception as e:
+            print(e)
+            print(tracker.current_slot_values().items())
+
+
+class ActionWaitForCommand(Action):
+    def name(self):
+        return 'action_wait_for_command'
+
+    def run(self, dispatcher, tracker, domain):
+        return []

@@ -6,9 +6,8 @@ python -m rasa_core.evaluate --stories data/stories.md --core models/dialogue -o
 
 python -m rasa_core_sdk.endpoint --actions form_action
 
-python -m rasa_nlu.evaluate --data data/data.json --config configs/nlu_configs/custom_nlu_config_1/nlu_config.md --mode crossvalidation
+python -m rasa_core.train compare -c configs/core_configs/keras_lstm/config.yml configs/core_configs/tensorflow_attn_rnn/config.yml -d house_domain.yml -s data/stories_form.md -o models/comparison_models --runs 3 --percentages 0 5 25 50 70 90 95
 
-python -m rasa_nlu.evaluate --data data/data.json --model models/nlu/default/custom_nlu_config_1 --report configs/nlu_configs/custom_nlu_config_1/reports --successes configs/nlu_configs/custom_nlu_config_1/successes.json --errors configs/nlu_configs/custom_nlu_config_1/errors.json --histogram configs/nlu_configs/custom_nlu_config_1/hist.png --confmat configs/nlu_configs/custom_nlu_config_1/confmat.png
-python -m rasa_nlu.evaluate --data data/data_test.md --model models/nlu/default/custom_nlu_config_2 --report configs/nlu_configs/custom_nlu_config_2/reports --successes configs/nlu_configs/custom_nlu_config_2/successes.json --errors configs/nlu_configs/custom_nlu_config_2/errors.json --histogram configs/nlu_configs/custom_nlu_config_2/hist.png --confmat configs/nlu_configs/custom_nlu_config_2/confmat.png
-python -m rasa_nlu.evaluate --data data/data_test.md --model models/nlu/default/spacy_nlp_config --report configs/nlu_configs/spacy_nlp_config/reports --successes configs/nlu_configs/spacy_nlp_config/successes.json --errors configs/nlu_configs/spacy_nlp_config/errors.json --histogram configs/nlu_configs/spacy_nlp_config/hist.png --confmat configs/nlu_configs/spacy_nlp_config/confmat.png
-python -m rasa_nlu.evaluate --data data/data_test.md --model models/nlu/default/tensorflow_embedding_config --report configs/nlu_configs/tensorflow_embedding_config/reports --successes configs/nlu_configs/tensorflow_embedding_config/successes.json --errors configs/nlu_configs/tensorflow_embedding_config/errors.json --histogram configs/nlu_configs/tensorflow_embedding_config/hist.png --confmat configs/nlu_configs/tensorflow_embedding_config/confmat.png
+
+npm i -g rasa-nlu-trainer
+rasa-nlu-trainer --source ./data.json --port 1002

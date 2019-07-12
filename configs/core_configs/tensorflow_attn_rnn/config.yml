@@ -1,0 +1,7 @@
+policies:
+- name: EmbeddingPolicy
+  epochs: 200
+  max_history: 6
+  droprate_a: 0.1
+  droprate_b: 0.1
+- name: FormPolicy

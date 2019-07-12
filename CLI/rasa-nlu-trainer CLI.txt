@@ -1,3 +1,0 @@
-rasa-nlu-trainer --source ./data.json --port 1002
-npm i -g rasa-nlu-trainer
-python -m rasa_core_sdk.endpoint --actions action

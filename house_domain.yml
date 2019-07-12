@@ -1,71 +1,80 @@
 %YAML 1.1
 ---
 actions:
-- utter_ask_bath_room
-- utter_wrong_real_estate_type
-- utter_ask_guess_room
-- utter_ask_request_more_info
-- utter_wrong_price
-- utter_ask_price
+- action_wait_for_command
+- utter_next_recommendation
 - utter_noworries
-- utter_ask_bed_room
-- utter_ask_city
-- utter_default
-- utter_ask_feedback
-- utter_submit
-- utter_welcome
-- utter_unclear
-- utter_greet
-- utter_slots_values
-- action_house
-- utter_goodbye
 - utter_ask_real_estate_type
+- utter_ask_price
+- utter_ask_bath_room
+- utter_greet
+- utter_ask_guess_room
+- utter_ask_city
+- action_post_house_info
+- utter_thanks_for_feedback
+- utter_slots_values
+- utter_wrong_price
 - utter_wrong_city
+- utter_call_if_need_help
+- utter_ask_bed_room
 - utter_ask_satisfaction
+- action_house
+- utter_please_to_hear
+- utter_goodbye
+- utter_need_change_info
 - utter_ask_confirm_information
+- utter_ask_feedback
+- utter_understand
+- utter_submit
+- utter_default
+- utter_unclear
+- utter_ask_request_more_info
+- utter_welcome
+- utter_wrong_real_estate_type
 entities:
-- number
-- currency
+- bath_room
+- location
+- real_estate_type
+- city
+- furniture
 - house_description
 - guess_room
-- real_estate_type
-- local_feature
-- transportation
-- feedback
+- num_person
 - bed_room
-- price
-- bath_room
-- city
-- location
-- time_spent
+- number
 - house_feature
+- feedback
+- price
+- local_feature
+- time_spent
+- currency
+- transportation
 forms:
 - house_form
 intents:
-- house_inform
-- house_request
-- greet
+- confirm
 - deny
+- ask_more
 - thankyou
-- ask_howdoing
-- affirm
-- goodbye
 - feedback
+- greet
+- affirm
+- house_inform
+- number
+- house_request
+- ask_howdoing
+- goodbye
+- deny_positive
 slots:
-  is_satisfied:
-    initial_value: False
-    type: bool
-  request_more_info:
-    type: bool
-  confirm_information:
-    initial_value: False
-    type: bool
   bath_room:
     type: unfeaturized
   bed_room:
     type: unfeaturized
   city:
     type: text
+  confirm_information:
+    initial_value: false
+    type: bool
   currency:
     initial_value: usd
     type: categorical
@@ -75,16 +84,25 @@ slots:
     - vnd
   feedback:
     type: text
+  found:
+    type: list
+  furniture:
+    type: list
   guess_room:
     type: unfeaturized
   house_description:
-    type: unfeaturized
+    type: list
   house_feature:
-    type: unfeaturized
+    type: list
+  is_satisfied:
+    initial_value: false
+    type: bool
   local_feature:
-    type: unfeaturized
+    type: list
   location:
-    type: unfeaturized
+    type: list
+  num_person:
+    type: text
   price:
     type: text
   real_estate_type:
@@ -93,59 +111,99 @@ slots:
     values:
     - house
     - apartment
+  request_more_info:
+    type: bool
   requested_slot:
     type: unfeaturized
   time_spent:
     type: unfeaturized
   transportation:
-    type: unfeaturized
-  found:
     type: list
-
 templates:
   utter_ask_bath_room:
   - buttons:
-    - payload: '1'
+    - payload: '/house_inform{"bath_room": "1"}'
       title: '1'
-    - payload: '2'
+    - payload: '/house_inform{"bath_room": "2"}'
       title: '2'
-    - payload: '3'
+    - payload: '/house_inform{"bath_room": "3"}'
       title: '3'
-    - payload: '4'
+    - payload: '/house_inform{"bath_room": "4"}'
       title: '4'
     text: How many bathroom do you need?
   utter_ask_bed_room:
   - buttons:
-    - payload: '1'
+    - payload: '/house_inform{"bed_room": "1"}'
       title: '1'
-    - payload: '2'
+    - payload: '/house_inform{"bed_room": "2"}'
       title: '2'
-    - payload: '3'
+    - payload: '/house_inform{"bed_room": "3"}'
       title: '3'
-    - payload: '4'
+    - payload: '/house_inform{"bed_room": "4"}'
       title: '4'
     text: How many bedroom do you need?
   utter_ask_city:
   - text: Where are you searching for?
+  utter_ask_confirm_information:
+  - buttons:
+    - payload: /affirm
+      title: 'Yes'
+    - payload: /deny
+      title: 'No'
+    text: Are all of the information correct?
   utter_ask_currency:
-  - text: which currency are you using?
+  - buttons:
+    - payload: '//house_inform{"currency": "usd"}'
+      title: USD
+    - payload: '//house_inform{"currency": "euro"}'
+      title: EURO
+    - payload: '//house_inform{"currency": "vnd"}'
+      title: VND
+    text: which currency are you using?
   utter_ask_feedback:
   - text: please give your feedback on your experience so far
   utter_ask_guess_room:
   - buttons:
-    - payload: '1'
+    - payload: '/house_inform{"guess_room": "1"}'
       title: '1'
-    - payload: '2'
+    - payload: '/house_inform{"guess_room": "2"}'
       title: '2'
-    - payload: '3'
+    - payload: '/house_inform{"guess_room": "3"}'
       title: '3'
-    - payload: '4'
+    - payload: '/house_inform{"guess_room": "4"}'
       title: '4'
     text: How many guessroom do you need?
   utter_ask_price:
   - text: How much money can you afford?
   utter_ask_real_estate_type:
-  - text: Are you searching for houses or apartments?
+  - buttons:
+    - payload: '//house_inform{"real_estate_type": "house"}'
+      title: House
+    - payload: '//house_inform{"real_estate_type": "apartment"}'
+      title: Apartment/Flat
+    text: Are you searching for houses or apartments?
+  utter_ask_request_more_info:
+  - buttons:
+    - payload: /affirm
+      title: 'Yes'
+    - payload: /deny
+      title: 'No'
+    text: Is there any more requirements?
+  - buttons:
+    - payload: /affirm
+      title: 'Yes'
+    - payload: /deny
+      title: 'No'
+    text: Is there anything else?
+  utter_ask_satisfaction:
+  - buttons:
+    - payload: /affirm
+      title: 'Yes'
+    - payload: /deny
+      title: 'No'
+    text: Are you satisfied with my results?
+  utter_call_if_need_help:
+  - text: I am right here if you need more helps. Inbox me if you need any information
   utter_default:
   - text: sorry, I didn't understand you, please try input something else
   utter_goodbye:
@@ -153,8 +211,18 @@ templates:
   - text: Bye bye
   utter_greet:
   - text: Hello! How can I help?
+  utter_need_change_info:
+  - text: Do you want to make any changes on the requirements?
+  utter_next_recommendation:
+  - text: okay, how about this?
+  - text: i will find another options
+  - text: then, please considered the next option
+  - text: wait me for a second, i will find more
+  - text: how about this option?
   utter_noworries:
   - text: you are welcome :)
+  utter_please_to_hear:
+  - text: I am please to hear more
   utter_slots_values:
   - text: "I am going to run a house search using the following parameters:\n - type:\
       \ {real_estate_type}\n- location: {location}\n- price: {price}\n- number of\
@@ -162,10 +230,23 @@ templates:
       \ rooms: {guess_room}\n"
   utter_submit:
   - text: All done!
+  utter_thanks_for_feedback:
+  - text: thank you for your feedback
   utter_unclear:
   - text: I am not sure what you are talking about.
+  utter_understand:
+  - text: Got it!
+  - text: I got it!
+  - text: Okay
+  - text: confirmed
+  - text: understood
   utter_welcome:
-  - text: It is my pleasure to help you. Is there anything else?
+  - buttons:
+    - payload: /affirm
+      title: 'Yes'
+    - payload: /deny
+      title: 'No'
+    text: It is my pleasure to help you. Is there anything else?
   utter_wrong_city:
   - text: location type is not in the database, please try again
   utter_wrong_currency:
@@ -173,23 +254,9 @@ templates:
   utter_wrong_price:
   - text: price should be a positive float, please try again
   utter_wrong_real_estate_type:
-  - text: Sorry, we only support for houses/apartments searching at the moment
-  utter_ask_satisfaction:
-  - text: Are you satisfied with my results?
-  utter_ask_confirm_information:
-  - text: Are all of the information correct?
-  utter_ask_request_more_info:
-  - text: Is there any more requirements?
-  - text: Is there anything else?
-  utter_please_to_hear:
-  - text: I am please to hear more
-  utter_understand:
-  - text: Got it!
-  - text: I got it!
-  - text: Okay
-  - text: confirmed
-  - text: understood
-  utter_thanks_for_feedback:
-  - text: thank you for your feedback
-  utter_call_if_need_help:
-  - text: I am right here if you need more helps. Inbox me if you need any information
+  - buttons:
+    - payload: '//house_inform{"real_estate_type": "house"}'
+      title: House
+    - payload: '//house_inform{"real_estate_type": "apartment"}'
+      title: Apartment/Flat
+    text: Sorry, we only support for houses/apartments searching at the moment

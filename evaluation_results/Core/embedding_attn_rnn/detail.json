@@ -1,0 +1,482 @@
+[
+  {
+    "action": "house_form",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_listen",
+    "policy": "policy_1_FormPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_please_to_hear",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.28037845634582365
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.28037845634582365
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.28037845634582365
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.28037845634582365
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.28037845634582365
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.28037845634582365
+  },
+  {
+    "action": "action_deactivate_form",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.28037845634582365
+  },
+  {
+    "action": "action_house",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.30517881663151775
+  },
+  {
+    "action": "utter_ask_satisfaction",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.3264375867729871
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.32333264450684596
+  },
+  {
+    "action": "utter_ask_feedback",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.32166201318820875
+  },
+  {
+    "action": "utter_thanks_for_feedback",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_call_if_need_help",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.25693593056688513
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.20623335088573413
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_greet",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.25578727643105603
+  },
+  {
+    "action": "house_form",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.22078398757283116
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.29413889344760863
+  },
+  {
+    "action": "utter_please_to_hear",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.2170497553021912
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.16577336102602855
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.1633248678113281
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.14866675771637208
+  },
+  {
+    "action": "action_house",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_ask_confirm_information",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.15003007507307942
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.16671185145490103
+  },
+  {
+    "action": "utter_please_to_hear",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.16150041140140142
+  },
+  {
+    "action": "house_form",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.1452247592689129
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.16053569805054893
+  },
+  {
+    "action": "utter_ask_confirm_information",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.15997309193801515
+  },
+  {
+    "action": "utter_need_change_info",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.1594549017418661
+  },
+  {
+    "action": "action_house",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.1598386961251819
+  },
+  {
+    "action": "utter_ask_satisfaction",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.1659372207837081
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.15985740343868995
+  },
+  {
+    "action": "utter_ask_feedback",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.15425909147834452
+  },
+  {
+    "action": "utter_thanks_for_feedback",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_call_if_need_help",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.1466901690868979
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.14159927103517364
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_greet",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.25578727643105603
+  },
+  {
+    "action": "house_form",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.22078398757283116
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.29413889344760863
+  },
+  {
+    "action": "utter_ask_confirm_information",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.21773184060068548
+  },
+  {
+    "action": "utter_please_to_hear",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.20201453273080486
+  },
+  {
+    "action": "house_form",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.1754352824228208
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.2040589197505481
+  },
+  {
+    "action": "utter_ask_confirm_information",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.19060022132511245
+  },
+  {
+    "action": "utter_need_change_info",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.18150525516163213
+  },
+  {
+    "action": "house_form",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_1_FormPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "house_form",
+    "policy": "policy_1_FormPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_house",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.21214029417452995
+  },
+  {
+    "action": "utter_ask_satisfaction",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.21214029417452995
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.21214029417452995
+  },
+  {
+    "action": "utter_ask_feedback",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.18950825291118964
+  },
+  {
+    "action": "utter_thanks_for_feedback",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_call_if_need_help",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.17957900652234438
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_EmbeddingPolicy",
+    "confidence": 0.16292569470166288
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_default_fallback",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  }
+]

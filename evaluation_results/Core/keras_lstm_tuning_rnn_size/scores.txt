@@ -1,0 +1,21 @@
+                               precision    recall  f1-score   support
+
+       action_deactivate_form       0.00      0.00      0.00         1
+                 action_house       0.67      0.50      0.57         4
+                action_listen       0.93      0.87      0.90        30
+                   house_form       0.35      1.00      0.52         6
+utter_ask_confirm_information       0.80      1.00      0.89         4
+           utter_ask_feedback       1.00      0.67      0.80         3
+  utter_ask_request_more_info       0.86      0.67      0.75         9
+       utter_ask_satisfaction       1.00      0.33      0.50         3
+      utter_call_if_need_help       1.00      0.67      0.80         3
+                  utter_greet       1.00      1.00      1.00         2
+       utter_need_change_info       1.00      0.50      0.67         2
+         utter_please_to_hear       0.50      0.50      0.50         4
+    utter_thanks_for_feedback       1.00      0.67      0.80         3
+                utter_unclear       0.00      0.00      0.00         0
+             utter_understand       1.00      0.33      0.50         6
+
+                    micro avg       0.72      0.72      0.73        80
+                    macro avg       0.74      0.58      0.61        80
+                 weighted avg       0.84      0.72      0.75        80

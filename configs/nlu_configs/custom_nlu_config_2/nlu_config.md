@@ -10,9 +10,16 @@ pipeline:
   # between these two words, therefore setting this to `true`.
   case_sensitive: false
 - name: "tokenizer_spacy"
-- name: "ner_crf"
-- name: "ner_synonyms"
+- name: "intent_entity_featurizer_regex"
+- name: "intent_featurizer_spacy"
+- name: "components.modified_crf_entity_extractor.ModifiedCRFEntityExtractor"
+  max_iterations: 100
+- name: "components.dict_ner_extractor.DictNerExtractor"
+##- name: "ner_synonyms"
 - name: "intent_featurizer_count_vectors"
-- name: "intent_classifier_tensorflow_embedding"
-  batch_size: 10
-  epochs: 500
+  token_pattern: '(?u)\b\w+\b'
+  max_ngram: 4
+- name: "intent_featurizer_ngrams"
+- name: "intent_classifier_sklearn"
+  gamma: [0.1, 1, 10, 100]
+  kernal: ["linear", "rbf", "poly"]

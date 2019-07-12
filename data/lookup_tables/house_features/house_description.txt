@@ -24,7 +24,6 @@ firetrap
 furnished
 gabled
 half-timbered
-handsome
 high-rise
 Ionic
 labyrinthine
@@ -70,10 +69,8 @@ huge
 Modern
 beautiful 
 superb
-great
 marvellous 
-wonderful 
-fine
+wonderful
 cultured
 excellent
 polished

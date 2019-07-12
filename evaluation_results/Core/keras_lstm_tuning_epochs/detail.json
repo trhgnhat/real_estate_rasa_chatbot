@@ -1,0 +1,482 @@
+[
+  {
+    "action": "house_form",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9978504993163705
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "action_listen",
+    "policy": "policy_1_FormPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_please_to_hear",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9978504993163705
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9978504993163705
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9978504993163705
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9978504993163705
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9978504993163705
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9978504993163705
+  },
+  {
+    "action": "action_deactivate_form",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9978504993163705
+  },
+  {
+    "action": "action_house",
+    "predicted": "utter_ask_request_more_info",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.6263064922608657
+  },
+  {
+    "action": "utter_ask_satisfaction",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.5921104314309308
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999970425648554
+  },
+  {
+    "action": "utter_ask_feedback",
+    "predicted": "utter_ask_feedback",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9956166195951843
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999986573968684
+  },
+  {
+    "action": "utter_thanks_for_feedback",
+    "predicted": "utter_thanks_for_feedback",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998592533691041
+  },
+  {
+    "action": "utter_call_if_need_help",
+    "predicted": "utter_call_if_need_help",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998055662788504
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999888653086036
+  },
+  {
+    "action": "action_listen",
+    "predicted": "utter_unclear",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_greet",
+    "predicted": "utter_greet",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.8373854678672326
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998301878302647
+  },
+  {
+    "action": "house_form",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998767194159772
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "utter_ask_request_more_info",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999787542137757
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9831234891544124
+  },
+  {
+    "action": "utter_please_to_hear",
+    "predicted": "utter_ask_confirm_information",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.7936627068877564
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999970901578881
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "utter_ask_request_more_info",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999219406006418
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.999980227502278
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "utter_understand",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9986931384463119
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "utter_ask_request_more_info",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.999875171912948
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9555081519860292
+  },
+  {
+    "action": "action_house",
+    "predicted": "action_house",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9987644919992263
+  },
+  {
+    "action": "utter_ask_confirm_information",
+    "predicted": "utter_ask_confirm_information",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9919044401180744
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999954329550576
+  },
+  {
+    "action": "utter_please_to_hear",
+    "predicted": "utter_ask_feedback",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9406641181367404
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9965701609403825
+  },
+  {
+    "action": "house_form",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9997959914905483
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "utter_ask_request_more_info",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999725243591668
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9964679388479526
+  },
+  {
+    "action": "utter_ask_confirm_information",
+    "predicted": "utter_ask_confirm_information",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9602036407958826
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999876004460333
+  },
+  {
+    "action": "utter_need_change_info",
+    "predicted": "utter_please_to_hear",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.8220896772432185
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999116207993106
+  },
+  {
+    "action": "action_house",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.5211728794613315
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "utter_understand",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9893159221106977
+  },
+  {
+    "action": "utter_ask_satisfaction",
+    "predicted": "utter_ask_satisfaction",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9996445018514937
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.999991021077715
+  },
+  {
+    "action": "utter_ask_feedback",
+    "predicted": "utter_ask_feedback",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9994656655531009
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999926542054518
+  },
+  {
+    "action": "utter_thanks_for_feedback",
+    "predicted": "utter_thanks_for_feedback",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998907162914096
+  },
+  {
+    "action": "utter_call_if_need_help",
+    "predicted": "utter_call_if_need_help",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9991467870540591
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999862924497421
+  },
+  {
+    "action": "action_listen",
+    "predicted": "utter_unclear",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_greet",
+    "predicted": "utter_greet",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.8373854678672326
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998301878302647
+  },
+  {
+    "action": "house_form",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998767194159772
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "utter_ask_request_more_info",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999787542137757
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9831234891544124
+  },
+  {
+    "action": "utter_ask_confirm_information",
+    "predicted": "utter_ask_confirm_information",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.7936627068877564
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999868375436597
+  },
+  {
+    "action": "utter_please_to_hear",
+    "predicted": "utter_please_to_hear",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9307459944363484
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999776847965014
+  },
+  {
+    "action": "house_form",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999010765402447
+  },
+  {
+    "action": "utter_ask_request_more_info",
+    "predicted": "utter_ask_request_more_info",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999786070787369
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9826716181210304
+  },
+  {
+    "action": "utter_ask_confirm_information",
+    "predicted": "utter_ask_confirm_information",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9645693051564849
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999934485826192
+  },
+  {
+    "action": "utter_need_change_info",
+    "predicted": "utter_please_to_hear",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.665618317373009
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999446850850104
+  },
+  {
+    "action": "house_form",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998054284254323
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_1_FormPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "utter_understand",
+    "predicted": "house_form",
+    "policy": "policy_1_FormPolicy",
+    "confidence": 1.0
+  },
+  {
+    "action": "action_house",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998054284254323
+  },
+  {
+    "action": "utter_ask_satisfaction",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998054284254323
+  },
+  {
+    "action": "action_listen",
+    "predicted": "house_form",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9998054284254323
+  },
+  {
+    "action": "utter_ask_feedback",
+    "predicted": "utter_understand",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.5439107046640395
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9980168451573237
+  },
+  {
+    "action": "utter_thanks_for_feedback",
+    "predicted": "action_house",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.7793203037956458
+  },
+  {
+    "action": "utter_call_if_need_help",
+    "predicted": "utter_call_if_need_help",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.514486632504752
+  },
+  {
+    "action": "action_listen",
+    "predicted": "action_listen",
+    "policy": "policy_2_KerasPolicy",
+    "confidence": 0.9999988993251039
+  },
+  {
+    "action": "action_listen",
+    "predicted": "utter_unclear",
+    "policy": "policy_3_FallbackPolicy",
+    "confidence": 1.0
+  }
+]
