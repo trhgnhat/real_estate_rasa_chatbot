@@ -22,3 +22,8 @@ pipeline:
 - name: "intent_classifier_sklearn"
   gamma: [0.1, 1, 10, 100]
   kernal: ["linear", "rbf", "poly"]
+- name: "ner_duckling_http"
+  url: "http://localhost:8000"
+  dimensions: ["time", "amount-of-money", "phone-number", "duration", "distance", "volume", "ordinal", "number", "email"]
+  locale: "en_US"
+  timezone: "Asia/Ho_Chi_Minh"

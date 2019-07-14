@@ -458,6 +458,53 @@
 - cool thank you
 - okay, thanks
 
+## intent:talk_to_person
+- let's me talk to [Nhat](person_name)
+- i want to talk to [Truong Hoang Nhat](person_name) now
+- connect me to [Truong Hoang Nhat](person_name) please
+- let's me say something to [Truong Hoang Nhat](person_name)
+- i want to chat with [Nhat Truong](person_name)
+- call [Hoang Nhat](person_name) for me please
+- i want to say something with [Nhat](person_name) for a moment
+- contact [Nhat](person_name) for me please
+- let's me talk to [@trhgnhat](person_id)
+- i want to talk to [@trhgnhat](person_id) now
+- connect me to [@ititiu15086](person_id) please
+- let's me say something to [@ititiu15086](person_id)
+- i want to chat with [@ititiu15086](person_id)
+- call [@ititiu15086](person_id) for me please
+- i want to say something with [@trhgnhat](person_id) for a moment
+- contact [@trhgnhat](person_id) for me please
+
+## intent:set_appointment
+- arrange an appointment with [Nhat](person_name) on sunday afternoon for me please
+- setup the appointment for [Nhat](person_name) and me on Saturday morning please
+- i want to meet [Nhat Truong](person_name) on January 1st
+- please setup a meeting with [Nhat](person_name) on next Sunday please
+- make a meeting with [Truong](person_name) for me please.
+- create an appointment on Saturday morning with [Nhat](person_name) for me please
+- i want ot see [@trhgnhat](person_id) on the next morning at 10 am
+- on Saturday morning
+- at the weekend
+- next month
+- in 5 minutes
+- right now
+
+
+## intent:person_inform
+- [Nhat](person_name)
+- to [Nhat](person_name)
+- [@ititiu15086](person_id)
+- to [@ititiu15086](person_id)
+- [Nhat Truong](person_name) please
+- to [Nhat](person_name) please
+- [@ititiu15086](person_id) please
+- to [@ititiu15086](person_id) please
+
+
+## synonym:appointment
+- meeting
+
 ## synonym:0
 - zero
 

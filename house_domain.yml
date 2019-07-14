@@ -1,7 +1,6 @@
 %YAML 1.1
 ---
 actions:
-- action_wait_for_command
 - utter_next_recommendation
 - utter_noworries
 - utter_ask_real_estate_type
@@ -10,7 +9,6 @@ actions:
 - utter_greet
 - utter_ask_guess_room
 - utter_ask_city
-- action_post_house_info
 - utter_thanks_for_feedback
 - utter_slots_values
 - utter_wrong_price
@@ -18,7 +16,6 @@ actions:
 - utter_call_if_need_help
 - utter_ask_bed_room
 - utter_ask_satisfaction
-- action_house
 - utter_please_to_hear
 - utter_goodbye
 - utter_need_change_info
@@ -31,6 +28,20 @@ actions:
 - utter_ask_request_more_info
 - utter_welcome
 - utter_wrong_real_estate_type
+- utter_ask_person_id
+- utter_ask_person_name
+- utter_ask_time
+- utter_wrong_person_id
+- utter_wrong_person_name
+- utter_wrong_meeting_time
+- action_wait_for_command
+- action_post_house_info
+- action_remind_meeting
+- action_house
+forms:
+- house_form
+- form_connect_to_person
+- form_setup_meeting
 entities:
 - bath_room
 - location
@@ -49,8 +60,6 @@ entities:
 - time_spent
 - currency
 - transportation
-forms:
-- house_form
 intents:
 - confirm
 - deny
@@ -65,6 +74,8 @@ intents:
 - ask_howdoing
 - goodbye
 - deny_positive
+- set_appointment
+- talk_to_person
 slots:
   bath_room:
     type: unfeaturized
@@ -253,6 +264,12 @@ templates:
   - text: Sorry, we only support for usd/vnd/euro currency at the moment
   utter_wrong_price:
   - text: price should be a positive float, please try again
+  utter_wrong_person_id:
+  - text: I can't find {person_id}. Please check the id again.
+  utter_wrong_person_name:
+  - text: I can't find {person_name}. Please check the id again.
+  utter_wrong_meeting_time:
+  - text: Invalided time. Please setup the time after the current moment.
   utter_wrong_real_estate_type:
   - buttons:
     - payload: '//house_inform{"real_estate_type": "house"}'
@@ -260,3 +277,9 @@ templates:
     - payload: '//house_inform{"real_estate_type": "apartment"}'
       title: Apartment/Flat
     text: Sorry, we only support for houses/apartments searching at the moment
+  utter_ask_person_id:
+  - text: who do you want to talk to?
+  utter_ask_person_name:
+  - text: Who do you want to talk to?
+  utter_ask_time:
+  - text: Please choose a time.

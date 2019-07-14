@@ -3,10 +3,14 @@ language: "en"
 pipeline:
 - name: "nlp_spacy"
   model: "en"
-- name: "tokenizer_spacy"
-- name: "intent_entity_featurizer_regex"
-- name: "ner_crf"
-##- name: "ner_synonyms"
-- name: "intent_featurizer_count_vectors"
-- name: "intent_featurizer_ngrams"
-- name: "intent_classifier_tensorflow_embedding"
+- name: "ner_duckling_http"
+  # url of the running duckling server
+  url: "http://localhost:8000"
+  # dimensions to extract
+  dimensions: ["time", "amount-of-money", "phone-number", "duration", "distance", "volume", "ordinal", "number", "email"]
+  # allows you to configure the locale, by default the language is
+  # used
+  locale: "en_US"
+  # if not set the default timezone of Duckling is going to be used
+  # needed to calculate dates from relative expressions like "tomorrow"
+  timezone: "Asia/Ho_Chi_Minh"

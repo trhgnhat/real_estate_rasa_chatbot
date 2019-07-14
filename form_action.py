@@ -1,15 +1,11 @@
 # -*- coding: utf-8 -*-
 from typing import Dict, Text, Any, List, Union, Optional
 
-from rasa_core_sdk import ActionExecutionRejection
-from rasa_core_sdk import Tracker
-from rasa_core_sdk.events import SlotSet, FollowupAction, ReminderScheduled
-from rasa_core_sdk.executor import CollectingDispatcher
-from rasa_core_sdk.forms import FormAction, REQUESTED_SLOT
-
-from rasa_core_sdk import Action
-from datetime import datetime
-from datetime import timedelta
+from rasa_sdk import Tracker
+from rasa_sdk.events import SlotSet, FollowupAction, ReminderScheduled
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.forms import FormAction, REQUESTED_SLOT
+from rasa_sdk import Action
 
 class RestaurantForm(FormAction):
     """Example of a custom form action"""
@@ -271,7 +267,7 @@ class RestaurantForm(FormAction):
         """Define what the form has to do
             after all required slots are filled"""
 
-        return []
+        return [SlotSet("matches", None), FollowupAction("action_post_house_info")]
 
 
 class ActionHouse(Action):
@@ -280,15 +276,15 @@ class ActionHouse(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            response = "\
-            Database has not been setup yet.\n \
-            This is the end of the implementation.\n \
-            Further work will focus on completing the action and database.\n \
-            Thank you for your trials!\n \
-            "
-
+            if tracker.get_slot("matches") is not None:
+                list_houses = tracker.get_slot("matches")
+            else:
+                list_houses = ["house 1", "house 2", "house 3", "house 4"]
+            response = "Link: {}".format(list_houses[0])
+            list_houses.append(list_houses[0])
+            list_houses.pop(0)
             dispatcher.utter_message(response)
-            return [SlotSet("found", "Not implement yet")]
+            return [SlotSet("matches", list_houses)]
         except Exception as e:
             print(e)
             print(tracker.current_slot_values().items())
@@ -307,9 +303,188 @@ class ActionPostHouseInfo(Action):
                 if tracker.get_slot(entity_name) is not None:
                     response += "- {}: {}\n".format(entity_name, entity)
             dispatcher.utter_message(response)
+            dispatcher.utter_template("utter_ask_confirm_information")
         except Exception as e:
             print(e)
             print(tracker.current_slot_values().items())
+
+
+class FormConnectToPerson(FormAction):
+    """Example of a custom form action"""
+
+    def name(self):
+        # type: () -> Text
+        """Unique identifier of the form"""
+        return "form_connect_to_person"
+
+    @staticmethod
+    def required_slots(tracker: Tracker) -> List[Text]:
+        """A list of required slots that the form has to fill"""
+        return ["person_id", "person_name"]
+
+    def slot_mappings(self):
+        # type: () -> Dict[Text: Union[Dict, List[Dict]]]
+        return {"person_name": self.from_entity(entity="person_name", intent=["talk_to_person"]),
+                "person_id": self.from_entity(entity="person_id", intent=["talk_to_person"])}
+
+    @staticmethod
+    def sample_db_person():
+        return {"trhgnhat": "Truong Hoang Nhat", "ititiu15086": "Nhat Truong"}
+
+    def validate_person_id(self,
+                           value: Text,
+                           dispatcher: CollectingDispatcher,
+                           tracker: Tracker,
+                           domain: Dict[Text, Any]) -> Optional[Text]:
+        person_ids = self.sample_db_person()
+        value = value.replace("@", "")
+        if value in person_ids:
+            SlotSet("person_name", person_ids[value])
+            return value
+        else:
+            dispatcher.utter_template('utter_wrong_person_id', tracker)
+            # validation failed, set slot to None
+            return None
+
+    def validate_person_name(self,
+                             value: Text,
+                             dispatcher: CollectingDispatcher,
+                             tracker: Tracker,
+                             domain: Dict[Text, Any]) -> Optional[Text]:
+        value = value.lower()
+        for person_id, name in self.sample_db_person().items():
+            if value == name:
+                SlotSet("person_id", person_id)
+                return value.title()
+        dispatcher.utter_template('utter_wrong_person_name', tracker)
+        # validation failed, set slot to None
+        return None
+
+    def submit(self,
+               dispatcher: CollectingDispatcher,
+               tracker: Tracker,
+               domain: Dict[Text, Any]) -> List[Dict]:
+        """Define what the form has to do
+            after all required slots are filled"""
+        person_id = tracker.get_slot("person_id")
+        person_name = tracker.get_slot("person_name")
+        response = "Connecting to {person_name} ({person_id})".format(person_id=person_id, person_name=person_name)
+        dispatcher.utter_message(response)
+        response2 = "This is the end of users connection implementation."
+        dispatcher.utter_message(response2)
+
+        return [FollowupAction("action_wait_for_command")]
+
+
+class FormSetupMeeting(FormAction):
+
+    def name(self):
+        return "form_setup_meeting"
+
+    @staticmethod
+    def required_slots(tracker: Tracker) -> List[Text]:
+        """A list of required slots that the form has to fill"""
+        return ["person_id", "person_name", "time"]
+
+    def slot_mappings(self):
+        # type: () -> Dict[Text: Union[Dict, List[Dict]]]
+        return {"person_name": self.from_entity(entity="person_name", intent=["talk_to_person", "set_appointment"]),
+                "person_id": self.from_entity(entity="person_id", intent=["talk_to_person", "set_appointment"]),
+                "time": self.from_entity(entity="time", intent=["set_appointment"])}
+
+    def validate_time(self,
+                      value: Text,
+                      dispatcher: CollectingDispatcher,
+                      tracker: Tracker,
+                      domain: Dict[Text, Any]) -> Optional[Text]:
+        from dateutil.parser import parse
+        from dateutil.relativedelta import relativedelta
+        import datetime
+        dt_obj = parse(value)
+        dt_obj = dt_obj.date() + relativedelta(hours=dt_obj.hour, minutes=dt_obj.minute, second=dt_obj.second)
+
+        # meeting date is only valid if it happens after current time.
+        if dt_obj > datetime.datetime.now():
+            return value
+        else:
+            dispatcher.utter_template('utter_wrong_meeting_time', tracker)
+            return None
+
+    @staticmethod
+    def sample_db_person():
+        return {"trhgnhat": "Truong Hoang Nhat", "ititiu15086": "Nhat Truong"}
+
+    def validate_person_id(self,
+                           value: Text,
+                           dispatcher: CollectingDispatcher,
+                           tracker: Tracker,
+                           domain: Dict[Text, Any]) -> Optional[Text]:
+        person_ids = self.sample_db_person()
+        value = value.replace("@", "")
+        if value in person_ids:
+            SlotSet("person_name", person_ids[value])
+            return value
+        else:
+            dispatcher.utter_template('utter_wrong_person_id', tracker)
+            # validation failed, set slot to None
+            return None
+
+    def validate_person_name(self,
+                             value: Text,
+                             dispatcher: CollectingDispatcher,
+                             tracker: Tracker,
+                             domain: Dict[Text, Any]) -> Optional[Text]:
+        value = value.lower()
+        for person_id, name in self.sample_db_person().items():
+            if value == name:
+                SlotSet("person_id", person_id)
+                return value.title()
+        dispatcher.utter_template('utter_wrong_person_name', tracker)
+        # validation failed, set slot to None
+        return None
+
+    def submit(self,
+               dispatcher: CollectingDispatcher,
+               tracker: Tracker,
+               domain: Dict[Text, Any]) -> List[Dict]:
+        """Define what the form has to do
+            after all required slots are filled"""
+        person_id = tracker.get_slot("person_id")
+        person_name = tracker.get_slot("person_name")
+        time = tracker.get_slot("time")
+        from dateutil.parser import parse
+        from dateutil.relativedelta import relativedelta
+        dt_obj = parse(time)
+        dt_obj = dt_obj.date() + relativedelta(hours=dt_obj.hour, minutes=dt_obj.minute, second=dt_obj.second)
+        remind_dt_obj = dt_obj + relativedelta(minutes=-5)  # 5 minutes before
+        # dt_obj.date().ctime() Mon Jul 15 00:00:00 2019
+        # dt_obj.ctime() Mon Jul 15 10:00:00 2019
+        # dt_obj.time() 10:00:00
+        # dt_obj.timetz() 10:00:00+07:00
+        # new_dt_obj.isoformat() 2019-07-15T09:55:00
+        response = "I have setup the meeting for you and {person_name} ({person_id}) at {time}".format(
+            person_id=person_id, person_name=person_name, time=dt_obj.ctime())
+        dispatcher.utter_message(response)
+        response2 = "This is the end of meeting setup implementation."
+        dispatcher.utter_message(response2)
+
+        return [ReminderScheduled("action_remind_meeting", trigger_date_time=remind_dt_obj.isoformat(),
+                                  kill_on_user_message=False)]
+
+
+class ActionRemindMeeting(Action):
+    def name(self):
+        return 'action_remind_meeting'
+
+    def run(self, dispatcher, tracker, domain):
+        person_id = tracker.get_slot("person_id")
+        person_name = tracker.get_slot("person_name")
+        response = "you will have a meeting with {person_name} ({person_id}) in 5 minutes. Please prepare!".format(
+            person_id=person_id, person_name=person_name)
+        dispatcher.utter_message(response)
+        response2 = "This is the end of meeting setup implementation."
+        dispatcher.utter_message(response2)
+        return []
 
 
 class ActionWaitForCommand(Action):
