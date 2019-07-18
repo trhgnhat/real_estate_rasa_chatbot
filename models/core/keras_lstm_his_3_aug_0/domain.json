@@ -88,7 +88,7 @@
     "prev_action_house",
     "prev_action_post_house_info",
     "prev_action_wait_for_command",
-    "prev_house_form",
-    "active_form_house_form"
+    "prev_form_house_request",
+    "active_form_form_house_request"
   ]
 }

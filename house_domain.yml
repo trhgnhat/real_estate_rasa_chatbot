@@ -1,70 +1,73 @@
 %YAML 1.1
 ---
 actions:
-- utter_next_recommendation
-- utter_noworries
-- utter_ask_real_estate_type
-- utter_ask_price
 - utter_ask_bath_room
-- utter_greet
-- utter_ask_guess_room
-- utter_ask_city
-- utter_thanks_for_feedback
 - utter_slots_values
-- utter_wrong_price
+- utter_please_to_hear
+- utter_ask_time
+- action_wait_for_command
+- utter_ask_real_estate_type
+- action_house
+- utter_wrong_real_estate_type
+- utter_understand
+- utter_default
+- utter_thanks_for_feedback
+- utter_ask_confirm_information
+- utter_wrong_meeting_time
 - utter_wrong_city
+- utter_ask_city
+- utter_wrong_person_id
+- utter_noworries
+- utter_ask_price
+- utter_next_recommendation
+- utter_ask_guess_room
+- utter_goodbye
+- utter_ask_person_id
+- utter_unclear
+- action_remind_meeting
+- utter_wrong_price
 - utter_call_if_need_help
 - utter_ask_bed_room
-- utter_ask_satisfaction
-- utter_please_to_hear
-- utter_goodbye
 - utter_need_change_info
-- utter_ask_confirm_information
-- utter_ask_feedback
-- utter_understand
-- utter_submit
-- utter_default
-- utter_unclear
-- utter_ask_request_more_info
-- utter_welcome
-- utter_wrong_real_estate_type
-- utter_ask_person_id
 - utter_ask_person_name
-- utter_ask_time
-- utter_wrong_person_id
+- utter_ask_request_more_info
+- utter_ask_feedback
+- utter_welcome
+- utter_submit
 - utter_wrong_person_name
-- utter_wrong_meeting_time
-- action_wait_for_command
 - action_post_house_info
-- action_remind_meeting
-- action_house
-forms:
-- house_form
-- form_connect_to_person
-- form_setup_meeting
+- utter_ask_satisfaction
+- utter_greet
 entities:
-- bath_room
-- location
-- real_estate_type
-- city
 - furniture
-- house_description
-- guess_room
-- num_person
-- bed_room
-- number
+- real_estate_type
+- location
 - house_feature
 - feedback
-- price
-- local_feature
-- time_spent
 - currency
+- bed_room
+- bath_room
+- time_spent
+- price
+- city
+- number
 - transportation
+- guess_room
+- house_description
+- num_person
+- person_id
+- local_feature
+forms:
+- form_setup_meeting
+- form_connect_to_person
+- form_house_request
 intents:
+- person_inform
+- talk_to_person
+- thankyou
 - confirm
 - deny
 - ask_more
-- thankyou
 - feedback
 - greet
 - affirm
@@ -75,7 +78,6 @@ intents:
 - goodbye
 - deny_positive
 - set_appointment
-- talk_to_person
 slots:
   bath_room:
     type: unfeaturized
@@ -114,6 +116,10 @@ slots:
     type: list
   num_person:
     type: text
+  person_id:
+    type: text
+  person_name:
+    type: text
   price:
     type: text
   real_estate_type:
@@ -126,6 +132,8 @@ slots:
     type: bool
   requested_slot:
     type: unfeaturized
+  time:
+    type: text
   time_spent:
     type: unfeaturized
   transportation:
@@ -184,6 +192,10 @@ templates:
     - payload: '/house_inform{"guess_room": "4"}'
       title: '4'
     text: How many guessroom do you need?
+  utter_ask_person_id:
+  - text: who do you want to talk to?
+  utter_ask_person_name:
+  - text: Who do you want to talk to?
   utter_ask_price:
   - text: How much money can you afford?
   utter_ask_real_estate_type:
@@ -213,6 +225,8 @@ templates:
     - payload: /deny
       title: 'No'
     text: Are you satisfied with my results?
+  utter_ask_time:
+  - text: Please choose a time.
   utter_call_if_need_help:
   - text: I am right here if you need more helps. Inbox me if you need any information
   utter_default:
@@ -244,7 +258,8 @@ templates:
   utter_thanks_for_feedback:
   - text: thank you for your feedback
   utter_unclear:
-  - text: I am not sure what you are talking about.
+  - text: "I don't understand your meaning. Please try again. For support please contact:\
+      \ trhgnhat@gmail.com"
   utter_understand:
   - text: Got it!
   - text: I got it!
@@ -262,14 +277,14 @@ templates:
   - text: location type is not in the database, please try again
   utter_wrong_currency:
   - text: Sorry, we only support for usd/vnd/euro currency at the moment
-  utter_wrong_price:
-  - text: price should be a positive float, please try again
+  utter_wrong_meeting_time:
+  - text: Invalided time. Please setup the time after the current moment.
   utter_wrong_person_id:
   - text: I can't find {person_id}. Please check the id again.
   utter_wrong_person_name:
   - text: I can't find {person_name}. Please check the id again.
-  utter_wrong_meeting_time:
-  - text: Invalided time. Please setup the time after the current moment.
+  utter_wrong_price:
+  - text: price should be a positive float, please try again
   utter_wrong_real_estate_type:
   - buttons:
     - payload: '//house_inform{"real_estate_type": "house"}'
@@ -277,9 +292,3 @@ templates:
     - payload: '//house_inform{"real_estate_type": "apartment"}'
       title: Apartment/Flat
     text: Sorry, we only support for houses/apartments searching at the moment
-  utter_ask_person_id:
-  - text: who do you want to talk to?
-  utter_ask_person_name:
-  - text: Who do you want to talk to?
-  utter_ask_time:
-  - text: Please choose a time.

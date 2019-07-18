@@ -48,7 +48,7 @@ entities:
 - time_spent
 - transportation
 forms:
-- house_form
+- form_house_request
 intents:
 - deny:
     use_entities: true

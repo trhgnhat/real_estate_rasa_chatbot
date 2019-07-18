@@ -12,7 +12,7 @@
         "house_description"
       ]
     },
-    "house_form": {
+    "form_house_request": {
       "slots": [
         "bed_room",
         "bath_room",

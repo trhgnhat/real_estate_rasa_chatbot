@@ -119,9 +119,25 @@
       ],
       "classifier_file": "intent_classifier_sklearn.pkl",
       "class": "rasa_nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier"
+    },
+    {
+      "dimensions": [
+        "time",
+        "amount-of-money",
+        "duration",
+        "distance",
+        "volume",
+        "ordinal",
+        "email"
+      ],
+      "url": "http://localhost:8000",
+      "locale": "en_US",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "name": "ner_duckling_http",
+      "class": "rasa_nlu.extractors.duckling_http_extractor.DucklingHTTPExtractor"
     }
   ],
   "training_data": "training_data.json",
-  "trained_at": "20190708-102615",
+  "trained_at": "20190718-181612",
   "rasa_nlu_version": "0.14.6"
 }

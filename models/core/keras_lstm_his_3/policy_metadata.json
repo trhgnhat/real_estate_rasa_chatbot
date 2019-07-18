@@ -9,7 +9,7 @@
         "city"
       ]
     },
-    "house_form": {
+    "form_house_request": {
       "slots": [
         "currency",
         "bed_room",

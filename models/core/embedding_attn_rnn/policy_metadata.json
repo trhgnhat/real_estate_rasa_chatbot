@@ -12,7 +12,7 @@
         "local_feature"
       ]
     },
-    "house_form": {
+    "form_house_request": {
       "slots": [
         "bath_room",
         "real_estate_type",

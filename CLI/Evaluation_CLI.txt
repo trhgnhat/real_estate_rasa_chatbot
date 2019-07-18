@@ -4,7 +4,7 @@ python -m rasa_nlu.evaluate --data data/data.json --config configs/nlu_configs/c
 
 python -m rasa_core.evaluate --stories data/stories.md --core models/dialogue -o results
 
-python -m rasa_core_sdk.endpoint --actions form_action
+python -m rasa_sdk.endpoint --actions form_action
 
 python -m rasa_core.train compare -c configs/core_configs/keras_lstm/config.yml configs/core_configs/tensorflow_attn_rnn/config.yml -d house_domain.yml -s data/stories_form.md -o models/comparison_models --runs 3 --percentages 0 5 25 50 70 90 95
 

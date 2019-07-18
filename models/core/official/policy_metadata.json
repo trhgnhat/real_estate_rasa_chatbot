@@ -2,23 +2,31 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "city",
-        "bed_room",
-        "price",
         "real_estate_type",
-        "currency"
+        "city",
+        "house_feature",
+        "bed_room",
+        "person_name",
+        "time",
+        "currency",
+        "price",
+        "num_person",
+        "person_id",
+        "house_description",
+        "furniture",
+        "local_feature"
       ]
     },
-    "house_form": {
+    "form_house_request": {
       "slots": [
+        "real_estate_type",
         "city",
         "bed_room",
+        "currency",
         "bath_room",
         "price",
-        "guess_room",
-        "real_estate_type",
         "requested_slot",
-        "currency"
+        "guess_room"
       ]
     },
     "action_house": {
@@ -35,12 +43,17 @@
     },
     "utter_ask_request_more_info": {
       "slots": [
-        "requested_slot",
-        "num_person"
+        "num_person",
+        "requested_slot"
       ]
     },
-    "action_wait_for_command": {
-      "slots": []
+    "form_setup_meeting": {
+      "slots": [
+        "person_name",
+        "time",
+        "requested_slot",
+        "person_id"
+      ]
     }
   },
   "python": "3.6.6",
@@ -57,7 +70,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190708-103225",
+  "trained_at": "20190718-181654",
   "rasa_core": "0.13.8",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.2"

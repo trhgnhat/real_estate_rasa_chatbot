@@ -24,6 +24,6 @@ pipeline:
   kernal: ["linear", "rbf", "poly"]
 - name: "ner_duckling_http"
   url: "http://localhost:8000"
-  dimensions: ["time", "amount-of-money", "phone-number", "duration", "distance", "volume", "ordinal", "number", "email"]
+  dimensions: ["time", "amount-of-money", "duration", "distance", "volume", "ordinal", "email"]
   locale: "en_US"
   timezone: "Asia/Ho_Chi_Minh"

@@ -4,7 +4,7 @@
   "remove_duplicates": true,
   "state_featurizer": {
     "input_state_map": {
-      "active_form_house_form": 82,
+      "active_form_form_house_request": 82,
       "entity_bath_room": 13,
       "entity_bed_room": 16,
       "entity_city": 19,
@@ -39,7 +39,7 @@
       "prev_action_listen": 47,
       "prev_action_restart": 48,
       "prev_action_revert_fallback_events": 51,
-      "prev_house_form": 81,
+      "prev_form_house_request": 81,
       "prev_utter_ask_bath_room": 79,
       "prev_utter_ask_bed_room": 56,
       "prev_utter_ask_city": 71,

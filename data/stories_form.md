@@ -5,8 +5,8 @@
     - slot{"currency": "usd"}
     - slot{"price": "2 billions"}
     - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"real_estate_type": "house"}
     - slot{"city": "hanoi"}
     - slot{"price": "2 billions"}
@@ -14,11 +14,11 @@
     - slot{"bed_room": "2"}
     - slot{"requested_slot": "bath_room"}
 * form: house_inform{"number": "2"}
-    - form: house_form
+    - form: form_house_request
     - slot{"bath_room": "2"}
     - slot{"requested_slot": "guess_room"}
 * form: house_inform{"number": "1"}
-    - form: house_form
+    - form: form_house_request
     - slot{"guess_room": "1"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -28,8 +28,8 @@
 * form: house_inform{"house_description": "comfortable", "real_estate_type": "house"}
     - slot{"house_description":"comfortable"}
     - slot{"real_estate_type":"house"}
-    - form: house_form
-    - form{"name": "house_form"}
+    - form: form_house_request
+    - form{"name": "form_house_request"}
     - slot{"house_description": "comfortable"}
     - slot{"real_estate_type": "house"}
     - form{"name": null}
@@ -38,8 +38,8 @@
     - utter_ask_request_more_info
 * form: house_inform{"num_person": "4"}
     - slot{"num_person": "4"}
-    - form: house_form
-    - form{"name": "house_form"}
+    - form: form_house_request
+    - form{"name": "form_house_request"}
     - slot{"num_person": "4"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -53,8 +53,8 @@
     - utter_please_to_hear
 * house_inform{"bed_room": "2"}
     - slot{"bed_room": "2"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "2"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -68,8 +68,8 @@
     - utter_please_to_hear
 * house_inform{"bed_room": "3"}
     - slot{"bed_room": "3"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "3"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -87,7 +87,7 @@
     - utter_next_recommendation
     - action_house
     - utter_ask_satisfaction
-* deny or ask_more
+* deny OR ask_more
     - utter_next_recommendation
     - action_house
     - utter_ask_satisfaction
@@ -109,39 +109,39 @@
 * house_request{"real_estate_type": "house", "city": "hanoi"}
     - slot{"city": "hanoi"}
     - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"real_estate_type": "house"}
     - slot{"city": "hanoi"}
     - slot{"requested_slot": "price"}
 * form: house_inform{"price": "1 billions", "currency": "usd"}
     - slot{"currency": "usd"}
     - slot{"price": "1 billions"}
-    - form: house_form
+    - form: form_house_request
     - slot{"currency": "usd"}
     - slot{"price": null}
     - slot{"requested_slot": "price"}
 * form: house_inform{"price": "1 billion", "currency": "usd"}
     - slot{"currency": "usd"}
     - slot{"price": "1 billion"}
-    - form: house_form
+    - form: form_house_request
     - slot{"currency": "usd"}
     - slot{"price": null}
     - slot{"requested_slot": "price"}
 * form: house_inform{"price": "1 million", "currency": "usd"}
     - slot{"currency": "usd"}
     - slot{"price": "1 million"}
-    - form: house_form
+    - form: form_house_request
     - slot{"currency": "usd"}
     - slot{"price": "1000000"}
     - slot{"requested_slot": "bed_room"}
 * form: number{"number": "1"}
-    - form: house_form
+    - form: form_house_request
     - slot{"bed_room": "1"}
     - slot{"requested_slot": "bath_room"}
 * form: house_inform{"number": "1", "guess_room": "1"}
     - slot{"guess_room": "1"}
-    - form: house_form
+    - form: form_house_request
     - slot{"guess_room": "1"}
     - slot{"bath_room": "1"}
     - form{"name": null}
@@ -155,8 +155,8 @@
     - utter_please_to_hear
 * house_inform{"bed_room": "2"}
     - slot{"bed_room": "2"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "2"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -170,8 +170,8 @@
     - utter_please_to_hear
 * house_inform{"bed_room": "3"}
     - slot{"bed_room": "3"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "3"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -189,11 +189,11 @@
     - utter_next_recommendation
     - action_house
     - utter_ask_satisfaction
-* deny or ask_more
+* deny OR ask_more
     - utter_next_recommendation
     - action_house
     - utter_ask_satisfaction
-* deny or ask_more
+* deny OR ask_more
     - utter_need_change_info
 * deny
     - utter_next_recommendation
@@ -217,39 +217,39 @@
 * house_request{"real_estate_type": "house", "city": "hanoi"}
     - slot{"city": "hanoi"}
     - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"real_estate_type": "house"}
     - slot{"city": "hanoi"}
     - slot{"requested_slot": "price"}
 * form: house_inform{"price": "1 billions", "currency": "usd"}
     - slot{"currency": "usd"}
     - slot{"price": "1 billions"}
-    - form: house_form
+    - form: form_house_request
     - slot{"currency": "usd"}
     - slot{"price": null}
     - slot{"requested_slot": "price"}
 * form: house_inform{"price": "1 billion", "currency": "usd"}
     - slot{"currency": "usd"}
     - slot{"price": "1 billion"}
-    - form: house_form
+    - form: form_house_request
     - slot{"currency": "usd"}
     - slot{"price": null}
     - slot{"requested_slot": "price"}
 * form: house_inform{"price": "1 million", "currency": "usd"}
     - slot{"currency": "usd"}
     - slot{"price": "1 million"}
-    - form: house_form
+    - form: form_house_request
     - slot{"currency": "usd"}
     - slot{"price": "1000000"}
     - slot{"requested_slot": "bed_room"}
 * form: number{"number": "1"}
-    - form: house_form
+    - form: form_house_request
     - slot{"bed_room": "1"}
     - slot{"requested_slot": "bath_room"}
 * form: house_inform{"number": "1", "guess_room": "1"}
     - slot{"guess_room": "1"}
-    - form: house_form
+    - form: form_house_request
     - slot{"guess_room": "1"}
     - slot{"bath_room": "1"}
     - form{"name": null}
@@ -263,8 +263,8 @@
     - utter_please_to_hear
 * house_inform{"bed_room": "2"}
     - slot{"bed_room": "2"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "2"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -278,8 +278,8 @@
     - utter_please_to_hear
 * house_inform{"bed_room": "3"}
     - slot{"bed_room": "3"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "3"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -297,18 +297,18 @@
     - utter_next_recommendation
     - action_house
     - utter_ask_satisfaction
-* deny or ask_more
+* deny OR ask_more
     - utter_next_recommendation
     - action_house
     - utter_ask_satisfaction
-* deny or ask_more
+* deny OR ask_more
     - utter_need_change_info
 * affirm
     - utter_ask_request_more_info
 * house_inform{"bed_room": "3"}
     - slot{"bed_room": "3"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "3"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -337,37 +337,37 @@
 * house_inform{"real_estate_type": "house", "city": "hochiminh"}
     - slot{"city": "hochiminh"}
     - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"real_estate_type": "house"}
     - slot{"city": "hochiminh"}
     - slot{"requested_slot": "price"}
 * form: house_inform{"price": "1 million", "currency": "usd"}
     - slot{"currency": "usd"}
     - slot{"price": "1 million"}
-    - form: house_form
+    - form: form_house_request
     - slot{"currency": "usd"}
     - slot{"price": "1000000"}
     - slot{"requested_slot": "bed_room"}
 * form: house_inform{"number": "1"}
-    - form: house_form
+    - form: form_house_request
     - slot{"bed_room": "1"}
     - slot{"requested_slot": "bath_room"}
 * form: house_inform{"number": "two"}
-    - form: house_form
+    - form: form_house_request
     - slot{"bath_room": null}
     - slot{"requested_slot": "bath_room"}
 * form: house_inform{"bath_room": "two"}
     - slot{"bath_room": "two"}
-    - form: house_form
+    - form: form_house_request
     - slot{"bath_room": null}
     - slot{"requested_slot": "bath_room"}
 * form: house_inform{"number": "1"}
-    - form: house_form
+    - form: form_house_request
     - slot{"bath_room": "1"}
     - slot{"requested_slot": "guess_room"}
 * form: house_inform{"number": "6"}
-    - form: house_form
+    - form: form_house_request
     - slot{"guess_room": "6"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -378,8 +378,8 @@
     - slot{"house_feature": ["large windows"]}
     - slot{"local_feature": ["bus station"]}
     - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"real_estate_type": "house"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -395,8 +395,8 @@
     - slot{"house_description": ["big"]}
     - slot{"num_person": "four"}
     - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"real_estate_type": "house"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -431,3 +431,57 @@
 * thankyou
     - utter_noworries
     - action_wait_for_command
+    
+## user connection 1
+* talk_to_person{"person_id": "@trhgnhat"}
+    - slot{"person_id":"@trhgnhat"}
+    - form_setup_meeting
+    - form{"name": "form_setup_meeting"}
+    - slot{"person_id":"trhgnhat"}
+    - slot{"person_name":"Truong Hoang Nhat"}
+    - form{"name": "null"}
+* thankyou
+    - utter_noworries
+    
+## user connection 2
+* talk_to_person{"person_name":"Truong Hoang Nhat"}
+    - slot{"person_name":"Truong Hoang Nhat"}
+    - form_setup_meeting
+    - form{"name": "form_setup_meeting"}
+    - slot{"person_name":"Truong Hoang Nhat"}
+    - slot{"person_id":"trhgnhat"}
+    - form{"name": "null"}
+* thankyou
+    - utter_noworries
+    - utter_call_if_need_help
+    
+## meeting setup 1
+* set_appointment{"person_id": "@trhgnhat", "time": "2019-07-15T10:00:00.000+07:00"}
+    - slot{"person_id":"@trhgnhat"}
+    - slot{"time":"2019-07-15T10:00:00.000+07:00"}
+    - form_setup_meeting
+    - form{"name": "form_setup_meeting"}
+    - slot{"person_id":"trhgnhat"}
+    - slot{"time":"2019-07-15T10:00:00.000+07:00"}
+    - form{"name": "null"}
+* thankyou
+    - utter_noworries
+    - utter_call_if_need_help
+    
+## meeting setup 2
+* set_appointment{"person_id": "@trhgnhat"}
+    - slot{"person_id":"@trhgnhat"}
+    - form_setup_meeting
+    - form{"name": "form_setup_meeting"}
+    - slot{"person_id":"trhgnhat"}
+    - slot{"requested_slot": "time"}
+* set_appointment{"time": "2019-07-15T10:00:00.000+07:00"}
+    - slot{"time":"2019-07-15T10:00:00.000+07:00"}
+    - form_setup_meeting
+    - form{"name": "form_setup_meeting"}
+    - slot{"time":"2019-07-15T10:00:00.000+07:00"}
+    - form{"name": "null"}
+    - slot{"requested_slot": "null"}
+* thankyou
+    - utter_noworries
+    - utter_call_if_need_help

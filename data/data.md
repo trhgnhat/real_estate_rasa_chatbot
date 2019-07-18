@@ -475,6 +475,7 @@
 - call [@ititiu15086](person_id) for me please
 - i want to say something with [@trhgnhat](person_id) for a moment
 - contact [@trhgnhat](person_id) for me please
+- connect to [@nhat97](person_id) for me please
 
 ## intent:set_appointment
 - arrange an appointment with [Nhat](person_name) on sunday afternoon for me please
@@ -500,6 +501,7 @@
 - to [Nhat](person_name) please
 - [@ititiu15086](person_id) please
 - to [@ititiu15086](person_id) please
+- [@trhgnhat](person_id) please
 
 
 ## synonym:appointment
@@ -583,6 +585,9 @@
 - dollar
 - dollars
 - $
+
+## regex:person_id
+- @[aA0-zZ9\.\-\_]+
 
 ## regex:bath_room
 - (\d{2}\s*(?i)(?:[b]+[a]+[t]+[h]+\s*[r]+[o]+[o]+[m]+[s]*)+)+

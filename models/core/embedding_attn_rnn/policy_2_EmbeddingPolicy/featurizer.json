@@ -37,7 +37,7 @@
       "utter_thanks_for_feedback",
       "utter_ask_bath_room",
       "utter_need_change_info",
-      "house_form"
+      "form_house_request"
     ],
     "bot_vocab": {
       "action": 0,

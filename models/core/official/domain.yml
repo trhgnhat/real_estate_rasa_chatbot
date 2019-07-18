@@ -1,67 +1,81 @@
 %YAML 1.1
 ---
 actions:
-- utter_ask_real_estate_type
+- utter_next_recommendation
 - utter_noworries
-- utter_ask_bed_room
-- utter_please_to_hear
-- utter_ask_satisfaction
-- utter_ask_request_more_info
-- utter_submit
-- utter_wrong_real_estate_type
-- utter_welcome
-- utter_ask_confirm_information
-- utter_default
-- utter_goodbye
-- utter_call_if_need_help
-- utter_wrong_city
-- utter_ask_feedback
-- utter_wrong_price
+- utter_ask_real_estate_type
+- utter_ask_price
+- utter_ask_bath_room
+- utter_greet
 - utter_ask_guess_room
 - utter_ask_city
-- utter_unclear
-- utter_greet
-- utter_ask_price
-- utter_slots_values
-- utter_understand
 - utter_thanks_for_feedback
-- utter_ask_bath_room
+- utter_slots_values
+- utter_wrong_price
+- utter_wrong_city
+- utter_call_if_need_help
+- utter_ask_bed_room
+- utter_ask_satisfaction
+- utter_please_to_hear
+- utter_goodbye
 - utter_need_change_info
-- utter_next_recommendation
-- action_house
-- action_post_house_info
+- utter_ask_confirm_information
+- utter_ask_feedback
+- utter_understand
+- utter_submit
+- utter_default
+- utter_unclear
+- utter_ask_request_more_info
+- utter_welcome
+- utter_wrong_real_estate_type
+- utter_ask_person_id
+- utter_ask_person_name
+- utter_ask_time
+- utter_wrong_person_id
+- utter_wrong_person_name
+- utter_wrong_meeting_time
 - action_wait_for_command
+- action_post_house_info
+- action_remind_meeting
+- action_house
 config:
   store_entities_as_slots: true
 entities:
-- location
-- furniture
-- feedback
 - bath_room
+- location
 - real_estate_type
-- house_description
-- bed_room
-- currency
-- local_feature
 - city
-- house_feature
-- number
+- furniture
+- house_description
 - guess_room
+- num_person
+- bed_room
+- number
+- house_feature
+- feedback
 - price
+- local_feature
 - time_spent
+- currency
 - transportation
 forms:
-- house_form
+- form_house_request
+- form_connect_to_person
+- form_setup_meeting
 intents:
-- ask_more:
-    use_entities: true
 - confirm:
     use_entities: true
 - deny:
     use_entities: true
-- affirm:
+- ask_more:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- feedback:
     use_entities: true
 - greet:
+    use_entities: true
+- affirm:
     use_entities: true
 - house_inform:
     use_entities: true
@@ -69,15 +83,15 @@ intents:
     use_entities: true
 - house_request:
     use_entities: true
-- feedback:
-    use_entities: true
-- thankyou:
-    use_entities: true
 - ask_howdoing:
     use_entities: true
 - goodbye:
     use_entities: true
 - deny_positive:
+    use_entities: true
+- set_appointment:
+    use_entities: true
+- talk_to_person:
     use_entities: true
 slots:
   bath_room:
@@ -144,6 +158,14 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
+  person_id:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  person_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   price:
     auto_fill: true
     initial_value: null
@@ -163,6 +185,10 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
+  time:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   time_spent:
     auto_fill: true
     initial_value: null
@@ -225,6 +251,10 @@ templates:
     - payload: '/house_inform{"guess_room": "4"}'
       title: '4'
     text: How many guessroom do you need?
+  utter_ask_person_id:
+  - text: who do you want to talk to?
+  utter_ask_person_name:
+  - text: Who do you want to talk to?
   utter_ask_price:
   - text: How much money can you afford?
   utter_ask_real_estate_type:
@@ -254,6 +284,8 @@ templates:
     - payload: /deny
       title: 'No'
     text: Are you satisfied with my results?
+  utter_ask_time:
+  - text: Please choose a time.
   utter_call_if_need_help:
   - text: I am right here if you need more helps. Inbox me if you need any information
   utter_default:
@@ -285,7 +317,8 @@ templates:
   utter_thanks_for_feedback:
   - text: thank you for your feedback
   utter_unclear:
-  - text: I am not sure what you are talking about.
+  - text: "I don't understand your meaning. Please try again. For support please contact:\
+      \ trhgnhat@gmail.com"
   utter_understand:
   - text: Got it!
   - text: I got it!
@@ -303,6 +336,12 @@ templates:
   - text: location type is not in the database, please try again
   utter_wrong_currency:
   - text: Sorry, we only support for usd/vnd/euro currency at the moment
+  utter_wrong_meeting_time:
+  - text: Invalided time. Please setup the time after the current moment.
+  utter_wrong_person_id:
+  - text: I can't find {person_id}. Please check the id again.
+  utter_wrong_person_name:
+  - text: I can't find {person_name}. Please check the id again.
   utter_wrong_price:
   - text: price should be a positive float, please try again
   utter_wrong_real_estate_type:

@@ -47,7 +47,7 @@ nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/official')
 policies_3 = [
     MemoizationPolicy(max_history=6),
     FormPolicy(),
-    KerasPolicy(max_history=6, epochs=200, batch_size=5, validation_split=0.1, rnn_size=64),
+    KerasPolicy(max_history=6, epochs=150, batch_size=16, validation_split=0.1, rnn_size=64),
     FallbackPolicy(fallback_action_name="utter_unclear", core_threshold=0.3, nlu_threshold=0.3)
 ]
 train_dialogue(policies_3)

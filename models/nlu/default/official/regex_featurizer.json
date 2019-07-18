@@ -16,6 +16,10 @@
     "pattern": "(\\d{2}\\s*(?i)(?:[g]+[u]+[e]+[s]+[s]+\\s*[r]+[o]+[o]+[m]+[s]*)+)+"
   },
   {
+    "name": "person_id",
+    "pattern": "@[aA0-zZ9\\.\\-\\_]+"
+  },
+  {
     "name": "price",
     "pattern": "(\\d+\\s*(?:[bB]+[iI]+[lL]+[lL]+[iI]+[oO]+[nN]+[sS]*)+)+"
   },

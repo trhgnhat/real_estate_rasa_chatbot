@@ -24,7 +24,7 @@ def run_house_agent(interpreter,
 
     agent = Agent.load(DATA_PATH + "models/core/official", interpreter=interpreter, action_endpoint=action_endpoint)
 
-    interactive.run_interactive_learning(agent, training_data_file)
+    interactive.run_interactive_learning(agent, training_data_file, skip_visualization=True)
     return agent
 
 
