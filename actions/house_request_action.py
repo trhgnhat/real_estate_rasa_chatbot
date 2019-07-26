@@ -151,12 +151,12 @@ class FormHouse(FormAction):
         value = self.city_remove(value)
         if value:
             # validation succeeded
-            return value
+            return {"city": value}
         else:
             dispatcher.utter_template('utter_wrong_city', tracker)
             # validation failed, set this slot to None, meaning the
             # user will be asked for the slot again
-            return None
+            return {"city": None}
 
     def validate_real_estate_type(self,
                                   value: Text,
@@ -165,12 +165,12 @@ class FormHouse(FormAction):
                                   domain: Dict[Text, Any]) -> Optional[Text]:
         if value.lower() in self.re_type_db():
             # validation succeeded
-            return value
+            return {"real_estate_type": value}
         else:
             dispatcher.utter_template('utter_wrong_real_estate_type', tracker)
             # validation failed, set this slot to None, meaning the
             # user will be asked for the slot again
-            return None
+            return {"real_estate_type": None}
 
     def validate_currency(self,
                           value: Text,
@@ -179,12 +179,12 @@ class FormHouse(FormAction):
                           domain: Dict[Text, Any]) -> Optional[Text]:
         if value.lower() in self.currency_db():
             # validation succeeded
-            return value
+            return {"currency": value}
         else:
             dispatcher.utter_template('utter_wrong_currency', tracker)
             # validation failed, set this slot to None, meaning the
             # user will be asked for the slot again
-            return None
+            return {"currency": None}
 
     def validate_price(self,
                        value: Text,
@@ -211,11 +211,11 @@ class FormHouse(FormAction):
                 value = value.replace(match, word_rm_dict[match])
         value = value.replace(" ", "").replace(".", "").replace(",", "")
         if self.is_float(value) and float(value) > 0:
-            return value
+            return {"price": value}
         else:
             dispatcher.utter_template('utter_wrong_price', tracker)
             # validation failed, set slot to None
-            return None
+            return {"price": None}
 
     def validate_bed_room(self,
                           value: Text,
@@ -224,11 +224,12 @@ class FormHouse(FormAction):
                           domain: Dict[Text, Any]) -> Optional[Text]:
 
         if self.is_int(value) and int(value) > 0:
-            return value
+            return {"bed_room": value}
         else:
             dispatcher.utter_template('utter_unclear', tracker)
             # validation failed, set slot to None
-            return None
+            return {"bed_room": None}
+
 
     def validate_bath_room(self,
                            value: Text,
@@ -237,11 +238,11 @@ class FormHouse(FormAction):
                            domain: Dict[Text, Any]) -> Optional[Text]:
 
         if self.is_int(value) and int(value) > 0:
-            return value
+            return {"bath_room": value}
         else:
             dispatcher.utter_template('utter_unclear', tracker)
             # validation failed, set slot to None
-            return None
+            return {"bath_room": None}
 
     def validate_guess_room(self,
                             value: Text,
@@ -250,11 +251,11 @@ class FormHouse(FormAction):
                             domain: Dict[Text, Any]) -> Optional[Text]:
 
         if self.is_int(value) and int(value) > 0:
-            return value
+            return {"guess_room": value}
         else:
             dispatcher.utter_template('utter_unclear', tracker)
             # validation failed, set slot to None
-            return None
+            return {"guess_room": None}
 
     def submit(self,
                dispatcher: CollectingDispatcher,

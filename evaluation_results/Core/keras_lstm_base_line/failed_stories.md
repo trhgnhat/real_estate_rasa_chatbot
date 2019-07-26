@@ -8,8 +8,8 @@
     - slot{"currency": "usd"}
     - slot{"price": "2 billions"}
     - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"real_estate_type": "house"}
     - slot{"city": "hanoi"}
     - slot{"price": "2 billions"}
@@ -21,16 +21,16 @@
     - slot{"guess_room": "1"}
     - slot{"requested_slot": "null"}
     - form: utter_ask_request_more_info   <!-- predicted: action_listen -->
-    - form: utter_please_to_hear   <!-- predicted: house_form -->
+    - form: utter_please_to_hear   <!-- predicted: form_house_request -->
     - slot{"house_description": "comfortable"}
     - slot{"real_estate_type": "house"}
-    - form: utter_understand   <!-- predicted: house_form -->
-    - form: utter_ask_request_more_info   <!-- predicted: house_form -->
+    - form: utter_understand   <!-- predicted: form_house_request -->
+    - form: utter_ask_request_more_info   <!-- predicted: form_house_request -->
     - slot{"num_person": "4"}
-    - form: utter_understand   <!-- predicted: house_form -->
-    - form: utter_ask_request_more_info   <!-- predicted: house_form -->
-    - form: utter_understand   <!-- predicted: house_form -->
-    - form: action_deactivate_form   <!-- predicted: house_form -->
+    - form: utter_understand   <!-- predicted: form_house_request -->
+    - form: utter_ask_request_more_info   <!-- predicted: form_house_request -->
+    - form: utter_understand   <!-- predicted: form_house_request -->
+    - form: action_deactivate_form   <!-- predicted: form_house_request -->
     - form{"name": null}
     - action_house   <!-- predicted: action_listen -->
     - slot{"found": "Not implement yet"}
@@ -52,8 +52,8 @@
     - slot{"real_estate_type": "house"}
     - slot{"city": "hanoi"}
     - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"real_estate_type": "house"}
     - slot{"city": "hanoi"}
     - slot{"requested_slot": "price"}
@@ -103,8 +103,8 @@
 * house_inform{"number": "2", "real_estate_type": "house"}
     - slot{"real_estate_type": "house"}
     - slot{"bed_room": "2"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "2"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -114,7 +114,7 @@
 * goodbye
     - utter_need_change_info   <!-- predicted: utter_please_to_hear -->
 * goodbye
-    - action_house   <!-- predicted: house_form -->
+    - action_house   <!-- predicted: form_house_request -->
     - slot{"found": "Not implement yet"}
     - utter_understand   <!-- predicted: action_default_fallback -->
     - utter_ask_satisfaction   <!-- predicted: action_default_fallback -->
@@ -124,7 +124,7 @@
     - utter_thanks_for_feedback
     - utter_call_if_need_help
 * goodbye
-    - action_listen   <!-- predicted: house_form -->
+    - action_listen   <!-- predicted: form_house_request -->
 
 
 ## Generated Story 3368241047826805555
@@ -135,8 +135,8 @@
     - slot{"real_estate_type": "house"}
     - slot{"city": "hanoi"}
     - slot{"real_estate_type": "house"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"real_estate_type": "house"}
     - slot{"city": "hanoi"}
     - slot{"requested_slot": "price"}
@@ -170,8 +170,8 @@
 * house_inform{"number": "2", "real_estate_type": "house"}
     - slot{"real_estate_type": "house"}
     - slot{"bed_room": "2"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "2"}
     - form{"name": null}
     - slot{"requested_slot": null}
@@ -183,15 +183,15 @@
 * house_inform{"number": "3", "real_estate_type": "house"}
     - slot{"real_estate_type": "house"}
     - slot{"bed_room": "3"}
-    - house_form
-    - form{"name": "house_form"}
+    - form_house_request
+    - form{"name": "form_house_request"}
     - slot{"bed_room": "3"}
 * form: goodbye
-    - form: utter_understand   <!-- predicted: house_form -->
-    - form: action_house   <!-- predicted: house_form -->
+    - form: utter_understand   <!-- predicted: form_house_request -->
+    - form: action_house   <!-- predicted: form_house_request -->
     - slot{"found": "Not implement yet"}
-    - form: utter_ask_satisfaction   <!-- predicted: house_form -->
-    - form: action_listen   <!-- predicted: house_form -->
+    - form: utter_ask_satisfaction   <!-- predicted: form_house_request -->
+    - form: action_listen   <!-- predicted: form_house_request -->
 * form: goodbye
     - form{"name": null}
     - slot{"requested_slot": null}

@@ -490,6 +490,8 @@
 - next month
 - in 5 minutes
 - right now
+- i wanna meet [Truong Hoang Nhat](person_name:truong hoang nhat) [in five minutes](time:2019-07-20T16:02:10.000+07:00), setup an apointment for me please
+
 
 
 ## intent:person_inform

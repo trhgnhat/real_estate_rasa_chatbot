@@ -4,7 +4,7 @@
                 action_listen       0.84      0.98      0.90      3072
        action_post_house_info       1.00      1.00      1.00       576
       action_wait_for_command       0.34      1.00      0.51       320
-                   house_form       1.00      1.00      1.00       576
+                   form_house_request       1.00      1.00      1.00       576
 utter_ask_confirm_information       1.00      0.89      0.94       576
            utter_ask_feedback       0.00      0.00      0.00       192
   utter_ask_request_more_info       1.00      1.00      1.00       704

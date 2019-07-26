@@ -1,12 +1,12 @@
 {
-  "report": "                               precision    recall  f1-score   support\n\n       action_deactivate_form       0.00      0.00      0.00         1\n                 action_house       0.67      0.50      0.57         4\n                action_listen       0.68      0.87      0.76        30\n                   house_form       0.86      1.00      0.92         6\nutter_ask_confirm_information       0.75      0.75      0.75         4\n           utter_ask_feedback       0.67      0.67      0.67         3\n  utter_ask_request_more_info       0.86      0.67      0.75         9\n       utter_ask_satisfaction       0.33      0.33      0.33         3\n      utter_call_if_need_help       1.00      0.67      0.80         3\n                  utter_greet       1.00      1.00      1.00         2\n       utter_need_change_info       0.00      0.00      0.00         2\n         utter_please_to_hear       0.33      0.25      0.29         4\n    utter_thanks_for_feedback       1.00      0.67      0.80         3\n                utter_unclear       0.00      0.00      0.00         0\n             utter_understand       0.50      0.17      0.25         6\n\n                    micro avg       0.68      0.68      0.68        80\n                    macro avg       0.58      0.50      0.53        80\n                 weighted avg       0.68      0.68      0.66        80\n",
+  "report": "                               precision    recall  f1-score   support\n\n       action_deactivate_form       0.00      0.00      0.00         1\n                 action_house       0.67      0.50      0.57         4\n                action_listen       0.68      0.87      0.76        30\n                   form_house_request       0.86      1.00      0.92         6\nutter_ask_confirm_information       0.75      0.75      0.75         4\n           utter_ask_feedback       0.67      0.67      0.67         3\n  utter_ask_request_more_info       0.86      0.67      0.75         9\n       utter_ask_satisfaction       0.33      0.33      0.33         3\n      utter_call_if_need_help       1.00      0.67      0.80         3\n                  utter_greet       1.00      1.00      1.00         2\n       utter_need_change_info       0.00      0.00      0.00         2\n         utter_please_to_hear       0.33      0.25      0.29         4\n    utter_thanks_for_feedback       1.00      0.67      0.80         3\n                utter_unclear       0.00      0.00      0.00         0\n             utter_understand       0.50      0.17      0.25         6\n\n                    micro avg       0.68      0.68      0.68        80\n                    macro avg       0.58      0.50      0.53        80\n                 weighted avg       0.68      0.68      0.66        80\n",
   "precision": 0.6797932330827068,
   "f1": 0.6619776179702651,
   "accuracy": 0.675,
   "actions": [
     {
-      "action": "house_form",
-      "predicted": "house_form",
+      "action": "form_house_request",
+      "predicted": "form_house_request",
       "policy": "policy_3_KerasPolicy",
       "confidence": 0.9978892889943984
     },
@@ -125,8 +125,8 @@
       "confidence": 0.9999833794764506
     },
     {
-      "action": "house_form",
-      "predicted": "house_form",
+      "action": "form_house_request",
+      "predicted": "form_house_request",
       "policy": "policy_3_KerasPolicy",
       "confidence": 0.9996147782588912
     },
@@ -215,8 +215,8 @@
       "confidence": 0.9989509897139792
     },
     {
-      "action": "house_form",
-      "predicted": "house_form",
+      "action": "form_house_request",
+      "predicted": "form_house_request",
       "policy": "policy_3_KerasPolicy",
       "confidence": 0.99967147548182
     },
@@ -329,8 +329,8 @@
       "confidence": 0.9999833794764506
     },
     {
-      "action": "house_form",
-      "predicted": "house_form",
+      "action": "form_house_request",
+      "predicted": "form_house_request",
       "policy": "policy_3_KerasPolicy",
       "confidence": 0.9996147782588912
     },
@@ -371,8 +371,8 @@
       "confidence": 0.9999453204237293
     },
     {
-      "action": "house_form",
-      "predicted": "house_form",
+      "action": "form_house_request",
+      "predicted": "form_house_request",
       "policy": "policy_3_KerasPolicy",
       "confidence": 0.9999682965581291
     },
@@ -413,8 +413,8 @@
       "confidence": 0.9997176088053727
     },
     {
-      "action": "house_form",
-      "predicted": "house_form",
+      "action": "form_house_request",
+      "predicted": "form_house_request",
       "policy": "policy_3_KerasPolicy",
       "confidence": 0.9992224874593855
     },
@@ -426,7 +426,7 @@
     },
     {
       "action": "utter_understand",
-      "predicted": "house_form",
+      "predicted": "form_house_request",
       "policy": "policy_2_FormPolicy",
       "confidence": 1.0
     },

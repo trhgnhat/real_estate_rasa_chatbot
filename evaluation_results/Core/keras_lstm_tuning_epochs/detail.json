@@ -1,7 +1,7 @@
 [
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9978504993163705
   },
@@ -13,43 +13,43 @@
   },
   {
     "action": "utter_please_to_hear",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9978504993163705
   },
   {
     "action": "utter_understand",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9978504993163705
   },
   {
     "action": "utter_ask_request_more_info",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9978504993163705
   },
   {
     "action": "utter_understand",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9978504993163705
   },
   {
     "action": "utter_ask_request_more_info",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9978504993163705
   },
   {
     "action": "utter_understand",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9978504993163705
   },
   {
     "action": "action_deactivate_form",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9978504993163705
   },
@@ -120,8 +120,8 @@
     "confidence": 0.9998301878302647
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9998767194159772
   },
@@ -210,8 +210,8 @@
     "confidence": 0.9965701609403825
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9997959914905483
   },
@@ -253,7 +253,7 @@
   },
   {
     "action": "action_house",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.5211728794613315
   },
@@ -324,8 +324,8 @@
     "confidence": 0.9998301878302647
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9998767194159772
   },
@@ -366,8 +366,8 @@
     "confidence": 0.9999776847965014
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9999010765402447
   },
@@ -408,8 +408,8 @@
     "confidence": 0.9999446850850104
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9998054284254323
   },
@@ -421,25 +421,25 @@
   },
   {
     "action": "utter_understand",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_1_FormPolicy",
     "confidence": 1.0
   },
   {
     "action": "action_house",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9998054284254323
   },
   {
     "action": "utter_ask_satisfaction",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9998054284254323
   },
   {
     "action": "action_listen",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9998054284254323
   },

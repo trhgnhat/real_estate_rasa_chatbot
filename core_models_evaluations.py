@@ -25,7 +25,7 @@ def train_dialogue(policies,
                    model_path='models/core/',
                    name="general",
                    domain_file='house_domain.yml',
-                   training_data_file='data/stories_form.md'):
+                   training_data_file='data/stories.md'):
     # this will catch predictions the model isn't very certain about
     # there is a threshold for the NLU predictions as well as the action predictions
 
@@ -52,7 +52,7 @@ def evaluate_model(interpreter, name=None):
         os.makedirs(DATA_PATH + "evaluation_results/Core/" + name)
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
     agent = Agent.load(model_dir, interpreter=interpreter, action_endpoint=action_endpoint)
-    result = run_story_evaluation(DATA_PATH + "data/stories_form.md",
+    result = run_story_evaluation(DATA_PATH + "data/stories.md",
                                   agent,
                                   out_directory=DATA_PATH + "evaluation_results/Core/" + name)
     with open(DATA_PATH + "evaluation_results/Core/" + name + "/scores.txt", 'w') as f:

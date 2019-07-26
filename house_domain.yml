@@ -1,71 +1,71 @@
 %YAML 1.1
 ---
 actions:
-- utter_ask_bath_room
-- utter_slots_values
-- utter_please_to_hear
-- utter_ask_time
-- action_wait_for_command
-- utter_ask_real_estate_type
+- utter_ask_guess_room
+- utter_ask_satisfaction
+- utter_ask_city
+- utter_understand
+- utter_noworries
+- utter_ask_confirm_information
+- utter_wrong_price
+- utter_ask_person_id
+- utter_goodbye
+- utter_wrong_meeting_time
+- utter_unclear
+- utter_thanks_for_feedback
+- utter_ask_person_name
+- utter_submit
 - action_house
 - utter_wrong_real_estate_type
-- utter_understand
-- utter_default
-- utter_thanks_for_feedback
-- utter_ask_confirm_information
-- utter_wrong_meeting_time
-- utter_wrong_city
-- utter_ask_city
 - utter_wrong_person_id
-- utter_noworries
-- utter_ask_price
-- utter_next_recommendation
-- utter_ask_guess_room
-- utter_goodbye
-- utter_ask_person_id
-- utter_unclear
-- action_remind_meeting
-- utter_wrong_price
-- utter_call_if_need_help
-- utter_ask_bed_room
-- utter_need_change_info
-- utter_ask_person_name
-- utter_ask_request_more_info
-- utter_ask_feedback
-- utter_welcome
-- utter_submit
 - utter_wrong_person_name
+- utter_please_to_hear
+- utter_ask_request_more_info
+- utter_need_change_info
+- utter_ask_bath_room
+- utter_next_recommendation
+- utter_call_if_need_help
 - action_post_house_info
-- utter_ask_satisfaction
+- utter_ask_time
+- utter_ask_price
+- action_remind_meeting
+- utter_default
 - utter_greet
+- utter_ask_feedback
+- utter_slots_values
+- utter_ask_real_estate_type
+- utter_welcome
+- utter_wrong_city
+- utter_ask_bed_room
+- action_wait_for_command
 entities:
-- furniture
 - real_estate_type
-- location
-- house_feature
-- feedback
-- currency
-- bed_room
 - bath_room
-- time_spent
-- price
-- city
-- number
-- transportation
-- guess_room
 - house_description
+- currency
+- guess_room
+- price
+- person_name
+- time
 - num_person
-- person_id
+- location
+- city
+- feedback
+- house_feature
+- furniture
+- bed_room
+- time_spent
+- transportation
 - local_feature
+- number
 forms:
 - form_setup_meeting
 - form_connect_to_person
 - form_house_request
 intents:
-- person_inform
-- talk_to_person
-- thankyou
 - confirm
+- thankyou
+- set_appointment
 - deny
 - ask_more
 - feedback
@@ -77,7 +77,7 @@ intents:
 - ask_howdoing
 - goodbye
 - deny_positive
-- set_appointment
+- talk_to_person
 slots:
   bath_room:
     type: unfeaturized
@@ -292,3 +292,5 @@ templates:
     - payload: '//house_inform{"real_estate_type": "apartment"}'
       title: Apartment/Flat
     text: Sorry, we only support for houses/apartments searching at the moment
+  utter_remind_meeting:
+  - text: "You will have a meeting with {person_name} ({person_id}) in 5 minutes. Please prepare!"

@@ -111,11 +111,7 @@ class ActionRemindMeeting(Action):
         return 'action_remind_meeting'
 
     def run(self, dispatcher, tracker, domain):
-        person_id = tracker.get_slot("person_id")
-        person_name = tracker.get_slot("person_name")
-        response = "you will have a meeting with {person_name} ({person_id}) in 5 minutes. Please prepare!".format(
-            person_id=person_id, person_name=person_name)
-        dispatcher.utter_message(response)
+        dispatcher.utter_template("utter_remind_meeting", tracker)
         response2 = "This is the end of meeting setup implementation."
         dispatcher.utter_message(response2)
-        return []
+        return [SlotSet("person_id", None), SlotSet("person_name", None), SlotSet("time", None)]

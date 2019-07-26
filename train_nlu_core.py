@@ -31,7 +31,7 @@ def train_dialogue(policies,
                    model_path='models/core/',
                    name="official",
                    domain_file='house_domain.yml',
-                   training_data_file='data/stories_form.md'):
+                   training_data_file='data/stories.md'):
     agent = Agent(DATA_PATH + domain_file, policies=policies)
     data = agent.load_data(DATA_PATH + training_data_file, augmentation_factor=0)
     agent.train(data)

@@ -1,7 +1,7 @@
 [
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9989400320735634
   },
@@ -13,43 +13,43 @@
   },
   {
     "action": "utter_please_to_hear",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9989400320735634
   },
   {
     "action": "utter_understand",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9989400320735634
   },
   {
     "action": "utter_ask_request_more_info",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9989400320735634
   },
   {
     "action": "utter_understand",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9989400320735634
   },
   {
     "action": "utter_ask_request_more_info",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9989400320735634
   },
   {
     "action": "utter_understand",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9989400320735634
   },
   {
     "action": "action_deactivate_form",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9989400320735634
   },
@@ -120,8 +120,8 @@
     "confidence": 0.9999992878102738
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9999878338270807
   },
@@ -210,8 +210,8 @@
     "confidence": 0.9999994345086829
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9999633775756451
   },
@@ -324,8 +324,8 @@
     "confidence": 0.9999992878102738
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9999878338270807
   },
@@ -366,8 +366,8 @@
     "confidence": 0.9999999136012622
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9999208573726741
   },
@@ -408,8 +408,8 @@
     "confidence": 0.9999607711829841
   },
   {
-    "action": "house_form",
-    "predicted": "house_form",
+    "action": "form_house_request",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9975379294400293
   },
@@ -421,25 +421,25 @@
   },
   {
     "action": "utter_understand",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_1_FormPolicy",
     "confidence": 1.0
   },
   {
     "action": "action_house",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9975379294400293
   },
   {
     "action": "utter_ask_satisfaction",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9975379294400293
   },
   {
     "action": "action_listen",
-    "predicted": "house_form",
+    "predicted": "form_house_request",
     "policy": "policy_2_KerasPolicy",
     "confidence": 0.9975379294400293
   },

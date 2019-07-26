@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "pipeline": [
+    {
+      "model": "en",
+      "case_sensitive": false,
+      "name": "nlp_spacy",
+      "class": "rasa_nlu.utils.spacy_utils.SpacyNLP"
+    },
+    {
+      "dimensions": [
+        "time",
+        "amount-of-money",
+        "phone-number",
+        "duration",
+        "distance",
+        "volume",
+        "ordinal",
+        "number",
+        "email"
+      ],
+      "url": "http://localhost:8000",
+      "locale": "en_US",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "name": "ner_duckling_http",
+      "class": "rasa_nlu.extractors.duckling_http_extractor.DucklingHTTPExtractor"
+    }
+  ],
+  "training_data": "training_data.json",
+  "trained_at": "20190715-021840",
+  "rasa_nlu_version": "0.14.6"
+}
