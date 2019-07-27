@@ -30,7 +30,7 @@ def train_nlu(data_path, configs, model_dir):
 def train_dialogue(policies,
                    model_path='models/core/',
                    name="official",
-                   domain_file='house_domain.yml',
+                   domain_file='domain.yml',
                    training_data_file='data/stories.md'):
     agent = Agent(DATA_PATH + domain_file, policies=policies)
     data = agent.load_data(DATA_PATH + training_data_file, augmentation_factor=0)

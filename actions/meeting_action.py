@@ -99,8 +99,6 @@ class FormSetupMeeting(FormAction):
         response = "I have setup the meeting for you and {person_name} ({person_id}) at {time}".format(
             person_id=person_id, person_name=person_name, time=dt_obj.ctime())
         dispatcher.utter_message(response)
-        response2 = "This is the end of meeting setup implementation."
-        dispatcher.utter_message(response2)
 
         return [ReminderScheduled("action_remind_meeting", trigger_date_time=remind_dt_obj,
                                   kill_on_user_message=False)]

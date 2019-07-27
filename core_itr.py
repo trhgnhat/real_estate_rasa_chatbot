@@ -18,7 +18,7 @@ DATA_PATH = os.getcwd() + "/"
 
 
 def run_house_agent(interpreter,
-                    domain_file="house_domain.yml",
+                    domain_file="domain.yml",
                     training_data_file='data/stories.md'):
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 

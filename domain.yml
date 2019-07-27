@@ -58,6 +58,8 @@ entities:
 - transportation
 - local_feature
 - number
+- person_id
+- person_name
 forms:
 - form_setup_meeting
 - form_connect_to_person
@@ -137,6 +139,8 @@ slots:
   time_spent:
     type: unfeaturized
   transportation:
+    type: list
+  matches:
     type: list
 templates:
   utter_ask_bath_room:

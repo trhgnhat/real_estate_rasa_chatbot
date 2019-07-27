@@ -21,7 +21,7 @@ def run_house_bot():
                        interpreter=nlu_interpreter,
                        action_endpoint=action_endpoint,
                        tracker_store=db)
-    serve_application(agent, channel='cmdline', port=APP_PORT)
+    serve_application(agent, channel='rest', port=APP_PORT)
     return agent
 
 

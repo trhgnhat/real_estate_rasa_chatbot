@@ -24,7 +24,7 @@ DATA_PATH = "D:/workspace/Pet Project/Rasa NLP NLU/House/"
 def train_dialogue(policies,
                    model_path='models/core/',
                    name="general",
-                   domain_file='house_domain.yml',
+                   domain_file='domain.yml',
                    training_data_file='data/stories.md'):
     # this will catch predictions the model isn't very certain about
     # there is a threshold for the NLU predictions as well as the action predictions

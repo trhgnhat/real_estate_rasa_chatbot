@@ -191,25 +191,6 @@ class FormHouse(FormAction):
                        dispatcher: CollectingDispatcher,
                        tracker: Tracker,
                        domain: Dict[Text, Any]) -> Optional[Text]:
-        word_rm_dict = {
-            "k": "000",
-            "thousand": "000",
-            "thousands": "000",
-            "millions": "000000",
-            "million": "000000",
-            "mil": "000000",
-            "M": "000000",
-            "billions": "000000000",
-            "bil": "000000000",
-            "B": "000000000",
-            "billion": "000000000",
-        }
-        import re
-        regex = "(?i)(" + "|".join([each for each in word_rm_dict]) + ")"
-        for match in re.findall(regex, value):
-            if match in word_rm_dict:
-                value = value.replace(match, word_rm_dict[match])
-        value = value.replace(" ", "").replace(".", "").replace(",", "")
         if self.is_float(value) and float(value) > 0:
             return {"price": value}
         else:
@@ -273,7 +254,7 @@ class ActionHouse(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            if tracker.get_slot("matches") is not None:
+            if tracker.get_slot("matches") is not None and len(tracker.get_slot("matches")) > 0:
                 list_houses = tracker.get_slot("matches")
             else:
                 list_houses = ["house 1", "house 2", "house 3", "house 4"]
