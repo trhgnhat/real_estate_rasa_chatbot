@@ -1,8 +1,8 @@
 import os
 
-DB_HOST = ""
-DB_NAME = ""
-DB_COLLECTION = ""  # For mongoDB only
+DB_HOST = "localhost"
+DB_NAME = "real-estate-bot"
+DB_COLLECTION = "conversation-tracking"  # For mongoDB only
 DB_USERNAME = ""
 DB_PASSWORD = ""
 
