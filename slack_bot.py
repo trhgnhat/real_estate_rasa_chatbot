@@ -17,7 +17,10 @@ def run_house_bot():
         domain,
         host=DB_HOST,
         db=DB_NAME,
-        collection=DB_COLLECTION
+        collection=DB_COLLECTION,
+        username=DB_USERNAME,
+        password=DB_PASSWORD,
+        auth_source="admin"
     )
     agent = Agent.load(CORE_DATA_PATH,
                        interpreter=nlu_interpreter,
