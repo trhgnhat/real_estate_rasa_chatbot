@@ -1,0 +1,38 @@
+version: '3'
+services:
+  housebot-service:
+    build: .
+    image: housebot:latest
+    ports:
+    - "5000:5000"
+    networks:
+    - housebot-network
+    command: bash -c "python3.7 cmd_bot.py"
+  action-service:
+    image: housebot:latest
+    ports:
+    - "5055:5055"
+    networks:
+    - housebot-network
+    depends_on:
+    - housebot-service
+    command: bash -c "python3.7 -m rasa_sdk.endpoint --actions actions --cors "*" --debug"
+  ngrok-service:
+    image: housebot:latest
+    ports:
+    - "4040:4040"
+    networks:
+    - housebot-network
+    depends_on:
+    - housebot-service
+    command: bash -c "ngrok http 5000"
+  duckling-service:
+    image: rasa/duckling:latest
+    ports:
+    - "8000:8000"
+    depends_on:
+    - housebot-service
+    networks:
+    - housebot-network
+networks:
+  housebot-network:

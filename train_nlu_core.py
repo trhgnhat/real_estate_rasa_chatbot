@@ -39,7 +39,7 @@ def train_dialogue(policies,
     print("FINISH CORE TRAINING PROCESS")
 
 
-config_dir = DATA_PATH + "/configs/nlu_configs/custom_nlu_config_3/nlu_config.md"
+config_dir = DATA_PATH + "configs/nlu_configs/custom_nlu_config_3/nlu_config.md"
 train_nlu(data_path=DATA_PATH + 'data/', configs=config_dir, model_dir=DATA_PATH + 'models/nlu')
 
 nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/official')

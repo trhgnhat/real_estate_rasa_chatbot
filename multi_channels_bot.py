@@ -36,7 +36,7 @@ def run_house_bot():
     )
 
     server.create_app(
-        agent.handle_channels([input_channel, RestInput()], http_port=6000, serve_forever=True),
+        agent.handle_channels([input_channel, RestInput()], http_port=APP_PORT, serve_forever=True),
         cors_origins="*")
 
 

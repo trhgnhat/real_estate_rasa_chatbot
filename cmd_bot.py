@@ -28,7 +28,7 @@ def run_house_bot():
                        interpreter=nlu_interpreter,
                        action_endpoint=action_endpoint,
                        tracker_store=db)
-    serve_application(agent, channel='rest', port=6000, cors="*", enable_api=True)
+    serve_application(agent, channel='rest', port=APP_PORT, cors="*", enable_api=True)
     return agent
 
 

@@ -35,7 +35,7 @@ def run_house_bot():
         slack_channel=""
     )
 
-    run = agent.handle_channels([input_channel], http_port=6000, serve_forever=True)
+    run = agent.handle_channels([input_channel], http_port=APP_PORT, serve_forever=True)
 
 
 run_house_bot()
