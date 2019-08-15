@@ -16,6 +16,10 @@
     "pattern": "(\\d{2}\\s*(?i)(?:[g]+[u]+[e]+[s]+[s]+\\s*[r]+[o]+[o]+[m]+[s]*)+)+"
   },
   {
+    "name": "number",
+    "pattern": "[0-9]+"
+  },
+  {
     "name": "person_id",
     "pattern": "@[aA0-zZ9\\.\\-\\_]+"
   },
@@ -54,5 +58,13 @@
   {
     "name": "house_description",
     "pattern": "(?i)(\\bking\\-size\\ bed\\b|\\bdouble\\ bed\\b|\\bsingle\\ bed\\b|\\bsofa\\b|\\btelevision\\b|\\btv\\b|\\bbench\\b|\\bfan\\b|\\bair\\ conditioner\\b|\\bfridge\\b|\\brefridgerator\\b|\\bmicrowaves\\b|\\bbathtube\\b)"
+  },
+  {
+    "name": "action_type",
+    "pattern": "(?i)(\\bturn\\ on\\b|\\bturn\\ off\\b|\\bdeactivate\\b|\\bactivate\\b|\\bremove\\b|\\bdelete\\b|\\bcreate\\b|\\bupdate\\b|\\bedit\\b|\\berase\\b|\\breplace\\b)"
+  },
+  {
+    "name": "visual_type",
+    "pattern": "(?i)(\\btrend\\ of\\ transaction\\b|\\btrend\\ of\\ exchange\\b|\\bchart\\ of\\ transaction\\b|\\bmap\\ of\\ contracts\\b|\\bmap\\ of\\ house\\b|\\bhistogram\\ of\\ trending\\b|\\bmap\\ of\\ sell\\ house\\b)"
   }
 ]

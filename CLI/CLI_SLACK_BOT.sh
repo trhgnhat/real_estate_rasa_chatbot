@@ -5,7 +5,7 @@ ngrok http 5000
 
 python train_nlu_core.py
 
-python slack_bot.py
+python multi_channels_bot.py
 
 python -m rasa_sdk.endpoint --actions actions --cors "*" --debug
 

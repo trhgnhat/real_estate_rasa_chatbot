@@ -33,7 +33,7 @@ def train_dialogue(policies,
                    domain_file='domain.yml',
                    training_data_file='data/stories.md'):
     agent = Agent(DATA_PATH + domain_file, policies=policies)
-    data = agent.load_data(DATA_PATH + training_data_file, augmentation_factor=0)
+    data = agent.load_data(DATA_PATH + training_data_file)
     agent.train(data)
     agent.persist(DATA_PATH + model_path + name)
     print("FINISH CORE TRAINING PROCESS")
@@ -45,9 +45,9 @@ train_nlu(data_path=DATA_PATH + 'data/', configs=config_dir, model_dir=DATA_PATH
 nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/official')
 
 policies_3 = [
-    MemoizationPolicy(max_history=6),
+    MemoizationPolicy(max_history=2),
     FormPolicy(),
-    KerasPolicy(max_history=6, epochs=150, batch_size=16, validation_split=0.1, rnn_size=64),
+    KerasPolicy(max_history=2, epochs=200, batch_size=16, validation_split=0.1, rnn_size=64),
     FallbackPolicy(fallback_action_name="utter_unclear", core_threshold=0.3, nlu_threshold=0.3)
 ]
 train_dialogue(policies_3)

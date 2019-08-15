@@ -212,5 +212,6 @@ dmypy.json
 utils/constant.py
 house_data/
 evaluator/
+CLI/
 
 # End of https://www.gitignore.io/api/python,pycharm

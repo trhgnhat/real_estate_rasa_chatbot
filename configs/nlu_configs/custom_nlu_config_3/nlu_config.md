@@ -16,7 +16,6 @@ pipeline:
 - name: "components.dict_ner_extractor.DictNerExtractor"
 - name: "ner_synonyms"
 - name: "intent_featurizer_count_vectors"
-  token_pattern: '(?u)\b\w+\b'
   max_ngram: 4
 - name: "intent_featurizer_ngrams"
 - name: "intent_classifier_sklearn"

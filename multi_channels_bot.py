@@ -6,6 +6,7 @@ from rasa_core.channels.slack import SlackInput
 from rasa_core.channels import RestInput
 from rasa_core.tracker_store import MongoTrackerStore
 from rasa_core.domain import TemplateDomain
+from rasa_core import server
 from utils.constant import *
 
 logger = logging.getLogger(__name__)
@@ -34,7 +35,9 @@ def run_house_bot():
         slack_channel=""
     )
 
-    run = agent.handle_channels([input_channel, RestInput()], http_port=APP_PORT, serve_forever=True)
+    server.create_app(
+        agent.handle_channels([input_channel, RestInput()], http_port=6000, serve_forever=True),
+        cors_origins="*")
 
 
 run_house_bot()

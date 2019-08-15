@@ -5,7 +5,11 @@ from rasa_core.run import serve_application
 from rasa_core.tracker_store import MongoTrackerStore
 from rasa_core.domain import TemplateDomain
 from utils.constant import *
+import logging
 
+logger = logging.getLogger(__name__)
+logging.basicConfig(level="DEBUG")
+logger.info("LOG")
 
 def run_house_bot():
     nlu_interpreter = RasaNLUInterpreter(NLU_DATA_PATH)
@@ -24,7 +28,7 @@ def run_house_bot():
                        interpreter=nlu_interpreter,
                        action_endpoint=action_endpoint,
                        tracker_store=db)
-    serve_application(agent, channel='rest', port=APP_PORT)
+    serve_application(agent, channel='rest', port=6000, cors="*", enable_api=True)
     return agent
 
 

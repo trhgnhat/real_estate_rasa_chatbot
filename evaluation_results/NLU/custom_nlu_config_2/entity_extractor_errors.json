@@ -1,6 +1,33 @@
 {
   "examples": [
     {
+      "text": "i need a house in hochiminh city",
+      "true": [
+        {
+          "start": 9,
+          "end": 14,
+          "value": "house",
+          "entity": "real_estate_type"
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "value": "hochiminh",
+          "entity": "city"
+        }
+      ],
+      "predict": [
+        {
+          "start": 9,
+          "end": 14,
+          "value": "house",
+          "entity": "real_estate_type",
+          "confidence": 0.9983798483842958,
+          "extractor": "modified_crf_entity_extractor"
+        }
+      ]
+    },
+    {
       "text": "i want a house with side of the beach which is less than 2 millions usd in Hochiminh city",
       "true": [
         {
@@ -30,14 +57,6 @@
       ],
       "predict": [
         {
-          "value": "house",
-          "confidence": 1,
-          "entity": "real_estate_type",
-          "start": 9,
-          "end": 14,
-          "extractor": "dict_ner_extractor"
-        },
-        {
           "start": 57,
           "end": 67,
           "value": "2 millions",
@@ -52,204 +71,9 @@
           "entity": "currency",
           "confidence": 0.9990437767740916,
           "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "value": "Hochiminh",
-          "confidence": 1,
-          "entity": "city",
-          "start": 75,
-          "end": 84,
-          "extractor": "dict_ner_extractor"
-        }
-      ]
-    },
-    {
-      "text": "We have one parking available, 5 minutes to thebus station and 10 minutes to the metro",
-      "true": [
-        {
-          "start": 12,
-          "end": 19,
-          "value": "parking",
-          "entity": "local_feature"
-        },
-        {
-          "start": 31,
-          "end": 32,
-          "value": "5",
-          "entity": "time_spent"
-        },
-        {
-          "start": 47,
-          "end": 58,
-          "value": "bus station",
-          "entity": "local_feature"
-        },
-        {
-          "start": 63,
-          "end": 65,
-          "value": "10",
-          "entity": "time_spent"
-        },
-        {
-          "start": 77,
-          "end": 86,
-          "value": "the metro",
-          "entity": "local_feature"
-        }
-      ],
-      "predict": [
-        {
-          "start": 31,
-          "end": 32,
-          "value": "5",
-          "entity": "time_spent",
-          "confidence": 0.9669042722137007,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 44,
-          "end": 58,
-          "value": "thebus station",
-          "entity": "local_feature",
-          "confidence": 0.5849038070366986,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 63,
-          "end": 65,
-          "value": "10",
-          "entity": "time_spent",
-          "confidence": 0.9720592274799323,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 81,
-          "end": 86,
-          "value": "metro",
-          "entity": "transportation",
-          "confidence": 0.9192138050990761,
-          "extractor": "modified_crf_entity_extractor"
-        }
-      ]
-    },
-    {
-      "text": "i need the neighborhood to be secured and there is must be at least one free parking",
-      "true": [
-        {
-          "start": 72,
-          "end": 84,
-          "value": "free parking",
-          "entity": "local_feature"
-        }
-      ],
-      "predict": [
-        {
-          "start": 30,
-          "end": 37,
-          "value": "secured",
-          "entity": "house_description",
-          "confidence": 0.9933718046069863,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 72,
-          "end": 84,
-          "value": "free parking",
-          "entity": "local_feature",
-          "confidence": 0.9617408307184794,
-          "extractor": "modified_crf_entity_extractor"
-        }
-      ]
-    },
-    {
-      "text": "I am willing to raise my offer to $330K",
-      "true": [
-        {
-          "start": 34,
-          "end": 35,
-          "value": "$",
-          "entity": "currency"
-        },
-        {
-          "start": 35,
-          "end": 39,
-          "value": "330K",
-          "entity": "price"
-        }
-      ],
-      "predict": [
-        {
-          "start": 34,
-          "end": 35,
-          "value": "$",
-          "entity": "currency",
-          "confidence": 0.7981607035282612,
-          "extractor": "modified_crf_entity_extractor"
-        }
-      ]
-    },
-    {
-      "text": "We really want to live in a lakeside home with a dock for our boat",
-      "true": [
-        {
-          "start": 28,
-          "end": 36,
-          "value": "lakeside",
-          "entity": "local_feature"
-        },
-        {
-          "start": 37,
-          "end": 41,
-          "value": "home",
-          "entity": "real_estate_type"
-        },
-        {
-          "start": 49,
-          "end": 53,
-          "value": "dock",
-          "entity": "local_feature"
-        }
-      ],
-      "predict": [
-        {
-          "start": 37,
-          "end": 41,
-          "value": "home",
-          "entity": "real_estate_type",
-          "confidence": 0.8345220852645682,
-          "extractor": "modified_crf_entity_extractor"
-        }
-      ]
-    },
-    {
-      "text": "i need some information about houses in hanoi city",
-      "true": [
-        {
-          "start": 40,
-          "end": 45,
-          "value": "hanoi",
-          "entity": "city"
-        }
-      ],
-      "predict": [
-        {
-          "start": 30,
-          "end": 36,
-          "value": "houses",
-          "entity": "real_estate_type",
-          "confidence": 0.9995955886491458,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 40,
-          "end": 45,
-          "value": "hanoi",
-          "entity": "city",
-          "confidence": 0.9997372137759905,
-          "extractor": "modified_crf_entity_extractor"
         }
       ]
     }
   ],
-  "support": 6
+  "support": 2
 }

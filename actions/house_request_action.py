@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from typing import Dict, Text, Any, List, Union, Optional
 from rasa_sdk import Tracker
-from rasa_sdk.events import SlotSet, FollowupAction, ReminderScheduled
+from rasa_sdk.events import SlotSet, FollowupAction, ReminderScheduled, Restarted
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 from rasa_sdk import Action
@@ -191,7 +191,7 @@ class FormHouse(FormAction):
                        dispatcher: CollectingDispatcher,
                        tracker: Tracker,
                        domain: Dict[Text, Any]) -> Optional[Text]:
-        if self.is_float(value) and float(value) > 0:
+        if self.is_float(value):
             return {"price": value}
         else:
             dispatcher.utter_template('utter_wrong_price', tracker)
@@ -259,8 +259,7 @@ class ActionHouse(Action):
             else:
                 list_houses = ["house 1", "house 2", "house 3", "house 4"]
             response = "Link: {}".format(list_houses[0])
-            list_houses.append(list_houses[0])
-            list_houses.pop(0)
+            list_houses.append(list_houses.pop(0))
             dispatcher.utter_message(response)
             return [SlotSet("matches", list_houses)]
         except Exception as e:
@@ -276,12 +275,14 @@ class ActionPostHouseInfo(Action):
         try:
             response = """information (processing in action):\n"""
             for entity_name, entity in tracker.current_slot_values().items():
-                if entity_name in ["request_more_info", "is_satisfied", "confirm_information"]:
+                if entity_name not in ["real_estate_type", "city", "price", "currency", "bed_room", "bath_room",
+                                       "guess_room"]:
                     continue
                 if tracker.get_slot(entity_name) is not None:
                     response += "- {}: {}\n".format(entity_name, entity)
             dispatcher.utter_message(response)
             dispatcher.utter_template("utter_ask_confirm_information", tracker)
+            return []
         except Exception as e:
             print(e)
             print(tracker.current_slot_values().items())

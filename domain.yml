@@ -45,7 +45,6 @@ entities:
 - currency
 - guess_room
 - price
-- person_name
 - time
 - num_person
 - location
@@ -60,10 +59,15 @@ entities:
 - number
 - person_id
 - person_name
+- post_id
+- action_type
+- visual_type
 forms:
 - form_setup_meeting
 - form_connect_to_person
 - form_house_request
+- form_visualization_action
+- form_post_action
 intents:
 - confirm
 - thankyou
@@ -80,6 +84,8 @@ intents:
 - goodbye
 - deny_positive
 - talk_to_person
+- show_dashboard
+- post_action
 slots:
   bath_room:
     type: unfeaturized
@@ -141,6 +147,12 @@ slots:
   transportation:
     type: list
   matches:
+    type: list
+  action_type:
+    type: text
+  post_id:
+    type: list
+  visual_type:
     type: list
 templates:
   utter_ask_bath_room:
@@ -298,3 +310,7 @@ templates:
     text: Sorry, we only support for houses/apartments searching at the moment
   utter_remind_meeting:
   - text: "You will have a meeting with {person_name} ({person_id}) in 5 minutes. Please prepare!"
+  utter_ask_post_id:
+  - text: on which post?
+  utter_ask_action_type:
+  - text: which action do you want me to perform?

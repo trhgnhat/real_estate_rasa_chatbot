@@ -1,146 +1,34 @@
 [
   {
-    "text": "si",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.4984838657269683
-    }
-  },
-  {
     "text": "yes sure",
     "intent": "affirm",
     "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.5179152775306057
+      "confidence": 0.6036516106218086
     }
   },
   {
-    "text": "how are you today",
-    "intent": "ask_howdoing",
+    "text": "yeah",
+    "intent": "affirm",
     "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9156725238896248
+      "name": "affirm",
+      "confidence": 0.6077863479712772
     }
   },
   {
-    "text": "is everything all right",
-    "intent": "ask_howdoing",
+    "text": "yes",
+    "intent": "affirm",
     "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.772777274692579
+      "name": "affirm",
+      "confidence": 0.6761565052344083
     }
   },
   {
-    "text": "hw r u?",
+    "text": "How are you today?",
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.7660476580137325
-    }
-  },
-  {
-    "text": "how are you doing today my sweet friend",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.8313543428735582
-    }
-  },
-  {
-    "text": "how are you'",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.976638799128523
-    }
-  },
-  {
-    "text": "Hi Sara! How are you?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.8588649639054975
-    }
-  },
-  {
-    "text": "how is your day going",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9074157798058999
-    }
-  },
-  {
-    "text": "what's up",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.8333299982583997
-    }
-  },
-  {
-    "text": "How are you?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9851196258875036
-    }
-  },
-  {
-    "text": "how you doing?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9627878469720788
-    }
-  },
-  {
-    "text": "how are things with you?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9299922796707988
-    }
-  },
-  {
-    "text": "hello, how are you?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9286290872197113
-    }
-  },
-  {
-    "text": "how are you feeling",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9437933037582023
-    }
-  },
-  {
-    "text": "How's life treating you friend?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.8784421758938965
-    }
-  },
-  {
-    "text": "how are u?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.9758652136550967
-    }
-  },
-  {
-    "text": "How was your day?",
-    "intent": "ask_howdoing",
-    "intent_prediction": {
-      "name": "ask_howdoing",
-      "confidence": 0.951526265978706
+      "confidence": 0.944335999586082
     }
   },
   {
@@ -148,31 +36,167 @@
     "intent": "ask_howdoing",
     "intent_prediction": {
       "name": "ask_howdoing",
-      "confidence": 0.9105725708323091
+      "confidence": 0.8592743173710141
     }
   },
   {
-    "text": "i confirm",
+    "text": "how are you????",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.9795271948113169
+    }
+  },
+  {
+    "text": "Is everything ok?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.8205890621314033
+    }
+  },
+  {
+    "text": "how have you been",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.8670480142798092
+    }
+  },
+  {
+    "text": "hi sara, how are you?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7922419376589535
+    }
+  },
+  {
+    "text": "how are you?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.9792301168761111
+    }
+  },
+  {
+    "text": "are you ok",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7588498011388772
+    }
+  },
+  {
+    "text": "is everything all right",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7283214775396383
+    }
+  },
+  {
+    "text": "what's good",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7919658715753871
+    }
+  },
+  {
+    "text": "What's going on?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7961143854124272
+    }
+  },
+  {
+    "text": "how are you doing today?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.945391034362075
+    }
+  },
+  {
+    "text": "is everything okay",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7309708109961883
+    }
+  },
+  {
+    "text": "How are You?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.9792301168761111
+    }
+  },
+  {
+    "text": "hw r u?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.7109575770516582
+    }
+  },
+  {
+    "text": "how are u?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.9586186306320583
+    }
+  },
+  {
+    "text": "what's up?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.8571917172370158
+    }
+  },
+  {
+    "text": "show me more options",
+    "intent": "ask_more",
+    "intent_prediction": {
+      "name": "ask_more",
+      "confidence": 0.4673038690837761
+    }
+  },
+  {
+    "text": "its good but give me more options",
+    "intent": "ask_more",
+    "intent_prediction": {
+      "name": "ask_more",
+      "confidence": 0.4356783914240863
+    }
+  },
+  {
+    "text": "confirmed",
     "intent": "confirm",
     "intent_prediction": {
       "name": "confirm",
-      "confidence": 0.5175001874688734
+      "confidence": 0.5890471508625736
     }
   },
   {
-    "text": "ok",
+    "text": "it's okay",
     "intent": "confirm",
     "intent_prediction": {
       "name": "confirm",
-      "confidence": 0.4699540537676157
+      "confidence": 0.6598145523998259
     }
   },
   {
-    "text": "do you have something else",
+    "text": "noope",
     "intent": "deny",
     "intent_prediction": {
       "name": "deny",
-      "confidence": 0.6612038412222777
+      "confidence": 0.5082901075724343
     }
   },
   {
@@ -180,55 +204,39 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "deny",
-      "confidence": 0.61848524513358
+      "confidence": 0.4926074792923239
     }
   },
   {
-    "text": "it is a great experience",
+    "text": "no",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7635529652849914
+    }
+  },
+  {
+    "text": "excellence",
     "intent": "feedback",
     "intent_prediction": {
       "name": "feedback",
-      "confidence": 0.45618312396409283
+      "confidence": 0.41150583810023916
     }
   },
   {
-    "text": "it is a great experience",
+    "text": "very stupid",
     "intent": "feedback",
     "intent_prediction": {
       "name": "feedback",
-      "confidence": 0.45618312396409283
+      "confidence": 0.7672931472285895
     }
   },
   {
-    "text": "bye",
-    "intent": "goodbye",
+    "text": "not good enough",
+    "intent": "feedback",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.6751684322111506
-    }
-  },
-  {
-    "text": "bye",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.6751684322111506
-    }
-  },
-  {
-    "text": "goodbye",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7147675889359153
-    }
-  },
-  {
-    "text": "Goodbye",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7147675889359153
+      "name": "feedback",
+      "confidence": 0.42684026647153434
     }
   },
   {
@@ -236,47 +244,47 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.8472113719668747
+      "confidence": 0.8070885971132572
     }
   },
   {
-    "text": "Goodbye friend",
+    "text": "Bye",
     "intent": "goodbye",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.709359723536491
+      "confidence": 0.6607130082826506
     }
   },
   {
-    "text": "hello everybody",
-    "intent": "greet",
+    "text": "Bye bot",
+    "intent": "goodbye",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.6249195622734538
+      "name": "goodbye",
+      "confidence": 0.7071922493811109
     }
   },
   {
-    "text": "hi",
-    "intent": "greet",
+    "text": "bye",
+    "intent": "goodbye",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.7660089506756003
+      "name": "goodbye",
+      "confidence": 0.6607130082826506
     }
   },
   {
-    "text": "hi pal!",
-    "intent": "greet",
+    "text": "gotta go",
+    "intent": "goodbye",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5956660565472465
+      "name": "goodbye",
+      "confidence": 0.627220755233085
     }
   },
   {
-    "text": "hi again",
-    "intent": "greet",
+    "text": "Bye",
+    "intent": "goodbye",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.6098374058106166
+      "name": "goodbye",
+      "confidence": 0.6607130082826506
     }
   },
   {
@@ -284,167 +292,87 @@
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.6425641013940724
+      "confidence": 0.5975433739333369
     }
   },
   {
-    "text": "Hey",
+    "text": "hi",
     "intent": "greet",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.8107687634726435
+      "confidence": 0.7826122564980771
     }
   },
   {
-    "text": "Yes, we want to stay in the hanoi",
-    "intent": "house_inform",
+    "text": "good morning",
+    "intent": "greet",
     "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.8301738748298527
+      "name": "greet",
+      "confidence": 0.5716858409779524
     }
   },
   {
-    "text": "We really want to live in a lakeside home with a dock for our boat",
-    "intent": "house_inform",
+    "text": "greetings",
+    "intent": "greet",
     "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.8883587969786552
+      "name": "greet",
+      "confidence": 0.5981779541924711
     }
   },
   {
-    "text": "no more than $100000",
-    "intent": "house_inform",
+    "text": "hi Mister",
+    "intent": "greet",
     "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9395147962227895
+      "name": "greet",
+      "confidence": 0.6313969892526765
     }
   },
   {
-    "text": "at least 1",
-    "intent": "house_inform",
+    "text": "hi",
+    "intent": "greet",
     "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9549972199272545
+      "name": "greet",
+      "confidence": 0.7826122564980771
     }
   },
   {
-    "text": "i need some modern coach",
+    "text": "5 thanks",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9308285275674797
+      "confidence": 0.9024548627723853
     }
   },
   {
-    "text": "more than 3",
+    "text": "i need a house in hochiminh city",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9575982090419407
+      "confidence": 0.9216080573092597
     }
   },
   {
-    "text": "in Ho Chi Minh city",
+    "text": "I would love to have a home with a view",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8363314611024013
+      "confidence": 0.8125450298128203
     }
   },
   {
-    "text": "i need metro nearby to travel around",
+    "text": "less than seven",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.8744008064777038
+      "confidence": 0.9570919372094804
     }
   },
   {
-    "text": "i need local is a quiet area and security",
+    "text": "5 bathrooms",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9337377704727853
-    }
-  },
-  {
-    "text": "i think 1",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.8993325305914401
-    }
-  },
-  {
-    "text": "one please",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.8302310019001168
-    }
-  },
-  {
-    "text": "The room i want has a queen size bed ideal for 2 persons",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9239401550828763
-    }
-  },
-  {
-    "text": "You can get to the city center in 25 min by metro",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9273508696110839
-    }
-  },
-  {
-    "text": "i think three",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.8975072910194074
-    }
-  },
-  {
-    "text": "there is must be a free parking",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.8273936277585714
-    }
-  },
-  {
-    "text": "only 1 is okay",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.8951669894671267
-    }
-  },
-  {
-    "text": "no more than $1M",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9619033073872282
-    }
-  },
-  {
-    "text": "i need 2 only",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9497763665681163
-    }
-  },
-  {
-    "text": "We have one parking available, 5 minutes to thebus station and 10 minutes to the metro",
-    "intent": "house_inform",
-    "intent_prediction": {
-      "name": "house_inform",
-      "confidence": 0.9808159911441693
+      "confidence": 0.9242618456374815
     }
   },
   {
@@ -452,15 +380,183 @@
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9462172344815012
+      "confidence": 0.9166665281248314
     }
   },
   {
-    "text": "This is a residential neighborhood, coffee shops and no bars",
+    "text": "three room i guess",
     "intent": "house_inform",
     "intent_prediction": {
       "name": "house_inform",
-      "confidence": 0.9045016060348078
+      "confidence": 0.8979232641878078
+    }
+  },
+  {
+    "text": "two bathrooms please",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8677730328500953
+    }
+  },
+  {
+    "text": "hey i think i will change the price to more than 200000 vnd",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8858216211485999
+    }
+  },
+  {
+    "text": "i need a house with two guess room which is only 2 millions vnd in Hanoi",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.9399721802320392
+    }
+  },
+  {
+    "text": "6",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.9503310272273436
+    }
+  },
+  {
+    "text": "1 please",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8540010353730106
+    }
+  },
+  {
+    "text": "i need to travel to central of the city in less than 10 minute",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.9259161950309078
+    }
+  },
+  {
+    "text": "i need a bus stop nearby",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.9068509153523567
+    }
+  },
+  {
+    "text": "i want a house with side of the beach which is less than 2 millions usd in Hochiminh city",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.929126650099294
+    }
+  },
+  {
+    "text": "i need to travel to restaurant in no more than 10 minute",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.9023672962095626
+    }
+  },
+  {
+    "text": "I am thinking of moving  to Hawaii",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8727699822069518
+    }
+  },
+  {
+    "text": "The local area also features several delicious restaurants, a bakery and leisure facilities",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8462380270415031
+    }
+  },
+  {
+    "text": "6 is ok",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8349363417595038
+    }
+  },
+  {
+    "text": "i am find a house with two bedrooms which is no more than 2 millions euro in Ca Mau city",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.9474864330376354
+    }
+  },
+  {
+    "text": "i need security",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8950792847996388
+    }
+  },
+  {
+    "text": "i will pay by vnd",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8570358306931651
+    }
+  },
+  {
+    "text": "no more than 1000000 vnd please",
+    "intent": "house_inform",
+    "intent_prediction": {
+      "name": "house_inform",
+      "confidence": 0.8108482028042782
+    }
+  },
+  {
+    "text": "i am looking for flat",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.8850847316978807
+    }
+  },
+  {
+    "text": "is there any houses less than 1 billion dollars?",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.8975793927999989
+    }
+  },
+  {
+    "text": "I have been thinking of buying a apartment and would like to speak with you",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.8633220090288882
+    }
+  },
+  {
+    "text": "I would like to discuss purchasing a home with you.",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.8553715568262134
+    }
+  },
+  {
+    "text": "I'm interested in the flat in Lang Son. What can you tell me about it?",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.8442108432204876
     }
   },
   {
@@ -468,95 +564,39 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9664689797321407
+      "confidence": 0.9568437124257461
     }
   },
   {
-    "text": "I am interested in buying a house and need some information.",
+    "text": "I'd like to view some homes now",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9446377729015392
+      "confidence": 0.818530538393712
     }
   },
   {
-    "text": "i need some information about home in hanoi city",
+    "text": "need apartment for sell",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9639318924747277
+      "confidence": 0.9011626385258557
     }
   },
   {
-    "text": "give me some houses for 4 persons",
+    "text": "i am looking for houses in danang",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9624914361146032
+      "confidence": 0.9198859259776628
     }
   },
   {
-    "text": "give me the list of apartment in hcm",
+    "text": "i want houses",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9116781895037341
-    }
-  },
-  {
-    "text": "search me some houses in nhatrang city",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.9744256753048384
-    }
-  },
-  {
-    "text": "would you mind give me some information about apartment for sell?",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.9203101273834674
-    }
-  },
-  {
-    "text": "is there any apartment less than 1 billion dollars?",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.9148060062362191
-    }
-  },
-  {
-    "text": "need flat for sell",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.9384376886750495
-    }
-  },
-  {
-    "text": "I want to go flat shopping",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.9092448958783129
-    }
-  },
-  {
-    "text": "I have been thinking of buying a house and would like to speak with you.",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.9082347616980819
-    }
-  },
-  {
-    "text": "I'm interested in the home in Lang Son. What can you tell me about it?",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.8942081816833983
+      "confidence": 0.8960293682254309
     }
   },
   {
@@ -564,39 +604,15 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9055422483175818
+      "confidence": 0.859539497567082
     }
   },
   {
-    "text": "give me the list of home in hcm",
+    "text": "give me some houses",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9053878463011887
-    }
-  },
-  {
-    "text": "Is there a house in range 4 millions dollars?",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.9280455313068173
-    }
-  },
-  {
-    "text": "I would like to discuss purchasing a home with you.",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.903733613762952
-    }
-  },
-  {
-    "text": "give me some apartment for 4 persons",
-    "intent": "house_request",
-    "intent_prediction": {
-      "name": "house_request",
-      "confidence": 0.9639336489138829
+      "confidence": 0.8886390884921211
     }
   },
   {
@@ -604,23 +620,47 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9513002016642274
+      "confidence": 0.9189489352521327
     }
   },
   {
-    "text": "search me some houses no more than 1 million in nha trang city",
+    "text": "i am looking for apartment in danang",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9406150357549907
+      "confidence": 0.9059841893622795
     }
   },
   {
-    "text": "I am looking to buy a house for myself and my son",
+    "text": "search me some apartment in nhatrang city",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9055422483175818
+      "confidence": 0.9341137565279978
+    }
+  },
+  {
+    "text": "give me the list of home in hcm",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.864017082046997
+    }
+  },
+  {
+    "text": "I have been thinking of buying a home and would like to speak with you",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.8727473130673141
+    }
+  },
+  {
+    "text": "would you mind give me some information about apartment for sell?",
+    "intent": "house_request",
+    "intent_prediction": {
+      "name": "house_request",
+      "confidence": 0.8702634178788482
     }
   },
   {
@@ -628,55 +668,183 @@
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.8926126113278697
+      "confidence": 0.8506094090491744
     }
   },
   {
-    "text": "i would like to buy a house in DaNangcity with 1 billion vnd",
+    "text": "I have been thinking of buying a house and would like to speak with you.",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9598089466864188
+      "confidence": 0.8556695644835545
     }
   },
   {
-    "text": "I would like to discuss purchasing a home with you.",
+    "text": "i want houses",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.903733613762952
+      "confidence": 0.8960293682254309
     }
   },
   {
-    "text": "Is there a house in range 4 millions dollars?",
+    "text": "i want to buy a houses for 4 persons",
     "intent": "house_request",
     "intent_prediction": {
       "name": "house_request",
-      "confidence": 0.9280455313068173
+      "confidence": 0.9161070546550906
     }
   },
   {
-    "text": "Thanks for that",
-    "intent": "thankyou",
+    "text": "is there any flat less than 1 billion dollars?",
+    "intent": "house_request",
     "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.7225482592497521
+      "name": "house_request",
+      "confidence": 0.8990664085991967
     }
   },
   {
-    "text": "Thanks bot",
-    "intent": "thankyou",
+    "text": "I want to go flat shopping",
+    "intent": "house_request",
     "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.7592010890877733
+      "name": "house_request",
+      "confidence": 0.8672419445196491
     }
   },
   {
-    "text": "thanks a bunch for everything",
+    "text": "to @ititiu15086 please",
+    "intent": "person_inform",
+    "intent_prediction": {
+      "name": "person_inform",
+      "confidence": 0.5868560316914064
+    }
+  },
+  {
+    "text": "@ititiu15086",
+    "intent": "person_inform",
+    "intent_prediction": {
+      "name": "person_inform",
+      "confidence": 0.5593048901592843
+    }
+  },
+  {
+    "text": "delete all my posts for me please",
+    "intent": "post_action",
+    "intent_prediction": {
+      "name": "post_action",
+      "confidence": 0.540145947803756
+    }
+  },
+  {
+    "text": "remove all posts.",
+    "intent": "post_action",
+    "intent_prediction": {
+      "name": "post_action",
+      "confidence": 0.5664808063814726
+    }
+  },
+  {
+    "text": "next month",
+    "intent": "set_appointment",
+    "intent_prediction": {
+      "name": "set_appointment",
+      "confidence": 0.5139018735387929
+    }
+  },
+  {
+    "text": "right now",
+    "intent": "set_appointment",
+    "intent_prediction": {
+      "name": "set_appointment",
+      "confidence": 0.42090301607326064
+    }
+  },
+  {
+    "text": "arrange an appointment with Nhat on sunday afternoon for me please",
+    "intent": "set_appointment",
+    "intent_prediction": {
+      "name": "set_appointment",
+      "confidence": 0.43566372184930413
+    }
+  },
+  {
+    "text": "display the chart of trending",
+    "intent": "show_dashboard",
+    "intent_prediction": {
+      "name": "show_dashboard",
+      "confidence": 0.5297909395403674
+    }
+  },
+  {
+    "text": "show me the map of contracts",
+    "intent": "show_dashboard",
+    "intent_prediction": {
+      "name": "show_dashboard",
+      "confidence": 0.474913552531134
+    }
+  },
+  {
+    "text": "connect me to @ititiu15086 please",
+    "intent": "talk_to_person",
+    "intent_prediction": {
+      "name": "talk_to_person",
+      "confidence": 0.7542733057887879
+    }
+  },
+  {
+    "text": "i want to say something with Nhat for a moment",
+    "intent": "talk_to_person",
+    "intent_prediction": {
+      "name": "talk_to_person",
+      "confidence": 0.5905394938408989
+    }
+  },
+  {
+    "text": "contact Nhat for me please",
+    "intent": "talk_to_person",
+    "intent_prediction": {
+      "name": "talk_to_person",
+      "confidence": 0.5553925557012305
+    }
+  },
+  {
+    "text": "let's me talk to @trhgnhat",
+    "intent": "talk_to_person",
+    "intent_prediction": {
+      "name": "talk_to_person",
+      "confidence": 0.6059062648955138
+    }
+  },
+  {
+    "text": "Thank you so much",
     "intent": "thankyou",
     "intent_prediction": {
       "name": "thankyou",
-      "confidence": 0.7057951808691446
+      "confidence": 0.5511435843874695
+    }
+  },
+  {
+    "text": "cool thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.6023307163910604
+    }
+  },
+  {
+    "text": "Thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.6503996519297328
+    }
+  },
+  {
+    "text": "perfect thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.5800494811131401
     }
   }
 ]

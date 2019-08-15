@@ -1,4 +1,5 @@
 from rasa.nlu.training_data import load_data
+import constant as constant
 
 # This re-uses the Rasa NLU converters code to turn a JSON Rasa NLU training
 # file into MD format and save it
@@ -8,8 +9,7 @@ from rasa.nlu.training_data import load_data
 # If you want other options, look at the NLU code to work out how to handle them
 
 # USE AT YOUR OWN RISK
-
-input_md_file = ['../data/test_data.md', '../data/training_data.md']
+input_md_file = [constant.DATA_PATH + 'data/test_data.md', constant.DATA_PATH + 'data/training_data.md']
 
 # *******************************************************
 # TAKE CARE: output_md_file is overwritten automatically

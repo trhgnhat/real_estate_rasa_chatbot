@@ -1,206 +1,172 @@
 {
   "examples": [
     {
-      "text": "i want a house with side of the beach which is less than 2 millions usd in Hochiminh city",
+      "text": "i need a house with two guess room which is only 2 millions vnd in Hanoi",
       "true": [
         {
           "start": 20,
-          "end": 37,
-          "value": "side of the beach",
-          "entity": "local_feature"
+          "end": 23,
+          "value": "two",
+          "entity": "guess_room"
         },
         {
-          "start": 57,
-          "end": 67,
+          "start": 49,
+          "end": 59,
           "value": "2 millions",
           "entity": "price"
         },
         {
-          "start": 68,
-          "end": 71,
-          "value": "usd",
+          "start": 60,
+          "end": 63,
+          "value": "vnd",
           "entity": "currency"
         },
         {
-          "start": 75,
-          "end": 84,
-          "value": "Hochiminh",
+          "start": 67,
+          "end": 72,
+          "value": "Hanoi",
           "entity": "city"
         }
       ],
       "predict": [
-        {
-          "value": "house",
-          "confidence": 1,
-          "entity": "real_estate_type",
-          "start": 9,
-          "end": 14,
-          "extractor": "dict_ner_extractor"
-        },
         {
           "start": 20,
-          "end": 37,
-          "value": "side of the beach",
-          "entity": "local_feature",
-          "confidence": 0.9227871343759703,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 57,
-          "end": 67,
-          "value": "2 millions",
-          "entity": "price",
-          "confidence": 0.9858214351821583,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 68,
-          "end": 71,
-          "value": "usd",
-          "entity": "currency",
-          "confidence": 0.9866299091996196,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 75,
-          "end": 84,
-          "value": "hochiminh",
-          "entity": "city",
-          "confidence": 0.9254253429786027,
-          "extractor": "modified_crf_entity_extractor"
-        }
-      ]
-    },
-    {
-      "text": "We have one parking available, 5 minutes to thebus station and 10 minutes to the metro",
-      "true": [
-        {
-          "start": 12,
-          "end": 19,
-          "value": "parking",
-          "entity": "local_feature"
-        },
-        {
-          "start": 31,
-          "end": 32,
-          "value": "5",
-          "entity": "time_spent"
-        },
-        {
-          "start": 47,
-          "end": 58,
-          "value": "bus station",
-          "entity": "local_feature"
-        },
-        {
-          "start": 63,
-          "end": 65,
-          "value": "10",
-          "entity": "time_spent"
-        },
-        {
-          "start": 77,
-          "end": 86,
-          "value": "the metro",
-          "entity": "local_feature"
-        }
-      ],
-      "predict": [
-        {
-          "start": 12,
-          "end": 19,
-          "value": "parking",
-          "entity": "local_feature",
-          "confidence": 0.8555560020498224,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 31,
-          "end": 32,
-          "value": "5",
-          "entity": "time_spent",
-          "confidence": 0.9642546960886476,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 63,
-          "end": 65,
-          "value": "10",
-          "entity": "time_spent",
-          "confidence": 0.9748897973342865,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 77,
-          "end": 86,
-          "value": "the metro",
-          "entity": "local_feature",
-          "confidence": 0.8407937083566098,
-          "extractor": "modified_crf_entity_extractor"
-        }
-      ]
-    },
-    {
-      "text": "i need the neighborhood to be secured and there is must be at least one free parking",
-      "true": [
-        {
-          "start": 72,
-          "end": 84,
-          "value": "free parking",
-          "entity": "local_feature"
-        }
-      ],
-      "predict": [
-        {
-          "start": 30,
-          "end": 37,
-          "value": "secured",
-          "entity": "house_description",
-          "confidence": 0.5195675626680027,
-          "extractor": "modified_crf_entity_extractor"
-        },
-        {
-          "start": 72,
-          "end": 84,
-          "value": "free parking",
-          "entity": "local_feature",
-          "confidence": 0.9812290406509409,
-          "extractor": "modified_crf_entity_extractor"
-        }
-      ]
-    },
-    {
-      "text": "i need some information about houses in hanoi city",
-      "true": [
-        {
-          "start": 40,
-          "end": 45,
-          "value": "hanoi",
-          "entity": "city"
-        }
-      ],
-      "predict": [
-        {
-          "start": 30,
-          "end": 36,
-          "value": "house",
-          "entity": "real_estate_type",
-          "confidence": 0.7597651649080084,
+          "end": 23,
+          "value": "2",
+          "entity": "guess_room",
+          "confidence": 0.8918786149759902,
           "extractor": "modified_crf_entity_extractor",
           "processors": [
             "ner_synonyms"
           ]
         },
         {
-          "start": 40,
-          "end": 45,
+          "start": 49,
+          "end": 59,
+          "value": "2 millions",
+          "entity": "price",
+          "confidence": 0.983081326906363,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "value": "ons",
+          "confidence": 1,
+          "entity": "action_type",
+          "start": 56,
+          "end": 59,
+          "extractor": "dict_ner_extractor"
+        },
+        {
+          "start": 60,
+          "end": 63,
+          "value": "vnd",
+          "entity": "currency",
+          "confidence": 0.9977906481430099,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "start": 67,
+          "end": 72,
           "value": "hanoi",
           "entity": "city",
-          "confidence": 0.9988148156719644,
+          "confidence": 0.9970963014797654,
           "extractor": "modified_crf_entity_extractor"
+        }
+      ]
+    },
+    {
+      "text": "next month",
+      "true": [],
+      "predict": [
+        {
+          "value": "on",
+          "confidence": 1,
+          "entity": "action_type",
+          "start": 6,
+          "end": 8,
+          "extractor": "dict_ner_extractor"
+        }
+      ]
+    },
+    {
+      "text": "arrange an appointment with Nhat on sunday afternoon for me please",
+      "true": [
+        {
+          "start": 28,
+          "end": 32,
+          "value": "Nhat",
+          "entity": "person_name"
+        }
+      ],
+      "predict": [
+        {
+          "start": 28,
+          "end": 32,
+          "value": "nhat",
+          "entity": "person_name",
+          "confidence": 0.9848922657318182,
+          "extractor": "modified_crf_entity_extractor"
+        },
+        {
+          "start": 33,
+          "end": 52,
+          "text": "on sunday afternoon",
+          "value": {
+            "to": "2019-08-04T19:00:00.000+07:00",
+            "from": "2019-08-04T12:00:00.000+07:00"
+          },
+          "confidence": 1.0,
+          "additional_info": {
+            "values": [
+              {
+                "to": {
+                  "value": "2019-08-04T19:00:00.000+07:00",
+                  "grain": "hour"
+                },
+                "from": {
+                  "value": "2019-08-04T12:00:00.000+07:00",
+                  "grain": "hour"
+                },
+                "type": "interval"
+              },
+              {
+                "to": {
+                  "value": "2019-08-11T19:00:00.000+07:00",
+                  "grain": "hour"
+                },
+                "from": {
+                  "value": "2019-08-11T12:00:00.000+07:00",
+                  "grain": "hour"
+                },
+                "type": "interval"
+              },
+              {
+                "to": {
+                  "value": "2019-08-18T19:00:00.000+07:00",
+                  "grain": "hour"
+                },
+                "from": {
+                  "value": "2019-08-18T12:00:00.000+07:00",
+                  "grain": "hour"
+                },
+                "type": "interval"
+              }
+            ],
+            "to": {
+              "value": "2019-08-04T19:00:00.000+07:00",
+              "grain": "hour"
+            },
+            "from": {
+              "value": "2019-08-04T12:00:00.000+07:00",
+              "grain": "hour"
+            },
+            "type": "interval"
+          },
+          "entity": "time",
+          "extractor": "ner_duckling_http"
         }
       ]
     }
   ],
-  "support": 4
+  "support": 3
 }

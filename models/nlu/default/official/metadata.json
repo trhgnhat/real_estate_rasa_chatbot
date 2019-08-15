@@ -66,7 +66,7 @@
     },
     {
       "analyzer": "word",
-      "token_pattern": "(?u)\\b\\w+\\b",
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
       "strip_accents": null,
       "stop_words": null,
       "min_df": 1,
@@ -138,6 +138,6 @@
     }
   ],
   "training_data": "training_data.json",
-  "trained_at": "20190720-180052",
+  "trained_at": "20190801-233831",
   "rasa_nlu_version": "0.14.6"
 }

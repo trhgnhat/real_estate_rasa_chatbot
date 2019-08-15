@@ -2,30 +2,33 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "real_estate_type",
+        "time",
+        "post_id",
+        "city",
+        "house_feature",
+        "furniture",
+        "person_id",
+        "person_name",
+        "action_type",
         "local_feature",
+        "house_description",
+        "visual_type",
         "currency",
         "num_person",
-        "furniture",
-        "time",
+        "real_estate_type",
         "bed_room",
-        "house_description",
-        "city",
-        "price",
-        "house_feature",
-        "person_name",
-        "person_id"
+        "price"
       ]
     },
     "form_house_request": {
       "slots": [
-        "real_estate_type",
         "requested_slot",
+        "city",
+        "guess_room",
         "currency",
         "bed_room",
-        "guess_room",
-        "city",
         "bath_room",
+        "real_estate_type",
         "price"
       ]
     },
@@ -37,8 +40,8 @@
     "utter_please_to_hear": {
       "slots": [
         "real_estate_type",
-        "house_description",
-        "requested_slot"
+        "requested_slot",
+        "house_description"
       ]
     },
     "utter_ask_request_more_info": {
@@ -49,25 +52,42 @@
     },
     "form_setup_meeting": {
       "slots": [
+        "person_id",
         "time",
         "requested_slot",
-        "person_name",
-        "person_id"
+        "person_name"
       ]
+    },
+    "utter_call_if_need_help": {
+      "slots": []
+    },
+    "action_wait_for_command": {
+      "slots": []
     },
     "form_connect_to_person": {
       "slots": [
         "requested_slot",
-        "person_name",
-        "person_id"
+        "person_id",
+        "person_name"
+      ]
+    },
+    "utter_noworries": {
+      "slots": []
+    },
+    "form_post_action": {
+      "slots": [
+        "visual_type",
+        "requested_slot",
+        "post_id",
+        "action_type"
       ]
     }
   },
   "python": "3.6.6",
   "max_histories": [
-    6,
     2,
-    6,
+    2,
+    2,
     null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
@@ -77,7 +97,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190720-180211",
+  "trained_at": "20190801-234525",
   "rasa_core": "0.13.8",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.2"

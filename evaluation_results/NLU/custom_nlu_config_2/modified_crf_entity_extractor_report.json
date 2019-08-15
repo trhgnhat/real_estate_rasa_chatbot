@@ -1,92 +1,134 @@
 {
+  "action_type": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "bath_room": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "bed_room": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
   "city": {
     "precision": 1.0,
-    "recall": 0.9411764705882353,
-    "f1-score": 0.9696969696969697,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.9375,
     "support": 17
   },
   "currency": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8
   },
-  "furniture": {
+  "guess_room": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5
+    "support": 1
   },
   "house_description": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4
+    "support": 1
   },
   "local_feature": {
     "precision": 1.0,
-    "recall": 0.5833333333333334,
-    "f1-score": 0.7368421052631579,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
     "support": 12
   },
   "no_entity": {
-    "precision": 0.9889380530973452,
-    "recall": 0.9977678571428571,
-    "f1-score": 0.9933333333333333,
-    "support": 448
+    "precision": 0.9542857142857143,
+    "recall": 1.0,
+    "f1-score": 0.976608187134503,
+    "support": 501
   },
   "num_person": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4
+    "support": 2
   },
   "number": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 8
+    "support": 7
+  },
+  "person_id": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4
+  },
+  "person_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+  },
+  "post_id": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
   },
   "price": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 13
+    "support": 12
   },
   "real_estate_type": {
-    "precision": 0.96,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9795918367346939,
-    "support": 24
+    "f1-score": 1.0,
+    "support": 26
   },
   "time_spent": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4
-  },
-  "transportation": {
-    "precision": 0.6666666666666666,
-    "recall": 1.0,
-    "f1-score": 0.8,
     "support": 2
   },
+  "transportation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0
+  },
+  "visual_type": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6
+  },
   "micro avg": {
-    "precision": 0.9872029250457038,
-    "recall": 0.9872029250457038,
-    "f1-score": 0.9872029250457038,
-    "support": 547
+    "precision": 0.9573070607553367,
+    "recall": 0.9573070607553367,
+    "f1-score": 0.9573070607553367,
+    "support": 609
   },
   "macro avg": {
-    "precision": 0.9679670599803344,
-    "recall": 0.9601898050887021,
-    "f1-score": 0.9566220204190129,
-    "support": 547
+    "precision": 0.6818045112781954,
+    "recall": 0.6451238390092879,
+    "f1-score": 0.6586372730070792,
+    "support": 609
   },
   "weighted avg": {
-    "precision": 0.9879663274605922,
-    "recall": 0.9872029250457038,
-    "f1-score": 0.9861983385063481,
-    "support": 547
+    "precision": 0.9344780670889046,
+    "recall": 0.9573070607553367,
+    "f1-score": 0.9436533143202835,
+    "support": 609
   }
 }

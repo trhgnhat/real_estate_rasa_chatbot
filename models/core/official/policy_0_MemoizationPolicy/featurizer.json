@@ -1,5 +1,5 @@
 {
-  "max_history": 6,
+  "max_history": 2,
   "py/object": "rasa_core.featurizers.MaxHistoryTrackerFeaturizer",
   "remove_duplicates": true,
   "state_featurizer": {

@@ -1,6 +1,6 @@
 from typing import Dict, Text, Any, List, Union, Optional
 from rasa_sdk import Tracker
-from rasa_sdk.events import SlotSet, FollowupAction, ReminderScheduled
+from rasa_sdk.events import SlotSet, FollowupAction, ReminderScheduled, Restarted
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 from rasa_sdk import Action
@@ -110,6 +110,6 @@ class ActionRemindMeeting(Action):
 
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_template("utter_remind_meeting", tracker)
-        response2 = "This is the end of meeting setup implementation."
+        response2 = "Need to be integrated into system to perform action. This is the end of users connection implementation."
         dispatcher.utter_message(response2)
-        return [SlotSet("person_id", None), SlotSet("person_name", None), SlotSet("time", None)]
+        return [Restarted()]

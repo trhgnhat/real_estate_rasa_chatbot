@@ -1,6 +1,6 @@
 from typing import Dict, Text, Any, List, Union, Optional
 from rasa_sdk import Tracker
-from rasa_sdk.events import SlotSet, FollowupAction
+from rasa_sdk.events import SlotSet, FollowupAction, Restarted
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 from rasa_sdk import ActionExecutionRejection
@@ -71,4 +71,4 @@ class FormConnectToPerson(FormAction):
         response2 = "This is the end of users connection implementation."
         dispatcher.utter_message(response2)
 
-        return [FollowupAction("action_listen")]
+        return [Restarted()]

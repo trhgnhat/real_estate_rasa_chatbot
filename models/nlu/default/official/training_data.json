@@ -4819,7 +4819,43 @@
             "entity": "person_id"
           }
         ],
-        "text": "i want ot see @trhgnhat on the next morning at 10 am"
+        "text": "i want to see @trhgnhat on the next morning at 10 am"
+      },
+      {
+        "intent": "set_appointment",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "@trhgnhat",
+            "entity": "person_id"
+          }
+        ],
+        "text": "i want to meet @trhgnhat in 6 minutes"
+      },
+      {
+        "intent": "set_appointment",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "@trhgnhat",
+            "entity": "person_id"
+          }
+        ],
+        "text": "setup a meeting for @trhgnhat and me in the next morning please"
+      },
+      {
+        "intent": "set_appointment",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "@trhgnhat",
+            "entity": "person_id"
+          }
+        ],
+        "text": "set a meeting with @trhgnhat in 10 minutes"
       },
       {
         "intent": "set_appointment",
@@ -4966,6 +5002,194 @@
           }
         ],
         "text": "@trhgnhat please"
+      },
+      {
+        "intent": "post_action",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "delete",
+            "entity": "action_type"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "all",
+            "entity": "post_id"
+          }
+        ],
+        "text": "delete all my posts for me please"
+      },
+      {
+        "intent": "post_action",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "remove",
+            "entity": "action_type"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "all",
+            "entity": "post_id"
+          }
+        ],
+        "text": "remove all posts."
+      },
+      {
+        "intent": "post_action",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "deactivate",
+            "entity": "action_type"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "1002",
+            "entity": "number"
+          }
+        ],
+        "text": "deactivate the post 1002 for me please"
+      },
+      {
+        "intent": "post_action",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "activate",
+            "entity": "action_type"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "5123",
+            "entity": "number"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "599",
+            "entity": "number"
+          },
+          {
+            "start": 32,
+            "end": 36,
+            "value": "1111",
+            "entity": "number"
+          }
+        ],
+        "text": "activate the post 5123, 599 and 1111 for me please"
+      },
+      {
+        "intent": "post_action",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "turn on",
+            "entity": "action_type"
+          },
+          {
+            "start": 20,
+            "end": 23,
+            "value": "all",
+            "entity": "post_id"
+          }
+        ],
+        "text": "helps me to turn on all"
+      },
+      {
+        "intent": "post_action",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "turn off",
+            "entity": "action_type"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "5123",
+            "entity": "number"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "0515",
+            "entity": "number"
+          },
+          {
+            "start": 38,
+            "end": 42,
+            "value": "1997",
+            "entity": "number"
+          }
+        ],
+        "text": "i want to turn off post 5123 0515 and 1997, do that for me please"
+      },
+      {
+        "intent": "show_dashboard",
+        "text": "show me the dashboard of the market"
+      },
+      {
+        "intent": "show_dashboard",
+        "entities": [
+          {
+            "start": 18,
+            "end": 38,
+            "value": "trend of transaction",
+            "entity": "visual_type"
+          }
+        ],
+        "text": "i want to see the trend of transaction charts"
+      },
+      {
+        "intent": "show_dashboard",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "map of contracts",
+            "entity": "visual_type"
+          }
+        ],
+        "text": "show me the map of contracts"
+      },
+      {
+        "intent": "show_dashboard",
+        "text": "go to the dashboard"
+      },
+      {
+        "intent": "show_dashboard",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "chart of trending",
+            "entity": "visual_type"
+          }
+        ],
+        "text": "display the chart of trending"
+      },
+      {
+        "intent": "show_dashboard",
+        "text": "display market trend"
+      },
+      {
+        "intent": "show_dashboard",
+        "text": "show me the market trend"
+      },
+      {
+        "intent": "show_dashboard",
+        "text": "go to the dashboard site"
       }
     ],
     "regex_features": [
@@ -4984,6 +5208,10 @@
       {
         "name": "guess_room",
         "pattern": "(\\d{2}\\s*(?i)(?:[g]+[u]+[e]+[s]+[s]+\\s*[r]+[o]+[o]+[m]+[s]*)+)+"
+      },
+      {
+        "name": "number",
+        "pattern": "[0-9]+"
       },
       {
         "name": "person_id",
@@ -5031,6 +5259,14 @@
       {
         "name": "house_description",
         "elements": "data/lookup_tables/house_features/furnitures.txt"
+      },
+      {
+        "name": "action_type",
+        "elements": "data/lookup_tables/post/action.txt"
+      },
+      {
+        "name": "visual_type",
+        "elements": "data/lookup_tables/visualization/visual_types.txt"
       }
     ],
     "entity_synonyms": [
@@ -5072,6 +5308,43 @@
         "value": "2019-07-20T16:02:10.000+07:00",
         "synonyms": [
           "in five minutes"
+        ]
+      },
+      {
+        "value": "chart of trending",
+        "synonyms": [
+          "trend of transaction",
+          "trend of exchange",
+          "chart of transaction"
+        ]
+      },
+      {
+        "value": "map of houses",
+        "synonyms": [
+          "map of contracts",
+          "map of house"
+        ]
+      },
+      {
+        "value": "delete",
+        "synonyms": [
+          "remove",
+          "erase",
+          "drop"
+        ]
+      },
+      {
+        "value": "deactivate",
+        "synonyms": [
+          "turn off",
+          "switch off"
+        ]
+      },
+      {
+        "value": "activate",
+        "synonyms": [
+          "turn on",
+          "switch on"
         ]
       },
       {

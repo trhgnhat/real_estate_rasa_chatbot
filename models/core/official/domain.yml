@@ -47,7 +47,6 @@ entities:
 - currency
 - guess_room
 - price
-- person_name
 - time
 - num_person
 - location
@@ -60,10 +59,17 @@ entities:
 - transportation
 - local_feature
 - number
+- person_id
+- person_name
+- post_id
+- action_type
+- visual_type
 forms:
 - form_setup_meeting
 - form_connect_to_person
 - form_house_request
+- form_visualization_action
+- form_post_action
 intents:
 - confirm:
     use_entities: true
@@ -95,7 +101,15 @@ intents:
     use_entities: true
 - talk_to_person:
     use_entities: true
+- show_dashboard:
+    use_entities: true
+- post_action:
+    use_entities: true
 slots:
+  action_type:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   bath_room:
     auto_fill: true
     initial_value: null
@@ -156,6 +170,10 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.ListSlot
+  matches:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
   num_person:
     auto_fill: true
     initial_value: null
@@ -168,6 +186,10 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
+  post_id:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
   price:
     auto_fill: true
     initial_value: null
@@ -199,7 +221,13 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.ListSlot
+  visual_type:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
 templates:
+  utter_ask_action_type:
+  - text: which action do you want me to perform?
   utter_ask_bath_room:
   - buttons:
     - payload: '/house_inform{"bath_room": "1"}'
@@ -257,6 +285,8 @@ templates:
   - text: who do you want to talk to?
   utter_ask_person_name:
   - text: Who do you want to talk to?
+  utter_ask_post_id:
+  - text: on which post?
   utter_ask_price:
   - text: How much money can you afford?
   utter_ask_real_estate_type:
@@ -309,6 +339,9 @@ templates:
   - text: you are welcome :)
   utter_please_to_hear:
   - text: I am please to hear more
+  utter_remind_meeting:
+  - text: You will have a meeting with {person_name} ({person_id}) in 5 minutes. Please
+      prepare!
   utter_slots_values:
   - text: "I am going to run a house search using the following parameters:\n - type:\
       \ {real_estate_type}\n- location: {location}\n- price: {price}\n- number of\

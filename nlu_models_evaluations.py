@@ -40,6 +40,9 @@ def evaluate_nlu(model_dir):
         false_pred = False  # means predict correctly
         pred = interpreter.parse(actual['text'])
         pred['entities'] = sorted(pred['entities'], key=itemgetter('start'))
+        for idx, pred_entity in enumerate(pred['entities']):
+            if "crf_entity_extractor" not in pred_entity["extractor"]:
+                del pred["entities"][idx]
         if "entities" not in actual:
             actual['entities'] = []
         if "entities" in actual and "entities" in pred and len(pred['entities']) > 0:
@@ -47,6 +50,8 @@ def evaluate_nlu(model_dir):
                 false_pred = True
             else:
                 for idx, pred_entity in enumerate(pred['entities']):
+                    if pred_entity["extractor"] != "modified_crf_entity_extractor":
+                        continue
                     true_entity = actual["entities"][idx]
                     if pred_entity['start'] != true_entity['start'] and \
                             pred_entity['end'] != true_entity['end'] and \
@@ -106,18 +111,18 @@ if __name__ == '__main__':
     from evaluator.nereval import evaluate_json as evaluate_entity
 
     all_configs_dir_name = [
-        # "Baseline",
+        "Baseline",
         "Custom",
-        "Custom new",
-        # "Spacy NLP",
-        # "TensorFlow Embedding"
+        "Official",
+        "Spacy NLP",
+        "TensorFlow Embedding"
     ]
     all_configs_dir = [
-        # "custom_nlu_config_1",
+        "custom_nlu_config_1",
         "custom_nlu_config_2",
         "official",
-        # "spacy_nlp_config",
-        # "tensorflow_embedding_config"
+        "spacy_nlp_config",
+        "tensorflow_embedding_config"
     ]
     intent_metric_list = []
     entity_metric_list = []
@@ -129,7 +134,7 @@ if __name__ == '__main__':
             data = json.load(json_file)
             del (data['weighted avg']["support"])
             intent_metric_list.append(data["weighted avg"])
-        print("\nmodel 1")
+        print(each)
         file_names = [
             'evaluation_results/NLU/' + each + "/entity_extractor_errors.json",
             'evaluation_results/NLU/' + each + "/entity_extractor_successes.json"

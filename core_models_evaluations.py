@@ -102,41 +102,41 @@ def bar_metrics(metrics, ax, title, index=0):
 if __name__ == '__main__':
     core_metric_list = []
     core_metric_name = [
-        "baseline",
+        "official",
         "Keras LSTM after tuning num of epochs",
-        # "Keras LSTM after tuning RNN size"
+        "Keras LSTM after tuning RNN size"
     ]
     nlu_model_dir = "custom_nlu_config_3"
     nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/' + nlu_model_dir)
     #
-    # name1 = "keras_lstm_base_line"
-    # policies_1 = [
-    #     MemoizationPolicy(),
-    #     FormPolicy(),
-    #     KerasPolicy(),
-    #     FallbackPolicy()
-    # ]
+    name1 = "official"
+    policies_1 = [
+        MemoizationPolicy(max_history=2),
+        FormPolicy(),
+        KerasPolicy(max_history=2, epochs=300, batch_size=16, validation_split=0.1, rnn_size=64),
+        FallbackPolicy(fallback_action_name="utter_unclear", core_threshold=0.5, nlu_threshold=0.5)
+    ]
     #
     name2 = "keras_lstm_his_3"
     policies_2 = [
         MemoizationPolicy(max_history=3),
         FormPolicy(),
         KerasPolicy(max_history=3, epochs=200, batch_size=5, validation_split=0.1, rnn_size=64),
-        FallbackPolicy(fallback_action_name="utter_unclear", core_threshold=0.3, nlu_threshold=0.3)
+        FallbackPolicy(fallback_action_name="utter_unclear", core_threshold=0.5, nlu_threshold=0.5)
     ]
 
     name3 = "keras_lstm_his_6"
     policies_3 = [
-        MemoizationPolicy(max_history=6),
+        MemoizationPolicy(max_history=4),
         FormPolicy(),
-        KerasPolicy(max_history=6, epochs=200, batch_size=5, validation_split=0.1, rnn_size=64),
-        FallbackPolicy(fallback_action_name="utter_unclear", core_threshold=0.3, nlu_threshold=0.3)
+        KerasPolicy(max_history=4, epochs=200, batch_size=5, validation_split=0.1, rnn_size=64),
+        FallbackPolicy(fallback_action_name="utter_unclear", core_threshold=0.5, nlu_threshold=0.5)
     ]
 
     # # Keras LSTM baseline
-    # model_1_dir = train_dialogue(policies_1, name=name1)
-    # result_1 = evaluate_model(nlu_interpreter, name=name1)
-    # core_metric_list.append(result_1)
+    model_1_dir = train_dialogue(policies_1, name=name1)
+    result_1 = evaluate_model(nlu_interpreter, name=name1)
+    core_metric_list.append(result_1)
     #
     # Keras LSTM
     model_2_dir = train_dialogue(policies_2, name=name2)
