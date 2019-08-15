@@ -1,0 +1,11 @@
+turn on
+turn off
+deactivate
+activate
+remove
+delete
+create
+update
+edit
+erase
+replace

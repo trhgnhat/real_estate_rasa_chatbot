@@ -1,0 +1,3 @@
+vnd
+usd
+euro

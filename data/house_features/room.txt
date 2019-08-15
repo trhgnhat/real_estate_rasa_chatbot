@@ -1,0 +1,14 @@
+bed room
+bath room
+guess room
+living room
+kitchen
+WC
+rest room
+balcony
+garden
+warehouse
+stock
+basement
+garage
+roof

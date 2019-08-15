@@ -1,0 +1,13 @@
+king-size bed
+double bed
+single bed
+sofa
+television
+tv
+bench
+fan
+air conditioner
+fridge
+refridgerator
+microwaves
+bathtube
