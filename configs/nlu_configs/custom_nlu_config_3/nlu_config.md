@@ -13,6 +13,9 @@ pipeline:
 - name: "intent_entity_featurizer_regex"
 - name: "intent_featurizer_spacy"
 - name: "components.modified_crf_entity_extractor.ModifiedCRFEntityExtractor"
+  L1_c: 0.03882170247441654
+  L2_c: 0.023804884469064896
+  grid_search: False
 - name: "components.dict_ner_extractor.DictNerExtractor"
 - name: "ner_synonyms"
 - name: "intent_featurizer_count_vectors"
@@ -22,7 +25,7 @@ pipeline:
   gamma: [0.1, 1, 10, 100]
   kernal: ["linear", "rbf", "poly"]
 - name: "ner_duckling_http"
-  url: "http://localhost:8000"
+  url: "http://duckling-service:8000"
   dimensions: ["time", "amount-of-money", "duration", "distance", "volume", "ordinal", "email"]
   locale: "en_US"
   timezone: "Asia/Ho_Chi_Minh"

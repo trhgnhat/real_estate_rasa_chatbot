@@ -1,2 +1,0 @@
-model_checkpoint_path: "D:/workspace/Pet Project/Rasa NLP NLU/House/models/core/embedding_attn_rnn\\policy_2_EmbeddingPolicy\\tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "D:/workspace/Pet Project/Rasa NLP NLU/House/models/core/embedding_attn_rnn\\policy_2_EmbeddingPolicy\\tensorflow_embedding.ckpt"

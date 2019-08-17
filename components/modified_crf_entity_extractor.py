@@ -61,7 +61,9 @@ class ModifiedCRFEntityExtractor(CRFEntityExtractor):
         "L1_c": 0.1,
 
         # weight of the L2 regularization
-        "L2_c": 0.1
+        "L2_c": 0.1,
+
+        "grid_search": True
     }
 
     function_dict = {
@@ -115,43 +117,66 @@ class ModifiedCRFEntityExtractor(CRFEntityExtractor):
 
         X_train = [self._sentence_to_features(sent) for sent in df_train]
         y_train = [self._sentence_to_labels(sent) for sent in df_train]
-        self.ent_tagger = sklearn_crfsuite.CRF(
-            algorithm='lbfgs',
-            # stop earlier
-            max_iterations=self.component_config["max_iterations"],
-            # include transitions that are possible, but not observed
-            all_possible_transitions=True
-        )
-        self.ent_tagger.fit(X_train, y_train)
 
-        params_space = {
-            'c1': scipy.stats.expon(scale=0.5),
-            'c2': scipy.stats.expon(scale=0.5),
-        }
-        labels = self.ent_tagger.classes_
+        if self.component_config["grid_search"]:
+            self.ent_tagger = sklearn_crfsuite.CRF(
+                algorithm='lbfgs',
+                # stop earlier
+                max_iterations=self.component_config["max_iterations"],
+                # include transitions that are possible, but not observed
+                all_possible_transitions=True
+            )
+            self.ent_tagger.fit(X_train, y_train)
 
-        # use the same metric for evaluation
-        f1_scorer = make_scorer(metrics.flat_f1_score,
-                                average='weighted', labels=labels)
+            params_space = {
+                'c1': scipy.stats.expon(scale=0.5),
+                'c2': scipy.stats.expon(scale=0.5),
+            }
+            labels = self.ent_tagger.classes_
 
-        # search
-        rs = RandomizedSearchCV(self.ent_tagger, params_space,
-                                cv=10,
-                                verbose=1,
-                                n_jobs=-1,
-                                n_iter=100,
-                                scoring=f1_scorer)
-        rs.fit(X_train, y_train)
-        print('best params:', rs.best_params_)
-        print('best CV score:', rs.best_score_)
-        print('model size: {:0.2f}M'.format(rs.best_estimator_.size_ / 1000000))
-        self.ent_tagger = sklearn_crfsuite.CRF(
-            algorithm='lbfgs',
-            c1=rs.best_params_["c1"],
-            c2=rs.best_params_["c2"],
-            # stop earlier
-            max_iterations=self.component_config["max_iterations"],
-            # include transitions that are possible, but not observed
-            all_possible_transitions=True
-        )
+            # use the same metric for evaluation
+            f1_scorer = make_scorer(metrics.flat_f1_score,
+                                    average='weighted', labels=labels)
+
+            # search
+            rs = RandomizedSearchCV(self.ent_tagger, params_space,
+                                    cv=10,
+                                    verbose=1,
+                                    n_jobs=-1,
+                                    n_iter=100,
+                                    scoring=f1_scorer)
+            rs.fit(X_train, y_train)
+            print('best params:', rs.best_params_)
+            print('best CV score:', rs.best_score_)
+            print('model size: {:0.2f}M'.format(rs.best_estimator_.size_ / 1000000))
+            try:
+                import json
+                with open("tunning_score.json", "w") as f:
+                    json.dump(rs.best_params_, f, sort_keys=True, indent=4)
+            except Exception:
+                pass
+            self.ent_tagger = sklearn_crfsuite.CRF(
+                algorithm='lbfgs',
+                c1=rs.best_params_["c1"],
+                c2=rs.best_params_["c2"],
+                # stop earlier
+                max_iterations=self.component_config["max_iterations"],
+                # include transitions that are possible, but not observed
+                all_possible_transitions=True
+            )
+        else:
+            print("L1_c", self.component_config["L1_c"])
+            print("L2_c", self.component_config["L2_c"])
+            self.ent_tagger = sklearn_crfsuite.CRF(
+                algorithm='lbfgs',
+                # coefficient for L1 penalty
+                c1=self.component_config["L1_c"],
+                # coefficient for L2 penalty
+                c2=self.component_config["L2_c"],
+                # stop earlier
+                max_iterations=self.component_config["max_iterations"],
+                # include transitions that are possible, but not observed
+                all_possible_transitions=True
+            )
+
         self.ent_tagger.fit(X_train, y_train)

@@ -23,4 +23,3 @@ RUN python3.7 -m pip install -r /housebot/requirements.txt
 RUN python3.7 -m spacy download en
 ADD . /housebot
 WORKDIR /housebot
-RUN python3.7 train_nlu_core.py
