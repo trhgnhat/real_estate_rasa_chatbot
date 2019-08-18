@@ -2,34 +2,34 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "person_name",
-        "person_id",
-        "price",
-        "house_description",
-        "time",
         "visual_type",
-        "post_id",
-        "action_type",
+        "person_name",
         "num_person",
-        "furniture",
-        "local_feature",
-        "bed_room",
-        "currency",
-        "city",
+        "price",
+        "person_id",
+        "post_id",
+        "real_estate_type",
+        "action_type",
         "house_feature",
-        "real_estate_type"
+        "furniture",
+        "city",
+        "local_feature",
+        "currency",
+        "bed_room",
+        "time",
+        "house_description"
       ]
     },
     "form_house_request": {
       "slots": [
-        "bath_room",
-        "requested_slot",
         "price",
-        "guess_room",
-        "bed_room",
-        "currency",
+        "bath_room",
+        "real_estate_type",
+        "requested_slot",
         "city",
-        "real_estate_type"
+        "currency",
+        "guess_room",
+        "bed_room"
       ]
     },
     "action_house": {
@@ -39,9 +39,9 @@
     },
     "utter_please_to_hear": {
       "slots": [
+        "real_estate_type",
         "requested_slot",
-        "house_description",
-        "real_estate_type"
+        "house_description"
       ]
     },
     "utter_ask_request_more_info": {
@@ -52,10 +52,10 @@
     },
     "form_setup_meeting": {
       "slots": [
-        "person_name",
         "time",
+        "person_id",
         "requested_slot",
-        "person_id"
+        "person_name"
       ]
     },
     "utter_call_if_need_help": {
@@ -66,9 +66,9 @@
     },
     "form_connect_to_person": {
       "slots": [
-        "person_name",
+        "person_id",
         "requested_slot",
-        "person_id"
+        "person_name"
       ]
     },
     "utter_noworries": {
@@ -78,8 +78,8 @@
       "slots": [
         "requested_slot",
         "visual_type",
-        "post_id",
-        "action_type"
+        "action_type",
+        "post_id"
       ]
     }
   },
@@ -97,7 +97,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190818-030928",
+  "trained_at": "20190818-051757",
   "rasa_core": "0.13.8",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.2"
