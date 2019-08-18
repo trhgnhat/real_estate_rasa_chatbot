@@ -11,9 +11,9 @@
         `setx path "%path%;<PATH>"`
     * Check ngrok: `ngrok --version`
     
-To convert `.md` file into `.json` file:
+>To convert `.md` file into `.json` file:
+>    `python utils/mdtojson.py`
 
-    `python utils/mdtojson.py`
 
 #Building project locally:
 * Train model:
@@ -74,3 +74,6 @@ Bot are communicated via RestAPI, with the following format:
     }
     ```
     
+> Created by
+>
+> Nhat Hoang Truong
