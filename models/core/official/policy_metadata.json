@@ -1,0 +1,104 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "person_name",
+        "person_id",
+        "price",
+        "house_description",
+        "time",
+        "visual_type",
+        "post_id",
+        "action_type",
+        "num_person",
+        "furniture",
+        "local_feature",
+        "bed_room",
+        "currency",
+        "city",
+        "house_feature",
+        "real_estate_type"
+      ]
+    },
+    "form_house_request": {
+      "slots": [
+        "bath_room",
+        "requested_slot",
+        "price",
+        "guess_room",
+        "bed_room",
+        "currency",
+        "city",
+        "real_estate_type"
+      ]
+    },
+    "action_house": {
+      "slots": [
+        "found"
+      ]
+    },
+    "utter_please_to_hear": {
+      "slots": [
+        "requested_slot",
+        "house_description",
+        "real_estate_type"
+      ]
+    },
+    "utter_ask_request_more_info": {
+      "slots": [
+        "num_person",
+        "requested_slot"
+      ]
+    },
+    "form_setup_meeting": {
+      "slots": [
+        "person_name",
+        "time",
+        "requested_slot",
+        "person_id"
+      ]
+    },
+    "utter_call_if_need_help": {
+      "slots": []
+    },
+    "action_wait_for_command": {
+      "slots": []
+    },
+    "form_connect_to_person": {
+      "slots": [
+        "person_name",
+        "requested_slot",
+        "person_id"
+      ]
+    },
+    "utter_noworries": {
+      "slots": []
+    },
+    "form_post_action": {
+      "slots": [
+        "requested_slot",
+        "visual_type",
+        "post_id",
+        "action_type"
+      ]
+    }
+  },
+  "python": "3.7.3",
+  "max_histories": [
+    2,
+    2,
+    2,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20190818-030928",
+  "rasa_core": "0.13.8",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.2"
+}

@@ -213,5 +213,6 @@ utils/constant.py
 house_data/
 evaluator/
 CLI/
+.idea/
 
 # End of https://www.gitignore.io/api/python,pycharm
