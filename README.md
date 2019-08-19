@@ -1,4 +1,4 @@
-#Required services/applications:
+# Required services/applications:
 * Docker & Docker-compose
     * Download Docker Desktop: [download](https://docs.docker.com/docker-for-windows/install/)
     * Setup the recommended memory for Docker: ![image]() 
@@ -15,7 +15,7 @@
 >    `python utils/mdtojson.py`
 
 
-#Building project locally:
+# Building project locally:
 * Train model:
 
         `python train_nlu_core.py`
@@ -36,7 +36,7 @@
     
             `python slack cmd.py`
 
-#Building project via Docker:
+# Building project via Docker:
 * Build all necessary images via Docker-compose:
 
         `docker-compose build`
