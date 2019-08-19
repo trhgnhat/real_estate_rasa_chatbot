@@ -50,7 +50,7 @@
 
     * On Window 10:
          
-           `docker run -v cwd:/housebot housebot:latest python3.7 train_nlu_core.py`
+           `docker run -v cd:/housebot housebot:latest python3.7 train_nlu_core.py`
 * Run all services via Docker-compose:
     
         `docker-compose up`
